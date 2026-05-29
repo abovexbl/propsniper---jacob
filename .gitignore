@@ -1,6 +1,6 @@
-# Sensitive — never commit
-live/
-data/
+# Sensitive — never commit (anchored to repo root so docs/live/ stays publishable)
+/live/
+/data/
 *.csv
 *.csv.gz
 *.db
