@@ -118,6 +118,7 @@ def main():
         mkt = markets.get(rid, {})
         proposals.append({
             "rule_id": rid,
+            "label": pslib.friendly_label(rid, mkt.get("league"), mkt.get("market")),
             "deployed": rid in deployed,
             "orphan": rid not in deployed,
             "league": mkt.get("league"),

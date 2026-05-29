@@ -21,6 +21,30 @@ WINDOWS: list[tuple[str, int | None]] = [
 ]
 WINDOW_LABELS = [w[0] for w in WINDOWS]
 
+# Rule-ID venue prefix -> display name, for clean human-readable labels.
+VENUE_NAMES = {
+    "cae": "Caesars", "czr": "Caesars", "dk": "DraftKings", "fd": "FanDuel",
+    "flf": "Fliff", "kal": "Kalshi", "reb": "Rebet", "mgm": "BetMGM",
+    "fan": "Fanatics", "br": "BetRivers", "hr": "Hardrock", "bet": "BetMGM",
+}
+
+
+def venue_name(rule_id: str) -> str:
+    tok = (rule_id or "").split("_")[0].lower()
+    return VENUE_NAMES.get(tok, tok.upper() if tok else "?")
+
+
+def friendly_label(rule_id: str, league: str | None = None, market: str | None = None) -> str:
+    """e.g. ('cae_mlb_total_runs_f5','MLB','Total Runs 1st 5 Innings')
+    -> 'Caesars MLB Total Runs 1st 5 Innings'. One clean line; raw id kept separately."""
+    parts = [venue_name(rule_id)]
+    if league:
+        parts.append(league)
+    if market:
+        parts.append(market)
+    return " ".join(p for p in parts if p)
+
+
 _BET_COLUMNS = {
     "ruleId": ["ruleId", "rule_id", "RuleID", "Rule", "rule"],
     "stake":  ["stake", "Stake", "wager", "Wager"],

@@ -101,7 +101,8 @@ def build_community(optimizer: dict | None, window: str) -> dict:
         verdict = "beating" if delta >= BEAT_THRESHOLD else ("below" if delta <= -BEAT_THRESHOLD else "inline")
         counts[verdict] += 1
         comparison.append({
-            "rule_id": p["rule_id"], "league": p.get("league"), "market": p.get("market"),
+            "rule_id": p["rule_id"], "label": p.get("label"),
+            "league": p.get("league"), "market": p.get("market"),
             "deployed": p["deployed"], "orphan": p["orphan"],
             "personal_edge": round(personal_edge, 6), "personal_n": e["n"],
             "personal_p_bleeding": e["p_bleeding"],

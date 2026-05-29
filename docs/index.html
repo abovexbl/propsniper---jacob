@@ -186,7 +186,7 @@
         const e=r._e;
         const pbColor=r.p_bleeding>=.75?"var(--red)":r.p_bleeding>=.5?"var(--amber)":"var(--green)";
         return `<tr>
-          <td class="mono loc">${esc(r.rule_id)}${r._p.orphan?'<span class="pill">orphan</span>':''}</td>
+          <td class="loc" title="${esc(r.rule_id)}">${esc(r._p.label||r.rule_id)}${r._p.orphan?'<span class="pill">orphan</span>':''}</td>
           <td class="dim">${esc(r.market)}</td>
           <td>${sparkline(r._p)}</td>
           <td class="mono">${r.n}</td>
@@ -216,7 +216,7 @@
       const st=sortState.community;
       const sorted=sortRows(c.comparison||[],st);
       const body=sorted.map(r=>`<tr>
-        <td class="mono loc">${esc(r.rule_id)}${r.orphan?'<span class="pill">orphan</span>':''}</td>
+        <td class="loc" title="${esc(r.rule_id)}">${esc(r.label||r.rule_id)}${r.orphan?'<span class="pill">orphan</span>':''}</td>
         <td class="dim">${esc((r.league||"")+" "+(r.market||""))}</td>
         <td class="mono ${cls(r.personal_edge)}">${fmtPct(r.personal_edge)}</td>
         <td class="mono ${cls(r.community_edge)}">${fmtPct(r.community_edge)}</td>
