@@ -48,7 +48,12 @@ def decide(post: bandit.Posterior, min_n: int) -> tuple[str, str]:
     return "HOLD", f"edge {post.post_mean:+.1%}, p(bleed)={post.p_bleeding:.0%} — too uncertain to move"
 
 
-def window_entry(rid, returns, sigma, args, rng) -> dict:
+def window_entry(rid, recs, sigma, args, rng) -> dict:
+    """recs: list of bet dicts {roi, stake, profit} already filtered to the window."""
+    returns = [r["roi"] for r in recs]
+    wagered = sum(r["stake"] for r in recs)
+    profit = sum(r["profit"] for r in recs)
+    realized_roi = (profit / wagered) if wagered else None
     post = bandit.update_posterior(rid, returns, sigma, prior_sd=args.prior_sd)
     action, rationale = decide(post, args.min_n)
     frac = bandit.kelly_fraction(post, args.kelly, args.max_fraction)
@@ -60,6 +65,9 @@ def window_entry(rid, returns, sigma, args, rng) -> dict:
         frac *= 0.5
     return {
         **post.to_dict(),
+        "wagered": round(wagered, 2),
+        "profit": round(profit, 2),
+        "roi": round(realized_roi, 6) if realized_roi is not None else None,
         "action": action,
         "rationale": rationale,
         "thompson_sample": round(bandit.thompson_sample(post, rng), 6),
@@ -99,9 +107,9 @@ def main():
     dated = [b["date"] for b in bets if b["date"]]
     now = max(dated) if dated else datetime.now()
 
-    by_rule = defaultdict(list)            # rule -> [(date, roi)]
+    by_rule = defaultdict(list)            # rule -> [bet dict]
     for b in bets:
-        by_rule[b["rule_id"]].append((b["date"], b["roi"]))
+        by_rule[b["rule_id"]].append(b)
 
     sigma = bandit.empirical_sigma([b["roi"] for b in bets])
 
@@ -110,11 +118,11 @@ def main():
         windows = {}
         for label, days in pslib.WINDOWS:
             if days is None:
-                rets = [r for _, r in by_rule[rid]]
+                recs = by_rule[rid]
             else:
                 cutoff = now - timedelta(days=days)
-                rets = [r for d, r in by_rule[rid] if d is not None and d >= cutoff]
-            windows[label] = window_entry(rid, rets, sigma, args, rng)
+                recs = [b for b in by_rule[rid] if b["date"] is not None and b["date"] >= cutoff]
+            windows[label] = window_entry(rid, recs, sigma, args, rng)
         mkt = markets.get(rid, {})
         proposals.append({
             "rule_id": rid,
@@ -140,6 +148,25 @@ def main():
             "actions": dict(sorted(counts.items())),
         }
 
+    # Portfolio money totals per window (for profit / wagered / ROI charts).
+    portfolio_by_window = {}
+    for label, _ in pslib.WINDOWS:
+        tw = sum(p["windows"][label]["wagered"] for p in proposals)
+        tp = sum(p["windows"][label]["profit"] for p in proposals)
+        tn = sum(p["windows"][label]["n"] for p in proposals)
+        portfolio_by_window[label] = {"wagered": round(tw, 2), "profit": round(tp, 2),
+                                      "roi": round(tp / tw, 6) if tw else None, "n": tn}
+
+    # Daily cumulative P&L across all rules (for a profit-over-time line chart).
+    daily = defaultdict(float)
+    for b in bets:
+        if b["date"]:
+            daily[b["date"].date()] += b["profit"]
+    pnl_timeseries, cum = [], 0.0
+    for d in sorted(daily):
+        cum += daily[d]
+        pnl_timeseries.append({"date": d.isoformat(), "profit": round(daily[d], 2), "cumulative": round(cum, 2)})
+
     payload = {
         "tool": "optimizer",
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -148,6 +175,8 @@ def main():
         "params": {"bankroll": args.bankroll, "min_n": args.min_n, "kelly_mult": args.kelly,
                    "max_fraction": args.max_fraction, "prior_sd": args.prior_sd, "sigma": round(sigma, 6)},
         "summary_by_window": summary_by_window,
+        "portfolio_by_window": portfolio_by_window,
+        "pnl_timeseries": pnl_timeseries,
         "proposals": proposals,
         "note": "Advisory. Config-mutating actions are human-gated and must re-pass /audit before deploy.",
     }
