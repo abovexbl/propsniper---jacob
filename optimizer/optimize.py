@@ -53,6 +53,7 @@ def window_entry(rid, recs, sigma, args, rng) -> dict:
     returns = [r["roi"] for r in recs]
     wagered = sum(r["stake"] for r in recs)
     profit = sum(r["profit"] for r in recs)
+    wins = sum(1 for r in recs if r["profit"] > 0)
     realized_roi = (profit / wagered) if wagered else None
     post = bandit.update_posterior(rid, returns, sigma, prior_sd=args.prior_sd)
     action, rationale = decide(post, args.min_n)
@@ -67,6 +68,8 @@ def window_entry(rid, recs, sigma, args, rng) -> dict:
         **post.to_dict(),
         "wagered": round(wagered, 2),
         "profit": round(profit, 2),
+        "wins": wins,
+        "win_rate": round(wins / len(recs), 4) if recs else None,
         "roi": round(realized_roi, 6) if realized_roi is not None else None,
         "action": action,
         "rationale": rationale,
@@ -154,8 +157,10 @@ def main():
         tw = sum(p["windows"][label]["wagered"] for p in proposals)
         tp = sum(p["windows"][label]["profit"] for p in proposals)
         tn = sum(p["windows"][label]["n"] for p in proposals)
+        twins = sum(p["windows"][label]["wins"] for p in proposals)
         portfolio_by_window[label] = {"wagered": round(tw, 2), "profit": round(tp, 2),
-                                      "roi": round(tp / tw, 6) if tw else None, "n": tn}
+                                      "roi": round(tp / tw, 6) if tw else None, "n": tn,
+                                      "wins": twins, "win_rate": round(twins / tn, 4) if tn else None}
 
     # Daily cumulative P&L across all rules (for a profit-over-time line chart).
     daily = defaultdict(float)
