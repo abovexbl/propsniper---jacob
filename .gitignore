@@ -8,6 +8,11 @@ data/
 *.db-shm
 data-panel-export-*
 
+# Generated dashboard artifacts (regenerate with dashboard/build_data.py)
+configs/sample_live/
+dashboard/data.json
+dashboard/data.js
+
 # Standard Python
 __pycache__/
 *.pyc

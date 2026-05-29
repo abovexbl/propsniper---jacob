@@ -94,6 +94,15 @@ class Finding:
             loc += f"::{self.rule_id}"
         return f"  [{self.severity:5}] {self.check:30} {loc}: {self.message}"
 
+    def to_dict(self) -> dict:
+        return {
+            "severity": self.severity,
+            "check": self.check,
+            "file": Path(self.file).name,
+            "rule_id": self.rule_id,
+            "message": self.message,
+        }
+
 
 @dataclass
 class AuditReport:
@@ -462,6 +471,8 @@ def main():
     ap.add_argument("--dir", help="directory of devig_*.json files to audit")
     ap.add_argument("--quiet", action="store_true", help="only print summary")
     ap.add_argument("--strict", action="store_true", help="treat warnings as errors")
+    ap.add_argument("--format", choices=["text", "json"], default="text",
+                    help="output format. json emits a machine-readable report for dashboards/CI.")
     args = ap.parse_args()
 
     files: list[str] = []
@@ -482,6 +493,37 @@ def main():
 
     check_global_id_uniqueness(rules_by_file, report)
     check_j_mo_differentiation(rules_by_file, report)
+
+    errors = report.errors()
+    warns = report.warns()
+    infos = report.infos()
+    exit_code = report.exit_code()
+    if args.strict and warns:
+        exit_code = max(exit_code, 1)
+    verdict = {0: "PASS", 1: "PASS (warnings)", 2: "FAIL (schema errors)", 3: "FAIL (blocking violations)"}[exit_code]
+
+    # JSON output — machine-readable contract for the dashboard / CI.
+    if args.format == "json":
+        by_check_counts: dict[str, int] = defaultdict(int)
+        for f in report.findings:
+            by_check_counts[f.check] += 1
+        payload = {
+            "tool": "audit",
+            "verdict": verdict,
+            "exit_code": exit_code,
+            "summary": {
+                "files_checked": report.files_checked,
+                "rules_checked": report.rules_checked,
+                "errors": len(errors),
+                "warnings": len(warns),
+                "info": len(infos),
+            },
+            "counts_by_check": dict(sorted(by_check_counts.items())),
+            "findings": [f.to_dict() for f in report.findings],
+        }
+        json.dump(payload, sys.stdout, indent=2)
+        sys.stdout.write("\n")
+        sys.exit(exit_code)
 
     # Output
     print(f"\n{'='*72}")

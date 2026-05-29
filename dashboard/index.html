@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PropSniper · +EV Operations Command Center (Live)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0d0f14; --panel: #14171f; --panel-2: #1a1e28; --line: #252b38;
+      --txt: #e8ebf2; --muted: #8b93a7; --cyan: #2ee6d6; --violet: #8b5cf6;
+      --amber: #f5a623; --red: #ff5470; --green: #36d399;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: radial-gradient(1200px 600px at 80% -10%, #1b2030 0%, var(--bg) 55%);
+      color: var(--txt); font-family: "Nunito Sans", system-ui, sans-serif; min-height: 100vh;
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 32px 24px 80px; }
+    header .eyebrow { font-family: "JetBrains Mono", monospace; color: var(--cyan);
+      letter-spacing: .22em; text-transform: uppercase; font-size: 12px; }
+    h1 { font-family: "Syne", sans-serif; font-weight: 800; font-size: 44px; margin: 6px 0 2px;
+      background: linear-gradient(92deg, var(--cyan), var(--violet) 60%, var(--amber));
+      -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    .sub { color: var(--muted); font-size: 14px; }
+    .meta { font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--muted); margin-top: 8px; }
+    .verdict { display: inline-flex; align-items: center; gap: 8px; margin: 18px 0 26px;
+      padding: 10px 16px; border-radius: 10px; font-family: "JetBrains Mono", monospace;
+      font-weight: 700; font-size: 14px; border: 1px solid var(--line); }
+    .verdict.v0 { background: rgba(54,211,153,.12); color: var(--green); border-color: rgba(54,211,153,.4); }
+    .verdict.v1 { background: rgba(245,166,35,.12); color: var(--amber); border-color: rgba(245,166,35,.4); }
+    .verdict.v2, .verdict.v3 { background: rgba(255,84,112,.12); color: var(--red); border-color: rgba(255,84,112,.4); }
+    .dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; box-shadow: 0 0 10px currentColor; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-bottom: 30px; }
+    .card { background: linear-gradient(180deg, var(--panel-2), var(--panel)); border: 1px solid var(--line);
+      border-radius: 14px; padding: 20px; position: relative; overflow: hidden; }
+    .card::before { content:""; position:absolute; inset:0 0 auto 0; height:3px;
+      background: linear-gradient(90deg, var(--cyan), var(--violet)); opacity:.8; }
+    .card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .12em; }
+    .card .num { font-family: "Syne", sans-serif; font-weight: 800; font-size: 46px; line-height: 1.05; margin-top: 8px; }
+    .card.alert .num { color: var(--red); } .card.ok .num { color: var(--green); }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 22px; margin-bottom: 22px; }
+    .panel h2 { font-family: "Syne", sans-serif; font-size: 20px; margin: 0 0 4px; }
+    .panel .hint { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .chip { font-family: "JetBrains Mono", monospace; font-size: 12px; padding: 6px 12px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--panel-2); color: var(--muted); cursor: pointer; user-select: none; }
+    .chip.active { color: var(--txt); border-color: var(--cyan); box-shadow: 0 0 0 1px var(--cyan) inset; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { text-align: left; color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase;
+      letter-spacing: .1em; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    td { padding: 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    tr:hover td { background: rgba(255,255,255,.02); }
+    .sev { font-family: "JetBrains Mono", monospace; font-weight: 700; font-size: 11px; padding: 3px 8px; border-radius: 6px; }
+    .sev.ERROR { background: rgba(255,84,112,.15); color: var(--red); }
+    .sev.WARN { background: rgba(245,166,35,.15); color: var(--amber); }
+    .sev.INFO { background: rgba(139,147,167,.15); color: var(--muted); }
+    .mono { font-family: "JetBrains Mono", monospace; }
+    .loc { color: var(--cyan); }
+    .checkbar { display: grid; grid-template-columns: 1fr auto; gap: 6px 14px; font-family: "JetBrains Mono", monospace; font-size: 12px; }
+    .checkbar .k { color: var(--muted); } .checkbar .v { text-align: right; color: var(--txt); }
+    .empty { color: var(--muted); font-style: italic; padding: 14px 0; }
+    footer { color: var(--muted); font-size: 12px; margin-top: 30px; font-family: "JetBrains Mono", monospace; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">PropSniper · Live Audit Feed</div>
+      <h1>+EV Operations Command Center</h1>
+      <div class="sub">Regenerated from <span id="src" class="mono"></span> on every <span class="mono">/audit</span> run — not a static snapshot.</div>
+      <div class="meta">last build: <span id="ts">—</span></div>
+    </header>
+
+    <div id="verdict" class="verdict"><span class="dot"></span><span id="verdict-txt">loading…</span></div>
+
+    <div class="cards" id="cards"></div>
+
+    <div class="panel">
+      <h2>Audit Findings</h2>
+      <div class="hint">Every finding from the 34-check schema audit. Filter by severity.</div>
+      <div class="filters" id="filters"></div>
+      <table>
+        <thead><tr><th>Severity</th><th>Check</th><th>Location</th><th>Message</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h2>Counts by check</h2>
+      <div class="hint">Raw tally of every check that fired.</div>
+      <div class="checkbar" id="counts"></div>
+    </div>
+
+    <footer>PropSniper Operations Toolkit · audit engine v3 · data via <span class="mono">dashboard/build_data.py</span></footer>
+  </div>
+
+  <script src="./data.js"></script>
+  <script>
+    const D = window.DASHBOARD_DATA;
+    const $ = (id) => document.getElementById(id);
+
+    function renderHeader() {
+      $("src").textContent = D.source_dir || "—";
+      $("ts").textContent = D.generated_at || "—";
+      const code = D.exit_code ?? 0;
+      const v = $("verdict");
+      v.className = "verdict v" + code;
+      $("verdict-txt").textContent = (D.verdict || "UNKNOWN") + "  ·  exit " + code;
+    }
+
+    function renderCards() {
+      const el = $("cards");
+      const entries = Object.entries(D.cards || {});
+      // Always show files/rules scanned as context cards too.
+      const s = D.summary || {};
+      const ctx = [["Rules Scanned", s.rules_checked ?? 0, "ok"], ["Files Scanned", s.files_checked ?? 0, "ok"]];
+      el.innerHTML = entries.map(([label, n]) =>
+        `<div class="card ${n > 0 ? "alert" : "ok"}"><div class="label">${label}</div><div class="num">${n}</div></div>`
+      ).join("") + ctx.map(([label, n, cls]) =>
+        `<div class="card ${cls}"><div class="label">${label}</div><div class="num">${n}</div></div>`
+      ).join("");
+    }
+
+    let activeFilter = "ALL";
+    function renderFilters() {
+      const sevs = ["ALL", "ERROR", "WARN", "INFO"];
+      $("filters").innerHTML = sevs.map(s =>
+        `<span class="chip ${s === activeFilter ? "active" : ""}" data-sev="${s}">${s}</span>`
+      ).join("");
+      $("filters").querySelectorAll(".chip").forEach(c =>
+        c.onclick = () => { activeFilter = c.dataset.sev; renderFilters(); renderRows(); });
+    }
+
+    function renderRows() {
+      const findings = (D.findings || []).filter(f => activeFilter === "ALL" || f.severity === activeFilter);
+      const order = { ERROR: 0, WARN: 1, INFO: 2 };
+      findings.sort((a, b) => (order[a.severity] - order[b.severity]) || a.check.localeCompare(b.check));
+      const rows = $("rows");
+      if (!findings.length) { rows.innerHTML = `<tr><td colspan="4" class="empty">No findings at this severity.</td></tr>`; return; }
+      rows.innerHTML = findings.map(f => {
+        const loc = f.file + (f.rule_id ? `::${f.rule_id}` : "");
+        return `<tr>
+          <td><span class="sev ${f.severity}">${f.severity}</span></td>
+          <td class="mono">${f.check}</td>
+          <td class="mono loc">${loc}</td>
+          <td>${f.message}</td></tr>`;
+      }).join("");
+    }
+
+    function renderCounts() {
+      const c = D.counts_by_check || {};
+      const keys = Object.keys(c).sort((a, b) => c[b] - c[a]);
+      $("counts").innerHTML = keys.length
+        ? keys.map(k => `<div class="k">${k}</div><div class="v">${c[k]}</div>`).join("")
+        : `<div class="empty">No checks fired.</div>`;
+    }
+
+    if (!D) {
+      document.body.innerHTML = '<div style="padding:40px;font-family:monospace;color:#ff5470">data.js not found. Run: python dashboard/build_data.py --dir configs/sample_live</div>';
+    } else {
+      renderHeader(); renderCards(); renderFilters(); renderRows(); renderCounts();
+    }
+  </script>
+</body>
+</html>
