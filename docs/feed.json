@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-29T19:40:52Z",
+  "generated_at": "2026-05-29T20:27:01Z",
   "source": {
     "configs": "configs/sample_live",
     "bets": "optimizer/sample_bets.csv",
@@ -90,7 +90,7 @@
   },
   "optimizer": {
     "tool": "optimizer",
-    "generated_at": "2026-05-29T19:40:52Z",
+    "generated_at": "2026-05-29T20:27:01Z",
     "windows": [
       "7d",
       "14d",
@@ -158,6 +158,7 @@
     "proposals": [
       {
         "rule_id": "fd_mlb_strikeouts",
+        "label": "FanDuel MLB Pitcher Strikeouts",
         "deployed": true,
         "orphan": false,
         "league": "MLB",
@@ -237,6 +238,7 @@
       },
       {
         "rule_id": "cae_mlb_total_runs_f5_m",
+        "label": "Caesars MLB Total Runs 1st 5 Innings",
         "deployed": true,
         "orphan": false,
         "league": "MLB",
@@ -316,6 +318,7 @@
       },
       {
         "rule_id": "cae_mlb_total_runs_f5",
+        "label": "Caesars MLB Total Runs 1st 5 Innings",
         "deployed": true,
         "orphan": false,
         "league": "MLB",
@@ -395,6 +398,7 @@
       },
       {
         "rule_id": "cae_nhl_shots",
+        "label": "Caesars NHL Shots on Goal",
         "deployed": true,
         "orphan": false,
         "league": "NHL",
@@ -474,6 +478,7 @@
       },
       {
         "rule_id": "dk_nba_player_points",
+        "label": "DraftKings NBA Player Points",
         "deployed": true,
         "orphan": false,
         "league": "NBA",
@@ -553,6 +558,7 @@
       },
       {
         "rule_id": "cae_nba_player_points",
+        "label": "Caesars NBA Player Points",
         "deployed": true,
         "orphan": false,
         "league": "NBA",
@@ -632,6 +638,7 @@
       },
       {
         "rule_id": "fd_nhl_shots_on_goal",
+        "label": "FanDuel",
         "deployed": false,
         "orphan": true,
         "league": null,
@@ -725,6 +732,7 @@
     "comparison": [
       {
         "rule_id": "cae_nhl_shots",
+        "label": "Caesars NHL Shots on Goal",
         "league": "NHL",
         "market": "Shots on Goal",
         "deployed": true,
@@ -741,6 +749,7 @@
       },
       {
         "rule_id": "cae_nba_player_points",
+        "label": "Caesars NBA Player Points",
         "league": "NBA",
         "market": "Player Points",
         "deployed": true,
@@ -757,6 +766,7 @@
       },
       {
         "rule_id": "cae_mlb_total_runs_f5_m",
+        "label": "Caesars MLB Total Runs 1st 5 Innings",
         "league": "MLB",
         "market": "Total Runs 1st 5 Innings",
         "deployed": true,
@@ -773,6 +783,7 @@
       },
       {
         "rule_id": "cae_mlb_total_runs_f5",
+        "label": "Caesars MLB Total Runs 1st 5 Innings",
         "league": "MLB",
         "market": "Total Runs 1st 5 Innings",
         "deployed": true,
@@ -789,6 +800,7 @@
       },
       {
         "rule_id": "fd_mlb_strikeouts",
+        "label": "FanDuel MLB Pitcher Strikeouts",
         "league": "MLB",
         "market": "Pitcher Strikeouts",
         "deployed": true,
@@ -805,6 +817,7 @@
       },
       {
         "rule_id": "dk_nba_player_points",
+        "label": "DraftKings NBA Player Points",
         "league": "NBA",
         "market": "Player Points",
         "deployed": true,
