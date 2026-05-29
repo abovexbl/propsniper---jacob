@@ -1,24 +1,34 @@
 {
-  "generated_at": "2026-05-29T19:07:11Z",
+  "schema_version": 2,
+  "generated_at": "2026-05-29T19:40:52Z",
   "source": {
     "configs": "configs/sample_live",
-    "bets": "optimizer/sample_bets.csv"
+    "bets": "optimizer/sample_bets.csv",
+    "community": "sample"
   },
+  "windows": [
+    "7d",
+    "14d",
+    "30d",
+    "90d",
+    "all"
+  ],
+  "default_window": "30d",
   "audit": {
     "tool": "audit",
     "verdict": "FAIL (blocking violations)",
     "exit_code": 3,
     "summary": {
-      "files_checked": 3,
-      "rules_checked": 5,
+      "files_checked": 4,
+      "rules_checked": 7,
       "errors": 2,
       "warnings": 1,
-      "info": 3
+      "info": 4
     },
     "counts_by_check": {
       "duplicate_id": 1,
       "j_mo_no_differentiation": 1,
-      "schema_flat": 3,
+      "schema_flat": 4,
       "self_reference": 1
     },
     "findings": [
@@ -42,6 +52,13 @@
         "file": "devig_J_draftkings.json",
         "rule_id": "dk_nba_player_points",
         "message": "venue 'DraftKings' appears as comp book in markets.main (CIRCULAR)"
+      },
+      {
+        "severity": "INFO",
+        "check": "schema_flat",
+        "file": "devig_J_fanduel.json",
+        "rule_id": null,
+        "message": "using flat schema (no type/version/filters wrapper). Builders Guide \u00a73.1 specifies wrapped form."
       },
       {
         "severity": "INFO",
@@ -73,113 +90,735 @@
   },
   "optimizer": {
     "tool": "optimizer",
-    "generated_at": "2026-05-29T19:07:11Z",
+    "generated_at": "2026-05-29T19:40:52Z",
+    "windows": [
+      "7d",
+      "14d",
+      "30d",
+      "90d",
+      "all"
+    ],
+    "default_window": "30d",
     "params": {
       "bankroll": 10000.0,
       "min_n": 30,
       "kelly_mult": 0.25,
       "max_fraction": 0.05,
       "prior_sd": 0.5,
-      "sigma": 0.955438
+      "sigma": 0.95431
     },
-    "summary": {
-      "rules_scored": 5,
-      "actions": {
-        "DISABLE": 1,
-        "EXPLORE": 1,
-        "HOLD": 1,
-        "PROMOTE": 1,
-        "SHRINK": 1
+    "summary_by_window": {
+      "7d": {
+        "rules_scored": 7,
+        "orphans": 1,
+        "actions": {
+          "EXPLORE": 2,
+          "HOLD": 4,
+          "SHRINK": 1
+        }
       },
-      "orphans": 1
+      "14d": {
+        "rules_scored": 7,
+        "orphans": 1,
+        "actions": {
+          "DISABLE": 1,
+          "EXPLORE": 1,
+          "HOLD": 3,
+          "PROMOTE": 1,
+          "SHRINK": 1
+        }
+      },
+      "30d": {
+        "rules_scored": 7,
+        "orphans": 1,
+        "actions": {
+          "DISABLE": 2,
+          "HOLD": 5
+        }
+      },
+      "90d": {
+        "rules_scored": 7,
+        "orphans": 1,
+        "actions": {
+          "DISABLE": 2,
+          "HOLD": 3,
+          "PROMOTE": 1,
+          "SHRINK": 1
+        }
+      },
+      "all": {
+        "rules_scored": 7,
+        "orphans": 1,
+        "actions": {
+          "DISABLE": 3,
+          "PROMOTE": 4
+        }
+      }
     },
     "proposals": [
       {
-        "rule_id": "cae_mlb_total_runs_f5_m",
-        "n": 90,
-        "observed_roi": -0.003026,
-        "post_mean": -0.002908,
-        "post_sd": 0.098729,
-        "p_bleeding": 0.511747,
-        "sigma": 0.955438,
+        "rule_id": "fd_mlb_strikeouts",
         "deployed": true,
         "orphan": false,
-        "action": "HOLD",
-        "rationale": "edge -0.3%, p(bleed)=51% \u2014 too uncertain to move",
-        "thompson_sample": 0.047586,
-        "recommended_stake_fraction": 0.0,
-        "recommended_stake_abs": 0.0
+        "league": "MLB",
+        "market": "Pitcher Strikeouts",
+        "windows": {
+          "7d": {
+            "rule_id": "fd_mlb_strikeouts",
+            "n": 34,
+            "observed_roi": 0.066845,
+            "post_mean": 0.060376,
+            "post_sd": 0.155542,
+            "p_bleeding": 0.348947,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +6.0%, p(bleed)=35% \u2014 too uncertain to move",
+            "thompson_sample": 0.121684,
+            "recommended_stake_fraction": 0.016574,
+            "recommended_stake_abs": 165.74
+          },
+          "14d": {
+            "rule_id": "fd_mlb_strikeouts",
+            "n": 85,
+            "observed_roi": 0.010696,
+            "post_mean": 0.010256,
+            "post_sd": 0.10136,
+            "p_bleeding": 0.459702,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +1.0%, p(bleed)=46% \u2014 too uncertain to move",
+            "thompson_sample": -0.056757,
+            "recommended_stake_fraction": 0.002815,
+            "recommended_stake_abs": 28.15
+          },
+          "30d": {
+            "rule_id": "fd_mlb_strikeouts",
+            "n": 197,
+            "observed_roi": -0.030919,
+            "post_mean": -0.030357,
+            "post_sd": 0.067372,
+            "p_bleeding": 0.673859,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge -3.0%, p(bleed)=67% \u2014 too uncertain to move",
+            "thompson_sample": 0.085356,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "90d": {
+            "rule_id": "fd_mlb_strikeouts",
+            "n": 595,
+            "observed_roi": 0.013904,
+            "post_mean": 0.013819,
+            "post_sd": 0.039004,
+            "p_bleeding": 0.361557,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +1.4%, p(bleed)=36% \u2014 too uncertain to move",
+            "thompson_sample": 0.035529,
+            "recommended_stake_fraction": 0.003793,
+            "recommended_stake_abs": 37.93
+          },
+          "all": {
+            "rule_id": "fd_mlb_strikeouts",
+            "n": 1040,
+            "observed_roi": 0.026136,
+            "post_mean": 0.026045,
+            "post_sd": 0.02954,
+            "p_bleeding": 0.188974,
+            "sigma": 0.95431,
+            "action": "PROMOTE",
+            "rationale": "81% confident positive edge (+2.6% ROI)",
+            "thompson_sample": 0.061405,
+            "recommended_stake_fraction": 0.00715,
+            "recommended_stake_abs": 71.5
+          }
+        }
+      },
+      {
+        "rule_id": "cae_mlb_total_runs_f5_m",
+        "deployed": true,
+        "orphan": false,
+        "league": "MLB",
+        "market": "Total Runs 1st 5 Innings",
+        "windows": {
+          "7d": {
+            "rule_id": "cae_mlb_total_runs_f5_m",
+            "n": 32,
+            "observed_roi": -0.045455,
+            "post_mean": -0.040809,
+            "post_sd": 0.159847,
+            "p_bleeding": 0.600756,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge -4.1%, p(bleed)=60% \u2014 too uncertain to move",
+            "thompson_sample": -0.074905,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "14d": {
+            "rule_id": "cae_mlb_total_runs_f5_m",
+            "n": 53,
+            "observed_roi": 0.008574,
+            "post_mean": 0.008023,
+            "post_sd": 0.126799,
+            "p_bleeding": 0.474775,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +0.8%, p(bleed)=47% \u2014 too uncertain to move",
+            "thompson_sample": 0.149013,
+            "recommended_stake_fraction": 0.002202,
+            "recommended_stake_abs": 22.02
+          },
+          "30d": {
+            "rule_id": "cae_mlb_total_runs_f5_m",
+            "n": 142,
+            "observed_roi": 0.021766,
+            "post_mean": 0.021221,
+            "post_sd": 0.079076,
+            "p_bleeding": 0.394209,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +2.1%, p(bleed)=39% \u2014 too uncertain to move",
+            "thompson_sample": 0.054761,
+            "recommended_stake_fraction": 0.005825,
+            "recommended_stake_abs": 58.25
+          },
+          "90d": {
+            "rule_id": "cae_mlb_total_runs_f5_m",
+            "n": 445,
+            "observed_roi": -0.008989,
+            "post_mean": -0.008917,
+            "post_sd": 0.045055,
+            "p_bleeding": 0.57844,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge -0.9%, p(bleed)=58% \u2014 too uncertain to move",
+            "thompson_sample": 0.0378,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "all": {
+            "rule_id": "cae_mlb_total_runs_f5_m",
+            "n": 720,
+            "observed_roi": 0.026135,
+            "post_mean": 0.026004,
+            "post_sd": 0.035475,
+            "p_bleeding": 0.231776,
+            "sigma": 0.95431,
+            "action": "PROMOTE",
+            "rationale": "77% confident positive edge (+2.6% ROI)",
+            "thompson_sample": 0.034834,
+            "recommended_stake_fraction": 0.007138,
+            "recommended_stake_abs": 71.38
+          }
+        }
       },
       {
         "rule_id": "cae_mlb_total_runs_f5",
-        "n": 250,
-        "observed_roi": 0.053823,
-        "post_mean": 0.053048,
-        "post_sd": 0.059991,
-        "p_bleeding": 0.188273,
-        "sigma": 0.955438,
         "deployed": true,
         "orphan": false,
-        "action": "PROMOTE",
-        "rationale": "81% confident positive edge (+5.3% ROI)",
-        "thompson_sample": 0.037698,
-        "recommended_stake_fraction": 0.014528,
-        "recommended_stake_abs": 145.28
+        "league": "MLB",
+        "market": "Total Runs 1st 5 Innings",
+        "windows": {
+          "7d": {
+            "rule_id": "cae_mlb_total_runs_f5",
+            "n": 48,
+            "observed_roi": -0.204543,
+            "post_mean": -0.190114,
+            "post_sd": 0.132796,
+            "p_bleeding": 0.923875,
+            "sigma": 0.95431,
+            "action": "SHRINK",
+            "rationale": "92% chance of negative edge; cut exposure",
+            "thompson_sample": -0.224094,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "14d": {
+            "rule_id": "cae_mlb_total_runs_f5",
+            "n": 116,
+            "observed_roi": -0.111284,
+            "post_mean": -0.107895,
+            "post_sd": 0.087246,
+            "p_bleeding": 0.891897,
+            "sigma": 0.95431,
+            "action": "SHRINK",
+            "rationale": "89% chance of negative edge; cut exposure",
+            "thompson_sample": -0.063275,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "30d": {
+            "rule_id": "cae_mlb_total_runs_f5",
+            "n": 270,
+            "observed_roi": 0.018183,
+            "post_mean": 0.017941,
+            "post_sd": 0.05769,
+            "p_bleeding": 0.377905,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +1.8%, p(bleed)=38% \u2014 too uncertain to move",
+            "thompson_sample": 0.004897,
+            "recommended_stake_fraction": 0.004925,
+            "recommended_stake_abs": 49.25
+          },
+          "90d": {
+            "rule_id": "cae_mlb_total_runs_f5",
+            "n": 785,
+            "observed_roi": 0.077359,
+            "post_mean": 0.077002,
+            "post_sd": 0.033982,
+            "p_bleeding": 0.011727,
+            "sigma": 0.95431,
+            "action": "PROMOTE",
+            "rationale": "99% confident positive edge (+7.7% ROI)",
+            "thompson_sample": 0.066296,
+            "recommended_stake_fraction": 0.021138,
+            "recommended_stake_abs": 211.38
+          },
+          "all": {
+            "rule_id": "cae_mlb_total_runs_f5",
+            "n": 1300,
+            "observed_roi": 0.086713,
+            "post_mean": 0.086471,
+            "post_sd": 0.026431,
+            "p_bleeding": 0.000535,
+            "sigma": 0.95431,
+            "action": "PROMOTE",
+            "rationale": "100% confident positive edge (+8.6% ROI)",
+            "thompson_sample": 0.06189,
+            "recommended_stake_fraction": 0.023737,
+            "recommended_stake_abs": 237.37
+          }
+        }
       },
       {
-        "rule_id": "cae_nba_player_points",
-        "n": 18,
-        "observed_roi": -0.151511,
-        "post_mean": -0.125959,
-        "post_sd": 0.205333,
-        "p_bleeding": 0.730207,
-        "sigma": 0.955438,
+        "rule_id": "cae_nhl_shots",
         "deployed": true,
         "orphan": false,
-        "action": "EXPLORE",
-        "rationale": "only 18 bets (< 30); gather more before trusting the edge",
-        "thompson_sample": -0.172384,
-        "recommended_stake_fraction": 0.005,
-        "recommended_stake_abs": 50.0
+        "league": "NHL",
+        "market": "Shots on Goal",
+        "windows": {
+          "7d": {
+            "rule_id": "cae_nhl_shots",
+            "n": 33,
+            "observed_roi": 0.041322,
+            "post_mean": 0.037214,
+            "post_sd": 0.15765,
+            "p_bleeding": 0.406696,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +3.7%, p(bleed)=41% \u2014 too uncertain to move",
+            "thompson_sample": 0.115853,
+            "recommended_stake_fraction": 0.010216,
+            "recommended_stake_abs": 102.16
+          },
+          "14d": {
+            "rule_id": "cae_nhl_shots",
+            "n": 54,
+            "observed_roi": 0.060602,
+            "post_mean": 0.056773,
+            "post_sd": 0.125695,
+            "p_bleeding": 0.325753,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +5.7%, p(bleed)=33% \u2014 too uncertain to move",
+            "thompson_sample": -0.155823,
+            "recommended_stake_fraction": 0.015585,
+            "recommended_stake_abs": 155.85
+          },
+          "30d": {
+            "rule_id": "cae_nhl_shots",
+            "n": 118,
+            "observed_roi": 0.035437,
+            "post_mean": 0.034376,
+            "post_sd": 0.086526,
+            "p_bleeding": 0.345576,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +3.4%, p(bleed)=35% \u2014 too uncertain to move",
+            "thompson_sample": -0.116515,
+            "recommended_stake_fraction": 0.009437,
+            "recommended_stake_abs": 94.37
+          },
+          "90d": {
+            "rule_id": "cae_nhl_shots",
+            "n": 360,
+            "observed_roi": 0.012879,
+            "post_mean": 0.01275,
+            "post_sd": 0.050044,
+            "p_bleeding": 0.399451,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +1.3%, p(bleed)=40% \u2014 too uncertain to move",
+            "thompson_sample": -0.03177,
+            "recommended_stake_fraction": 0.0035,
+            "recommended_stake_abs": 35.0
+          },
+          "all": {
+            "rule_id": "cae_nhl_shots",
+            "n": 600,
+            "observed_roi": 0.030908,
+            "post_mean": 0.030722,
+            "post_sd": 0.038842,
+            "p_bleeding": 0.214487,
+            "sigma": 0.95431,
+            "action": "PROMOTE",
+            "rationale": "79% confident positive edge (+3.1% ROI)",
+            "thompson_sample": 0.012537,
+            "recommended_stake_fraction": 0.008434,
+            "recommended_stake_abs": 84.34
+          }
+        }
       },
       {
         "rule_id": "dk_nba_player_points",
-        "n": 140,
-        "observed_roi": -0.209087,
-        "post_mean": -0.203772,
-        "post_sd": 0.079716,
-        "p_bleeding": 0.994709,
-        "sigma": 0.955438,
         "deployed": true,
         "orphan": false,
-        "action": "DISABLE",
-        "rationale": "99% confident edge < 0 over 140 bets",
-        "thompson_sample": -0.228889,
-        "recommended_stake_fraction": 0.0,
-        "recommended_stake_abs": 0.0
+        "league": "NBA",
+        "market": "Player Points",
+        "windows": {
+          "7d": {
+            "rule_id": "dk_nba_player_points",
+            "n": 38,
+            "observed_roi": 0.004781,
+            "post_mean": 0.004363,
+            "post_sd": 0.147883,
+            "p_bleeding": 0.488233,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +0.4%, p(bleed)=49% \u2014 too uncertain to move",
+            "thompson_sample": 0.049533,
+            "recommended_stake_fraction": 0.001198,
+            "recommended_stake_abs": 11.98
+          },
+          "14d": {
+            "rule_id": "dk_nba_player_points",
+            "n": 84,
+            "observed_roi": -0.227273,
+            "post_mean": -0.217827,
+            "post_sd": 0.101937,
+            "p_bleeding": 0.983696,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "98% confident edge < 0 over 84 bets",
+            "thompson_sample": -0.222507,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "30d": {
+            "rule_id": "dk_nba_player_points",
+            "n": 206,
+            "observed_roi": -0.165933,
+            "post_mean": -0.163049,
+            "post_sd": 0.06591,
+            "p_bleeding": 0.993316,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "99% confident edge < 0 over 206 bets",
+            "thompson_sample": -0.128712,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "90d": {
+            "rule_id": "dk_nba_player_points",
+            "n": 576,
+            "observed_roi": -0.204546,
+            "post_mean": -0.20326,
+            "post_sd": 0.039638,
+            "p_bleeding": 1.0,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "100% confident edge < 0 over 576 bets",
+            "thompson_sample": -0.228717,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "all": {
+            "rule_id": "dk_nba_player_points",
+            "n": 980,
+            "observed_roi": -0.189611,
+            "post_mean": -0.188909,
+            "post_sd": 0.030428,
+            "p_bleeding": 1.0,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "100% confident edge < 0 over 980 bets",
+            "thompson_sample": -0.179516,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          }
+        }
+      },
+      {
+        "rule_id": "cae_nba_player_points",
+        "deployed": true,
+        "orphan": false,
+        "league": "NBA",
+        "market": "Player Points",
+        "windows": {
+          "7d": {
+            "rule_id": "cae_nba_player_points",
+            "n": 17,
+            "observed_roi": -0.101608,
+            "post_mean": -0.083677,
+            "post_sd": 0.210041,
+            "p_bleeding": 0.654826,
+            "sigma": 0.95431,
+            "action": "EXPLORE",
+            "rationale": "only 17 bets (< 30); gather more before trusting the edge",
+            "thompson_sample": -0.000759,
+            "recommended_stake_fraction": 0.005,
+            "recommended_stake_abs": 50.0
+          },
+          "14d": {
+            "rule_id": "cae_nba_player_points",
+            "n": 37,
+            "observed_roi": 0.135128,
+            "post_mean": 0.123016,
+            "post_sd": 0.149692,
+            "p_bleeding": 0.205596,
+            "sigma": 0.95431,
+            "action": "PROMOTE",
+            "rationale": "79% confident positive edge (+12.3% ROI)",
+            "thompson_sample": 0.150758,
+            "recommended_stake_fraction": 0.033769,
+            "recommended_stake_abs": 337.69
+          },
+          "30d": {
+            "rule_id": "cae_nba_player_points",
+            "n": 87,
+            "observed_roi": 0.009403,
+            "post_mean": 0.009025,
+            "post_sd": 0.100236,
+            "p_bleeding": 0.464127,
+            "sigma": 0.95431,
+            "action": "HOLD",
+            "rationale": "edge +0.9%, p(bleed)=46% \u2014 too uncertain to move",
+            "thompson_sample": -0.157974,
+            "recommended_stake_fraction": 0.002478,
+            "recommended_stake_abs": 24.78
+          },
+          "90d": {
+            "rule_id": "cae_nba_player_points",
+            "n": 296,
+            "observed_roi": -0.077703,
+            "post_mean": -0.076758,
+            "post_sd": 0.05513,
+            "p_bleeding": 0.918086,
+            "sigma": 0.95431,
+            "action": "SHRINK",
+            "rationale": "92% chance of negative edge; cut exposure",
+            "thompson_sample": -0.029608,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "all": {
+            "rule_id": "cae_nba_player_points",
+            "n": 520,
+            "observed_roi": -0.104195,
+            "post_mean": -0.10347,
+            "post_sd": 0.041703,
+            "p_bleeding": 0.993451,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "99% confident edge < 0 over 520 bets",
+            "thompson_sample": -0.082353,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          }
+        }
       },
       {
         "rule_id": "fd_nhl_shots_on_goal",
-        "n": 40,
-        "observed_roi": -0.140905,
-        "post_mean": -0.129118,
-        "post_sd": 0.144612,
-        "p_bleeding": 0.814034,
-        "sigma": 0.955438,
         "deployed": false,
         "orphan": true,
-        "action": "SHRINK",
-        "rationale": "81% chance of negative edge; cut exposure",
-        "thompson_sample": -0.26361,
-        "recommended_stake_fraction": 0.0,
-        "recommended_stake_abs": 0.0
+        "league": null,
+        "market": null,
+        "windows": {
+          "7d": {
+            "rule_id": "fd_nhl_shots_on_goal",
+            "n": 13,
+            "observed_roi": 0.027963,
+            "post_mean": 0.021843,
+            "post_sd": 0.233925,
+            "p_bleeding": 0.462803,
+            "sigma": 0.95431,
+            "action": "EXPLORE",
+            "rationale": "only 13 bets (< 30); gather more before trusting the edge",
+            "thompson_sample": -0.123268,
+            "recommended_stake_fraction": 0.005996,
+            "recommended_stake_abs": 59.96
+          },
+          "14d": {
+            "rule_id": "fd_nhl_shots_on_goal",
+            "n": 29,
+            "observed_roi": -0.275867,
+            "post_mean": -0.245081,
+            "post_sd": 0.16703,
+            "p_bleeding": 0.928851,
+            "sigma": 0.95431,
+            "action": "EXPLORE",
+            "rationale": "only 29 bets (< 30); gather more before trusting the edge",
+            "thompson_sample": -0.368603,
+            "recommended_stake_fraction": 0.005,
+            "recommended_stake_abs": 50.0
+          },
+          "30d": {
+            "rule_id": "fd_nhl_shots_on_goal",
+            "n": 63,
+            "observed_roi": -0.303034,
+            "post_mean": -0.28647,
+            "post_sd": 0.116899,
+            "p_bleeding": 0.992868,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "99% confident edge < 0 over 63 bets",
+            "thompson_sample": -0.326688,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "90d": {
+            "rule_id": "fd_nhl_shots_on_goal",
+            "n": 188,
+            "observed_roi": -0.187624,
+            "post_mean": -0.184057,
+            "post_sd": 0.068936,
+            "p_bleeding": 0.996207,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "100% confident edge < 0 over 188 bets",
+            "thompson_sample": -0.191393,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          },
+          "all": {
+            "rule_id": "fd_nhl_shots_on_goal",
+            "n": 300,
+            "observed_roi": -0.166366,
+            "post_mean": -0.16437,
+            "post_sd": 0.054766,
+            "p_bleeding": 0.998656,
+            "sigma": 0.95431,
+            "action": "DISABLE",
+            "rationale": "100% confident edge < 0 over 300 bets",
+            "thompson_sample": -0.129754,
+            "recommended_stake_fraction": 0.0,
+            "recommended_stake_abs": 0.0
+          }
+        }
       }
     ],
     "note": "Advisory. Config-mutating actions are human-gated and must re-pass /audit before deploy."
   },
   "community": {
-    "status": "not_connected",
-    "note": "Connect the PropSniper community / OddsPapi consensus source to populate this panel.",
-    "metrics": []
+    "status": "connected",
+    "source": "sample",
+    "as_of": "2026-05-29T12:00:00Z",
+    "window": "30d",
+    "summary": {
+      "beating": 2,
+      "inline": 2,
+      "below": 2
+    },
+    "comparison": [
+      {
+        "rule_id": "cae_nhl_shots",
+        "league": "NHL",
+        "market": "Shots on Goal",
+        "deployed": true,
+        "orphan": false,
+        "personal_edge": 0.034376,
+        "personal_n": 118,
+        "personal_p_bleeding": 0.345576,
+        "community_edge": 0.009,
+        "community_brier": 0.248,
+        "community_n": 2870,
+        "community_hit_rate": 0.515,
+        "delta_edge": 0.025376,
+        "verdict": "beating"
+      },
+      {
+        "rule_id": "cae_nba_player_points",
+        "league": "NBA",
+        "market": "Player Points",
+        "deployed": true,
+        "orphan": false,
+        "personal_edge": 0.009025,
+        "personal_n": 87,
+        "personal_p_bleeding": 0.464127,
+        "community_edge": -0.004,
+        "community_brier": 0.251,
+        "community_n": 8430,
+        "community_hit_rate": 0.498,
+        "delta_edge": 0.013025,
+        "verdict": "beating"
+      },
+      {
+        "rule_id": "cae_mlb_total_runs_f5_m",
+        "league": "MLB",
+        "market": "Total Runs 1st 5 Innings",
+        "deployed": true,
+        "orphan": false,
+        "personal_edge": 0.021221,
+        "personal_n": 142,
+        "personal_p_bleeding": 0.394209,
+        "community_edge": 0.018,
+        "community_brier": 0.244,
+        "community_n": 5120,
+        "community_hit_rate": 0.529,
+        "delta_edge": 0.003221,
+        "verdict": "inline"
+      },
+      {
+        "rule_id": "cae_mlb_total_runs_f5",
+        "league": "MLB",
+        "market": "Total Runs 1st 5 Innings",
+        "deployed": true,
+        "orphan": false,
+        "personal_edge": 0.017941,
+        "personal_n": 270,
+        "personal_p_bleeding": 0.377905,
+        "community_edge": 0.018,
+        "community_brier": 0.244,
+        "community_n": 5120,
+        "community_hit_rate": 0.529,
+        "delta_edge": -5.9e-05,
+        "verdict": "inline"
+      },
+      {
+        "rule_id": "fd_mlb_strikeouts",
+        "league": "MLB",
+        "market": "Pitcher Strikeouts",
+        "deployed": true,
+        "orphan": false,
+        "personal_edge": -0.030357,
+        "personal_n": 197,
+        "personal_p_bleeding": 0.673859,
+        "community_edge": 0.041,
+        "community_brier": 0.238,
+        "community_n": 3960,
+        "community_hit_rate": 0.547,
+        "delta_edge": -0.071357,
+        "verdict": "below"
+      },
+      {
+        "rule_id": "dk_nba_player_points",
+        "league": "NBA",
+        "market": "Player Points",
+        "deployed": true,
+        "orphan": false,
+        "personal_edge": -0.163049,
+        "personal_n": 206,
+        "personal_p_bleeding": 0.993316,
+        "community_edge": -0.004,
+        "community_brier": 0.251,
+        "community_n": 8430,
+        "community_hit_rate": 0.498,
+        "delta_edge": -0.159049,
+        "verdict": "below"
+      }
+    ]
   }
 }

@@ -66,6 +66,13 @@ def main():
                   [comp("Pinnacle", required=True), comp("BetMGM"), comp("Circa")]),
         make_rule("cae_nba_player_points", "NBA", "Player Points",
                   [comp("Pinnacle", required=True), comp("Circa")]),
+        make_rule("cae_nhl_shots", "NHL", "Shots on Goal",
+                  [comp("Pinnacle", required=True), comp("BetMGM"), comp("Circa")]),
+    ])
+
+    devig_J_fanduel = flat_config([
+        make_rule("fd_mlb_strikeouts", "MLB", "Pitcher Strikeouts",
+                  [comp("Pinnacle", required=True), comp("Circa"), comp("BetMGM")]),
     ])
 
     devig_MO_caesars = flat_config([
@@ -87,6 +94,7 @@ def main():
         "devig_J_caesars.json": devig_J_caesars,
         "devig_MO_caesars.json": devig_MO_caesars,
         "devig_J_draftkings.json": devig_J_draftkings,
+        "devig_J_fanduel.json": devig_J_fanduel,
     }
     for name, data in files.items():
         (out / name).write_text(json.dumps(data, indent=2))

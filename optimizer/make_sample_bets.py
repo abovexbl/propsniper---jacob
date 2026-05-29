@@ -2,15 +2,10 @@
 """
 make_sample_bets.py — synthetic settled-bet history for demoing the optimizer.
 
-Generates a data-panel-export-style CSV with rule IDs that match the sample
-configs (configs/sample_live), engineered so the optimizer surfaces every action:
-  - a confident WINNER  (-> PROMOTE)
-  - a confident LOSER   (-> DISABLE)
-  - a marginal rule     (-> HOLD)
-  - a small-sample rule  (-> EXPLORE)
-  - an ORPHAN rule (bets exist, not in any deployed config)
-
-SAMPLE data only. Real bet exports stay in the gitignored data/ dir.
+Spans ~150 days so the 7d / 14d / 30d / 90d / all windows each tell a different
+story, and some rules deliberately drift over time (hot then cold, or improving)
+so the window selector is meaningful. SAMPLE data only — real exports live in the
+gitignored data/ dir.
 
 Usage:
     python optimizer/make_sample_bets.py            # -> optimizer/sample_bets.csv
@@ -22,51 +17,60 @@ import random
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# American -110 -> decimal 1.9091 -> net odds on a win
-NET_AT_MINUS_110 = 100.0 / 110.0  # ~0.9091
-STAKE = 100.0
+NET_AT_MINUS_110 = 100.0 / 110.0  # ~0.9091 net odds on a win at -110
 ASOF = datetime(2026, 5, 29, 12, 0, 0)
+HORIZON_DAYS = 150
 
-# (rule_id, n_bets, true_win_prob) — EV at -110 is positive iff p > ~0.524
+# rule_id, league, market, n_bets, p_old, p_recent, recent_window_days, base_stake
+# EV at -110 is positive iff p > ~0.524. Volumes are high enough that even the
+# 7d window clears min-n, so days/weeks/months all carry meaningful signal.
 PROFILE = [
-    ("cae_mlb_total_runs_f5",   250, 0.560),  # winner   -> PROMOTE
-    ("dk_nba_player_points",    140, 0.450),  # loser    -> DISABLE
-    ("cae_mlb_total_runs_f5_m",  90, 0.525),  # marginal -> HOLD
-    ("cae_nba_player_points",    18, 0.540),  # small n  -> EXPLORE
-    ("fd_nhl_shots_on_goal",     40, 0.470),  # orphan (not in sample configs)
+    # winner overall but COOLING in the last 2 weeks -> windows diverge
+    ("cae_mlb_total_runs_f5",    "MLB", "Total Runs 1st 5 Innings", 1300, 0.575, 0.495, 14, 100),
+    # consistent loser everywhere -> DISABLE in every window
+    ("dk_nba_player_points",     "NBA", "Player Points",             980, 0.452, 0.448, 21, 100),
+    # marginal, basically a coin flip -> HOLD
+    ("cae_mlb_total_runs_f5_m",  "MLB", "Total Runs 1st 5 Innings",  720, 0.527, 0.523, 14, 100),
+    # IMPROVING: was losing, now winning -> recent windows turn positive
+    ("cae_nba_player_points",    "NBA", "Player Points",             520, 0.488, 0.585, 14, 100),
+    # steady strong winner -> PROMOTE across windows
+    ("fd_mlb_strikeouts",        "MLB", "Pitcher Strikeouts",       1040, 0.560, 0.566, 21, 150),
+    # recently turned cold sharply -> 7d/14d bad, longer windows ok
+    ("cae_nhl_shots",            "NHL", "Shots on Goal",             600, 0.548, 0.470, 14, 75),
+    # orphan: bets exist, rule not in deployed configs -> flagged
+    ("fd_nhl_shots_on_goal",     "NHL", "Shots on Goal",             300, 0.470, 0.470, 21, 100),
 ]
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Generate synthetic settled bets for the optimizer demo")
+    ap = argparse.ArgumentParser(description="Generate synthetic settled bets (windowed) for the optimizer demo")
     ap.add_argument("--out", default=str(Path(__file__).resolve().parent / "sample_bets.csv"))
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
     rng = random.Random(args.seed)
     rows = []
-    for rule_id, n, p in PROFILE:
-        for i in range(n):
+    for rid, league, market, n, p_old, p_recent, recent_days, base_stake in PROFILE:
+        for _ in range(n):
+            age_days = rng.uniform(0, HORIZON_DAYS)
+            p = p_recent if age_days <= recent_days else p_old
             won = rng.random() < p
-            profit = STAKE * NET_AT_MINUS_110 if won else -STAKE
-            # spread placements over the last ~45 days, newest last
-            placed = ASOF - timedelta(days=rng.uniform(0, 45), hours=rng.uniform(0, 23))
+            stake = round(base_stake * rng.uniform(0.8, 1.2), 2)
+            profit = round(stake * NET_AT_MINUS_110, 2) if won else -stake
+            placed = ASOF - timedelta(days=age_days, hours=rng.uniform(0, 23))
             rows.append({
-                "ruleId": rule_id,
-                "stake": f"{STAKE:.2f}",
-                "profit": f"{profit:.2f}",
-                "datePlaced": placed.strftime("%Y-%m-%dT%H:%M:%S"),
-                "settled": "true",
+                "ruleId": rid, "league": league, "market": market,
+                "stake": f"{stake:.2f}", "profit": f"{profit:.2f}",
+                "datePlaced": placed.strftime("%Y-%m-%dT%H:%M:%S"), "settled": "true",
             })
     rng.shuffle(rows)
 
     out = Path(args.out)
     with out.open("w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=["ruleId", "stake", "profit", "datePlaced", "settled"])
+        w = csv.DictWriter(fh, fieldnames=["ruleId", "league", "market", "stake", "profit", "datePlaced", "settled"])
         w.writeheader()
         w.writerows(rows)
-
-    print(f"wrote {len(rows)} bets across {len(PROFILE)} rules -> {out}")
+    print(f"wrote {len(rows)} bets across {len(PROFILE)} rules over {HORIZON_DAYS}d -> {out}")
 
 
 if __name__ == "__main__":

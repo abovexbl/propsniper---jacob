@@ -18,8 +18,40 @@ Built from the methodology in:
 | `validation/devig_methods.py` | Library + CLI for Multiplicative / Additive / Power / Shin / worst / worstcase devig. | `/devig` |
 | `validation/walk_forward.py` | Temporal-split Brier stability check against OddsPapi exports. | `/walk-forward` |
 | `pnl/feedback_loop.py` | Joins PropSniper bet-history exports to deployed rule IDs, flags negative-ROI rules. | `/pnl-check` |
+| `optimizer/optimize.py` | Windowed Bayesian-bandit + fractional-Kelly optimizer. Per-rule PROMOTE/HOLD/EXPLORE/SHRINK/DISABLE across 7d/14d/30d/90d/all. | `/optimize` |
 
 All scripts are stdlib-only (Python 3.10+). No pip install required.
+
+## The machine + live dashboard
+
+Beyond the standalone tools, the toolkit ships a closed loop that turns bet data
+into a live, monitored dashboard. See `OPTIMIZER.md` (algorithm) and
+`ORCHESTRATION.md` (cross-platform design).
+
+| Piece | Purpose |
+|-------|---------|
+| `run_machine.py` | One pulse: runs audit + windowed optimizer + community join → `docs/feed.json` (schema v2). `--publish` commits+pushes so the site goes live. |
+| `docs/index.html` | Live-polling dashboard: window selector (days/weeks/months), sortable optimizer + community-vs-personal tables, trend sparklines, audit findings. GitHub-Pages ready. |
+| `serve_local.py` | Private, **password-gated**, localhost-only dashboard over your REAL data. Nothing published or committed. See `REMOTE_ACCESS.md`. |
+| `community/` | Community/consensus join (personal edge vs community per market → beating/inline/below). |
+| `pslib.py` | Shared loaders (configs, bets, time windows) for the feed pipeline. |
+
+```bash
+# Demo end to end on synthetic data (nothing sensitive):
+python configs/make_sample_configs.py
+python optimizer/make_sample_bets.py
+python community/make_sample_community.py
+python run_machine.py                 # -> docs/feed.json
+python serve_local.py                 # private dashboard at http://127.0.0.1:8799/
+
+# Real data (stays on your machine, never committed):
+set PROPSNIPER_DASH_PW=your-password
+python serve_local.py --configs live/ --bets data/data-panel-export-LATEST.csv
+```
+
+Sensitive inputs (`live/`, `data/`) and generated artifacts (`configs/sample_live/`,
+`optimizer/sample_bets.csv`, `community/community_latest.json`, `private/`) are
+gitignored. The committed `docs/feed.json` carries only sample data.
 
 ## Install
 

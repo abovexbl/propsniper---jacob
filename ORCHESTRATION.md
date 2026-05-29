@@ -16,9 +16,9 @@ Without it, the three arms can't agree on reality. We now have that spine:
 
 ```
                 ┌──────────────────────────────────────────┐
-                │   STATE FEED  (dashboard/data.json)        │
+                │   STATE FEED  (docs/feed.json)        │
                 │   verdict · cards · findings · counts      │  ← the spine
-                │   produced by build_data.py from /audit    │
+                │   produced by run_machine.py from /audit    │
                 └──────────────────────────────────────────┘
                   ▲              ▲                    ▲
         ┌─────────┘              │                    └──────────┐
@@ -76,7 +76,7 @@ runnable workflow script.)
 
 ## 3. Data contract (the spine, concretely)
 
-`dashboard/data.json` — already emitted by `build_data.py`:
+`docs/feed.json` — already emitted by `run_machine.py`:
 
 ```jsonc
 {
@@ -94,7 +94,7 @@ runnable workflow script.)
 Rule: **every tool that wants to participate emits this shape** (or a superset
 with its own `tool` key). Walk-forward, P&L, and the devig comparator each get a
 `--format json` flag (same 5-line pattern already added to the audit engine),
-and `build_data.py` merges them into one feed with a `panels` array.
+and `run_machine.py` merges them into one feed with a `panels` array.
 
 ---
 
@@ -104,7 +104,7 @@ A "CEO-level action" is a decision that triggers coordinated work. Example —
 *"a rule started bleeding overnight":*
 
 ```
-1. SCHEDULED   build_data.py runs /audit + /pnl-check → feed updates, exit_code flips
+1. SCHEDULED   run_machine.py runs /audit + /pnl-check → feed updates, exit_code flips
 2. DETECT      orchestrator diffs new feed vs last; sees a new BLEEDING rule
 3. FAN OUT     Tier 3: spawn agents — one re-runs walk-forward for that market,
                one checks if the rule was recently edited (audit diff),
@@ -126,20 +126,23 @@ The orchestrator proposes; it never deploys a config that hasn't passed `/audit`
 
 **Crawl (done):**
 - [x] Machine-readable audit (`--format json`)
-- [x] State feed builder (`build_data.py` → `data.json` / `data.js`)
-- [x] Live, regenerable dashboard (`dashboard/index.html`)
+- [x] State feed builder (`run_machine.py` → `docs/feed.json` / `feed.js`)
+- [x] Live, regenerable dashboard (`docs/index.html`)
 
-**Walk (next, low-risk, local):**
-- [ ] `--format json` on `walk_forward.py`, `feedback_loop.py`, `overview.py`
-- [ ] `build_data.py` merges all tool outputs into one feed with a `panels` array
+**Walk (done):**
+- [x] Windowed optimizer (7d/14d/30d/90d/all) + per-window actions (`optimizer/optimize.py`)
+- [x] `run_machine.py` merges audit + optimizer + community into one feed (schema v2)
+- [x] Community-vs-personal join (`build_community`) with beating/inline/below verdicts
+- [x] Live Manus showcase polling the published feed; private gated dashboard for real data
+- [ ] `--format json` on `walk_forward.py`, `feedback_loop.py` (fold their panels in too)
 - [ ] Scheduled run (cron / Windows Task) keeps the feed warm
 - [ ] Feed diffing → detect new BLOCKERS / bleeders between runs
 
 **Run (needs your go-ahead per surface):**
-- [ ] Replace the Manus static site with the live feed (publish `data.json` + host `index.html`)
 - [ ] Tier-3 fan-out as a workflow: per-sport walk-forward, per-rule bleed investigation
-- [ ] Tier-2 Manus API jobs for heavy data pulls (after key rotation)
+- [ ] Tier-2 Manus API jobs for heavy data pulls
 - [ ] Approval-gated fix proposals surfaced in the dashboard
+- [ ] Champion/challenger shadow deploy with accumulated posterior evidence
 
 ---
 
@@ -161,7 +164,7 @@ The orchestrator proposes; it never deploys a config that hasn't passed `/audit`
 | Piece | Status |
 |-------|--------|
 | Audit JSON feed | **built + verified** |
-| `build_data.py` + dashboard | **built + verified** (renders sample data) |
+| `run_machine.py` + dashboard | **built + verified** (renders sample data) |
 | JSON output for other 3 tools | designed (pattern proven on audit) |
 | Feed diffing / scheduling | designed |
 | Manus API job-runner | designed (blocked on key rotation) |

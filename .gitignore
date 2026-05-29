@@ -8,14 +8,11 @@ data/
 *.db-shm
 data-panel-export-*
 
-# Generated dashboard artifacts (regenerate with dashboard/build_data.py)
+# Generated sample artifacts (regenerate with the make_sample_*.py scripts)
 configs/sample_live/
-dashboard/data.json
-dashboard/data.js
-
-# Generated optimizer artifacts (regenerate with optimizer/*.py)
 optimizer/sample_bets.csv
 optimizer/proposals.json
+community/community_latest.json
 
 # Private local dashboard (Option A) — real-data feed served only to localhost. NEVER commit.
 private/
