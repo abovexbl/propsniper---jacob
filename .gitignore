@@ -13,6 +13,10 @@ configs/sample_live/
 dashboard/data.json
 dashboard/data.js
 
+# Generated optimizer artifacts (regenerate with optimizer/*.py)
+optimizer/sample_bets.csv
+optimizer/proposals.json
+
 # Standard Python
 __pycache__/
 *.pyc
