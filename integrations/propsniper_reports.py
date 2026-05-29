@@ -70,9 +70,17 @@ def person_of(account: str) -> str:
     return "Jacob"  # default / unlabeled accounts are Jacob's
 
 
-def load_real_feed(base=None) -> dict:
+# Accounts to hide by default (substring match, case-insensitive). Edit to re-include.
+EXCLUDE_DEFAULT = ["rebet", "mgm"]
+
+
+def load_real_feed(base=None, exclude=None) -> dict:
     base = Path(base) if base else DEFAULT_BASE
     rep, eng = base / "reports", base / "engine" / "reports"
+    excl = [e.lower() for e in (EXCLUDE_DEFAULT if exclude is None else exclude)]
+    def excluded(name):
+        a = (name or "").lower()
+        return any(e in a for e in excl)
 
     summary = _read(rep / "bets_summary.csv")
     by_market = _read(rep / "bets_by_market.csv")
@@ -91,6 +99,8 @@ def load_real_feed(base=None) -> dict:
     markets_by_acct: dict[str, list] = {}
     for m in by_market:
         acct = m.get("Account")
+        if excluded(acct):
+            continue
         v = verdict.get((acct, m.get("League"), m.get("Market")))
         markets_by_acct.setdefault(acct, []).append({
             "league": m.get("League"), "market": m.get("Market"),
@@ -103,6 +113,8 @@ def load_real_feed(base=None) -> dict:
     accounts = []
     for s in summary:
         name = s.get("Account")
+        if excluded(name):
+            continue
         mkts = sorted(markets_by_acct.get(name, []), key=lambda x: x["profit"], reverse=True)
         meta = acct_meta.get(name, {})
         accounts.append({
@@ -132,18 +144,22 @@ def load_real_feed(base=None) -> dict:
                  "winners": sum(1 for a in accounts if a["profit_all"] > 0),
                  "losers": sum(1 for a in accounts if a["profit_all"] < 0)}
 
-    # daily cumulative across all accounts
+    # daily cumulative across all (non-excluded) accounts
     by_day: dict[str, float] = {}
     for d in daily:
+        if excluded(d.get("Account")):
+            continue
         by_day[d.get("date")] = by_day.get(d.get("date"), 0.0) + _num(d.get("profit"))
     pnl_timeseries, cum = [], 0.0
     for day in sorted(k for k in by_day if k):
         cum += by_day[day]
         pnl_timeseries.append({"date": day, "profit": round(by_day[day], 2), "cumulative": round(cum, 2)})
 
-    # cross-account market rollup
+    # cross-account market rollup (excluded accounts omitted)
     mkt_roll: dict[tuple, dict] = {}
     for m in by_market:
+        if excluded(m.get("Account")):
+            continue
         key = (m.get("League"), m.get("Market"))
         r = mkt_roll.setdefault(key, {"league": key[0], "market": key[1], "profit": 0.0, "stake": 0.0, "n": 0})
         r["profit"] += _num(m.get("profit")); r["stake"] += _num(m.get("stake")); r["n"] += int(_num(m.get("n")))
@@ -158,7 +174,7 @@ def load_real_feed(base=None) -> dict:
         "selection": r.get("Selection") or r.get("Participant"), "odds": r.get("Odds"),
         "ev": _num(r.get("EV %")), "stake": _num(r.get("Stake")),
         "status": (r.get("Status") or "").lower(), "profit": _num(r.get("Profit")),
-    } for r in recent[:300]]
+    } for r in recent if not excluded(r.get("Account"))][:300]
 
     brier_rows = sorted([{
         "league": b.get("league"), "market": b.get("market"), "book": b.get("book"),

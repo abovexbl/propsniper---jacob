@@ -36,7 +36,7 @@ DASHBOARD_SRC = REPO / "assets" / "real_dashboard.html"
 AUTH_USER = "propsniper"
 
 
-def make_handler(directory, password, base):
+def make_handler(directory, password, base, exclude):
     class H(http.server.SimpleHTTPRequestHandler):
         def __init__(self, *a, **k):
             super().__init__(*a, directory=directory, **k)
@@ -62,7 +62,7 @@ def make_handler(directory, password, base):
         def _rebuild_feed(self):
             # Rebuild the feed on every request for /feed.json so the dashboard
             # reflects the latest reports without a restart.
-            feed = pr.load_real_feed(base)
+            feed = pr.load_real_feed(base, exclude)
             (Path(directory) / "feed.json").write_text(json.dumps(feed, indent=2))
 
         def do_GET(self):
@@ -92,13 +92,16 @@ def main():
     ap.add_argument("--port", type=int, default=8800)
     ap.add_argument("--out-dir", default=str(REPO / "private"))
     ap.add_argument("--password", default=os.environ.get("PROPSNIPER_DASH_PW"))
+    ap.add_argument("--exclude", default=None,
+                    help="comma-sep account substrings to hide (e.g. 'rebet'); empty string shows all. Default hides rebet,mgm.")
     args = ap.parse_args()
 
     base = Path(args.base)
+    exclude = None if args.exclude is None else [x.strip() for x in args.exclude.split(",") if x.strip()]
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
 
-    feed = pr.load_real_feed(base)
+    feed = pr.load_real_feed(base, exclude)
     (out / "feed.json").write_text(json.dumps(feed, indent=2))
     shutil.copyfile(DASHBOARD_SRC, out / "index.html")
 
@@ -113,7 +116,7 @@ def main():
         print("  tip: set PROPSNIPER_DASH_PW to require a password.")
     print("=" * 70)
 
-    handler = make_handler(str(out), args.password, base)
+    handler = make_handler(str(out), args.password, base, exclude)
     with socketserver.TCPServer(("127.0.0.1", args.port), handler) as httpd:
         try:
             httpd.serve_forever()
