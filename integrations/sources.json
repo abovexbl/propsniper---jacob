@@ -1,0 +1,19 @@
+{
+  "_comment": "Where the machine reads PropSniper / OddsPapi data. Points at SAMPLE files by default. When your real exports are ready, change the paths (or create integrations/sources.local.json, which is gitignored) — no code change needed.",
+  "propsniper_bets": {
+    "path": "optimizer/sample_bets.csv",
+    "type": "csv",
+    "live_path_hint": "data/data-panel-export-LATEST.csv"
+  },
+  "propsniper_community": {
+    "path": "community/community_latest.json",
+    "type": "json_or_csv",
+    "live_path_hint": "data/propsniper_community_panel.csv"
+  },
+  "oddspapi": {
+    "path": null,
+    "type": "csv_gz",
+    "enabled": false,
+    "live_path_hint": "data/oddspapi_mlb_summary_main.csv.gz"
+  }
+}

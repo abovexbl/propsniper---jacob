@@ -17,6 +17,10 @@ community/community_latest.json
 # Private local dashboard (Option A) — real-data feed served only to localhost. NEVER commit.
 private/
 
+# Outbound action list + a local sources override (may point at real data)
+docs/actions.csv
+integrations/sources.local.json
+
 # Standard Python
 __pycache__/
 *.pyc

@@ -1,10 +1,30 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-05-29T20:27:01Z",
+  "generated_at": "2026-05-29T20:37:35Z",
   "source": {
     "configs": "configs/sample_live",
     "bets": "optimizer/sample_bets.csv",
     "community": "sample"
+  },
+  "data_sources": {
+    "propsniper_bets": {
+      "connected": true,
+      "path": "optimizer/sample_bets.csv",
+      "rows": 5460,
+      "latest": "2026-05-29",
+      "state": "sample"
+    },
+    "propsniper_community": {
+      "connected": true,
+      "path": "community/community_latest.json",
+      "rows": 4,
+      "state": "sample"
+    },
+    "oddspapi": {
+      "connected": false,
+      "state": "not_configured",
+      "path": null
+    }
   },
   "windows": [
     "7d",
@@ -90,7 +110,7 @@
   },
   "optimizer": {
     "tool": "optimizer",
-    "generated_at": "2026-05-29T20:27:01Z",
+    "generated_at": "2026-05-29T20:37:35Z",
     "windows": [
       "7d",
       "14d",

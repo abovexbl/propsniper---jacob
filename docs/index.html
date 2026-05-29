@@ -79,6 +79,7 @@
         <h1>+EV Operations Command Center</h1>
         <div class="sub">Audit + windowed optimizer + community consensus, polled live from the machine.</div>
         <div class="meta">feed: <span id="ts">—</span> · last poll: <span id="poll">—</span> · next in <span id="cd">—</span>s · source: <span id="src" class="mono"></span></div>
+        <div class="chips" id="datasrc" style="margin-top:10px"></div>
       </div>
       <div class="live"><span class="pulse"></span><span>LIVE · 60s</span></div>
     </div>
@@ -127,6 +128,24 @@
       const cards=Object.entries(a.cards||{});
       $("cards").innerHTML=cards.map(([l,n])=>`<div class="card ${n>0?'alert':'ok'}"><div class="label">${esc(l)}</div><div class="num">${n}</div></div>`).join("")
         +`<div class="card ok"><div class="label">Rules Scanned</div><div class="num">${s.rules_checked||0}</div></div>`;
+      renderDataSources();
+    }
+
+    function dsBadge(name,d){
+      const st=d.state||(d.connected?"live":"not_connected");
+      const color= st==="live"?"var(--green)": st==="sample"?"var(--cyan)": "var(--muted)";
+      const bits=[st];
+      if(d.rows!=null) bits.push(d.rows.toLocaleString()+" rows");
+      if(d.latest) bits.push(d.latest);
+      return `<span class="chip" title="${esc(d.path||"")}"><b style="color:${color}">●</b> ${name}: ${bits.join(" · ")}</span>`;
+    }
+    function renderDataSources(){
+      const ds=FEED.data_sources||{};
+      $("datasrc").innerHTML=[
+        ds.propsniper_bets&&dsBadge("PropSniper bets",ds.propsniper_bets),
+        ds.propsniper_community&&dsBadge("Community",ds.propsniper_community),
+        ds.oddspapi&&dsBadge("OddsPapi",ds.oddspapi),
+      ].filter(Boolean).join("");
     }
 
     function winseg(){
