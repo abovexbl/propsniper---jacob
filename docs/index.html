@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PropSniper · +EV Operations Command Center (Live Monitor)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0d0f14;--panel:#14171f;--panel-2:#1a1e28;--line:#252b38;--txt:#e8ebf2;--muted:#8b93a7;
+      --cyan:#2ee6d6;--violet:#8b5cf6;--amber:#f5a623;--red:#ff5470;--green:#36d399;}
+    *{box-sizing:border-box;} body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#1b2030 0%,var(--bg) 55%);
+      color:var(--txt);font-family:"Nunito Sans",system-ui,sans-serif;min-height:100vh;}
+    .wrap{max-width:1180px;margin:0 auto;padding:28px 24px 80px;}
+    .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;}
+    .eyebrow{font-family:"JetBrains Mono",monospace;color:var(--cyan);letter-spacing:.22em;text-transform:uppercase;font-size:12px;}
+    h1{font-family:"Syne",sans-serif;font-weight:800;font-size:40px;margin:6px 0 2px;
+      background:linear-gradient(92deg,var(--cyan),var(--violet) 60%,var(--amber));
+      -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+    .sub{color:var(--muted);font-size:14px;}
+    .live{display:inline-flex;align-items:center;gap:8px;font-family:"JetBrains Mono",monospace;font-size:12px;
+      color:var(--green);border:1px solid rgba(54,211,153,.4);background:rgba(54,211,153,.08);padding:8px 12px;border-radius:999px;}
+    .pulse{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(54,211,153,.7);animation:p 2s infinite;}
+    @keyframes p{0%{box-shadow:0 0 0 0 rgba(54,211,153,.6);}70%{box-shadow:0 0 0 8px rgba(54,211,153,0);}100%{box-shadow:0 0 0 0 rgba(54,211,153,0);}}
+    .meta{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);margin-top:6px;}
+    .verdict{display:inline-flex;align-items:center;gap:8px;margin:16px 0 24px;padding:10px 16px;border-radius:10px;
+      font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px;border:1px solid var(--line);}
+    .verdict.v0{background:rgba(54,211,153,.12);color:var(--green);border-color:rgba(54,211,153,.4);}
+    .verdict.v1{background:rgba(245,166,35,.12);color:var(--amber);border-color:rgba(245,166,35,.4);}
+    .verdict.v2,.verdict.v3{background:rgba(255,84,112,.12);color:var(--red);border-color:rgba(255,84,112,.4);}
+    .dot{width:9px;height:9px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor;}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:28px;}
+    .card{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:14px;padding:18px;position:relative;overflow:hidden;}
+    .card::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--violet));opacity:.8;}
+    .card .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;}
+    .card .num{font-family:"Syne",sans-serif;font-weight:800;font-size:42px;line-height:1.05;margin-top:6px;}
+    .card.alert .num{color:var(--red);} .card.ok .num{color:var(--green);}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:22px;}
+    .panel h2{font-family:"Syne",sans-serif;font-size:20px;margin:0 0 4px;}
+    .panel .hint{color:var(--muted);font-size:13px;margin-bottom:16px;}
+    table{width:100%;border-collapse:collapse;font-size:13px;}
+    th{text-align:left;color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.1em;padding:8px 10px;border-bottom:1px solid var(--line);}
+    td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top;}
+    tr:hover td{background:rgba(255,255,255,.02);}
+    .badge{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;padding:3px 8px;border-radius:6px;}
+    .b-PROMOTE{background:rgba(54,211,153,.16);color:var(--green);} .b-HOLD{background:rgba(139,147,167,.16);color:var(--muted);}
+    .b-EXPLORE{background:rgba(46,230,214,.14);color:var(--cyan);} .b-SHRINK{background:rgba(245,166,35,.16);color:var(--amber);}
+    .b-DISABLE{background:rgba(255,84,112,.16);color:var(--red);}
+    .sev{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:11px;padding:3px 8px;border-radius:6px;}
+    .sev.ERROR{background:rgba(255,84,112,.15);color:var(--red);} .sev.WARN{background:rgba(245,166,35,.15);color:var(--amber);} .sev.INFO{background:rgba(139,147,167,.15);color:var(--muted);}
+    .mono{font-family:"JetBrains Mono",monospace;} .loc{color:var(--cyan);} .pos{color:var(--green);} .neg{color:var(--red);}
+    .empty{color:var(--muted);font-style:italic;padding:14px 0;}
+    .pill{font-family:"JetBrains Mono",monospace;font-size:11px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted);}
+    footer{color:var(--muted);font-size:12px;margin-top:30px;font-family:"JetBrains Mono",monospace;}
+    .gridcols{display:grid;grid-template-columns:1fr;gap:22px;} @media(min-width:900px){.optrow{grid-template-columns:2fr 1fr;display:grid;gap:22px;}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <div class="eyebrow">PropSniper · Live Machine Monitor</div>
+        <h1>+EV Operations Command Center</h1>
+        <div class="sub">The dashboard polls the machine's feed and re-renders automatically.</div>
+        <div class="meta">feed built: <span id="ts">—</span> · last poll: <span id="poll">—</span> · source: <span id="src" class="mono"></span></div>
+      </div>
+      <div class="live"><span class="pulse"></span><span id="livetxt">LIVE · polling every 60s</span></div>
+    </div>
+
+    <div id="verdict" class="verdict"><span class="dot"></span><span id="verdict-txt">connecting…</span></div>
+    <div class="cards" id="cards"></div>
+
+    <div class="optrow">
+      <div class="panel">
+        <h2>Optimizer · proposed actions</h2>
+        <div class="hint">Bayesian edge + fractional Kelly. Advisory — config changes are human-gated behind <span class="mono">/audit</span>.</div>
+        <table><thead><tr><th>Rule</th><th>n</th><th>Edge</th><th>P(bleed)</th><th>Action</th><th>Stake</th></tr></thead>
+          <tbody id="opt-rows"></tbody></table>
+      </div>
+      <div class="panel">
+        <h2>Community data</h2>
+        <div class="hint">PropSniper / OddsPapi consensus.</div>
+        <div id="community"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Audit findings</h2>
+      <div class="hint">34-check schema audit. ERRORs block deploy.</div>
+      <table><thead><tr><th>Severity</th><th>Check</th><th>Location</th><th>Message</th></tr></thead>
+        <tbody id="aud-rows"></tbody></table>
+    </div>
+
+    <footer>Feed: <span class="mono">docs/feed.json</span> · refreshed by <span class="mono">run_machine.py</span> · auto-poll 60s</footer>
+  </div>
+
+  <script>
+    const POLL_MS = 60000;
+    const $ = (id) => document.getElementById(id);
+
+    async function fetchFeed() {
+      // Same-origin on GitHub Pages. Cache-bust so polling sees fresh pushes.
+      const res = await fetch("./feed.json?t=" + Date.now(), {cache: "no-store"});
+      if (!res.ok) throw new Error("feed " + res.status);
+      return res.json();
+    }
+
+    function pct(x){ return (x*100).toFixed(1) + "%"; }
+    function signed(x){ const s=(x>=0?"+":"")+(x*100).toFixed(1)+"%"; return `<span class="${x>=0?'pos':'neg'}">${s}</span>`; }
+
+    function render(feed) {
+      const a = feed.audit || {};
+      $("ts").textContent = feed.generated_at || "—";
+      $("src").textContent = (feed.source && feed.source.configs) || "—";
+      const code = a.exit_code ?? 0;
+      $("verdict").className = "verdict v" + code;
+      $("verdict-txt").textContent = (a.verdict || "UNKNOWN") + "  ·  exit " + code;
+
+      // cards
+      const s = a.summary || {};
+      const cards = Object.entries(a.cards || {});
+      $("cards").innerHTML =
+        cards.map(([l,n]) => `<div class="card ${n>0?'alert':'ok'}"><div class="label">${l}</div><div class="num">${n}</div></div>`).join("") +
+        `<div class="card ok"><div class="label">Rules Scanned</div><div class="num">${s.rules_checked ?? 0}</div></div>`;
+
+      // optimizer
+      const opt = feed.optimizer;
+      const orows = $("opt-rows");
+      if (opt && opt.proposals && opt.proposals.length) {
+        orows.innerHTML = opt.proposals.map(p => `
+          <tr><td class="mono loc">${p.rule_id}${p.orphan?' <span class="pill">orphan</span>':''}</td>
+          <td class="mono">${p.n}</td><td class="mono">${signed(p.post_mean)}</td>
+          <td class="mono">${pct(p.p_bleeding)}</td>
+          <td><span class="badge b-${p.action}">${p.action}</span></td>
+          <td class="mono">$${(p.recommended_stake_abs||0).toLocaleString()}</td></tr>`).join("");
+      } else {
+        orows.innerHTML = `<tr><td colspan="6" class="empty">No optimizer feed (run with --bets).</td></tr>`;
+      }
+
+      // community
+      const c = feed.community || {};
+      $("community").innerHTML = (c.metrics && c.metrics.length)
+        ? c.metrics.map(m => `<div class="mono">${m.label}: <b>${m.value}</b></div>`).join("")
+        : `<div class="empty">${c.status === "not_connected" ? "Source not connected. " : ""}${c.note || "No community data."}</div>`;
+
+      // audit findings
+      const order = {ERROR:0, WARN:1, INFO:2};
+      const f = (a.findings || []).slice().sort((x,y)=>(order[x.severity]-order[y.severity])||x.check.localeCompare(y.check));
+      $("aud-rows").innerHTML = f.length ? f.map(x => {
+        const loc = x.file + (x.rule_id ? `::${x.rule_id}` : "");
+        return `<tr><td><span class="sev ${x.severity}">${x.severity}</span></td><td class="mono">${x.check}</td><td class="mono loc">${loc}</td><td>${x.message}</td></tr>`;
+      }).join("") : `<tr><td colspan="4" class="empty">Clean — no findings.</td></tr>`;
+    }
+
+    async function tick() {
+      try { render(await fetchFeed()); $("livetxt").textContent = "LIVE · polling every 60s"; }
+      catch (e) { $("verdict-txt").textContent = "feed unavailable — " + e.message; $("livetxt").textContent = "retrying…"; }
+      $("poll").textContent = new Date().toISOString().replace("T"," ").slice(0,19) + "Z";
+    }
+
+    tick();
+    setInterval(tick, POLL_MS);
+  </script>
+</body>
+</html>

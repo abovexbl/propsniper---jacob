@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-05-29T18:44:53Z",
+  "source": {
+    "configs": "configs/sample_live",
+    "bets": "optimizer/sample_bets.csv"
+  },
+  "audit": {
+    "tool": "audit",
+    "verdict": "FAIL (blocking violations)",
+    "exit_code": 3,
+    "summary": {
+      "files_checked": 3,
+      "rules_checked": 5,
+      "errors": 2,
+      "warnings": 1,
+      "info": 3
+    },
+    "counts_by_check": {
+      "duplicate_id": 1,
+      "j_mo_no_differentiation": 1,
+      "schema_flat": 3,
+      "self_reference": 1
+    },
+    "findings": [
+      {
+        "severity": "INFO",
+        "check": "schema_flat",
+        "file": "devig_J_caesars.json",
+        "rule_id": null,
+        "message": "using flat schema (no type/version/filters wrapper). Builders Guide \u00a73.1 specifies wrapped form."
+      },
+      {
+        "severity": "INFO",
+        "check": "schema_flat",
+        "file": "devig_J_draftkings.json",
+        "rule_id": null,
+        "message": "using flat schema (no type/version/filters wrapper). Builders Guide \u00a73.1 specifies wrapped form."
+      },
+      {
+        "severity": "ERROR",
+        "check": "self_reference",
+        "file": "devig_J_draftkings.json",
+        "rule_id": "dk_nba_player_points",
+        "message": "venue 'DraftKings' appears as comp book in markets.main (CIRCULAR)"
+      },
+      {
+        "severity": "INFO",
+        "check": "schema_flat",
+        "file": "devig_MO_caesars.json",
+        "rule_id": null,
+        "message": "using flat schema (no type/version/filters wrapper). Builders Guide \u00a73.1 specifies wrapped form."
+      },
+      {
+        "severity": "ERROR",
+        "check": "duplicate_id",
+        "file": "devig_J_caesars.json",
+        "rule_id": "cae_mlb_total_runs_f5",
+        "message": "rule ID appears in 2 files: ['devig_J_caesars.json', 'devig_J_draftkings.json']"
+      },
+      {
+        "severity": "WARN",
+        "check": "j_mo_no_differentiation",
+        "file": "devig_J_caesars.json",
+        "rule_id": null,
+        "message": "caesars ('MLB', 'Total Runs 1st 5 Innings'): identical comp stack across 2 files (limiting risk)"
+      }
+    ],
+    "cards": {
+      "Self-Ref Violations": 1,
+      "Stack Collisions": 1,
+      "Duplicate Rule IDs": 1
+    }
+  },
+  "optimizer": {
+    "tool": "optimizer",
+    "generated_at": "2026-05-29T18:44:53Z",
+    "params": {
+      "bankroll": 10000.0,
+      "min_n": 30,
+      "kelly_mult": 0.25,
+      "max_fraction": 0.05,
+      "prior_sd": 0.5,
+      "sigma": 0.955438
+    },
+    "summary": {
+      "rules_scored": 5,
+      "actions": {
+        "DISABLE": 1,
+        "EXPLORE": 1,
+        "HOLD": 1,
+        "PROMOTE": 1,
+        "SHRINK": 1
+      },
+      "orphans": 1
+    },
+    "proposals": [
+      {
+        "rule_id": "cae_mlb_total_runs_f5_m",
+        "n": 90,
+        "observed_roi": -0.003026,
+        "post_mean": -0.002908,
+        "post_sd": 0.098729,
+        "p_bleeding": 0.511747,
+        "sigma": 0.955438,
+        "deployed": true,
+        "orphan": false,
+        "action": "HOLD",
+        "rationale": "edge -0.3%, p(bleed)=51% \u2014 too uncertain to move",
+        "thompson_sample": 0.047586,
+        "recommended_stake_fraction": 0.0,
+        "recommended_stake_abs": 0.0
+      },
+      {
+        "rule_id": "cae_mlb_total_runs_f5",
+        "n": 250,
+        "observed_roi": 0.053823,
+        "post_mean": 0.053048,
+        "post_sd": 0.059991,
+        "p_bleeding": 0.188273,
+        "sigma": 0.955438,
+        "deployed": true,
+        "orphan": false,
+        "action": "PROMOTE",
+        "rationale": "81% confident positive edge (+5.3% ROI)",
+        "thompson_sample": 0.037698,
+        "recommended_stake_fraction": 0.014528,
+        "recommended_stake_abs": 145.28
+      },
+      {
+        "rule_id": "cae_nba_player_points",
+        "n": 18,
+        "observed_roi": -0.151511,
+        "post_mean": -0.125959,
+        "post_sd": 0.205333,
+        "p_bleeding": 0.730207,
+        "sigma": 0.955438,
+        "deployed": true,
+        "orphan": false,
+        "action": "EXPLORE",
+        "rationale": "only 18 bets (< 30); gather more before trusting the edge",
+        "thompson_sample": -0.172384,
+        "recommended_stake_fraction": 0.005,
+        "recommended_stake_abs": 50.0
+      },
+      {
+        "rule_id": "dk_nba_player_points",
+        "n": 140,
+        "observed_roi": -0.209087,
+        "post_mean": -0.203772,
+        "post_sd": 0.079716,
+        "p_bleeding": 0.994709,
+        "sigma": 0.955438,
+        "deployed": true,
+        "orphan": false,
+        "action": "DISABLE",
+        "rationale": "99% confident edge < 0 over 140 bets",
+        "thompson_sample": -0.228889,
+        "recommended_stake_fraction": 0.0,
+        "recommended_stake_abs": 0.0
+      },
+      {
+        "rule_id": "fd_nhl_shots_on_goal",
+        "n": 40,
+        "observed_roi": -0.140905,
+        "post_mean": -0.129118,
+        "post_sd": 0.144612,
+        "p_bleeding": 0.814034,
+        "sigma": 0.955438,
+        "deployed": false,
+        "orphan": true,
+        "action": "SHRINK",
+        "rationale": "81% chance of negative edge; cut exposure",
+        "thompson_sample": -0.26361,
+        "recommended_stake_fraction": 0.0,
+        "recommended_stake_abs": 0.0
+      }
+    ],
+    "note": "Advisory. Config-mutating actions are human-gated and must re-pass /audit before deploy."
+  },
+  "community": {
+    "status": "not_connected",
+    "note": "Connect the PropSniper community / OddsPapi consensus source to populate this panel.",
+    "metrics": []
+  }
+}
