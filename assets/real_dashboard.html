@@ -108,7 +108,7 @@
 
   <script>
     const POLL_MS=60000, $=id=>document.getElementById(id);
-    let FEED=null, TAB="accounts", PERSON="All", VENUE="All", Q="";
+    let FEED=null, TAB="accounts", PERSON="All", VENUE="All", Q="", mSort={key:"profit",dir:-1};
     const money=v=>{const s=v<0?"-":"";return s+"$"+Math.abs(Math.round(v)).toLocaleString();};
     const pct=v=>v==null?"—":((v>=0?"+":"")+(v*100).toFixed(1)+"%");
     const cls=v=>v>=0?"pos":"neg", esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -157,7 +157,7 @@
       $("venueseg").querySelectorAll("button").forEach(b=>b.onclick=()=>{VENUE=b.dataset.v;render();});
     }
     function tabsbar(){
-      const defs=[["accounts","Accounts"],["markets","Markets"],["recent","Recent Bets"]];
+      const defs=[["accounts","Accounts"],["markets","Markets / Configs"],["recent","Recent Bets"]];
       $("tabs").innerHTML=defs.map(([k,l])=>`<button data-t="${k}" class="${k===TAB?'on':''}">${l}</button>`).join("");
       $("tabs").querySelectorAll("button").forEach(b=>b.onclick=()=>{TAB=b.dataset.t;render();});
     }
@@ -185,13 +185,26 @@
         </div>`;}).join("")+`</div>`;
     }
 
+    function flatMarkets(){
+      const rows=[];
+      filtered().forEach(a=>(a.markets||[]).forEach(m=>rows.push({
+        account:a.account,person:a.person,venue:a.venue,league:m.league,market:m.market,
+        n:m.n,stake:m.stake,profit:m.profit,roi:m.roi,avg_ev:m.avg_ev,verdict:m.verdict})));
+      return Q?rows.filter(r=>(r.account+" "+r.league+" "+r.market+" "+r.verdict).toLowerCase().includes(Q)):rows;
+    }
     function marketsView(){
-      const rows=(FEED.markets||[]).filter(m=>!Q||(m.market||"").toLowerCase().includes(Q)||(m.league||"").toLowerCase().includes(Q));
-      if(!rows.length)return `<div class="panel"><div class="empty">No markets.</div></div>`;
-      return `<div class="panel"><div class="dim" style="font-size:12px;margin-bottom:10px">Cross-account performance per market (sorted by profit).</div>
-        <table><thead><tr><th>League</th><th>Market</th><th class="r">Bets</th><th class="r">Wagered</th><th class="r">Profit</th><th class="r">ROI</th></tr></thead><tbody>${
-        rows.map(m=>`<tr><td class="dim">${esc(m.league)}</td><td>${esc(m.market)}</td><td class="r mono">${m.n}</td><td class="r mono dim">${money(m.stake)}</td><td class="r mono ${cls(m.profit)}">${money(m.profit)}</td><td class="r mono ${cls(m.roi||0)}">${pct(m.roi)}</td></tr>`).join("")
-      }</tbody></table></div>`;
+      let rows=flatMarkets();
+      if(!rows.length)return `<div class="panel"><div class="empty">No market rows match.</div></div>`;
+      const {key,dir}=mSort;
+      rows.sort((a,b)=>{let x=a[key],y=b[key];return typeof x==="string"?dir*String(x).localeCompare(String(y)):dir*((x??-1e12)-(y??-1e12));});
+      const arr=k=>mSort.key===k?(dir<0?" ▼":" ▲"):"";
+      const th=(l,k,r)=>`<th data-k="${k}" class="${r?'r':''}">${l}<span style="color:var(--cyan)">${arr(k)}</span></th>`;
+      const tot={n:0,stake:0,profit:0};rows.forEach(r=>{tot.n+=r.n;tot.stake+=r.stake;tot.profit+=r.profit;});
+      return `<div class="panel">
+        <div class="dim" style="font-size:12px;margin-bottom:10px">Every account/config × market and its return — ${rows.length} rows. Filter with Person/Venue/search above; click a header to sort.</div>
+        <table id="mtab"><thead><tr>${th("Account","account")}${th("League","league")}${th("Market","market")}${th("Bets","n",1)}${th("Wagered","stake",1)}${th("Profit","profit",1)}${th("ROI","roi",1)}${th("EV%","avg_ev",1)}${th("Verdict","verdict")}</tr></thead><tbody>${
+          rows.map(r=>`<tr><td>${esc(r.account)}</td><td class="dim">${esc(r.league)}</td><td>${esc(r.market)}</td><td class="r mono">${r.n}</td><td class="r mono dim">${money(r.stake)}</td><td class="r mono ${cls(r.profit)}">${money(r.profit)}</td><td class="r mono ${cls(r.roi||0)}">${pct(r.roi)}</td><td class="r mono dim">${(r.avg_ev||0).toFixed(1)}</td><td><span class="vbadge v-${vcat(r.verdict)}">${esc(r.verdict)}</span></td></tr>`).join("")
+        }<tr style="border-top:2px solid var(--line)"><td colspan="3" class="mono dim">TOTAL (${rows.length} cells)</td><td class="r mono">${tot.n}</td><td class="r mono dim">${money(tot.stake)}</td><td class="r mono ${cls(tot.profit)}">${money(tot.profit)}</td><td class="r mono ${cls(tot.stake?tot.profit/tot.stake:0)}">${pct(tot.stake?tot.profit/tot.stake:null)}</td><td></td><td></td></tr></tbody></table></div>`;
     }
 
     function recentView(){
@@ -237,6 +250,7 @@
       kpis();pnlChart();filterBars();tabsbar();
       $("view").innerHTML=TAB==="accounts"?accountsView():TAB==="markets"?marketsView():recentView();
       if(TAB==="accounts")document.querySelectorAll(".acct").forEach(c=>c.onclick=()=>openDrawer(FEED.accounts[+c.dataset.i]));
+      if(TAB==="markets")document.querySelectorAll("#mtab th").forEach(h=>h.onclick=()=>{const k=h.dataset.k;if(!k)return;if(mSort.key===k)mSort.dir*=-1;else{mSort.key=k;mSort.dir=-1;}render();});
     }
     $("search").oninput=e=>{Q=e.target.value.toLowerCase().trim();render();};
 
