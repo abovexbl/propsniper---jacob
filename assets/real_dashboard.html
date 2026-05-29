@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PropSniper · Live Ops (Private)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0a0c11;--panel:#11151d;--panel-2:#161b25;--line:#222a38;--txt:#eaeef6;--muted:#7e8799;
+      --blue:#2f6bff;--cyan:#22d3ee;--violet:#8b5cf6;--amber:#f5a623;--red:#ff4d6d;--green:#2ee6a6;}
+    *{box-sizing:border-box;} body{margin:0;background:radial-gradient(1100px 540px at 85% -12%,#152138 0%,var(--bg) 55%);
+      color:var(--txt);font-family:"Nunito Sans",system-ui,sans-serif;min-height:100vh;}
+    a{color:inherit;} .wrap{max-width:1280px;margin:0 auto;padding:24px 22px 90px;}
+    .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;}
+    .eyebrow{font-family:"JetBrains Mono",monospace;color:var(--cyan);letter-spacing:.2em;text-transform:uppercase;font-size:11px;}
+    h1{font-family:"Syne",sans-serif;font-weight:800;font-size:34px;margin:5px 0 2px;
+      background:linear-gradient(92deg,var(--cyan),var(--blue) 55%,var(--violet));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+    .meta{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);margin-top:6px;}
+    .live{display:inline-flex;align-items:center;gap:8px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--green);
+      border:1px solid rgba(46,230,166,.4);background:rgba(46,230,166,.08);padding:7px 12px;border-radius:999px;}
+    .pulse{width:9px;height:9px;border-radius:50%;background:var(--green);animation:p 2s infinite;}
+    @keyframes p{0%{box-shadow:0 0 0 0 rgba(46,230,166,.6);}70%{box-shadow:0 0 0 8px rgba(46,230,166,0);}100%{box-shadow:0 0 0 0 rgba(46,230,166,0);}}
+    .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:13px;margin:20px 0;}
+    .kpi{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:13px;padding:15px 16px;position:relative;overflow:hidden;}
+    .kpi::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--blue));}
+    .kpi .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;}
+    .kpi .v{font-family:"Syne",sans-serif;font-weight:800;font-size:30px;margin-top:5px;}
+    .kpi .s{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);margin-top:3px;}
+    .pos{color:var(--green);} .neg{color:var(--red);} .dim{color:var(--muted);}
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:20px;}
+    .panel h2{font-family:"Syne",sans-serif;font-size:18px;margin:0 0 12px;display:flex;justify-content:space-between;align-items:center;}
+    .bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:6px 0 16px;}
+    .seg{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:3px;}
+    .seg button{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);background:none;border:none;padding:6px 12px;border-radius:8px;cursor:pointer;}
+    .seg button.on{background:linear-gradient(92deg,var(--cyan),var(--blue));color:#08101f;font-weight:700;}
+    .seglbl{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;}
+    input.search{background:var(--panel-2);border:1px solid var(--line);color:var(--txt);border-radius:9px;padding:8px 12px;font-family:"JetBrains Mono",monospace;font-size:12px;min-width:200px;}
+    .tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin:4px 0 18px;}
+    .tabs button{font-family:"Syne",sans-serif;font-size:15px;font-weight:600;color:var(--muted);background:none;border:none;padding:9px 14px;cursor:pointer;border-bottom:2px solid transparent;}
+    .tabs button.on{color:var(--txt);border-bottom-color:var(--cyan);}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;}
+    .acct{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-radius:13px;padding:16px;cursor:pointer;transition:.15s;position:relative;}
+    .acct:hover{border-color:var(--cyan);transform:translateY(-2px);}
+    .acct .name{font-family:"Syne",sans-serif;font-weight:700;font-size:17px;}
+    .acct .who{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);margin-top:1px;}
+    .acct .pnl{font-family:"Syne",sans-serif;font-weight:800;font-size:26px;margin:10px 0 2px;}
+    .acct .row{display:flex;justify-content:space-between;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);margin-top:4px;}
+    .chip{font-family:"JetBrains Mono",monospace;font-size:10px;padding:3px 8px;border-radius:999px;border:1px solid var(--line);}
+    .chip.work{color:var(--green);border-color:rgba(46,230,166,.4);background:rgba(46,230,166,.08);}
+    .chip.bleed{color:var(--red);border-color:rgba(255,77,109,.4);background:rgba(255,77,109,.08);}
+    .hdot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;}
+    table{width:100%;border-collapse:collapse;font-size:13px;}
+    th{text-align:left;color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.07em;padding:9px 10px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;}
+    td{padding:9px 10px;border-bottom:1px solid var(--line);}
+    tr:hover td{background:rgba(255,255,255,.02);} .mono{font-family:"JetBrains Mono",monospace;} .r{text-align:right;}
+    .vbadge{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:10px;padding:3px 8px;border-radius:6px;}
+    .v-work{background:rgba(46,230,166,.15);color:var(--green);} .v-bleed{background:rgba(255,77,109,.15);color:var(--red);}
+    .v-noise{background:rgba(245,166,35,.13);color:var(--amber);} .v-flat{background:rgba(126,135,153,.15);color:var(--muted);}
+    .empty{color:var(--muted);font-style:italic;padding:14px 0;}
+    /* drawer */
+    .scrim{position:fixed;inset:0;background:rgba(4,7,12,.66);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:.2s;z-index:40;}
+    .scrim.on{opacity:1;pointer-events:auto;}
+    .drawer{position:fixed;top:0;right:0;height:100%;width:min(720px,94vw);background:var(--panel);border-left:1px solid var(--line);
+      transform:translateX(100%);transition:.22s;z-index:50;overflow-y:auto;padding:22px;box-shadow:-20px 0 60px rgba(0,0,0,.5);}
+    .drawer.on{transform:translateX(0);}
+    .drawer .x{position:absolute;top:16px;right:18px;cursor:pointer;color:var(--muted);font-size:22px;background:none;border:none;}
+    .dk{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:14px 0 18px;}
+    .dk .kpi{padding:12px;} .dk .kpi .v{font-size:22px;}
+    .svgwrap{width:100%;height:170px;}
+    footer{color:var(--muted);font-size:12px;margin-top:24px;font-family:"JetBrains Mono",monospace;}
+    .lock{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--amber);border:1px solid rgba(245,166,35,.4);background:rgba(245,166,35,.08);padding:3px 9px;border-radius:999px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <div class="eyebrow">PropSniper · Private Ops Monitor</div>
+        <h1>+EV Operations — Live P&L</h1>
+        <div class="meta">source: <span id="src" class="mono">—</span> · updated <span id="ts">—</span> <span class="lock">PRIVATE · localhost only</span></div>
+      </div>
+      <div class="live"><span class="pulse"></span><span>LIVE</span></div>
+    </div>
+
+    <div class="kpis" id="kpis"></div>
+
+    <div class="panel">
+      <h2>Cumulative P&L <span class="dim mono" id="pnltag"></span></h2>
+      <div class="svgwrap" id="pnl"></div>
+    </div>
+
+    <div class="bar">
+      <span class="seglbl">Person</span><div class="seg" id="personseg"></div>
+      <span class="seglbl">Venue</span><div class="seg" id="venueseg"></div>
+      <input class="search" id="search" placeholder="search account / market…" />
+    </div>
+
+    <div class="tabs" id="tabs"></div>
+    <div id="view"></div>
+
+    <footer>Private dashboard · real PropSniper reports · served to 127.0.0.1 only · never published</footer>
+  </div>
+
+  <div class="scrim" id="scrim"></div>
+  <div class="drawer" id="drawer"></div>
+
+  <script>
+    const POLL_MS=60000, $=id=>document.getElementById(id);
+    let FEED=null, TAB="accounts", PERSON="All", VENUE="All", Q="";
+    const money=v=>{const s=v<0?"-":"";return s+"$"+Math.abs(Math.round(v)).toLocaleString();};
+    const pct=v=>v==null?"—":((v>=0?"+":"")+(v*100).toFixed(1)+"%");
+    const cls=v=>v>=0?"pos":"neg", esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+    const vcat=v=>{v=(v||"").toUpperCase();return v.includes("WORK")?"work":v.includes("BLEED")?"bleed":v.includes("NOISE")?"noise":"flat";};
+
+    async function fetchFeed(){const r=await fetch("./feed.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error("feed "+r.status);return r.json();}
+
+    function kpis(){
+      const p=FEED.portfolio||{};
+      const tiles=[
+        ["Net Profit",money(p.profit||0),`${p.n||0} bets`,cls(p.profit||0)],
+        ["ROI",pct(p.roi),"realized",cls(p.roi||0)],
+        ["Total Wagered",money(p.wagered||0),"all-time","dim"],
+        ["14d P&L",money(p.profit_14d||0),"last 14 days",cls(p.profit_14d||0)],
+        ["Accounts",`${p.accounts||0}`,`${p.winners||0} up · ${p.losers||0} down`,"dim"],
+      ];
+      $("kpis").innerHTML=tiles.map(([l,v,s,c])=>`<div class="kpi"><div class="l">${l}</div><div class="v ${c}">${v}</div><div class="s">${s}</div></div>`).join("");
+    }
+
+    function pnlChart(){
+      const ts=FEED.pnl_timeseries||[];const el=$("pnl");
+      if(ts.length<2){el.innerHTML='<div class="empty">No daily P&L.</div>';return;}
+      const W=1180,H=170,pad=34;const xs=ts.map((_,i)=>i),ys=ts.map(d=>d.cumulative);
+      const minY=Math.min(0,...ys),maxY=Math.max(0,...ys),rng=(maxY-minY)||1;
+      const X=i=>pad+(i/(ts.length-1))*(W-pad-8),Y=v=>H-pad-((v-minY)/rng)*(H-pad-12);
+      const line=ts.map((d,i)=>`${i?"L":"M"}${X(i).toFixed(1)},${Y(d.cumulative).toFixed(1)}`).join(" ");
+      const area=`${line} L${X(ts.length-1).toFixed(1)},${Y(minY).toFixed(1)} L${X(0).toFixed(1)},${Y(minY).toFixed(1)} Z`;
+      const last=ys[ys.length-1],col=last>=0?"var(--green)":"var(--red)";
+      const zeroY=Y(0).toFixed(1);
+      $("pnltag").textContent=`${ts[0].date} → ${ts[ts.length-1].date} · ${money(last)}`;
+      el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".28"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+        <line x1="${pad}" y1="${zeroY}" x2="${W-8}" y2="${zeroY}" stroke="#37425a" stroke-dasharray="3 3"/>
+        <path d="${area}" fill="url(#g)"/><path d="${line}" fill="none" stroke="${col}" stroke-width="2"/>
+        <text x="2" y="${Y(maxY)+4}" fill="#7e8799" font-size="10" font-family="JetBrains Mono">${money(maxY)}</text>
+        <text x="2" y="${Y(minY)}" fill="#7e8799" font-size="10" font-family="JetBrains Mono">${money(minY)}</text>
+      </svg>`;
+    }
+
+    function filterBars(){
+      const persons=["All",...Array.from(new Set((FEED.accounts||[]).map(a=>a.person)))];
+      const venues=["All",...Array.from(new Set((FEED.accounts||[]).map(a=>a.venue)))];
+      $("personseg").innerHTML=persons.map(p=>`<button data-p="${esc(p)}" class="${p===PERSON?'on':''}">${esc(p)}</button>`).join("");
+      $("venueseg").innerHTML=venues.map(v=>`<button data-v="${esc(v)}" class="${v===VENUE?'on':''}">${esc(v)}</button>`).join("");
+      $("personseg").querySelectorAll("button").forEach(b=>b.onclick=()=>{PERSON=b.dataset.p;render();});
+      $("venueseg").querySelectorAll("button").forEach(b=>b.onclick=()=>{VENUE=b.dataset.v;render();});
+    }
+    function tabsbar(){
+      const defs=[["accounts","Accounts"],["markets","Markets"],["recent","Recent Bets"]];
+      $("tabs").innerHTML=defs.map(([k,l])=>`<button data-t="${k}" class="${k===TAB?'on':''}">${l}</button>`).join("");
+      $("tabs").querySelectorAll("button").forEach(b=>b.onclick=()=>{TAB=b.dataset.t;render();});
+    }
+
+    function filtered(){
+      return (FEED.accounts||[]).filter(a=>
+        (PERSON==="All"||a.person===PERSON)&&(VENUE==="All"||a.venue===VENUE)&&
+        (!Q||a.account.toLowerCase().includes(Q)||a.markets.some(m=>(m.market||"").toLowerCase().includes(Q))));
+    }
+
+    function accountsView(){
+      const accts=filtered();
+      if(!accts.length) return `<div class="panel"><div class="empty">No accounts match.</div></div>`;
+      return `<div class="grid">`+accts.map((a,i)=>{
+        const hcol=a.health==="healthy"?"var(--green)":a.health?"var(--amber)":"#445";
+        return `<div class="acct" data-i="${FEED.accounts.indexOf(a)}">
+          <div style="display:flex;justify-content:space-between;align-items:start">
+            <div><div class="name">${esc(a.account)}</div><div class="who">${esc(a.person)} · ${esc(a.sportsbook||a.venue)}</div></div>
+            <span title="${esc(a.health||'unknown')}"><span class="hdot" style="background:${hcol}"></span></span>
+          </div>
+          <div class="pnl ${cls(a.profit_all)}">${money(a.profit_all)}</div>
+          <div class="row"><span>ROI ${pct(a.roi_all)}</span><span>${a.n_all} bets</span></div>
+          <div class="row"><span>14d ${money(a.profit_14d)}</span>${a.balance!=null?`<span>bal ${money(a.balance)}</span>`:''}</div>
+          <div class="row" style="margin-top:9px;gap:6px"><span class="chip work">${a.working} working</span><span class="chip bleed">${a.bleeding} bleeding</span></div>
+        </div>`;}).join("")+`</div>`;
+    }
+
+    function marketsView(){
+      const rows=(FEED.markets||[]).filter(m=>!Q||(m.market||"").toLowerCase().includes(Q)||(m.league||"").toLowerCase().includes(Q));
+      if(!rows.length)return `<div class="panel"><div class="empty">No markets.</div></div>`;
+      return `<div class="panel"><div class="dim" style="font-size:12px;margin-bottom:10px">Cross-account performance per market (sorted by profit).</div>
+        <table><thead><tr><th>League</th><th>Market</th><th class="r">Bets</th><th class="r">Wagered</th><th class="r">Profit</th><th class="r">ROI</th></tr></thead><tbody>${
+        rows.map(m=>`<tr><td class="dim">${esc(m.league)}</td><td>${esc(m.market)}</td><td class="r mono">${m.n}</td><td class="r mono dim">${money(m.stake)}</td><td class="r mono ${cls(m.profit)}">${money(m.profit)}</td><td class="r mono ${cls(m.roi||0)}">${pct(m.roi)}</td></tr>`).join("")
+      }</tbody></table></div>`;
+    }
+
+    function recentView(){
+      let rows=(FEED.recent||[]);
+      if(PERSON!=="All"||VENUE!=="All"){const ok=new Set(filtered().map(a=>a.account));rows=rows.filter(r=>ok.has(r.account));}
+      if(Q)rows=rows.filter(r=>JSON.stringify(r).toLowerCase().includes(Q));
+      if(!rows.length)return `<div class="panel"><div class="empty">No recent bets.</div></div>`;
+      return `<div class="panel"><table><thead><tr><th>Date</th><th>Account</th><th>League</th><th>Market</th><th>Selection</th><th class="r">Odds</th><th class="r">EV%</th><th class="r">Stake</th><th>Status</th><th class="r">Profit</th></tr></thead><tbody>${
+        rows.slice(0,120).map(r=>`<tr><td class="mono dim">${esc(r.date)}</td><td>${esc(r.account)}</td><td class="dim">${esc(r.league)}</td><td>${esc(r.market)}</td><td class="dim">${esc(r.selection)}</td><td class="r mono">${esc(r.odds)}</td><td class="r mono dim">${(r.ev||0).toFixed(1)}</td><td class="r mono">${money(r.stake)}</td><td class="mono ${r.status==='win'?'pos':r.status==='loss'?'neg':'dim'}">${esc(r.status)}</td><td class="r mono ${cls(r.profit)}">${money(r.profit)}</td></tr>`).join("")
+      }</tbody></table></div>`;
+    }
+
+    function openDrawer(a){
+      const recent=(FEED.recent||[]).filter(r=>r.account===a.account).slice(0,40);
+      const mk=a.markets||[];
+      $("drawer").innerHTML=`<button class="x" id="dx">✕</button>
+        <div class="eyebrow">${esc(a.person)} · ${esc(a.sportsbook||a.venue)}</div>
+        <h1 style="font-size:26px">${esc(a.account)}</h1>
+        <div class="dk">
+          <div class="kpi"><div class="l">Net P&L</div><div class="v ${cls(a.profit_all)}">${money(a.profit_all)}</div></div>
+          <div class="kpi"><div class="l">ROI</div><div class="v ${cls(a.roi_all)}">${pct(a.roi_all)}</div></div>
+          <div class="kpi"><div class="l">Bets</div><div class="v">${a.n_all}</div></div>
+          <div class="kpi"><div class="l">14d</div><div class="v ${cls(a.profit_14d)}">${money(a.profit_14d)}</div></div>
+          ${a.balance!=null?`<div class="kpi"><div class="l">Balance</div><div class="v dim">${money(a.balance)}</div></div>`:''}
+        </div>
+        <h2 style="font-family:Syne;font-size:16px;margin:6px 0 8px">Markets · ${mk.length} <span class="chip work">${a.working} working</span> <span class="chip bleed">${a.bleeding} bleeding</span></h2>
+        <table><thead><tr><th>League</th><th>Market</th><th class="r">Bets</th><th class="r">Profit</th><th class="r">ROI</th><th class="r">EV%</th><th>Verdict</th></tr></thead><tbody>${
+          mk.length?mk.map(m=>`<tr><td class="dim">${esc(m.league)}</td><td>${esc(m.market)}</td><td class="r mono">${m.n}</td><td class="r mono ${cls(m.profit)}">${money(m.profit)}</td><td class="r mono ${cls(m.roi||0)}">${pct(m.roi)}</td><td class="r mono dim">${(m.avg_ev||0).toFixed(1)}</td><td><span class="vbadge v-${vcat(m.verdict)}">${esc(m.verdict)}</span></td></tr>`).join(""):`<tr><td colspan="7" class="empty">No market rows.</td></tr>`
+        }</tbody></table>
+        <h2 style="font-family:Syne;font-size:16px;margin:18px 0 8px">Recent bets</h2>
+        <table><thead><tr><th>Date</th><th>Market</th><th>Selection</th><th class="r">Odds</th><th class="r">Stake</th><th>Status</th><th class="r">Profit</th></tr></thead><tbody>${
+          recent.length?recent.map(r=>`<tr><td class="mono dim">${esc(r.date)}</td><td>${esc(r.market)}</td><td class="dim">${esc(r.selection)}</td><td class="r mono">${esc(r.odds)}</td><td class="r mono">${money(r.stake)}</td><td class="mono ${r.status==='win'?'pos':r.status==='loss'?'neg':'dim'}">${esc(r.status)}</td><td class="r mono ${cls(r.profit)}">${money(r.profit)}</td></tr>`).join(""):`<tr><td colspan="7" class="empty">No recent bets for this account.</td></tr>`
+        }</tbody></table>`;
+      $("drawer").classList.add("on");$("scrim").classList.add("on");
+      $("dx").onclick=closeDrawer;
+    }
+    function closeDrawer(){$("drawer").classList.remove("on");$("scrim").classList.remove("on");}
+    $("scrim").onclick=closeDrawer;
+
+    function render(){
+      if(!FEED)return;
+      $("src").textContent=FEED.base||"real reports";$("ts").textContent=FEED.generated_at||"—";
+      kpis();pnlChart();filterBars();tabsbar();
+      $("view").innerHTML=TAB==="accounts"?accountsView():TAB==="markets"?marketsView():recentView();
+      if(TAB==="accounts")document.querySelectorAll(".acct").forEach(c=>c.onclick=()=>openDrawer(FEED.accounts[+c.dataset.i]));
+    }
+    $("search").oninput=e=>{Q=e.target.value.toLowerCase().trim();render();};
+
+    async function tick(){try{FEED=await fetchFeed();render();}catch(e){$("kpis").innerHTML=`<div class="empty">feed unavailable — ${e.message}</div>`;}}
+    tick();setInterval(tick,POLL_MS);
+  </script>
+</body>
+</html>
