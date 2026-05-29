@@ -8,15 +8,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#0a0c11;--panel:#11151d;--panel-2:#161b25;--line:#222a38;--txt:#eaeef6;--muted:#7e8799;
-      --blue:#2f6bff;--cyan:#22d3ee;--violet:#8b5cf6;--amber:#f5a623;--red:#ff4d6d;--green:#2ee6a6;}
+    :root{--bg:#070a0f;--panel:#0e131b;--panel-2:#141a24;--line:#1e2735;--txt:#e8edf5;--muted:#71809a;
+      --blue:#3b82f6;--cyan:#38bdf8;--soft:#5b7bb0;--red:#e5577a;--green:#2dd4a7;}
     *{box-sizing:border-box;} body{margin:0;background:radial-gradient(1100px 540px at 85% -12%,#152138 0%,var(--bg) 55%);
       color:var(--txt);font-family:"Nunito Sans",system-ui,sans-serif;min-height:100vh;}
     a{color:inherit;} .wrap{max-width:1280px;margin:0 auto;padding:24px 22px 90px;}
     .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;}
     .eyebrow{font-family:"JetBrains Mono",monospace;color:var(--cyan);letter-spacing:.2em;text-transform:uppercase;font-size:11px;}
     h1{font-family:"Syne",sans-serif;font-weight:800;font-size:34px;margin:5px 0 2px;
-      background:linear-gradient(92deg,var(--cyan),var(--blue) 55%,var(--violet));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+      background:linear-gradient(92deg,var(--cyan),var(--blue));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
     .meta{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);margin-top:6px;}
     .live{display:inline-flex;align-items:center;gap:8px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--green);
       border:1px solid rgba(46,230,166,.4);background:rgba(46,230,166,.08);padding:7px 12px;border-radius:999px;}
@@ -57,7 +57,7 @@
     tr:hover td{background:rgba(255,255,255,.02);} .mono{font-family:"JetBrains Mono",monospace;} .r{text-align:right;}
     .vbadge{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:10px;padding:3px 8px;border-radius:6px;}
     .v-work{background:rgba(46,230,166,.15);color:var(--green);} .v-bleed{background:rgba(255,77,109,.15);color:var(--red);}
-    .v-noise{background:rgba(245,166,35,.13);color:var(--amber);} .v-flat{background:rgba(126,135,153,.15);color:var(--muted);}
+    .v-noise{background:rgba(91,123,176,.16);color:var(--soft);} .v-flat{background:rgba(113,128,154,.14);color:var(--muted);}
     .empty{color:var(--muted);font-style:italic;padding:14px 0;}
     /* drawer */
     .scrim{position:fixed;inset:0;background:rgba(4,7,12,.66);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:.2s;z-index:40;}
@@ -70,7 +70,7 @@
     .dk .kpi{padding:12px;} .dk .kpi .v{font-size:22px;}
     .svgwrap{width:100%;height:170px;}
     footer{color:var(--muted);font-size:12px;margin-top:24px;font-family:"JetBrains Mono",monospace;}
-    .lock{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--amber);border:1px solid rgba(245,166,35,.4);background:rgba(245,166,35,.08);padding:3px 9px;border-radius:999px;}
+    .lock{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--cyan);border:1px solid rgba(56,189,248,.35);background:rgba(56,189,248,.08);padding:3px 9px;border-radius:999px;}
   </style>
 </head>
 <body>
@@ -87,7 +87,8 @@
     <div class="kpis" id="kpis"></div>
 
     <div class="panel">
-      <h2>Cumulative P&L <span class="dim mono" id="pnltag"></span></h2>
+      <h2>Net P&L <div class="seg" id="pnlseg" style="font-size:11px"></div></h2>
+      <div class="mono dim" id="pnltag" style="font-size:12px;margin:-2px 0 10px"></div>
       <div class="svgwrap" id="pnl"></div>
     </div>
 
@@ -108,7 +109,8 @@
 
   <script>
     const POLL_MS=60000, $=id=>document.getElementById(id);
-    let FEED=null, TAB="accounts", PERSON="All", VENUE="All", Q="", mSort={key:"profit",dir:-1};
+    let FEED=null, TAB="accounts", PERSON="All", VENUE="All", Q="", mSort={key:"profit",dir:-1}, pnlRange="1D";
+    const PNL_DAYS={"1D":1,"1W":7,"1M":30,"1Y":365,"All":100000};
     const money=v=>{const s=v<0?"-":"";return s+"$"+Math.abs(Math.round(v)).toLocaleString();};
     const pct=v=>v==null?"—":((v>=0?"+":"")+(v*100).toFixed(1)+"%");
     const cls=v=>v>=0?"pos":"neg", esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -128,23 +130,41 @@
       $("kpis").innerHTML=tiles.map(([l,v,s,c])=>`<div class="kpi"><div class="l">${l}</div><div class="v ${c}">${v}</div><div class="s">${s}</div></div>`).join("");
     }
 
+    function pnlSeg(){
+      const ranges=["1D","1W","1M","1Y","All"];
+      $("pnlseg").innerHTML=ranges.map(r=>`<button data-r="${r}" class="${r===pnlRange?'on':''}">${r}</button>`).join("");
+      $("pnlseg").querySelectorAll("button").forEach(b=>b.onclick=()=>{pnlRange=b.dataset.r;pnlChart();});
+    }
     function pnlChart(){
-      const ts=FEED.pnl_timeseries||[];const el=$("pnl");
-      if(ts.length<2){el.innerHTML='<div class="empty">No daily P&L.</div>';return;}
-      const W=1180,H=170,pad=34;const xs=ts.map((_,i)=>i),ys=ts.map(d=>d.cumulative);
+      pnlSeg();
+      const all=FEED.pnl_timeseries||[];const el=$("pnl");
+      if(!all.length){el.innerHTML='<div class="empty">No daily P&L data.</div>';return;}
+      // Trailing window by actual date; rebase so the chart shows NET P&L within the window.
+      const days=PNL_DAYS[pnlRange], last=new Date(all[all.length-1].date+"T00:00:00");
+      const cutoff=new Date(last.getTime()-(days-1)*86400000);
+      let i0=all.findIndex(d=>new Date(d.date+"T00:00:00")>=cutoff); if(i0<0)i0=all.length-1;
+      const baseline=i0>0?all[i0-1].cumulative:0;
+      const pts=all.slice(i0).map(d=>({date:d.date,v:d.cumulative-baseline}));
+      const net=pts.length?pts[pts.length-1].v:0, col=net>=0?"var(--green)":"var(--red)";
+      $("pnltag").textContent=`${pnlRange} · ${pts[0]?.date||""}${pts.length>1?" → "+pts[pts.length-1].date:""} · net ${money(net)}`;
+      if(pts.length<2){
+        el.innerHTML=`<div style="display:flex;align-items:baseline;justify-content:center;gap:12px;height:160px">
+          <span class="${cls(net)}" style="font-family:Syne;font-weight:800;font-size:54px">${money(net)}</span>
+          <span class="dim mono" style="font-size:13px">${pnlRange} net P&L</span></div>`;
+        return;
+      }
+      const W=1180,H=170,pad=40;const ys=pts.map(p=>p.v);
       const minY=Math.min(0,...ys),maxY=Math.max(0,...ys),rng=(maxY-minY)||1;
-      const X=i=>pad+(i/(ts.length-1))*(W-pad-8),Y=v=>H-pad-((v-minY)/rng)*(H-pad-12);
-      const line=ts.map((d,i)=>`${i?"L":"M"}${X(i).toFixed(1)},${Y(d.cumulative).toFixed(1)}`).join(" ");
-      const area=`${line} L${X(ts.length-1).toFixed(1)},${Y(minY).toFixed(1)} L${X(0).toFixed(1)},${Y(minY).toFixed(1)} Z`;
-      const last=ys[ys.length-1],col=last>=0?"var(--green)":"var(--red)";
+      const X=i=>pad+(i/(pts.length-1))*(W-pad-8),Y=v=>H-26-((v-minY)/rng)*(H-38);
+      const line=pts.map((p,i)=>`${i?"L":"M"}${X(i).toFixed(1)},${Y(p.v).toFixed(1)}`).join(" ");
+      const area=`${line} L${X(pts.length-1).toFixed(1)},${Y(minY).toFixed(1)} L${X(0).toFixed(1)},${Y(minY).toFixed(1)} Z`;
       const zeroY=Y(0).toFixed(1);
-      $("pnltag").textContent=`${ts[0].date} → ${ts[ts.length-1].date} · ${money(last)}`;
       el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" preserveAspectRatio="none">
-        <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".28"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
-        <line x1="${pad}" y1="${zeroY}" x2="${W-8}" y2="${zeroY}" stroke="#37425a" stroke-dasharray="3 3"/>
+        <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".26"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+        <line x1="${pad}" y1="${zeroY}" x2="${W-8}" y2="${zeroY}" stroke="#2a3850" stroke-dasharray="3 3"/>
         <path d="${area}" fill="url(#g)"/><path d="${line}" fill="none" stroke="${col}" stroke-width="2"/>
-        <text x="2" y="${Y(maxY)+4}" fill="#7e8799" font-size="10" font-family="JetBrains Mono">${money(maxY)}</text>
-        <text x="2" y="${Y(minY)}" fill="#7e8799" font-size="10" font-family="JetBrains Mono">${money(minY)}</text>
+        <text x="2" y="${Y(maxY)+4}" fill="#71809a" font-size="10" font-family="JetBrains Mono">${money(maxY)}</text>
+        <text x="2" y="${Y(minY)}" fill="#71809a" font-size="10" font-family="JetBrains Mono">${money(minY)}</text>
       </svg>`;
     }
 
@@ -172,7 +192,7 @@
       const accts=filtered();
       if(!accts.length) return `<div class="panel"><div class="empty">No accounts match.</div></div>`;
       return `<div class="grid">`+accts.map((a,i)=>{
-        const hcol=a.health==="healthy"?"var(--green)":a.health?"var(--amber)":"#445";
+        const hcol=a.health==="healthy"?"var(--green)":a.health?"var(--soft)":"#374152";
         return `<div class="acct" data-i="${FEED.accounts.indexOf(a)}">
           <div style="display:flex;justify-content:space-between;align-items:start">
             <div><div class="name">${esc(a.account)}</div><div class="who">${esc(a.person)} · ${esc(a.sportsbook||a.venue)}</div></div>
