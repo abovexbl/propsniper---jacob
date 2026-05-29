@@ -17,6 +17,9 @@ dashboard/data.js
 optimizer/sample_bets.csv
 optimizer/proposals.json
 
+# Private local dashboard (Option A) — real-data feed served only to localhost. NEVER commit.
+private/
+
 # Standard Python
 __pycache__/
 *.pyc
