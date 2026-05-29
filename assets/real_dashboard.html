@@ -79,7 +79,7 @@
       <div>
         <div class="eyebrow">PropSniper · Private Ops Monitor</div>
         <h1>+EV Operations — Live P&L</h1>
-        <div class="meta">source: <span id="src" class="mono">—</span> · updated <span id="ts">—</span> <span class="lock">PRIVATE · localhost only</span></div>
+        <div class="meta">data through <span id="through" class="mono">—</span> · src <span id="src" class="mono">—</span> · polled <span id="ts">—</span> <span class="lock">PRIVATE · localhost only</span></div>
       </div>
       <div class="live"><span class="pulse"></span><span>LIVE</span></div>
     </div>
@@ -266,7 +266,8 @@
 
     function render(){
       if(!FEED)return;
-      $("src").textContent=FEED.base||"real reports";$("ts").textContent=FEED.generated_at||"—";
+      $("src").textContent=FEED.source||"—";$("ts").textContent=FEED.generated_at||"—";
+      $("through").textContent=(FEED.portfolio&&FEED.portfolio.data_through)||"—";
       kpis();pnlChart();filterBars();tabsbar();
       $("view").innerHTML=TAB==="accounts"?accountsView():TAB==="markets"?marketsView():recentView();
       if(TAB==="accounts")document.querySelectorAll(".acct").forEach(c=>c.onclick=()=>openDrawer(FEED.accounts[+c.dataset.i]));

@@ -30,10 +30,17 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO / "integrations"))
-import propsniper_reports as pr  # noqa: E402
+import propsniper_reports as pr   # CSV-report fallback  # noqa: E402
+import propsniper_db as pdb        # live engine.db source  # noqa: E402
 
 DASHBOARD_SRC = REPO / "assets" / "real_dashboard.html"
 AUTH_USER = "propsniper"
+
+
+def build_feed(base, exclude):
+    """Prefer the live engine.db; fall back to the report CSVs if absent."""
+    dbp = Path(base) / "engine" / "engine.db"
+    return pdb.load_db_feed(dbp, exclude) if dbp.exists() else pr.load_real_feed(base, exclude)
 
 
 def make_handler(directory, password, base, exclude):
@@ -62,7 +69,7 @@ def make_handler(directory, password, base, exclude):
         def _rebuild_feed(self):
             # Rebuild the feed on every request for /feed.json so the dashboard
             # reflects the latest reports without a restart.
-            feed = pr.load_real_feed(base, exclude)
+            feed = build_feed(base, exclude)
             (Path(directory) / "feed.json").write_text(json.dumps(feed, indent=2))
 
         def do_GET(self):
@@ -101,7 +108,7 @@ def main():
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
 
-    feed = pr.load_real_feed(base, exclude)
+    feed = build_feed(base, exclude)
     (out / "feed.json").write_text(json.dumps(feed, indent=2))
     shutil.copyfile(DASHBOARD_SRC, out / "index.html")
 
