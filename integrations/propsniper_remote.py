@@ -74,7 +74,7 @@ def load_remote_feed(token_file=None, exclude=None, db_path=None) -> dict:
     try:
         dbfeed = pdb.load_db_feed(db_path, exclude=exclude)
         for a in dbfeed.get("accounts", []):
-            markets_by_acct[a["account"]] = a.get("markets", [])
+            markets_by_acct[a.get("account_raw", a["account"])] = a.get("markets", [])
     except Exception:
         pass
 
