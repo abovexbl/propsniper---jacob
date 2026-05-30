@@ -1,24 +1,24 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T03:55:02Z",
+  "generated_at": "2026-05-30T04:02:40Z",
   "portfolio": {
-    "profit": 16835.9,
-    "wagered": 268920.46,
-    "n": 5035,
-    "roi": 0.0626,
-    "profit_14d": 245.87,
+    "profit": 16964.82,
+    "wagered": 269166.8,
+    "n": 5040,
+    "roi": 0.063,
+    "profit_14d": 374.79,
     "accounts": 13,
     "winners": 7,
     "losers": 6,
     "data_through": "live",
-    "today_profit": 1298.31,
-    "today_roi": 0.248,
-    "today_wagered": 5812.14,
-    "open_bets": 39,
-    "live_bets": 35,
-    "wins": 2946,
-    "losses": 3572
+    "today_profit": 0.0,
+    "today_roi": 0.0,
+    "today_wagered": 0.0,
+    "open_bets": 34,
+    "live_bets": 30,
+    "wins": 2949,
+    "losses": 3574
   },
   "accounts": [
     {
@@ -1283,15 +1283,15 @@
       "person": "Mom",
       "venue": "Kalshi",
       "sportsbook": "Kalshi",
-      "n_all": 747,
-      "profit_all": -10.62,
-      "stake_all": 638.79,
-      "roi_all": -0.0166,
-      "avg_ev": 7.42,
-      "n_14d": 507,
-      "profit_14d": -14.21,
-      "roi_14d": -0.0324,
-      "balance": 75.99,
+      "n_all": 751,
+      "profit_all": -10.96,
+      "stake_all": 642.13,
+      "roi_all": -0.0171,
+      "avg_ev": 7.38,
+      "n_14d": 511,
+      "profit_14d": -14.55,
+      "roi_14d": -0.0329,
+      "balance": 78.99,
       "health": "healthy",
       "working": 2,
       "bleeding": 3,
@@ -1329,11 +1329,11 @@
         {
           "league": "MLB",
           "market": "Total Runs",
-          "n": 238,
-          "profit": 2.16,
-          "stake": 201.81,
-          "roi": 0.0107,
-          "avg_ev": 5.84,
+          "n": 239,
+          "profit": 3.25,
+          "stake": 202.73,
+          "roi": 0.016,
+          "avg_ev": 5.83,
           "verdict": "FLAT"
         },
         {
@@ -1399,11 +1399,11 @@
         {
           "league": "MLB",
           "market": "Run Line",
-          "n": 89,
-          "profit": -5.89,
-          "stake": 72.89,
-          "roi": -0.0809,
-          "avg_ev": 4.9,
+          "n": 91,
+          "profit": -6.36,
+          "stake": 74.36,
+          "roi": -0.0856,
+          "avg_ev": 4.7,
           "verdict": "BLEEDING"
         },
         {
@@ -1419,11 +1419,11 @@
         {
           "league": "MLB",
           "market": "Moneyline",
-          "n": 26,
-          "profit": -10.41,
-          "stake": 22.41,
-          "roi": -0.4646,
-          "avg_ev": 6.39,
+          "n": 27,
+          "profit": -11.37,
+          "stake": 23.37,
+          "roi": -0.4865,
+          "avg_ev": 6.46,
           "verdict": "BLEEDING"
         }
       ],
@@ -1615,7 +1615,7 @@
       "n_14d": 94,
       "profit_14d": 31.71,
       "roi_14d": 0.0126,
-      "balance": 392.22,
+      "balance": 463.22,
       "health": "healthy",
       "working": 1,
       "bleeding": 3,
@@ -1757,7 +1757,7 @@
       "n_14d": 104,
       "profit_14d": -709.89,
       "roi_14d": -0.148,
-      "balance": 172.2,
+      "balance": 142.2,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -1911,17 +1911,17 @@
       "person": "Mom",
       "venue": "FanDuel",
       "sportsbook": "FanDuel",
-      "n_all": 262,
-      "profit_all": -1390.2,
-      "stake_all": 22346.0,
-      "roi_all": -0.0622,
-      "avg_ev": 9.46,
-      "n_14d": 262,
-      "profit_14d": -1390.2,
-      "roi_14d": -0.0622,
+      "n_all": 263,
+      "profit_all": -1260.94,
+      "stake_all": 22589.0,
+      "roi_all": -0.0558,
+      "avg_ev": 9.52,
+      "n_14d": 263,
+      "profit_14d": -1260.94,
+      "roi_14d": -0.0558,
       "balance": null,
       "health": null,
-      "working": 1,
+      "working": 2,
       "bleeding": 1,
       "markets": [
         {
@@ -1965,6 +1965,16 @@
           "verdict": "NOISE_N<20"
         },
         {
+          "league": "MLB",
+          "market": "Moneyline",
+          "n": 31,
+          "profit": 113.91,
+          "stake": 2650.0,
+          "roi": 0.043,
+          "avg_ev": 11.29,
+          "verdict": "WORKING"
+        },
+        {
           "league": "NBA",
           "market": "Total Points",
           "n": 3,
@@ -2003,16 +2013,6 @@
           "roi": 0.0461,
           "avg_ev": 6.81,
           "verdict": "NOISE_N<20"
-        },
-        {
-          "league": "MLB",
-          "market": "Moneyline",
-          "n": 30,
-          "profit": -15.35,
-          "stake": 2407.0,
-          "roi": -0.0064,
-          "avg_ev": 10.81,
-          "verdict": "FLAT"
         },
         {
           "league": "Tennis",
@@ -2140,9 +2140,9 @@
     {
       "league": "MLB",
       "market": "Total Runs",
-      "profit": 1016.62,
-      "stake": 32505.47,
-      "n": 638,
+      "profit": 1017.71,
+      "stake": 32506.39,
+      "n": 639,
       "roi": 0.0313
     },
     {
@@ -2482,6 +2482,14 @@
       "roi": -0.3022
     },
     {
+      "league": "MLB",
+      "market": "Moneyline",
+      "profit": -610.57,
+      "stake": 13933.36,
+      "n": 248,
+      "roi": -0.0438
+    },
+    {
       "league": "NBA",
       "market": "Point Spread - 1st Half",
       "profit": -624.18,
@@ -2498,14 +2506,6 @@
       "roi": -0.1797
     },
     {
-      "league": "MLB",
-      "market": "Moneyline",
-      "profit": -738.87,
-      "stake": 13689.4,
-      "n": 246,
-      "roi": -0.054
-    },
-    {
       "league": "NBA",
       "market": "Total Points - 1st Half",
       "profit": -908.29,
@@ -2516,9 +2516,9 @@
     {
       "league": "MLB",
       "market": "Run Line",
-      "profit": -1009.32,
-      "stake": 18559.88,
-      "n": 319,
+      "profit": -1009.79,
+      "stake": 18561.35,
+      "n": 321,
       "roi": -0.0544
     }
   ],
@@ -2850,11 +2850,71 @@
     },
     {
       "date": "2026-05-30",
-      "profit": -298.85,
-      "cumulative": 16835.88
+      "profit": -169.93,
+      "cumulative": 16964.81
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-30",
+      "time": "04:01:59",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Atlanta Dream -17.5",
+      "odds": -130,
+      "ev": 9.38,
+      "stake": 30.0,
+      "payout": 53.08,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-30",
+      "time": "03:51:23",
+      "account": "Dad FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Arizona Diamondbacks",
+      "odds": 142,
+      "ev": 13.69,
+      "stake": 49.0,
+      "payout": 118.58,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-30",
+      "time": "03:50:23",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Arizona Diamondbacks -1.5",
+      "odds": 280,
+      "ev": 15.1,
+      "stake": 27.0,
+      "payout": 102.6,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-30",
+      "time": "03:50:23",
+      "account": "Dad FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Arizona Diamondbacks -1.5",
+      "odds": 280,
+      "ev": 15.13,
+      "stake": 27.0,
+      "payout": 102.6,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-30",
       "time": "03:44:31",
@@ -2866,6 +2926,7 @@
       "odds": 208,
       "ev": -4.17,
       "stake": 0.975,
+      "payout": 3.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -2880,6 +2941,7 @@
       "odds": -218,
       "ev": 3.14,
       "stake": 35.6449,
+      "payout": 52.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -2894,8 +2956,9 @@
       "odds": -188,
       "ev": 25.52,
       "stake": 243.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 372.26,
+      "status": "win",
+      "profit": 129.26
     },
     {
       "date": "2026-05-30",
@@ -2908,6 +2971,7 @@
       "odds": -110,
       "ev": 7.18,
       "stake": 20.0,
+      "payout": 38.18,
       "status": "pending",
       "profit": 0.0
     },
@@ -2922,6 +2986,7 @@
       "odds": 102,
       "ev": 38.82,
       "stake": 192.0,
+      "payout": 387.84,
       "status": "win",
       "profit": 195.84
     },
@@ -2936,6 +3001,7 @@
       "odds": 129,
       "ev": 7.24,
       "stake": 31.0307,
+      "payout": 71.06,
       "status": "pending",
       "profit": 0.0
     },
@@ -2950,6 +3016,7 @@
       "odds": 178,
       "ev": 17.8,
       "stake": 50.0,
+      "payout": 139.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -2964,6 +3031,7 @@
       "odds": 174,
       "ev": 20.76,
       "stake": 60.0,
+      "payout": 164.4,
       "status": "pending",
       "profit": 0.0
     },
@@ -2978,6 +3046,7 @@
       "odds": 140,
       "ev": 4.76,
       "stake": 20.84,
+      "payout": 50.02,
       "status": "pending",
       "profit": 0.0
     },
@@ -2992,6 +3061,7 @@
       "odds": 296,
       "ev": -21.96,
       "stake": 1.0111,
+      "payout": 4.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3006,6 +3076,7 @@
       "odds": 174,
       "ev": 17.69,
       "stake": 51.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -51.0
     },
@@ -3020,6 +3091,7 @@
       "odds": 285,
       "ev": 35.97,
       "stake": 64.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -64.0
     },
@@ -3034,6 +3106,7 @@
       "odds": 159,
       "ev": 10.84,
       "stake": 36.3138,
+      "payout": 0.0,
       "status": "loss",
       "profit": -36.3138
     },
@@ -3048,6 +3121,7 @@
       "odds": 129,
       "ev": -10.44,
       "stake": 0.8742,
+      "payout": 2.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3062,6 +3136,7 @@
       "odds": 129,
       "ev": -7.48,
       "stake": 0.8742,
+      "payout": 2.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3076,6 +3151,7 @@
       "odds": -290,
       "ev": -4.96,
       "stake": 0.7438,
+      "payout": 1.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3090,6 +3166,7 @@
       "odds": 146,
       "ev": -4.35,
       "stake": 0.8134,
+      "payout": 2.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3104,6 +3181,7 @@
       "odds": 109,
       "ev": -4.06,
       "stake": 0.9548,
+      "payout": 2.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3118,6 +3196,7 @@
       "odds": -116,
       "ev": -3.5,
       "stake": 0.5375,
+      "payout": 1.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3132,6 +3211,7 @@
       "odds": 102,
       "ev": 10.34,
       "stake": 51.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -51.0
     },
@@ -3146,6 +3226,7 @@
       "odds": 154,
       "ev": 14.47,
       "stake": 48.0,
+      "payout": 121.92,
       "status": "win",
       "profit": 73.92
     },
@@ -3160,6 +3241,7 @@
       "odds": 112,
       "ev": 5.51,
       "stake": 25.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -25.0
     },
@@ -3174,6 +3256,7 @@
       "odds": 124,
       "ev": -6.15,
       "stake": 0.8944,
+      "payout": 2.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3188,6 +3271,7 @@
       "odds": -208,
       "ev": -0.02,
       "stake": 0.6758,
+      "payout": 1.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3202,6 +3286,7 @@
       "odds": 109,
       "ev": -3.31,
       "stake": 0.9548,
+      "payout": 2.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3216,6 +3301,7 @@
       "odds": -103,
       "ev": -11.78,
       "stake": 1.015,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.015
     },
@@ -3230,6 +3316,7 @@
       "odds": -175,
       "ev": -4.98,
       "stake": 0.6365,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.3635
     },
@@ -3244,6 +3331,7 @@
       "odds": 166,
       "ev": -7.61,
       "stake": 0.7523,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.7523
     },
@@ -3258,8 +3346,9 @@
       "odds": -276,
       "ev": -4.15,
       "stake": 0.7342,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 1.0,
+      "status": "win",
+      "profit": 0.2658
     },
     {
       "date": "2026-05-30",
@@ -3272,6 +3361,7 @@
       "odds": 296,
       "ev": -4.6,
       "stake": 1.0111,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0111
     },
@@ -3286,6 +3376,7 @@
       "odds": -142,
       "ev": -4.59,
       "stake": 0.5872,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.5872
     },
@@ -3300,6 +3391,7 @@
       "odds": 296,
       "ev": -4.09,
       "stake": 1.0111,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0111
     },
@@ -3314,8 +3406,9 @@
       "odds": -276,
       "ev": -3.84,
       "stake": 0.7342,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -0.7342
     },
     {
       "date": "2026-05-30",
@@ -3328,6 +3421,7 @@
       "odds": 119,
       "ev": -3.79,
       "stake": 0.9145,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9145
     },
@@ -3342,6 +3436,7 @@
       "odds": -199,
       "ev": -3.63,
       "stake": 0.666,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.334
     },
@@ -3356,6 +3451,7 @@
       "odds": -251,
       "ev": -1.17,
       "stake": 0.7147,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.7147
     },
@@ -3370,6 +3466,7 @@
       "odds": 114,
       "ev": -0.65,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -3384,6 +3481,7 @@
       "odds": 198,
       "ev": 4.04,
       "stake": 1.0057,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0057
     },
@@ -3398,6 +3496,7 @@
       "odds": 105,
       "ev": 7.07,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -3412,6 +3511,7 @@
       "odds": 152,
       "ev": 4.03,
       "stake": 0.793,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.793
     },
@@ -3426,6 +3526,7 @@
       "odds": 229,
       "ev": 8.18,
       "stake": 0.9133,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9133
     },
@@ -3440,6 +3541,7 @@
       "odds": -126,
       "ev": 4.28,
       "stake": 0.5574,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.5574
     },
@@ -3454,8 +3556,9 @@
       "odds": 109,
       "ev": 8.29,
       "stake": 0.9548,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -0.9548
     },
     {
       "date": "2026-05-30",
@@ -3468,6 +3571,7 @@
       "odds": -107,
       "ev": 4.62,
       "stake": 1.035,
+      "payout": 2.0,
       "status": "win",
       "profit": 0.965
     },
@@ -3482,6 +3586,7 @@
       "odds": 189,
       "ev": 6.91,
       "stake": 20.7287,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.7287
     },
@@ -3496,6 +3601,7 @@
       "odds": 296,
       "ev": 3.3,
       "stake": 1.0111,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0111
     },
@@ -3510,6 +3616,7 @@
       "odds": 296,
       "ev": 6.3,
       "stake": 20.9799,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.9799
     },
@@ -3524,6 +3631,7 @@
       "odds": -131,
       "ev": 3.6,
       "stake": 0.5674,
+      "payout": 1.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -3538,8 +3646,9 @@
       "odds": 119,
       "ev": 3.35,
       "stake": 0.9145,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 2.0,
+      "status": "win",
+      "profit": 1.0855
     },
     {
       "date": "2026-05-30",
@@ -3552,6 +3661,7 @@
       "odds": 240,
       "ev": 3.72,
       "stake": 0.8514,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8514
     },
@@ -3566,6 +3676,7 @@
       "odds": 101,
       "ev": 4.35,
       "stake": 0.995,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.005
     },
@@ -3580,6 +3691,7 @@
       "odds": 101,
       "ev": 18.78,
       "stake": 0.995,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.995
     },
@@ -3594,6 +3706,7 @@
       "odds": 181,
       "ev": 10.88,
       "stake": 0.7115,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.7115
     },
@@ -3608,6 +3721,7 @@
       "odds": 166,
       "ev": 8.27,
       "stake": 25.9529,
+      "payout": 69.0,
       "status": "win",
       "profit": 43.0471
     },
@@ -3622,6 +3736,7 @@
       "odds": -110,
       "ev": 5.82,
       "stake": 20.0,
+      "payout": 38.18,
       "status": "win",
       "profit": 18.18
     },
@@ -3636,6 +3751,7 @@
       "odds": 166,
       "ev": 6.69,
       "stake": 20.6871,
+      "payout": 55.0,
       "status": "win",
       "profit": 34.3129
     },
@@ -3650,6 +3766,7 @@
       "odds": 105,
       "ev": 3.27,
       "stake": 0.9749,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.0251
     },
@@ -3664,6 +3781,7 @@
       "odds": -110,
       "ev": 7.43,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -3678,6 +3796,7 @@
       "odds": 290,
       "ev": 30.13,
       "stake": 52.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -52.0
     },
@@ -3692,6 +3811,7 @@
       "odds": 108,
       "ev": 18.87,
       "stake": 88.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -88.0
     },
@@ -3706,6 +3826,7 @@
       "odds": 296,
       "ev": 9.27,
       "stake": 10.1108,
+      "payout": 40.0,
       "status": "win",
       "profit": 29.8892
     },
@@ -3720,6 +3841,7 @@
       "odds": 101,
       "ev": 7.1,
       "stake": 0.995,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.995
     },
@@ -3734,6 +3856,7 @@
       "odds": 280,
       "ev": 26.8,
       "stake": 48.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -48.0
     },
@@ -3748,6 +3871,7 @@
       "odds": 128,
       "ev": 5.18,
       "stake": 20.0,
+      "payout": 45.6,
       "status": "win",
       "profit": 25.6
     },
@@ -3762,6 +3886,7 @@
       "odds": 114,
       "ev": 6.64,
       "stake": 0.9347,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.0653
     },
@@ -3776,6 +3901,7 @@
       "odds": 129,
       "ev": 5.49,
       "stake": 0.8539,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1461
     },
@@ -3790,6 +3916,7 @@
       "odds": 118,
       "ev": 20.24,
       "stake": 86.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -86.0
     },
@@ -3804,6 +3931,7 @@
       "odds": 148,
       "ev": 23.87,
       "stake": 82.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -82.0
     },
@@ -3818,6 +3946,7 @@
       "odds": 280,
       "ev": 7.22,
       "stake": 1.0525,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0525
     },
@@ -3832,6 +3961,7 @@
       "odds": 124,
       "ev": 3.24,
       "stake": 0.8944,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8944
     },
@@ -3846,6 +3976,7 @@
       "odds": 114,
       "ev": 4.23,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -3860,6 +3991,7 @@
       "odds": -121,
       "ev": 3.66,
       "stake": 0.5475,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.4525
     },
@@ -3874,6 +4006,7 @@
       "odds": -148,
       "ev": 8.24,
       "stake": 61.4964,
+      "payout": 0.0,
       "status": "loss",
       "profit": -61.4964
     },
@@ -3888,6 +4021,7 @@
       "odds": -110,
       "ev": 5.55,
       "stake": 20.0,
+      "payout": 38.18,
       "status": "win",
       "profit": 18.18
     },
@@ -3902,6 +4036,7 @@
       "odds": 146,
       "ev": 5.5,
       "stake": 20.7394,
+      "payout": 51.0,
       "status": "win",
       "profit": 30.2606
     },
@@ -3916,6 +4051,7 @@
       "odds": -115,
       "ev": 6.88,
       "stake": 20.0,
+      "payout": 37.39,
       "status": "win",
       "profit": 17.39
     },
@@ -3930,6 +4066,7 @@
       "odds": 182,
       "ev": 12.31,
       "stake": 34.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -34.0
     },
@@ -3944,6 +4081,7 @@
       "odds": 182,
       "ev": 13.28,
       "stake": 37.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -37.0
     },
@@ -3958,6 +4096,7 @@
       "odds": -116,
       "ev": 5.37,
       "stake": 0.5375,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.4625
     },
@@ -3972,6 +4111,7 @@
       "odds": 106,
       "ev": 7.01,
       "stake": 33.0,
+      "payout": 67.98,
       "status": "win",
       "profit": 34.98
     },
@@ -3986,6 +4126,7 @@
       "odds": 100,
       "ev": 5.53,
       "stake": 20.0,
+      "payout": 40.0,
       "status": "win",
       "profit": 20.0
     },
@@ -4000,6 +4141,7 @@
       "odds": 108,
       "ev": 6.99,
       "stake": 33.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -33.0
     },
@@ -4014,6 +4156,7 @@
       "odds": 108,
       "ev": 8.15,
       "stake": 38.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -38.0
     },
@@ -4028,6 +4171,7 @@
       "odds": -102,
       "ev": 8.74,
       "stake": 45.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -45.0
     },
@@ -4042,6 +4186,7 @@
       "odds": 124,
       "ev": 5.45,
       "stake": 0.8944,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1056
     },
@@ -4056,6 +4201,7 @@
       "odds": 101,
       "ev": 3.34,
       "stake": 0.995,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.005
     },
@@ -4070,6 +4216,7 @@
       "odds": 173,
       "ev": 8.7,
       "stake": 25.9807,
+      "payout": 0.0,
       "status": "loss",
       "profit": -25.9807
     },
@@ -4084,6 +4231,7 @@
       "odds": -107,
       "ev": 3.88,
       "stake": 1.035,
+      "payout": 2.0,
       "status": "win",
       "profit": 0.965
     },
@@ -4098,6 +4246,7 @@
       "odds": 122,
       "ev": 14.01,
       "stake": 58.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -58.0
     },
@@ -4112,6 +4261,7 @@
       "odds": 134,
       "ev": 3.87,
       "stake": 0.8539,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8539
     },
@@ -4126,6 +4276,7 @@
       "odds": 119,
       "ev": 3.45,
       "stake": 0.9145,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.0855
     },
@@ -4140,6 +4291,7 @@
       "odds": 189,
       "ev": 19.65,
       "stake": 17.1715,
+      "payout": 50.0,
       "status": "win",
       "profit": 32.8285
     },
@@ -4154,6 +4306,7 @@
       "odds": 166,
       "ev": 5.59,
       "stake": 0.7523,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.2477
     },
@@ -4168,6 +4321,7 @@
       "odds": 114,
       "ev": 3.22,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -4182,6 +4336,7 @@
       "odds": -102,
       "ev": 6.49,
       "stake": 33.0,
+      "payout": 65.35,
       "status": "win",
       "profit": 32.3529
     },
@@ -4196,6 +4351,7 @@
       "odds": 115,
       "ev": 6.3,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -4210,6 +4366,7 @@
       "odds": 124,
       "ev": 6.08,
       "stake": 0.8944,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1056
     },
@@ -4224,6 +4381,7 @@
       "odds": 114,
       "ev": 4.09,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -4238,6 +4396,7 @@
       "odds": -276,
       "ev": 6.12,
       "stake": 0.7342,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.2658
     },
@@ -4252,6 +4411,7 @@
       "odds": 140,
       "ev": 4.61,
       "stake": 0.8336,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1664
     },
@@ -4266,6 +4426,7 @@
       "odds": 240,
       "ev": 8.01,
       "stake": 0.8205,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8205
     },
@@ -4280,6 +4441,7 @@
       "odds": 100,
       "ev": 6.38,
       "stake": 32.0,
+      "payout": 64.0,
       "status": "win",
       "profit": 32.0
     },
@@ -4294,6 +4456,7 @@
       "odds": 180,
       "ev": 5.19,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -4308,6 +4471,7 @@
       "odds": 189,
       "ev": 6.03,
       "stake": 1.0365,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0365
     },
@@ -4322,6 +4486,7 @@
       "odds": 124,
       "ev": 3.56,
       "stake": 0.8944,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8944
     },
@@ -4336,6 +4501,7 @@
       "odds": 198,
       "ev": 5.04,
       "stake": 20.7845,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.7845
     },
@@ -4350,6 +4516,7 @@
       "odds": -191,
       "ev": 3.08,
       "stake": 0.6562,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.3438
     },
@@ -4364,6 +4531,7 @@
       "odds": 114,
       "ev": 4.01,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -4378,6 +4546,7 @@
       "odds": 125,
       "ev": 10.19,
       "stake": 41.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -41.0
     },
@@ -4392,6 +4561,7 @@
       "odds": 156,
       "ev": 9.0,
       "stake": 10.0,
+      "payout": 25.6,
       "status": "win",
       "profit": 15.6
     },
@@ -4406,6 +4576,7 @@
       "odds": -115,
       "ev": 7.5,
       "stake": 88.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -88.0
     },
@@ -4420,6 +4591,7 @@
       "odds": 296,
       "ev": 3.61,
       "stake": 1.0111,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0111
     },
@@ -4434,6 +4606,7 @@
       "odds": 230,
       "ev": 12.53,
       "stake": 27.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -27.0
     },
@@ -4448,6 +4621,7 @@
       "odds": 230,
       "ev": 12.53,
       "stake": 43.47,
+      "payout": 0.0,
       "status": "loss",
       "profit": -43.47
     },
@@ -4462,6 +4636,7 @@
       "odds": 270,
       "ev": 29.44,
       "stake": 55.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -55.0
     },
@@ -4476,6 +4651,7 @@
       "odds": 240,
       "ev": 18.95,
       "stake": 39.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -39.0
     },
@@ -4490,6 +4666,7 @@
       "odds": 240,
       "ev": 18.95,
       "stake": 41.66,
+      "payout": 0.0,
       "status": "loss",
       "profit": -41.66
     },
@@ -4504,6 +4681,7 @@
       "odds": 218,
       "ev": 3.12,
       "stake": 0.9441,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9441
     },
@@ -4518,6 +4696,7 @@
       "odds": 280,
       "ev": 8.25,
       "stake": 30.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -30.0
     },
@@ -4532,6 +4711,7 @@
       "odds": 120,
       "ev": 10.53,
       "stake": 44.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -44.0
     },
@@ -4546,6 +4726,7 @@
       "odds": 119,
       "ev": 3.0,
       "stake": 0.9145,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9145
     },
@@ -4560,6 +4741,7 @@
       "odds": 280,
       "ev": 3.75,
       "stake": 1.0525,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0525
     },
@@ -4574,6 +4756,7 @@
       "odds": 166,
       "ev": 3.62,
       "stake": 0.7523,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.2477
     },
@@ -4588,6 +4771,7 @@
       "odds": 160,
       "ev": 8.16,
       "stake": 9.37,
+      "payout": 26.7,
       "status": "win",
       "profit": 17.33
     },
@@ -4602,6 +4786,7 @@
       "odds": 180,
       "ev": 17.82,
       "stake": 55.55,
+      "payout": 0.0,
       "status": "loss",
       "profit": -55.55
     },
@@ -4616,6 +4801,7 @@
       "odds": 180,
       "ev": 17.82,
       "stake": 50.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -50.0
     },
@@ -4630,6 +4816,7 @@
       "odds": 180,
       "ev": 17.82,
       "stake": 55.55,
+      "payout": 0.0,
       "status": "loss",
       "profit": -55.55
     },
@@ -4644,6 +4831,7 @@
       "odds": 240,
       "ev": 11.89,
       "stake": 25.0,
+      "payout": 85.0,
       "status": "win",
       "profit": 60.0
     },
@@ -4658,6 +4846,7 @@
       "odds": 200,
       "ev": 24.68,
       "stake": 60.0,
+      "payout": 180.0,
       "status": "win",
       "profit": 120.0
     },
@@ -4672,6 +4861,7 @@
       "odds": 125,
       "ev": 14.02,
       "stake": 11.99,
+      "payout": 26.97,
       "status": "win",
       "profit": 14.98
     },
@@ -4686,6 +4876,7 @@
       "odds": 208,
       "ev": 6.29,
       "stake": 0.975,
+      "payout": 3.0,
       "status": "win",
       "profit": 2.025
     },
@@ -4700,6 +4891,7 @@
       "odds": -115,
       "ev": 9.91,
       "stake": 15.0,
+      "payout": 28.04,
       "status": "win",
       "profit": 13.0435
     },
@@ -4714,6 +4906,7 @@
       "odds": -125,
       "ev": 11.11,
       "stake": 15.0,
+      "payout": 27.0,
       "status": "win",
       "profit": 12.0
     },
@@ -4728,6 +4921,7 @@
       "odds": 280,
       "ev": 7.0,
       "stake": 25.0,
+      "payout": 95.0,
       "status": "win",
       "profit": 70.0
     },
@@ -4742,6 +4936,7 @@
       "odds": -145,
       "ev": 12.39,
       "stake": 145.0,
+      "payout": 245.0,
       "status": "win",
       "profit": 100.0
     },
@@ -4756,6 +4951,7 @@
       "odds": -145,
       "ev": 12.39,
       "stake": 90.0,
+      "payout": 152.07,
       "status": "win",
       "profit": 62.07
     },
@@ -4770,6 +4966,7 @@
       "odds": -120,
       "ev": 7.8,
       "stake": 95.0,
+      "payout": 174.17,
       "status": "win",
       "profit": 79.17
     },
@@ -4784,6 +4981,7 @@
       "odds": 190,
       "ev": 16.13,
       "stake": 40.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -40.0
     },
@@ -4798,6 +4996,7 @@
       "odds": 105,
       "ev": 9.25,
       "stake": 45.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -45.0
     },
@@ -4812,6 +5011,7 @@
       "odds": 105,
       "ev": 9.25,
       "stake": 90.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -90.0
     },
@@ -4826,6 +5026,7 @@
       "odds": 105,
       "ev": 10.58,
       "stake": 50.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -50.0
     },
@@ -4840,6 +5041,7 @@
       "odds": 100,
       "ev": 8.99,
       "stake": 90.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -90.0
     },
@@ -4854,6 +5056,7 @@
       "odds": 100,
       "ev": 7.67,
       "stake": 75.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -75.0
     },
@@ -4868,6 +5071,7 @@
       "odds": 129,
       "ev": 4.22,
       "stake": 0.8742,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1258
     },
@@ -4882,6 +5086,7 @@
       "odds": 266,
       "ev": 9.13,
       "stake": 0.8205,
+      "payout": 3.0,
       "status": "win",
       "profit": 2.1795
     },
@@ -4896,6 +5101,7 @@
       "odds": 186,
       "ev": 10.2,
       "stake": 25.0,
+      "payout": 71.5,
       "status": "win",
       "profit": 46.5
     },
@@ -4910,6 +5116,7 @@
       "odds": 101,
       "ev": 6.46,
       "stake": 0.995,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.005
     },
@@ -4924,6 +5131,7 @@
       "odds": 280,
       "ev": 12.42,
       "stake": 45.0,
+      "payout": 171.0,
       "status": "win",
       "profit": 126.0
     },
@@ -4938,6 +5146,7 @@
       "odds": 280,
       "ev": 12.42,
       "stake": 45.0,
+      "payout": 171.0,
       "status": "win",
       "profit": 126.0
     },
@@ -4952,6 +5161,7 @@
       "odds": -105,
       "ev": 12.84,
       "stake": 65.0,
+      "payout": 126.9,
       "status": "win",
       "profit": 61.9
     },
@@ -4966,6 +5176,7 @@
       "odds": 200,
       "ev": 12.1,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -4980,6 +5191,7 @@
       "odds": -110,
       "ev": 9.43,
       "stake": 105.0,
+      "payout": 200.46,
       "status": "win",
       "profit": 95.4545
     },
@@ -4994,6 +5206,7 @@
       "odds": -110,
       "ev": 9.43,
       "stake": 50.0,
+      "payout": 95.45,
       "status": "win",
       "profit": 45.4545
     },
@@ -5008,6 +5221,7 @@
       "odds": -110,
       "ev": 9.43,
       "stake": 105.0,
+      "payout": 200.45,
       "status": "win",
       "profit": 95.45
     },
@@ -5022,6 +5236,7 @@
       "odds": -110,
       "ev": 9.3,
       "stake": 50.0,
+      "payout": 95.45,
       "status": "win",
       "profit": 45.4545
     },
@@ -5036,6 +5251,7 @@
       "odds": 110,
       "ev": 8.56,
       "stake": 80.0,
+      "payout": 168.0,
       "status": "win",
       "profit": 88.0
     },
@@ -5050,6 +5266,7 @@
       "odds": 105,
       "ev": 7.02,
       "stake": 65.0,
+      "payout": 133.25,
       "status": "win",
       "profit": 68.25
     },
@@ -5064,6 +5281,7 @@
       "odds": 200,
       "ev": 7.86,
       "stake": 7.48,
+      "payout": 0.0,
       "status": "loss",
       "profit": -7.48
     },
@@ -5078,6 +5296,7 @@
       "odds": 110,
       "ev": 13.5,
       "stake": 60.0,
+      "payout": 126.0,
       "status": "win",
       "profit": 66.0
     },
@@ -5092,6 +5311,7 @@
       "odds": -115,
       "ev": 7.78,
       "stake": 90.0,
+      "payout": 168.26,
       "status": "win",
       "profit": 78.26
     },
@@ -5106,6 +5326,7 @@
       "odds": 110,
       "ev": 7.01,
       "stake": 65.0,
+      "payout": 136.5,
       "status": "win",
       "profit": 71.5
     },
@@ -5120,6 +5341,7 @@
       "odds": 189,
       "ev": 3.01,
       "stake": 1.0365,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.0365
     },
@@ -5134,6 +5356,7 @@
       "odds": 180,
       "ev": 9.54,
       "stake": 25.0,
+      "payout": 70.0,
       "status": "win",
       "profit": 45.0
     },
@@ -5148,6 +5371,7 @@
       "odds": -290,
       "ev": 5.26,
       "stake": 0.7438,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.2562
     },
@@ -5162,6 +5386,7 @@
       "odds": 181,
       "ev": 3.9,
       "stake": 0.7115,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.7115
     },
@@ -5176,6 +5401,7 @@
       "odds": 160,
       "ev": 9.56,
       "stake": 60.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -60.0
     },
@@ -5190,6 +5416,7 @@
       "odds": 160,
       "ev": 9.56,
       "stake": 60.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -60.0
     },
@@ -5204,6 +5431,7 @@
       "odds": 240,
       "ev": 9.07,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -5218,6 +5446,7 @@
       "odds": 266,
       "ev": 4.53,
       "stake": 0.8205,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8205
     },
@@ -5232,6 +5461,7 @@
       "odds": 120,
       "ev": 16.8,
       "stake": 70.0,
+      "payout": 154.0,
       "status": "win",
       "profit": 84.0
     },
@@ -5246,6 +5476,7 @@
       "odds": 100,
       "ev": 9.97,
       "stake": 50.0,
+      "payout": 100.0,
       "status": "win",
       "profit": 50.0
     },
@@ -5260,6 +5491,7 @@
       "odds": 100,
       "ev": 9.97,
       "stake": 100.0,
+      "payout": 200.0,
       "status": "win",
       "profit": 100.0
     },
@@ -5274,6 +5506,7 @@
       "odds": 100,
       "ev": 9.97,
       "stake": 100.0,
+      "payout": 200.0,
       "status": "win",
       "profit": 100.0
     },
@@ -5288,6 +5521,7 @@
       "odds": 110,
       "ev": 18.81,
       "stake": 85.0,
+      "payout": 178.5,
       "status": "win",
       "profit": 93.5
     },
@@ -5302,6 +5536,7 @@
       "odds": 110,
       "ev": 18.81,
       "stake": 170.0,
+      "payout": 357.0,
       "status": "win",
       "profit": 187.0
     },
@@ -5316,6 +5551,7 @@
       "odds": 110,
       "ev": 18.81,
       "stake": 170.0,
+      "payout": 357.0,
       "status": "win",
       "profit": 187.0
     },
@@ -5330,6 +5566,7 @@
       "odds": -137,
       "ev": 5.09,
       "stake": 0.5773,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.4227
     },
@@ -5344,6 +5581,7 @@
       "odds": 120,
       "ev": 10.29,
       "stake": 45.0,
+      "payout": 99.0,
       "status": "win",
       "profit": 54.0
     },
@@ -5358,6 +5596,7 @@
       "odds": 120,
       "ev": 10.29,
       "stake": 85.0,
+      "payout": 187.0,
       "status": "win",
       "profit": 102.0
     },
@@ -5372,6 +5611,7 @@
       "odds": 120,
       "ev": 7.09,
       "stake": 60.0,
+      "payout": 132.0,
       "status": "win",
       "profit": 72.0
     },
@@ -5386,6 +5626,7 @@
       "odds": 240,
       "ev": 3.84,
       "stake": 0.8824,
+      "payout": 3.0,
       "status": "win",
       "profit": 2.1176
     },
@@ -5400,6 +5641,7 @@
       "odds": 115,
       "ev": 8.59,
       "stake": 75.0,
+      "payout": 161.25,
       "status": "win",
       "profit": 86.25
     },
@@ -5414,6 +5656,7 @@
       "odds": 115,
       "ev": 7.32,
       "stake": 65.0,
+      "payout": 139.75,
       "status": "win",
       "profit": 74.75
     },
@@ -5428,6 +5671,7 @@
       "odds": 299,
       "ev": 9.3,
       "stake": 10.0,
+      "payout": 40.0,
       "status": "win",
       "profit": 30.0
     },
@@ -5442,6 +5686,7 @@
       "odds": 280,
       "ev": 4.56,
       "stake": 1.0525,
+      "payout": 4.0,
       "status": "win",
       "profit": 2.9475
     },
@@ -5456,6 +5701,7 @@
       "odds": 110,
       "ev": 10.82,
       "stake": 10.0,
+      "payout": 21.0,
       "status": "win",
       "profit": 11.0
     },
@@ -5470,6 +5716,7 @@
       "odds": 120,
       "ev": 8.95,
       "stake": 29.16,
+      "payout": 0.0,
       "status": "loss",
       "profit": -29.16
     },
@@ -5484,6 +5731,7 @@
       "odds": 114,
       "ev": 10.38,
       "stake": 10.0,
+      "payout": 21.4,
       "status": "win",
       "profit": 11.4
     },
@@ -5498,6 +5746,7 @@
       "odds": 124,
       "ev": 8.75,
       "stake": 24.18,
+      "payout": 54.16,
       "status": "win",
       "profit": 29.98
     },
@@ -5512,6 +5761,7 @@
       "odds": 140,
       "ev": 4.09,
       "stake": 0.8336,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1664
     },
@@ -5526,6 +5776,7 @@
       "odds": 105,
       "ev": 4.14,
       "stake": 0.9749,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9749
     },
@@ -5540,6 +5791,7 @@
       "odds": 135,
       "ev": 8.17,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -5554,6 +5806,7 @@
       "odds": -137,
       "ev": 4.0,
       "stake": 0.5773,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.4227
     },
@@ -5568,6 +5821,7 @@
       "odds": -131,
       "ev": 3.36,
       "stake": 19.8564,
+      "payout": 35.0,
       "status": "win",
       "profit": 15.1436
     },
@@ -5582,6 +5836,7 @@
       "odds": -107,
       "ev": 4.14,
       "stake": 1.035,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.035
     },
@@ -5596,6 +5851,7 @@
       "odds": 218,
       "ev": 3.44,
       "stake": 0.9441,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9441
     },
@@ -5610,6 +5866,7 @@
       "odds": 155,
       "ev": 10.75,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -5624,6 +5881,7 @@
       "odds": 225,
       "ev": 34.61,
       "stake": 75.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -75.0
     },
@@ -5638,6 +5896,7 @@
       "odds": 225,
       "ev": 34.61,
       "stake": 75.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -75.0
     },
@@ -5652,6 +5911,7 @@
       "odds": 290,
       "ev": 10.1,
       "stake": 27.57,
+      "payout": 107.52,
       "status": "win",
       "profit": 79.953
     },
@@ -5666,6 +5926,7 @@
       "odds": 290,
       "ev": 10.1,
       "stake": 10.0,
+      "payout": 39.0,
       "status": "win",
       "profit": 29.0
     },
@@ -5680,6 +5941,7 @@
       "odds": -110,
       "ev": 7.23,
       "stake": 40.0,
+      "payout": 76.36,
       "status": "win",
       "profit": 36.36
     },
@@ -5694,6 +5956,7 @@
       "odds": -115,
       "ev": 6.73,
       "stake": 75.0,
+      "payout": 140.22,
       "status": "win",
       "profit": 65.2174
     },
@@ -5708,6 +5971,7 @@
       "odds": -115,
       "ev": 6.73,
       "stake": 75.0,
+      "payout": 140.22,
       "status": "win",
       "profit": 65.2174
     },
@@ -5722,6 +5986,7 @@
       "odds": 124,
       "ev": 7.25,
       "stake": 40.31,
+      "payout": 90.29,
       "status": "win",
       "profit": 49.98
     },
@@ -5736,6 +6001,7 @@
       "odds": 124,
       "ev": 4.2,
       "stake": 0.8944,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1056
     },
@@ -5750,6 +6016,7 @@
       "odds": 135,
       "ev": 9.15,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -5764,6 +6031,7 @@
       "odds": 119,
       "ev": 4.91,
       "stake": 0.9146,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.0854
     },
@@ -5778,6 +6046,7 @@
       "odds": 189,
       "ev": 6.23,
       "stake": 1.0365,
+      "payout": 3.0,
       "status": "win",
       "profit": 1.9635
     },
@@ -5792,6 +6061,7 @@
       "odds": 124,
       "ev": 10.92,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -5806,6 +6076,7 @@
       "odds": 140,
       "ev": 5.28,
       "stake": 20.84,
+      "payout": 50.0,
       "status": "win",
       "profit": 29.16
     },
@@ -5820,6 +6091,7 @@
       "odds": 140,
       "ev": 9.8,
       "stake": 21.42,
+      "payout": 51.41,
       "status": "win",
       "profit": 29.988
     },
@@ -5834,6 +6106,7 @@
       "odds": 120,
       "ev": 8.03,
       "stake": 24.99,
+      "payout": 54.97,
       "status": "win",
       "profit": 29.98
     },
@@ -5848,6 +6121,7 @@
       "odds": 105,
       "ev": 5.18,
       "stake": 0.9749,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9749
     },
@@ -5862,6 +6136,7 @@
       "odds": 114,
       "ev": 6.38,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -5876,6 +6151,7 @@
       "odds": 280,
       "ev": 20.3,
       "stake": 35.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -35.0
     },
@@ -5890,6 +6166,7 @@
       "odds": -168,
       "ev": 3.67,
       "stake": 0.6267,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.6267
     },
@@ -5904,6 +6181,7 @@
       "odds": 101,
       "ev": 11.71,
       "stake": 0.995,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.995
     },
@@ -5918,6 +6196,7 @@
       "odds": 130,
       "ev": 11.74,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -5932,6 +6211,7 @@
       "odds": -103,
       "ev": 3.34,
       "stake": 1.015,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.015
     },
@@ -5946,6 +6226,7 @@
       "odds": 143,
       "ev": 27.13,
       "stake": 95.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -95.0
     },
@@ -5960,6 +6241,7 @@
       "odds": 143,
       "ev": 27.13,
       "stake": 190.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -190.0
     },
@@ -5974,6 +6256,7 @@
       "odds": 229,
       "ev": 8.71,
       "stake": 0.9133,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9133
     },
@@ -5988,6 +6271,7 @@
       "odds": 134,
       "ev": 8.77,
       "stake": 0.8539,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8539
     },
@@ -6002,6 +6286,7 @@
       "odds": 140,
       "ev": 15.79,
       "stake": 55.0,
+      "payout": 132.0,
       "status": "win",
       "profit": 77.0
     },
@@ -6016,6 +6301,7 @@
       "odds": 140,
       "ev": 26.24,
       "stake": 95.0,
+      "payout": 228.0,
       "status": "win",
       "profit": 133.0
     },
@@ -6030,6 +6316,7 @@
       "odds": 140,
       "ev": 26.24,
       "stake": 95.0,
+      "payout": 228.0,
       "status": "win",
       "profit": 133.0
     },
@@ -6044,6 +6331,7 @@
       "odds": 126,
       "ev": 18.88,
       "stake": 150.0,
+      "payout": 339.0,
       "status": "win",
       "profit": 189.0
     },
@@ -6058,6 +6346,7 @@
       "odds": 126,
       "ev": 18.88,
       "stake": 75.0,
+      "payout": 169.5,
       "status": "win",
       "profit": 94.5
     },
@@ -6072,6 +6361,7 @@
       "odds": 140,
       "ev": 29.1,
       "stake": 105.0,
+      "payout": 252.0,
       "status": "win",
       "profit": 147.0
     },
@@ -6086,6 +6376,7 @@
       "odds": -116,
       "ev": 3.13,
       "stake": 0.5375,
+      "payout": 1.0,
       "status": "win",
       "profit": 0.4625
     },
@@ -6100,6 +6391,7 @@
       "odds": -148,
       "ev": 3.09,
       "stake": 0.5971,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.5971
     },
@@ -6114,6 +6406,7 @@
       "odds": 208,
       "ev": 3.26,
       "stake": 0.975,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.975
     },
@@ -6128,6 +6421,7 @@
       "odds": -105,
       "ev": 7.87,
       "stake": 26.24,
+      "payout": 51.23,
       "status": "win",
       "profit": 24.9905
     },
@@ -6142,6 +6436,7 @@
       "odds": 240,
       "ev": 11.94,
       "stake": 25.0,
+      "payout": 85.0,
       "status": "win",
       "profit": 60.0
     },
@@ -6156,6 +6451,7 @@
       "odds": 240,
       "ev": 11.94,
       "stake": 25.0,
+      "payout": 85.0,
       "status": "win",
       "profit": 60.0
     },
@@ -6170,6 +6466,7 @@
       "odds": 112,
       "ev": 12.09,
       "stake": 55.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -55.0
     },
@@ -6184,6 +6481,7 @@
       "odds": 112,
       "ev": 12.09,
       "stake": 110.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -110.0
     },
@@ -6198,6 +6496,7 @@
       "odds": 100,
       "ev": 7.35,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -6212,6 +6511,7 @@
       "odds": 168,
       "ev": 8.88,
       "stake": 25.0,
+      "payout": 67.0,
       "status": "win",
       "profit": 42.0
     },
@@ -6226,6 +6526,7 @@
       "odds": -107,
       "ev": 4.05,
       "stake": 1.035,
+      "payout": 0.0,
       "status": "loss",
       "profit": -1.035
     },
@@ -6240,6 +6541,7 @@
       "odds": -183,
       "ev": 4.95,
       "stake": 0.6464,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.6464
     },
@@ -6254,6 +6556,7 @@
       "odds": 114,
       "ev": 3.19,
       "stake": 0.9347,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9347
     },
@@ -6268,6 +6571,7 @@
       "odds": 260,
       "ev": 9.04,
       "stake": 20.0,
+      "payout": 72.0,
       "status": "win",
       "profit": 52.0
     },
@@ -6282,6 +6586,7 @@
       "odds": 260,
       "ev": 9.04,
       "stake": 35.0,
+      "payout": 126.0,
       "status": "win",
       "profit": 91.0
     },
@@ -6296,6 +6601,7 @@
       "odds": 250,
       "ev": 11.16,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -6310,6 +6616,7 @@
       "odds": -160,
       "ev": 9.66,
       "stake": 75.0,
+      "payout": 121.88,
       "status": "win",
       "profit": 46.875
     },
@@ -6324,6 +6631,7 @@
       "odds": -160,
       "ev": 9.66,
       "stake": 155.0,
+      "payout": 251.88,
       "status": "win",
       "profit": 96.875
     },
@@ -6338,6 +6646,7 @@
       "odds": 115,
       "ev": 7.25,
       "stake": 65.0,
+      "payout": 139.75,
       "status": "win",
       "profit": 74.75
     },
@@ -6352,6 +6661,7 @@
       "odds": 280,
       "ev": 7.23,
       "stake": 50.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -50.0
     },
@@ -6366,6 +6676,7 @@
       "odds": -165,
       "ev": 8.03,
       "stake": 135.0,
+      "payout": 216.82,
       "status": "win",
       "profit": 81.8182
     },
@@ -6380,6 +6691,7 @@
       "odds": -105,
       "ev": 11.39,
       "stake": 120.0,
+      "payout": 234.29,
       "status": "win",
       "profit": 114.286
     },
@@ -6394,6 +6706,7 @@
       "odds": -105,
       "ev": 11.39,
       "stake": 120.0,
+      "payout": 234.29,
       "status": "win",
       "profit": 114.286
     },
@@ -6408,6 +6721,7 @@
       "odds": -130,
       "ev": 10.95,
       "stake": 19.49,
+      "payout": 34.48,
       "status": "win",
       "profit": 14.9923
     },
@@ -6422,6 +6736,7 @@
       "odds": -130,
       "ev": 12.16,
       "stake": 19.49,
+      "payout": 34.48,
       "status": "win",
       "profit": 14.99
     },
@@ -6436,6 +6751,7 @@
       "odds": 105,
       "ev": 3.96,
       "stake": 0.9749,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9749
     },
@@ -6450,6 +6766,7 @@
       "odds": 131,
       "ev": 7.35,
       "stake": 55.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -55.0
     },
@@ -6464,6 +6781,7 @@
       "odds": 119,
       "ev": 4.16,
       "stake": 0.9145,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.0855
     },
@@ -6478,6 +6796,7 @@
       "odds": 181,
       "ev": 6.46,
       "stake": 20.6311,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.6311
     },
@@ -6492,6 +6811,7 @@
       "odds": 108,
       "ev": 9.75,
       "stake": 45.0,
+      "payout": 93.6,
       "status": "win",
       "profit": 48.6
     },
@@ -6506,6 +6826,7 @@
       "odds": 164,
       "ev": 21.67,
       "stake": 65.0,
+      "payout": 171.6,
       "status": "win",
       "profit": 106.6
     },
@@ -6520,6 +6841,7 @@
       "odds": 152,
       "ev": 13.79,
       "stake": 0.793,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.793
     },
@@ -6534,6 +6856,7 @@
       "odds": 218,
       "ev": 4.73,
       "stake": 0.9441,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.9441
     },
@@ -6548,6 +6871,7 @@
       "odds": 124,
       "ev": 3.35,
       "stake": 0.8944,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8944
     },
@@ -6562,6 +6886,7 @@
       "odds": 231,
       "ev": 11.77,
       "stake": 39.14,
+      "payout": 0.0,
       "status": "loss",
       "profit": -39.14
     },
@@ -6576,6 +6901,7 @@
       "odds": 252,
       "ev": 29.96,
       "stake": 63.003,
+      "payout": 0.0,
       "status": "loss",
       "profit": -63.003
     },
@@ -6590,6 +6916,7 @@
       "odds": 146,
       "ev": 29.68,
       "stake": 0.8134,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8134
     },
@@ -6604,6 +6931,7 @@
       "odds": 266,
       "ev": 3.55,
       "stake": 0.8205,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8205
     },
@@ -6618,6 +6946,7 @@
       "odds": 146,
       "ev": 5.19,
       "stake": 0.8134,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.1866
     },
@@ -6632,6 +6961,7 @@
       "odds": 218,
       "ev": 3.17,
       "stake": 0.9441,
+      "payout": 3.0,
       "status": "win",
       "profit": 2.0559
     },
@@ -6646,6 +6976,7 @@
       "odds": 129,
       "ev": 3.92,
       "stake": 0.8742,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.8742
     },
@@ -6660,6 +6991,7 @@
       "odds": 100,
       "ev": 7.48,
       "stake": 75.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -75.0
     },
@@ -6674,6 +7006,7 @@
       "odds": 150,
       "ev": 13.0,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -6688,6 +7021,7 @@
       "odds": 175,
       "ev": 10.03,
       "stake": 30.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -30.0
     },
@@ -6702,6 +7036,7 @@
       "odds": 190,
       "ev": 8.65,
       "stake": 45.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -45.0
     },
@@ -6716,6 +7051,7 @@
       "odds": 190,
       "ev": 8.65,
       "stake": 50.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -50.0
     },
@@ -6730,6 +7066,7 @@
       "odds": 190,
       "ev": 11.87,
       "stake": 30.0,
+      "payout": 87.0,
       "status": "win",
       "profit": 57.0
     },
@@ -6744,6 +7081,7 @@
       "odds": 150,
       "ev": 8.32,
       "stake": 55.0,
+      "payout": 137.5,
       "status": "win",
       "profit": 82.5
     },
@@ -6758,6 +7096,7 @@
       "odds": 120,
       "ev": 7.28,
       "stake": 60.0,
+      "payout": 132.0,
       "status": "win",
       "profit": 72.0
     },
@@ -6772,6 +7111,7 @@
       "odds": 125,
       "ev": 10.96,
       "stake": 45.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -45.0
     },
@@ -6786,6 +7126,7 @@
       "odds": 125,
       "ev": 10.96,
       "stake": 90.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -90.0
     },
@@ -6800,6 +7141,7 @@
       "odds": 125,
       "ev": 10.96,
       "stake": 90.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -90.0
     },
@@ -6814,6 +7156,7 @@
       "odds": -140,
       "ev": 8.26,
       "stake": 60.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -60.0
     },
@@ -6828,6 +7171,7 @@
       "odds": 166,
       "ev": 5.92,
       "stake": 0.7524,
+      "payout": 0.0,
       "status": "loss",
       "profit": -0.7524
     },
@@ -6842,6 +7186,7 @@
       "odds": 173,
       "ev": 4.59,
       "stake": 0.7319,
+      "payout": 2.0,
       "status": "win",
       "profit": 1.2681
     },
@@ -6856,6 +7201,7 @@
       "odds": 110,
       "ev": 11.27,
       "stake": 50.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -50.0
     },
@@ -6870,6 +7216,7 @@
       "odds": 110,
       "ev": 11.27,
       "stake": 100.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -100.0
     },
@@ -6884,6 +7231,7 @@
       "odds": -105,
       "ev": 7.11,
       "stake": 75.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -75.0
     },
@@ -6898,6 +7246,7 @@
       "odds": 300,
       "ev": 23.92,
       "stake": 4.99,
+      "payout": 0.0,
       "status": "loss",
       "profit": -4.99
     },
@@ -6912,6 +7261,7 @@
       "odds": 300,
       "ev": 23.92,
       "stake": 10.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -10.0
     },
@@ -6926,6 +7276,7 @@
       "odds": -160,
       "ev": 10.6,
       "stake": 85.0,
+      "payout": 138.13,
       "status": "win",
       "profit": 53.13
     },
@@ -6940,6 +7291,7 @@
       "odds": -160,
       "ev": 10.6,
       "stake": 170.0,
+      "payout": 276.25,
       "status": "win",
       "profit": 106.25
     },
@@ -6954,6 +7306,7 @@
       "odds": -160,
       "ev": 10.6,
       "stake": 170.0,
+      "payout": 276.25,
       "status": "win",
       "profit": 106.25
     },
@@ -6968,6 +7321,7 @@
       "odds": 280,
       "ev": 9.8,
       "stake": 20.0,
+      "payout": 0.0,
       "status": "loss",
       "profit": -20.0
     },
@@ -6982,6 +7336,7 @@
       "odds": 126,
       "ev": 11.06,
       "stake": 45.0,
+      "payout": 101.7,
       "status": "win",
       "profit": 56.7
     },
@@ -6996,64 +7351,9 @@
       "odds": 126,
       "ev": 11.06,
       "stake": 45.0,
+      "payout": 101.7,
       "status": "win",
       "profit": 56.7
-    },
-    {
-      "date": "2026-05-28",
-      "time": "15:38:55",
-      "account": "Dad Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Hurkacz +2.5",
-      "odds": -105,
-      "ev": 21.9,
-      "stake": 115.0,
-      "status": "loss",
-      "profit": -115.0
-    },
-    {
-      "date": "2026-05-28",
-      "time": "15:38:55",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Hurkacz +2.5",
-      "odds": -105,
-      "ev": 21.9,
-      "stake": 230.0,
-      "status": "loss",
-      "profit": -230.0
-    },
-    {
-      "date": "2026-05-28",
-      "time": "15:38:55",
-      "account": "Mom Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Hurkacz +2.5",
-      "odds": -105,
-      "ev": 21.9,
-      "stake": 230.0,
-      "status": "loss",
-      "profit": -230.0
-    },
-    {
-      "date": "2026-05-28",
-      "time": "15:38:03",
-      "account": "Dad Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Games",
-      "selection": "Under 19.5",
-      "odds": -140,
-      "ev": 9.93,
-      "stake": 70.0,
-      "status": "win",
-      "profit": 50.0
     }
   ],
   "book_brier": [],
@@ -7062,5 +7362,1704 @@
     "markets": 54,
     "recent": 300,
     "data_through": "2026-05-30"
-  }
+  },
+  "book_markets": [
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Points",
+      "n": 72,
+      "stake": 720.0,
+      "profit": 119.5,
+      "roi": 0.166,
+      "avg_ev": 9.37,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Threes Made",
+      "n": 20,
+      "stake": 200.0,
+      "profit": 114.5,
+      "roi": 0.5725,
+      "avg_ev": 11.21,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Points + Rebounds",
+      "n": 45,
+      "stake": 450.0,
+      "profit": 84.0,
+      "roi": 0.1867,
+      "avg_ev": 8.83,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Assists",
+      "n": 36,
+      "stake": 360.0,
+      "profit": 37.0,
+      "roi": 0.1028,
+      "avg_ev": 10.15,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "Tennis",
+      "market": "Game Handicap",
+      "n": 2,
+      "stake": 20.0,
+      "profit": 27.0,
+      "roi": 1.35,
+      "avg_ev": 8.28,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Points + Assists",
+      "n": 20,
+      "stake": 200.0,
+      "profit": 12.09,
+      "roi": 0.0604,
+      "avg_ev": 8.23,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "EuroLeague",
+      "market": "Total Points",
+      "n": 1,
+      "stake": 10.0,
+      "profit": 9.52,
+      "roi": 0.952,
+      "avg_ev": 6.05,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Rebounds + Assists",
+      "n": 10,
+      "stake": 100.0,
+      "profit": 9.5,
+      "roi": 0.095,
+      "avg_ev": 9.1,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "n": 1,
+      "stake": 10.0,
+      "profit": -10.0,
+      "roi": -1.0,
+      "avg_ev": 6.79,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "MLB",
+      "market": "Pitcher Strikeouts",
+      "n": 4,
+      "stake": 40.0,
+      "profit": -20.0,
+      "roi": -0.5,
+      "avg_ev": 9.83,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Points + Rebounds + Assists",
+      "n": 33,
+      "stake": 330.0,
+      "profit": -31.0,
+      "roi": -0.0939,
+      "avg_ev": 8.72,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Bovada",
+      "league": "NBA",
+      "market": "Player Rebounds",
+      "n": 40,
+      "stake": 400.0,
+      "profit": -106.81,
+      "roi": -0.267,
+      "avg_ev": 11.35,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Total Games",
+      "n": 176,
+      "stake": 16601.1,
+      "profit": 2803.6,
+      "roi": 0.1689,
+      "avg_ev": 10.49,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "n": 198,
+      "stake": 17540.47,
+      "profit": 2492.81,
+      "roi": 0.1421,
+      "avg_ev": 8.63,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "n": 130,
+      "stake": 9225.0,
+      "profit": 2192.22,
+      "roi": 0.2376,
+      "avg_ev": 7.83,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Game Handicap",
+      "n": 229,
+      "stake": 21864.66,
+      "profit": 1801.12,
+      "roi": 0.0824,
+      "avg_ev": 10.23,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Player Assists",
+      "n": 12,
+      "stake": 2025.0,
+      "profit": 759.73,
+      "roi": 0.3752,
+      "avg_ev": 11.52,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Point Spread - 1st Half",
+      "n": 13,
+      "stake": 1220.0,
+      "profit": 475.82,
+      "roi": 0.39,
+      "avg_ev": 7.85,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "WNBA",
+      "market": "Moneyline",
+      "n": 4,
+      "stake": 800.0,
+      "profit": 420.48,
+      "roi": 0.5256,
+      "avg_ev": 9.11,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Moneyline - 1st Half",
+      "n": 5,
+      "stake": 425.0,
+      "profit": 389.42,
+      "roi": 0.9163,
+      "avg_ev": 8.38,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Total Runs",
+      "n": 129,
+      "stake": 11325.0,
+      "profit": 211.94,
+      "roi": 0.0187,
+      "avg_ev": 8.64,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Moneyline - 1st 5 Innings",
+      "n": 3,
+      "stake": 240.0,
+      "profit": 163.2,
+      "roi": 0.68,
+      "avg_ev": 15.84,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
+      "n": 2,
+      "stake": 180.0,
+      "profit": 141.0,
+      "roi": 0.7833,
+      "avg_ev": 6.46,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Moneyline",
+      "n": 5,
+      "stake": 335.0,
+      "profit": 123.75,
+      "roi": 0.3694,
+      "avg_ev": 9.59,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Team Total Points",
+      "n": 3,
+      "stake": 90.0,
+      "profit": 80.17,
+      "roi": 0.8908,
+      "avg_ev": 9.11,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "WNBA",
+      "market": "Total Points",
+      "n": 9,
+      "stake": 1430.0,
+      "profit": 70.12,
+      "roi": 0.049,
+      "avg_ev": 7.2,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Point Spread - 3rd Quarter",
+      "n": 1,
+      "stake": 80.0,
+      "profit": 59.26,
+      "roi": 0.7408,
+      "avg_ev": 12.67,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Total Points - 1st Half",
+      "n": 4,
+      "stake": 185.0,
+      "profit": 55.0,
+      "roi": 0.2973,
+      "avg_ev": 7.17,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NHL",
+      "market": "Puck Line",
+      "n": 8,
+      "stake": 1100.0,
+      "profit": 54.18,
+      "roi": 0.0493,
+      "avg_ev": 17.46,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Point Spread - 2nd Quarter",
+      "n": 1,
+      "stake": 80.0,
+      "profit": 44.44,
+      "roi": 0.5555,
+      "avg_ev": 6.78,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Total Sets",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "WNBA",
+      "market": "Point Spread - 1st Half",
+      "n": 2,
+      "stake": 40.0,
+      "profit": -4.62,
+      "roi": -0.1155,
+      "avg_ev": 5.95,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "WNBA",
+      "market": "Team Total Points",
+      "n": 4,
+      "stake": 800.0,
+      "profit": -27.7,
+      "roi": -0.0346,
+      "avg_ev": 10.23,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Moneyline - 1st Set",
+      "n": 96,
+      "stake": 8735.0,
+      "profit": -55.94,
+      "roi": -0.0064,
+      "avg_ev": 11.12,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Player Rebounds",
+      "n": 2,
+      "stake": 400.0,
+      "profit": -58.16,
+      "roi": -0.1454,
+      "avg_ev": 4.08,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NHL",
+      "market": "Total Goals - 1st Period",
+      "n": 3,
+      "stake": 280.0,
+      "profit": -92.0,
+      "roi": -0.3286,
+      "avg_ev": 6.69,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Total Points - 1st Quarter",
+      "n": 7,
+      "stake": 640.0,
+      "profit": -130.63,
+      "roi": -0.2041,
+      "avg_ev": 7.32,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NHL",
+      "market": "Moneyline",
+      "n": 2,
+      "stake": 180.0,
+      "profit": -180.0,
+      "roi": -1.0,
+      "avg_ev": 6.37,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Total Points - 3rd Quarter",
+      "n": 4,
+      "stake": 380.0,
+      "profit": -189.09,
+      "roi": -0.4976,
+      "avg_ev": 8.08,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NHL",
+      "market": "Total Goals",
+      "n": 8,
+      "stake": 1000.0,
+      "profit": -382.5,
+      "roi": -0.3825,
+      "avg_ev": 8.4,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 64,
+      "stake": 4540.0,
+      "profit": -592.62,
+      "roi": -0.1305,
+      "avg_ev": 10.8,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Total Points",
+      "n": 56,
+      "stake": 5930.0,
+      "profit": -733.8,
+      "roi": -0.1237,
+      "avg_ev": 9.53,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Run Line",
+      "n": 87,
+      "stake": 7620.0,
+      "profit": -883.91,
+      "roi": -0.116,
+      "avg_ev": 9.06,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "NBA",
+      "market": "Point Spread",
+      "n": 27,
+      "stake": 2685.0,
+      "profit": -886.92,
+      "roi": -0.3303,
+      "avg_ev": 11.3,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Moneyline",
+      "n": 67,
+      "stake": 5280.0,
+      "profit": -1067.18,
+      "roi": -0.2021,
+      "avg_ev": 9.86,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "n": 189,
+      "stake": 10633.97,
+      "profit": 3007.93,
+      "roi": 0.2829,
+      "avg_ev": 8.61,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
+      "n": 30,
+      "stake": 3913.28,
+      "profit": 1283.23,
+      "roi": 0.3279,
+      "avg_ev": 10.9,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs",
+      "n": 155,
+      "stake": 12611.63,
+      "profit": 1200.5,
+      "roi": 0.0952,
+      "avg_ev": 10.15,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "n": 87,
+      "stake": 5332.51,
+      "profit": 1190.39,
+      "roi": 0.2232,
+      "avg_ev": 9.62,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Total Points",
+      "n": 39,
+      "stake": 3751.72,
+      "profit": 1144.86,
+      "roi": 0.3052,
+      "avg_ev": 8.3,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "n": 107,
+      "stake": 8318.99,
+      "profit": 810.39,
+      "roi": 0.0974,
+      "avg_ev": 13.64,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Moneyline",
+      "n": 38,
+      "stake": 3203.54,
+      "profit": 802.57,
+      "roi": 0.2505,
+      "avg_ev": 13.82,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Point Spread",
+      "n": 39,
+      "stake": 3977.47,
+      "profit": 671.1,
+      "roi": 0.1687,
+      "avg_ev": 9.45,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points - 1st Half",
+      "n": 18,
+      "stake": 529.92,
+      "profit": 338.06,
+      "roi": 0.6379,
+      "avg_ev": 9.28,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Point Spread - 1st Half",
+      "n": 18,
+      "stake": 641.87,
+      "profit": 323.74,
+      "roi": 0.5044,
+      "avg_ev": 7.84,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Point Spread - 2nd Quarter",
+      "n": 1,
+      "stake": 262.49,
+      "profit": 249.99,
+      "roi": 0.9524,
+      "avg_ev": 10.43,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Total Points - 1st Quarter",
+      "n": 13,
+      "stake": 2102.38,
+      "profit": 205.55,
+      "roi": 0.0978,
+      "avg_ev": 8.84,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Total Sets",
+      "n": 122,
+      "stake": 3511.78,
+      "profit": 159.58,
+      "roi": 0.0454,
+      "avg_ev": 9.17,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Game Handicap",
+      "n": 28,
+      "stake": 2090.65,
+      "profit": 129.65,
+      "roi": 0.062,
+      "avg_ev": 11.84,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 84,
+      "stake": 2792.74,
+      "profit": 115.72,
+      "roi": 0.0414,
+      "avg_ev": 11.36,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Point Spread - 3rd Quarter",
+      "n": 1,
+      "stake": 100.0,
+      "profit": 90.9,
+      "roi": 0.909,
+      "avg_ev": 6.12,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Moneyline - 4th Quarter",
+      "n": 4,
+      "stake": 263.44,
+      "profit": 69.98,
+      "roi": 0.2656,
+      "avg_ev": 7.84,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Player Rebounds",
+      "n": 8,
+      "stake": 223.28,
+      "profit": 67.41,
+      "roi": 0.3019,
+      "avg_ev": 7.55,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "n": 31,
+      "stake": 718.63,
+      "profit": 53.23,
+      "roi": 0.0741,
+      "avg_ev": 8.44,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points - 1st Quarter",
+      "n": 7,
+      "stake": 174.21,
+      "profit": -6.67,
+      "roi": -0.0383,
+      "avg_ev": 7.48,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Player Hits",
+      "n": 27,
+      "stake": 152.07,
+      "profit": -25.1,
+      "roi": -0.1651,
+      "avg_ev": 9.3,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Point Spread - 1st Quarter",
+      "n": 4,
+      "stake": 98.69,
+      "profit": -41.45,
+      "roi": -0.42,
+      "avg_ev": 7.64,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Moneyline - 3rd Quarter",
+      "n": 1,
+      "stake": 100.0,
+      "profit": -100.0,
+      "roi": -1.0,
+      "avg_ev": 17.72,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Total Games",
+      "n": 99,
+      "stake": 11755.4,
+      "profit": -114.75,
+      "roi": -0.0098,
+      "avg_ev": 13.68,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 64,
+      "stake": 2910.59,
+      "profit": -167.44,
+      "roi": -0.0575,
+      "avg_ev": 11.38,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Total Points - 2nd Quarter",
+      "n": 1,
+      "stake": 250.0,
+      "profit": -250.0,
+      "roi": -1.0,
+      "avg_ev": 10.81,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points",
+      "n": 42,
+      "stake": 1064.84,
+      "profit": -297.41,
+      "roi": -0.2793,
+      "avg_ev": 8.48,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Pitcher Strikeouts",
+      "n": 60,
+      "stake": 1673.7,
+      "profit": -497.92,
+      "roi": -0.2975,
+      "avg_ev": 10.2,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Total Points - 1st Half",
+      "n": 13,
+      "stake": 2974.98,
+      "profit": -985.98,
+      "roi": -0.3314,
+      "avg_ev": 11.97,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "DraftKings",
+      "league": "NBA",
+      "market": "Point Spread - 1st Half",
+      "n": 10,
+      "stake": 2500.0,
+      "profit": -1100.0,
+      "roi": -0.44,
+      "avg_ev": 11.42,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread",
+      "n": 9,
+      "stake": 865.0,
+      "profit": 629.0,
+      "roi": 0.7272,
+      "avg_ev": 8.63,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NHL",
+      "market": "Total Goals",
+      "n": 8,
+      "stake": 710.0,
+      "profit": 409.0,
+      "roi": 0.5761,
+      "avg_ev": 8.57,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 3,
+      "stake": 235.0,
+      "profit": 314.6,
+      "roi": 1.3387,
+      "avg_ev": 20.74,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Game Handicap - 1st Set",
+      "n": 150,
+      "stake": 6925.2,
+      "profit": 197.74,
+      "roi": 0.0286,
+      "avg_ev": 9.52,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Game Handicap",
+      "n": 16,
+      "stake": 644.9,
+      "profit": 187.39,
+      "roi": 0.2906,
+      "avg_ev": 12.46,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Total Runs",
+      "n": 45,
+      "stake": 5781.0,
+      "profit": 164.01,
+      "roi": 0.0284,
+      "avg_ev": 12.03,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Total Points",
+      "n": 3,
+      "stake": 400.0,
+      "profit": 87.63,
+      "roi": 0.2191,
+      "avg_ev": 3.58,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Player Assists",
+      "n": 7,
+      "stake": 299.9,
+      "profit": 54.72,
+      "roi": 0.1825,
+      "avg_ev": 13.94,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Total Points - 1st Half",
+      "n": 3,
+      "stake": 95.0,
+      "profit": 22.69,
+      "roi": 0.2388,
+      "avg_ev": 7.24,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Moneyline",
+      "n": 42,
+      "stake": 2963.0,
+      "profit": 13.41,
+      "roi": 0.0045,
+      "avg_ev": 11.85,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Player Rebounds",
+      "n": 1,
+      "stake": 2.0,
+      "profit": -2.0,
+      "roi": -1.0,
+      "avg_ev": 17.39,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Total Points - 1st Quarter",
+      "n": 3,
+      "stake": 400.0,
+      "profit": -216.67,
+      "roi": -0.5417,
+      "avg_ev": 4.6,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Player Threes Made",
+      "n": 3,
+      "stake": 302.0,
+      "profit": -302.0,
+      "roi": -1.0,
+      "avg_ev": 7.46,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "n": 18,
+      "stake": 1920.0,
+      "profit": -331.83,
+      "roi": -0.1728,
+      "avg_ev": 6.26,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "WNBA",
+      "market": "Total Points",
+      "n": 10,
+      "stake": 1400.0,
+      "profit": -561.77,
+      "roi": -0.4013,
+      "avg_ev": 6.88,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line",
+      "n": 9,
+      "stake": 1218.0,
+      "profit": -612.42,
+      "roi": -0.5028,
+      "avg_ev": 19.63,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "n": 20,
+      "stake": 1636.0,
+      "profit": -1087.07,
+      "roi": -0.6645,
+      "avg_ev": 10.49,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Total Points",
+      "n": 7,
+      "stake": 330.0,
+      "profit": 136.5,
+      "roi": 0.4136,
+      "avg_ev": 8.49,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Player Threes Made",
+      "n": 1,
+      "stake": 40.0,
+      "profit": 58.0,
+      "roi": 1.45,
+      "avg_ev": 5.15,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Total Points - 1st Quarter",
+      "n": 1,
+      "stake": 40.0,
+      "profit": 52.0,
+      "roi": 1.3,
+      "avg_ev": 6.83,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Total Points",
+      "n": 2,
+      "stake": 40.0,
+      "profit": 35.57,
+      "roi": 0.8892,
+      "avg_ev": 6.21,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "n": 3,
+      "stake": 60.0,
+      "profit": 18.18,
+      "roi": 0.303,
+      "avg_ev": 6.26,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "n": 1,
+      "stake": 20.0,
+      "profit": -20.0,
+      "roi": -1.0,
+      "avg_ev": 7.07,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Player Total Bases",
+      "n": 1,
+      "stake": 20.0,
+      "profit": -20.0,
+      "roi": -1.0,
+      "avg_ev": 6.3,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Player Rebounds",
+      "n": 10,
+      "stake": 420.0,
+      "profit": -42.5,
+      "roi": -0.1012,
+      "avg_ev": 8.01,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Moneyline",
+      "n": 8,
+      "stake": 370.0,
+      "profit": -42.5,
+      "roi": -0.1149,
+      "avg_ev": 6.15,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Player Assists",
+      "n": 6,
+      "stake": 280.0,
+      "profit": -62.5,
+      "roi": -0.2232,
+      "avg_ev": 7.74,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Point Spread",
+      "n": 2,
+      "stake": 100.0,
+      "profit": -100.0,
+      "roi": -1.0,
+      "avg_ev": 13.37,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "NBA",
+      "market": "Player Points",
+      "n": 9,
+      "stake": 420.0,
+      "profit": -149.0,
+      "roi": -0.3548,
+      "avg_ev": 6.38,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Run Line",
+      "n": 27,
+      "stake": 1330.0,
+      "profit": -317.49,
+      "roi": -0.2387,
+      "avg_ev": 13.74,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Total Runs",
+      "n": 42,
+      "stake": 1985.0,
+      "profit": -454.05,
+      "roi": -0.2287,
+      "avg_ev": 12.76,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "NBA",
+      "market": "Point Spread",
+      "n": 44,
+      "stake": 789.43,
+      "profit": 183.8,
+      "roi": 0.2328,
+      "avg_ev": 6.33,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Moneyline",
+      "n": 55,
+      "stake": 441.66,
+      "profit": 101.36,
+      "roi": 0.2295,
+      "avg_ev": 4.54,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Total Points",
+      "n": 27,
+      "stake": 171.36,
+      "profit": 15.64,
+      "roi": 0.0913,
+      "avg_ev": 5.1,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Game Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "n": 91,
+      "stake": 74.36,
+      "profit": -6.36,
+      "roi": -0.0855,
+      "avg_ev": 4.7,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "NHL",
+      "market": "Total Goals",
+      "n": 19,
+      "stake": 44.32,
+      "profit": -9.31,
+      "roi": -0.2101,
+      "avg_ev": 5.38,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "NHL",
+      "market": "Puck Line",
+      "n": 29,
+      "stake": 182.36,
+      "profit": -10.18,
+      "roi": -0.0558,
+      "avg_ev": 9.8,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "NHL",
+      "market": "Moneyline",
+      "n": 17,
+      "stake": 96.08,
+      "profit": -17.08,
+      "roi": -0.1778,
+      "avg_ev": 15.9,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "NBA",
+      "market": "Total Points",
+      "n": 31,
+      "stake": 497.17,
+      "profit": -55.87,
+      "roi": -0.1124,
+      "avg_ev": 6.91,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "n": 33,
+      "stake": 337.62,
+      "profit": -71.6,
+      "roi": -0.2121,
+      "avg_ev": 5.71,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "n": 268,
+      "stake": 803.76,
+      "profit": -104.69,
+      "roi": -0.1303,
+      "avg_ev": 5.87,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "NBA",
+      "market": "Moneyline",
+      "n": 17,
+      "stake": 183.14,
+      "profit": -122.14,
+      "roi": -0.6669,
+      "avg_ev": 7.83,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "n": 93,
+      "stake": 2116.82,
+      "profit": -316.87,
+      "roi": -0.1497,
+      "avg_ev": 10.25,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "n": 395,
+      "stake": 6425.74,
+      "profit": -467.97,
+      "roi": -0.0728,
+      "avg_ev": 11.06,
+      "in_config": true,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Underdog",
+      "league": "",
+      "market": "2 Pick Power (2 legs)",
+      "n": 466,
+      "stake": 11020.0,
+      "profit": 4160.89,
+      "roi": 0.3776,
+      "avg_ev": 28.81,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": false
+    }
+  ],
+  "books_with_config": [
+    "Caesars",
+    "DraftKings",
+    "FanDuel",
+    "Fliff",
+    "Kalshi"
+  ]
 }

@@ -71,6 +71,26 @@
     .svgwrap{width:100%;height:170px;}
     footer{color:var(--muted);font-size:12px;margin-top:24px;font-family:"JetBrains Mono",monospace;}
     .lock{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--cyan);border:1px solid rgba(56,189,248,.35);background:rgba(56,189,248,.08);padding:3px 9px;border-radius:999px;}
+    .v-off{background:rgba(56,189,248,.14);color:var(--cyan);}
+    /* live bet board side rail */
+    #rail{display:none;position:fixed;top:0;right:0;width:330px;height:100vh;z-index:30;flex-direction:column;
+      background:linear-gradient(180deg,#0b1018,#070a0f);border-left:1px solid var(--line);}
+    #rail .rh{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:9px;}
+    #rail .rh .t{font-family:"Syne",sans-serif;font-weight:700;font-size:14px;letter-spacing:.02em;}
+    #rail .rh .c{margin-left:auto;font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--muted);}
+    #rail .rlist{overflow-y:auto;flex:1;padding:10px 10px 24px;}
+    #rail .rlist::-webkit-scrollbar{width:7px;} #rail .rlist::-webkit-scrollbar-thumb{background:#1e2735;border-radius:9px;}
+    .bet{background:var(--panel-2);border:1px solid var(--line);border-left:3px solid var(--soft);border-radius:10px;padding:9px 11px;margin-bottom:8px;}
+    .bet.win{border-left-color:var(--green);} .bet.loss{border-left-color:var(--red);}
+    .bet.pending{border-left-color:var(--cyan);} .bet.push{border-left-color:var(--muted);}
+    .bet .b1{display:flex;justify-content:space-between;align-items:baseline;gap:8px;}
+    .bet .acct{font-family:"Syne",sans-serif;font-weight:700;font-size:13px;}
+    .bet .tm{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--muted);white-space:nowrap;}
+    .bet .sel{font-size:11px;color:var(--muted);margin:3px 0 7px;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+    .bet .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;font-family:"JetBrains Mono",monospace;font-size:11px;}
+    .bet .nums>div{line-height:1.25;} .bet .nums b{font-weight:700;}
+    .bet .nums span{display:block;color:var(--muted);font-size:8.5px;text-transform:uppercase;letter-spacing:.06em;}
+    @media(min-width:1180px){body{padding-right:330px;} #rail{display:flex;}}
   </style>
 </head>
 <body>
@@ -103,6 +123,11 @@
 
     <footer>Private dashboard · real PropSniper reports · served to 127.0.0.1 only · never published</footer>
   </div>
+
+  <aside id="rail">
+    <div class="rh"><span class="pulse"></span><span class="t">Live Bet Board</span><span class="c" id="railCount">—</span></div>
+    <div class="rlist" id="railList"></div>
+  </aside>
 
   <div class="scrim" id="scrim"></div>
   <div class="drawer" id="drawer"></div>
@@ -176,8 +201,57 @@
       $("personseg").querySelectorAll("button").forEach(b=>b.onclick=()=>{PERSON=b.dataset.p;render();});
       $("venueseg").querySelectorAll("button").forEach(b=>b.onclick=()=>{VENUE=b.dataset.v;render();});
     }
+    function railRender(){
+      const rows=(FEED.recent||[]).slice(0,60);
+      $("railCount").textContent=rows.length?`${rows.length} latest`:"";
+      const el=$("railList");
+      if(!rows.length){el.innerHTML='<div class="empty" style="padding:14px">No recent bets.</div>';return;}
+      el.innerHTML=rows.map(r=>{
+        const st=r.status==='win'?'win':r.status==='loss'?'loss':r.status==='push'?'push':'pending';
+        const od=(typeof r.odds==='number'?(r.odds>0?'+':'')+r.odds:esc(r.odds));
+        const stc=st==='win'?'pos':st==='loss'?'neg':'';
+        return `<div class="bet ${st}">
+          <div class="b1"><span class="acct">${esc(r.account)}</span><span class="tm">${esc(r.time||r.date||'')}</span></div>
+          <div class="sel">${esc(r.league?r.league+' · ':'')}${esc(r.market)}${r.selection?' — '+esc(r.selection):''}</div>
+          <div class="nums">
+            <div><span>Stake</span><b>${money(r.stake||0)}</b></div>
+            <div><span>Odds</span><b>${od}</b></div>
+            <div><span>Payout</span><b class="${stc}">${money(r.payout||0)}</b></div>
+            <div><span>EV</span><b>${(r.ev||0).toFixed(1)}%</b></div>
+          </div></div>`;
+      }).join("");
+    }
+
+    function booksView(){
+      let rows=(FEED.book_markets||[]);
+      if(VENUE!=="All")rows=rows.filter(r=>r.book===VENUE);
+      if(Q)rows=rows.filter(r=>(r.book+" "+(r.league||"")+" "+r.market).toLowerCase().includes(Q));
+      if(!rows.length)return `<div class="panel"><div class="empty">No book/market data. (Configs cross-reference needs configs/ present at build time.)</div></div>`;
+      const books={};rows.forEach(r=>(books[r.book]=books[r.book]||[]).push(r));
+      const sp=bk=>books[bk].reduce((s,r)=>s+(r.profit||0),0);
+      const order=Object.keys(books).sort((a,b)=>sp(b)-sp(a));
+      const badge=r=> r.bet&&r.in_config?'<span class="vbadge v-work">✓ In Config</span>'
+        : r.bet&&!r.in_config?'<span class="vbadge v-off">✗ Off-Config</span>'
+        : '<span class="vbadge v-flat">◦ Unbet · Configured</span>';
+      const legend=`<div class="dim" style="font-size:12px;margin-bottom:14px;line-height:1.7">Top markets per book, ranked by profit. <span class="vbadge v-work">✓ In Config</span> matches a deployed rule · <span class="vbadge v-off">✗ Off-Config</span> we're betting it with no config — winners are candidates to add · <span class="vbadge v-flat">◦ Unbet</span> configured but no bets yet.</div>`;
+      return legend+order.map(bk=>{
+        const rs=books[bk].slice().sort((a,b)=>(b.profit||0)-(a.profit||0));
+        const bet=rs.filter(r=>r.bet), offc=bet.filter(r=>!r.in_config);
+        const hasCfg=rs.some(r=>r.book_has_config);
+        const offProfit=offc.reduce((s,r)=>s+(r.profit||0),0);
+        const sub=hasCfg
+          ?`${bet.length} markets · ${bet.length-offc.length} in-config · ${offc.length} off-config${offProfit?` (${money(offProfit)})`:''}`
+          :`${bet.length} markets · <span style="color:var(--cyan)">no configs deployed for this book</span>`;
+        return `<div class="panel">
+          <h2>${esc(bk)} <span class="dim mono" style="font-size:12px;font-weight:400">${sub}</span></h2>
+          <table><thead><tr><th>Market</th><th>League</th><th class="r">Bets</th><th class="r">Wagered</th><th class="r">Profit</th><th class="r">ROI</th><th>Config</th></tr></thead><tbody>${
+            rs.map(r=>`<tr><td>${esc(r.market)}</td><td class="dim">${esc(r.league)}</td><td class="r mono">${r.n||0}</td><td class="r mono dim">${r.bet?money(r.stake||0):'—'}</td><td class="r mono ${cls(r.profit||0)}">${r.bet?money(r.profit||0):'—'}</td><td class="r mono ${cls(r.roi||0)}">${r.bet?pct(r.roi):'—'}</td><td>${badge(r)}</td></tr>`).join("")
+          }</tbody></table></div>`;
+      }).join("");
+    }
+
     function tabsbar(){
-      const defs=[["accounts","Accounts"],["markets","Markets / Configs"],["recent","Recent Bets"]];
+      const defs=[["accounts","Accounts"],["books","Top Markets · Books"],["markets","Markets / Configs"],["recent","Recent Bets"]];
       $("tabs").innerHTML=defs.map(([k,l])=>`<button data-t="${k}" class="${k===TAB?'on':''}">${l}</button>`).join("");
       $("tabs").querySelectorAll("button").forEach(b=>b.onclick=()=>{TAB=b.dataset.t;render();});
     }
@@ -268,8 +342,8 @@
       if(!FEED)return;
       $("src").textContent=FEED.source||"—";$("ts").textContent=FEED.generated_at||"—";
       $("through").textContent=(FEED.portfolio&&FEED.portfolio.data_through)||"—";
-      kpis();pnlChart();filterBars();tabsbar();
-      $("view").innerHTML=TAB==="accounts"?accountsView():TAB==="markets"?marketsView():recentView();
+      kpis();pnlChart();filterBars();tabsbar();railRender();
+      $("view").innerHTML=TAB==="accounts"?accountsView():TAB==="books"?booksView():TAB==="markets"?marketsView():recentView();
       if(TAB==="accounts")document.querySelectorAll(".acct").forEach(c=>c.onclick=()=>openDrawer(FEED.accounts[+c.dataset.i]));
       if(TAB==="markets")document.querySelectorAll("#mtab th").forEach(h=>h.onclick=()=>{const k=h.dataset.k;if(!k)return;if(mSort.key===k)mSort.dir*=-1;else{mSort.key=k;mSort.dir=-1;}render();});
     }
