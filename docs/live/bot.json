@@ -3,7 +3,7 @@
   "kind": "trading_bot",
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
-  "generated_at": "2026-05-30T21:57:04Z",
+  "generated_at": "2026-05-30T21:59:04Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 13293.48,
@@ -20305,8 +20305,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-05-30T21:53:02Z",
-    "checked_at_local": "2026-05-30 17:53",
+    "generated_at": "2026-05-30T21:58:02Z",
+    "checked_at_local": "2026-05-30 17:58",
     "source": "swing-bot intra-day monitor (paper)",
     "quote_note": "near-real-time (~15-min delayed yfinance)",
     "risk": {
@@ -20580,7 +20580,7 @@
       }
     ],
     "recent_actions": [],
-    "age_minutes": 4.0,
+    "age_minutes": 1.0,
     "stale": false
   },
   "counts": {
