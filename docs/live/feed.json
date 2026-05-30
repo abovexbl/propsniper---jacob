@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T03:03:16Z",
+  "generated_at": "2026-05-30T03:05:16Z",
   "portfolio": {
     "profit": 16870.67,
     "wagered": 268496.85,
@@ -1292,7 +1292,7 @@
       "profit_14d": -10.91,
       "roi_14d": -0.0251,
       "balance": 76.98,
-      "health": null,
+      "health": "healthy",
       "working": 2,
       "bleeding": 3,
       "markets": [
@@ -2855,6 +2855,34 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-30",
+      "time": "03:01:23",
+      "account": "Dad FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 9.5",
+      "odds": 174,
+      "ev": 17.69,
+      "stake": 51.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-30",
+      "time": "03:01:16",
+      "account": "Dad FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Houston Astros",
+      "odds": 285,
+      "ev": 35.97,
+      "stake": 64.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-30",
       "time": "03:01:12",
@@ -7026,34 +7054,6 @@
       "stake": 35.0,
       "status": "loss",
       "profit": -35.0
-    },
-    {
-      "date": "2026-05-28",
-      "time": "14:50:02",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Game Handicap - 1st Set",
-      "selection": "Grabher +5.5",
-      "odds": 300,
-      "ev": 22.48,
-      "stake": 30.0,
-      "status": "loss",
-      "profit": -30.0
-    },
-    {
-      "date": "2026-05-28",
-      "time": "14:38:54",
-      "account": "Dad Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Moneyline - 1st Set",
-      "selection": "Li",
-      "odds": -160,
-      "ev": 12.32,
-      "stake": 100.0,
-      "status": "loss",
-      "profit": -100.0
     }
   ],
   "book_brier": [],
