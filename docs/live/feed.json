@@ -1,13 +1,13 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T15:55:02Z",
+  "generated_at": "2026-05-30T16:05:09Z",
   "portfolio": {
-    "profit": 17091.59,
-    "wagered": 269562.68,
-    "n": 5063,
-    "roi": 0.0634,
-    "profit_14d": 501.56,
+    "profit": 17042.59,
+    "wagered": 269611.68,
+    "n": 5065,
+    "roi": 0.0632,
+    "profit_14d": 452.56,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
@@ -1067,14 +1067,14 @@
       "person": "Dad",
       "venue": "FanDuel",
       "sportsbook": "FanDuel",
-      "n_all": 88,
-      "profit_all": 244.38,
-      "stake_all": 3330.0,
-      "roi_all": 0.0734,
-      "avg_ev": 12.98,
-      "n_14d": 88,
-      "profit_14d": 244.38,
-      "roi_14d": 0.0734,
+      "n_all": 89,
+      "profit_all": 220.38,
+      "stake_all": 3354.0,
+      "roi_all": 0.0657,
+      "avg_ev": 12.95,
+      "n_14d": 89,
+      "profit_14d": 220.38,
+      "roi_14d": 0.0657,
       "balance": null,
       "health": null,
       "working": 1,
@@ -1148,6 +1148,16 @@
           "stake": 20.0,
           "roi": -1.0,
           "avg_ev": 8.24,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "Tennis",
+          "market": "Moneyline - 1st Set",
+          "n": 1,
+          "profit": -24.0,
+          "stake": 24.0,
+          "roi": -1.0,
+          "avg_ev": 9.73,
           "verdict": "NOISE_N<20"
         },
         {
@@ -1879,14 +1889,14 @@
       "person": "Mom",
       "venue": "FanDuel",
       "sportsbook": "FanDuel",
-      "n_all": 266,
-      "profit_all": -1218.54,
-      "stake_all": 22711.0,
-      "roi_all": -0.0537,
+      "n_all": 267,
+      "profit_all": -1243.54,
+      "stake_all": 22736.0,
+      "roi_all": -0.0547,
       "avg_ev": 9.59,
-      "n_14d": 266,
-      "profit_14d": -1218.54,
-      "roi_14d": -0.0537,
+      "n_14d": 267,
+      "profit_14d": -1243.54,
+      "roi_14d": -0.0547,
       "balance": null,
       "health": null,
       "working": 2,
@@ -1980,6 +1990,16 @@
           "stake": 75.0,
           "roi": 0.0461,
           "avg_ev": 6.81,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "Tennis",
+          "market": "Moneyline - 1st Set",
+          "n": 1,
+          "profit": -25.0,
+          "stake": 25.0,
+          "roi": -1.0,
+          "avg_ev": 9.86,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2346,14 +2366,6 @@
       "roi": -0.42
     },
     {
-      "league": "Tennis",
-      "market": "Moneyline - 1st Set",
-      "profit": -55.94,
-      "stake": 8735.0,
-      "n": 96,
-      "roi": -0.0064
-    },
-    {
       "league": "NBA",
       "market": "Total Points - 1st Quarter",
       "profit": -89.75,
@@ -2376,6 +2388,14 @@
       "stake": 100.0,
       "n": 1,
       "roi": -1.0
+    },
+    {
+      "league": "Tennis",
+      "market": "Moneyline - 1st Set",
+      "profit": -104.94,
+      "stake": 8784.0,
+      "n": 98,
+      "roi": -0.0119
     },
     {
       "league": "NBA",
@@ -2810,8 +2830,8 @@
     },
     {
       "date": "2026-05-30",
-      "profit": -43.15,
-      "cumulative": 17091.58
+      "profit": -92.15,
+      "cumulative": 17042.58
     }
   ],
   "recent": [
@@ -2841,9 +2861,9 @@
       "odds": 200,
       "ev": 9.86,
       "stake": 25.0,
-      "payout": 75.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -25.0
     },
     {
       "date": "2026-05-30",
@@ -2856,9 +2876,9 @@
       "odds": 200,
       "ev": 9.73,
       "stake": 24.0,
-      "payout": 72.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -24.0
     },
     {
       "date": "2026-05-30",
@@ -7716,8 +7736,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7729,8 +7749,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8444,19 +8464,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8483,6 +8490,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "NBA",
       "market": "Player Rebounds",
       "n": 1,
@@ -8490,6 +8510,19 @@
       "profit": -2.0,
       "roi": -1.0,
       "avg_ev": 17.39,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Moneyline - 1st Set",
+      "n": 2,
+      "stake": 49.0,
+      "profit": -49.0,
+      "roi": -1.0,
+      "avg_ev": 9.79,
       "in_config": false,
       "bet": true,
       "book_has_config": true
