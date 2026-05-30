@@ -3,7 +3,7 @@
   "kind": "trading_bot",
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
-  "generated_at": "2026-05-30T21:07:05Z",
+  "generated_at": "2026-05-30T21:09:04Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 13166.22,
@@ -21,7 +21,18 @@
     "strategies_retired": 1,
     "current_regime": "stocks:unknown|crypto:chop/lowvol",
     "halted": false,
-    "open_positions": 14
+    "open_positions": 14,
+    "backtest_cycles": 620,
+    "backtest_return_pct": 34.75,
+    "backtest_span": [
+      "2024-09-17",
+      "2026-05-29"
+    ],
+    "forward_cycles": 1,
+    "forward_return_pct": -2.261,
+    "forward_final_equity": 13166.22,
+    "forward_start_date": "2026-05-30",
+    "is_mostly_backtest": true
   },
   "strategies": [
     {
@@ -73,3107 +84,3728 @@
     {
       "date": "2024-09-17",
       "equity": 9996.72,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-18",
       "equity": 9979.86,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-19",
       "equity": 10194.12,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-20",
       "equity": 10183.73,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-21",
       "equity": 10039.23,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-22",
       "equity": 10036.53,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-23",
       "equity": 10219.62,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-24",
       "equity": 10256.59,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-25",
       "equity": 10273.36,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-26",
       "equity": 10312.53,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-27",
       "equity": 10291.3,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-28",
       "equity": 10064.84,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-29",
       "equity": 10061.46,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-09-30",
       "equity": 10273.23,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-01",
       "equity": 10152.87,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-02",
       "equity": 10115.84,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-03",
       "equity": 10118.04,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-04",
       "equity": 10243.42,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-05",
       "equity": 9964.86,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-06",
       "equity": 9964.86,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-07",
       "equity": 10149.3,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-08",
       "equity": 10242.57,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-09",
       "equity": 10231.66,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-10",
       "equity": 10183.3,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-11",
       "equity": 10212.33,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-12",
       "equity": 9964.88,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-13",
       "equity": 9961.29,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-14",
       "equity": 10296.63,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-15",
       "equity": 10209.25,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-16",
       "equity": 10224.51,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-17",
       "equity": 10225.26,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-18",
       "equity": 10268.44,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-19",
       "equity": 10086.55,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-20",
       "equity": 10104.2,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-21",
       "equity": 10301.28,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-22",
       "equity": 10300.25,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-23",
       "equity": 10158.15,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-24",
       "equity": 10278.51,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-25",
       "equity": 10305.11,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-26",
       "equity": 10127.02,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-27",
       "equity": 10130.82,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-28",
       "equity": 10328.88,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-29",
       "equity": 10415.39,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-30",
       "equity": 10328.71,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-10-31",
       "equity": 10102.03,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-01",
       "equity": 10123.22,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-02",
       "equity": 10105.99,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-03",
       "equity": 10101.04,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-04",
       "equity": 10063.43,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-05",
       "equity": 10140.89,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-06",
       "equity": 10368.9,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-07",
       "equity": 10500.71,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-08",
       "equity": 10565.06,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-09",
       "equity": 10113.65,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-10",
       "equity": 10154.87,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-11",
       "equity": 10808.68,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-12",
       "equity": 10730.28,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-13",
       "equity": 10737.11,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-14",
       "equity": 10583.71,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-15",
       "equity": 10499.75,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-16",
       "equity": 10194.47,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-17",
       "equity": 10174.05,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-18",
       "equity": 10505.71,
-      "regime": "stocks:up/highvol|crypto:up/highvol"
+      "regime": "stocks:up/highvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-19",
       "equity": 10565.6,
-      "regime": "stocks:up/highvol|crypto:up/highvol"
+      "regime": "stocks:up/highvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-20",
       "equity": 10552.97,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-21",
       "equity": 10575.95,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-22",
       "equity": 10599.88,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-23",
       "equity": 10354.75,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-24",
       "equity": 10351.43,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-25",
       "equity": 10538.78,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-26",
       "equity": 10545.74,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-27",
       "equity": 10532.37,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-28",
       "equity": 10415.5,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-29",
       "equity": 10620.09,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-11-30",
       "equity": 10444.05,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-01",
       "equity": 10449.06,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-02",
       "equity": 10750.96,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-03",
       "equity": 10811.15,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-04",
       "equity": 10953.88,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-05",
       "equity": 10944.63,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-06",
       "equity": 11041.74,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-07",
       "equity": 10517.24,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-08",
       "equity": 10523.79,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-09",
       "equity": 10932.45,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-10",
       "equity": 10950.01,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-11",
       "equity": 11188.5,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-12",
       "equity": 11143.39,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-13",
       "equity": 11159.04,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-14",
       "equity": 10467.69,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-15",
       "equity": 10486.72,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-16",
       "equity": 11322.0,
-      "regime": "stocks:up/lowvol|crypto:up/midvol"
+      "regime": "stocks:up/lowvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-17",
       "equity": 11346.94,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-18",
       "equity": 10943.64,
-      "regime": "stocks:chop/midvol|crypto:up/midvol"
+      "regime": "stocks:chop/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-19",
       "equity": 10919.03,
-      "regime": "stocks:chop/midvol|crypto:up/midvol"
+      "regime": "stocks:chop/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-20",
       "equity": 10924.81,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-21",
       "equity": 10445.13,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-22",
       "equity": 10428.85,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-23",
       "equity": 11003.75,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-24",
       "equity": 11144.04,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-25",
       "equity": 10470.25,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-26",
       "equity": 11114.47,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-27",
       "equity": 10983.97,
-      "regime": "stocks:up/highvol|crypto:chop/midvol"
+      "regime": "stocks:up/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-28",
       "equity": 10504.81,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-29",
       "equity": 10499.72,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-30",
       "equity": 10896.2,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2024-12-31",
       "equity": 10801.59,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-01",
       "equity": 10484.57,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-02",
       "equity": 10794.75,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-03",
       "equity": 11005.4,
-      "regime": "stocks:up/highvol|crypto:up/midvol"
+      "regime": "stocks:up/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-04",
       "equity": 10557.55,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-05",
       "equity": 10555.84,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-06",
       "equity": 11171.87,
-      "regime": "stocks:up/highvol|crypto:up/midvol"
+      "regime": "stocks:up/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-07",
       "equity": 10951.17,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-08",
       "equity": 10902.29,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-09",
       "equity": 10580.87,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-10",
       "equity": 10790.83,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-11",
       "equity": 10416.74,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-12",
       "equity": 10416.74,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-13",
       "equity": 10653.78,
-      "regime": "stocks:chop/highvol|crypto:chop/lowvol"
+      "regime": "stocks:chop/highvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-14",
       "equity": 10612.58,
-      "regime": "stocks:chop/highvol|crypto:chop/lowvol"
+      "regime": "stocks:chop/highvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-15",
       "equity": 10824.73,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-16",
       "equity": 10737.29,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-17",
       "equity": 10818.73,
-      "regime": "stocks:up/highvol|crypto:up/midvol"
+      "regime": "stocks:up/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-18",
       "equity": 10710.84,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-19",
       "equity": 10691.0,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-20",
       "equity": 10696.59,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-21",
       "equity": 10838.78,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-22",
       "equity": 10860.74,
-      "regime": "stocks:up/highvol|crypto:up/highvol"
+      "regime": "stocks:up/highvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-23",
       "equity": 10864.37,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-24",
       "equity": 10860.15,
-      "regime": "stocks:up/midvol|crypto:up/highvol"
+      "regime": "stocks:up/midvol|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-25",
       "equity": 10766.89,
-      "regime": "stocks:unknown|crypto:up/highvol"
+      "regime": "stocks:unknown|crypto:up/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-26",
       "equity": 10748.28,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-27",
       "equity": 10687.52,
-      "regime": "stocks:up/highvol|crypto:up/midvol"
+      "regime": "stocks:up/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-28",
       "equity": 10812.65,
-      "regime": "stocks:up/highvol|crypto:up/lowvol"
+      "regime": "stocks:up/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-29",
       "equity": 10796.85,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-30",
       "equity": 10845.76,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-01-31",
       "equity": 10825.44,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-01",
       "equity": 10546.64,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-02",
       "equity": 10534.3,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-03",
       "equity": 10572.45,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-04",
       "equity": 10626.1,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-05",
       "equity": 10506.7,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-06",
       "equity": 10520.12,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-07",
       "equity": 10397.98,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-08",
       "equity": 10375.58,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-09",
       "equity": 10375.24,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-10",
       "equity": 10488.03,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-11",
       "equity": 10457.1,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-12",
       "equity": 10516.8,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-13",
       "equity": 10554.86,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-14",
       "equity": 10600.86,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-15",
       "equity": 10431.66,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-16",
       "equity": 10414.45,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-17",
       "equity": 10425.39,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-18",
       "equity": 10489.52,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-19",
       "equity": 10507.5,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-20",
       "equity": 10492.39,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-21",
       "equity": 10350.58,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-22",
       "equity": 10405.57,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-23",
       "equity": 10416.97,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-24",
       "equity": 10248.31,
-      "regime": "stocks:chop/midvol|crypto:chop/lowvol"
+      "regime": "stocks:chop/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-25",
       "equity": 10136.15,
-      "regime": "stocks:chop/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:chop/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-26",
       "equity": 10083.1,
-      "regime": "stocks:chop/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:chop/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-27",
       "equity": 10073.33,
-      "regime": "stocks:chop/midvol|crypto:down/lowvol"
+      "regime": "stocks:chop/midvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-02-28",
       "equity": 10123.67,
-      "regime": "stocks:chop/midvol|crypto:down/lowvol"
+      "regime": "stocks:chop/midvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-01",
       "equity": 10095.98,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-02",
       "equity": 10095.98,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-03",
       "equity": 10076.99,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-04",
       "equity": 10048.37,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-05",
       "equity": 10077.38,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-06",
       "equity": 10027.8,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-07",
       "equity": 10037.45,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-08",
       "equity": 10057.09,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-09",
       "equity": 10057.09,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-10",
       "equity": 9983.22,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-11",
       "equity": 9975.14,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-12",
       "equity": 9978.55,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-13",
       "equity": 9934.25,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-14",
       "equity": 9959.44,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-15",
       "equity": 9949.83,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-16",
       "equity": 9949.83,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-17",
       "equity": 9949.5,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-18",
       "equity": 9949.5,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-19",
       "equity": 9948.72,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-20",
       "equity": 9948.72,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-21",
       "equity": 9948.72,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-22",
       "equity": 9948.72,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-23",
       "equity": 9948.72,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-24",
       "equity": 9948.43,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-25",
       "equity": 9953.85,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-26",
       "equity": 9927.03,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-27",
       "equity": 9908.5,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-28",
       "equity": 9891.09,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-29",
       "equity": 9890.72,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-30",
       "equity": 9890.72,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-03-31",
       "equity": 9887.53,
-      "regime": "stocks:down/highvol|crypto:down/lowvol"
+      "regime": "stocks:down/highvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-01",
       "equity": 9887.53,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-02",
       "equity": 9887.53,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-03",
       "equity": 9887.53,
-      "regime": "stocks:down/highvol|crypto:down/lowvol"
+      "regime": "stocks:down/highvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-04",
       "equity": 9887.53,
-      "regime": "stocks:down/highvol|crypto:down/lowvol"
+      "regime": "stocks:down/highvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-05",
       "equity": 9887.53,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-06",
       "equity": 9887.16,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-07",
       "equity": 9875.69,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-08",
       "equity": 9717.01,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-09",
       "equity": 9717.01,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-10",
       "equity": 9713.87,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-11",
       "equity": 9892.4,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-12",
       "equity": 9715.91,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-13",
       "equity": 9715.91,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-14",
       "equity": 9926.54,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-15",
       "equity": 9912.12,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-16",
       "equity": 9653.31,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-17",
       "equity": 9610.56,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-18",
       "equity": 9714.98,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-19",
       "equity": 9714.98,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-20",
       "equity": 9714.98,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-21",
       "equity": 9488.37,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-22",
       "equity": 9611.56,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-23",
       "equity": 9763.41,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-24",
       "equity": 9938.68,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-25",
       "equity": 10023.67,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-26",
       "equity": 10023.05,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-27",
       "equity": 10007.49,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-28",
       "equity": 10015.4,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-29",
       "equity": 10025.95,
-      "regime": "stocks:down/highvol|crypto:chop/midvol"
+      "regime": "stocks:down/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-04-30",
       "equity": 10037.33,
-      "regime": "stocks:down/highvol|crypto:up/lowvol"
+      "regime": "stocks:down/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-01",
       "equity": 10143.88,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-02",
       "equity": 10191.84,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-03",
       "equity": 10026.24,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-04",
       "equity": 10008.44,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-05",
       "equity": 10130.24,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-06",
       "equity": 10111.41,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-07",
       "equity": 10140.6,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-08",
       "equity": 10344.28,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-09",
       "equity": 10395.41,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-10",
       "equity": 10320.71,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-11",
       "equity": 10290.8,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-12",
       "equity": 10634.46,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-13",
       "equity": 10765.59,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-14",
       "equity": 10814.76,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-15",
       "equity": 10784.31,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-16",
       "equity": 10812.85,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-17",
       "equity": 10414.08,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-18",
       "equity": 10441.14,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-19",
       "equity": 10772.49,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-20",
       "equity": 10739.73,
-      "regime": "stocks:chop/midvol|crypto:up/lowvol"
+      "regime": "stocks:chop/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-21",
       "equity": 10702.02,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-22",
       "equity": 10743.99,
-      "regime": "stocks:chop/midvol|crypto:up/lowvol"
+      "regime": "stocks:chop/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-23",
       "equity": 10638.37,
-      "regime": "stocks:chop/midvol|crypto:up/lowvol"
+      "regime": "stocks:chop/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-24",
       "equity": 10331.56,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-25",
       "equity": 10345.67,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-26",
       "equity": 10352.74,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-27",
       "equity": 10858.49,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-28",
       "equity": 10828.33,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-29",
       "equity": 10844.84,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-30",
       "equity": 10766.72,
-      "regime": "stocks:chop/highvol|crypto:up/lowvol"
+      "regime": "stocks:chop/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-05-31",
       "equity": 10442.82,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-01",
       "equity": 10442.82,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-02",
       "equity": 10771.79,
-      "regime": "stocks:up/highvol|crypto:up/lowvol"
+      "regime": "stocks:up/highvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-03",
       "equity": 10810.59,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-04",
       "equity": 10878.4,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-05",
       "equity": 10834.62,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-06",
       "equity": 10964.63,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-07",
       "equity": 10502.67,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-08",
       "equity": 10503.6,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-09",
       "equity": 11055.68,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-10",
       "equity": 11105.73,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-11",
       "equity": 11041.15,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-12",
       "equity": 11029.27,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-13",
       "equity": 10939.94,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-14",
       "equity": 10494.33,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-15",
       "equity": 10494.33,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-16",
       "equity": 11126.19,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-17",
       "equity": 11093.7,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-18",
       "equity": 11077.7,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-19",
       "equity": 10656.97,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-20",
       "equity": 11014.65,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-21",
       "equity": 10645.38,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-22",
       "equity": 10645.38,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-23",
       "equity": 11061.19,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-24",
       "equity": 11170.74,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-25",
       "equity": 11213.23,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-26",
       "equity": 11267.57,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-27",
       "equity": 11310.96,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-28",
       "equity": 10761.93,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-29",
       "equity": 10761.93,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-06-30",
       "equity": 11293.07,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-01",
       "equity": 11166.26,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-02",
       "equity": 11236.18,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-03",
       "equity": 11291.32,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-04",
       "equity": 10759.55,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-05",
       "equity": 10760.38,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-06",
       "equity": 10764.58,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-07",
       "equity": 11207.23,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-08",
       "equity": 11228.79,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-09",
       "equity": 11309.25,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-10",
       "equity": 11409.33,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-11",
       "equity": 11451.31,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-12",
       "equity": 10756.84,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-13",
       "equity": 10763.59,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-14",
       "equity": 11417.9,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-15",
       "equity": 11545.6,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-16",
       "equity": 11629.07,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-17",
       "equity": 11674.5,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-18",
       "equity": 11681.0,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-19",
       "equity": 10900.82,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-20",
       "equity": 10925.64,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-21",
       "equity": 11544.83,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-22",
       "equity": 11501.76,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-23",
       "equity": 11520.97,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-24",
       "equity": 11549.81,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-25",
       "equity": 11610.24,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-26",
       "equity": 10766.62,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-27",
       "equity": 10787.71,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-28",
       "equity": 11706.08,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-29",
       "equity": 11719.13,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-30",
       "equity": 11742.33,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-07-31",
       "equity": 11687.86,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-01",
       "equity": 11479.89,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-02",
       "equity": 10788.84,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-03",
       "equity": 10788.84,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-04",
       "equity": 11642.32,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-05",
       "equity": 11585.01,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-06",
       "equity": 11508.97,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-07",
       "equity": 11528.67,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-08",
       "equity": 11625.03,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-09",
       "equity": 10907.18,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-10",
       "equity": 10903.93,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-11",
       "equity": 11655.08,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-12",
       "equity": 11821.17,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-13",
       "equity": 11889.61,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-14",
       "equity": 11813.18,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-15",
       "equity": 11755.84,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-16",
       "equity": 11239.9,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-17",
       "equity": 11249.45,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-18",
       "equity": 11723.67,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-19",
       "equity": 11547.23,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-20",
       "equity": 11485.38,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-21",
       "equity": 11457.86,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-22",
       "equity": 11493.62,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-23",
       "equity": 11340.01,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-24",
       "equity": 11340.72,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-25",
       "equity": 11362.37,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-26",
       "equity": 11428.75,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-27",
       "equity": 11412.16,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-28",
       "equity": 11430.68,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-29",
       "equity": 11350.68,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-30",
       "equity": 11223.48,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-08-31",
       "equity": 11226.17,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-01",
       "equity": 11213.08,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-02",
       "equity": 11280.45,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-03",
       "equity": 11458.48,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-04",
       "equity": 11494.45,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-05",
       "equity": 11517.67,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-06",
       "equity": 11170.67,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-07",
       "equity": 11176.12,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-08",
       "equity": 11523.52,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-09",
       "equity": 11555.99,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-10",
       "equity": 11475.7,
-      "regime": "stocks:up/lowvol|crypto:down/midvol"
+      "regime": "stocks:up/lowvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-11",
       "equity": 11597.09,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-12",
       "equity": 11707.14,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-13",
       "equity": 11169.58,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-14",
       "equity": 11156.37,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-15",
       "equity": 11858.65,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-16",
       "equity": 11908.07,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-17",
       "equity": 11898.18,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-18",
       "equity": 11923.59,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-19",
       "equity": 12008.18,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-20",
       "equity": 11154.1,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-21",
       "equity": 11148.6,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-22",
       "equity": 12037.45,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-23",
       "equity": 11889.37,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-24",
       "equity": 11908.41,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-25",
       "equity": 11841.44,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-26",
       "equity": 11917.03,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-27",
       "equity": 11229.51,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-28",
       "equity": 11229.51,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-29",
       "equity": 11962.56,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-09-30",
       "equity": 12015.99,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-01",
       "equity": 12111.18,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-02",
       "equity": 12125.15,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-03",
       "equity": 12103.35,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-04",
       "equity": 11493.05,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-05",
       "equity": 11511.84,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-06",
       "equity": 12421.62,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-07",
       "equity": 12290.25,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-08",
       "equity": 12514.44,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-09",
       "equity": 12447.99,
-      "regime": "stocks:up/lowvol|crypto:chop/midvol"
+      "regime": "stocks:up/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-10",
       "equity": 11854.3,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-11",
       "equity": 11437.96,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-12",
       "equity": 11465.71,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-13",
       "equity": 11984.43,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-14",
       "equity": 11918.72,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-15",
       "equity": 12088.79,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-16",
       "equity": 12018.62,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-17",
       "equity": 12066.19,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-18",
       "equity": 11401.91,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-19",
       "equity": 11401.91,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-20",
       "equity": 12209.57,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-21",
       "equity": 12138.91,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-22",
       "equity": 12013.94,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-23",
       "equity": 12090.5,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-24",
       "equity": 12240.97,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-25",
       "equity": 11714.37,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-26",
       "equity": 11726.58,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-27",
       "equity": 12515.83,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-28",
       "equity": 12596.62,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-29",
       "equity": 12682.65,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-30",
       "equity": 12435.25,
-      "regime": "stocks:up/highvol|crypto:chop/midvol"
+      "regime": "stocks:up/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-10-31",
       "equity": 12539.34,
-      "regime": "stocks:up/highvol|crypto:chop/midvol"
+      "regime": "stocks:up/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-01",
       "equity": 11636.48,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-02",
       "equity": 11640.25,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-03",
       "equity": 12669.52,
-      "regime": "stocks:up/highvol|crypto:down/midvol"
+      "regime": "stocks:up/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-04",
       "equity": 12383.58,
-      "regime": "stocks:up/highvol|crypto:down/midvol"
+      "regime": "stocks:up/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-05",
       "equity": 12463.09,
-      "regime": "stocks:up/highvol|crypto:down/midvol"
+      "regime": "stocks:up/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-06",
       "equity": 12249.58,
-      "regime": "stocks:up/highvol|crypto:down/midvol"
+      "regime": "stocks:up/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-07",
       "equity": 12166.28,
-      "regime": "stocks:up/midvol|crypto:down/midvol"
+      "regime": "stocks:up/midvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-08",
       "equity": 11547.63,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-09",
       "equity": 11547.63,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-10",
       "equity": 12397.6,
-      "regime": "stocks:up/midvol|crypto:down/midvol"
+      "regime": "stocks:up/midvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-11",
       "equity": 12311.81,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-12",
       "equity": 12242.86,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-13",
       "equity": 12118.59,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-14",
       "equity": 12116.84,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-15",
       "equity": 11991.08,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-16",
       "equity": 11991.08,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-17",
       "equity": 12100.0,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-18",
       "equity": 12100.0,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-19",
       "equity": 12099.62,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-20",
       "equity": 12090.43,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-21",
       "equity": 12117.57,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-22",
       "equity": 12105.93,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-23",
       "equity": 12105.93,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-24",
       "equity": 12194.16,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-25",
       "equity": 12249.2,
-      "regime": "stocks:up/highvol|crypto:down/highvol"
+      "regime": "stocks:up/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-26",
       "equity": 12282.84,
-      "regime": "stocks:up/highvol|crypto:down/highvol"
+      "regime": "stocks:up/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-27",
       "equity": 12104.49,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-28",
       "equity": 12344.51,
-      "regime": "stocks:up/highvol|crypto:down/highvol"
+      "regime": "stocks:up/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-29",
       "equity": 12093.39,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-11-30",
       "equity": 12089.6,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-01",
       "equity": 12214.7,
-      "regime": "stocks:up/highvol|crypto:down/highvol"
+      "regime": "stocks:up/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-02",
       "equity": 12351.91,
-      "regime": "stocks:up/highvol|crypto:down/highvol"
+      "regime": "stocks:up/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-03",
       "equity": 12490.09,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-04",
       "equity": 12493.15,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-05",
       "equity": 12435.72,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-06",
       "equity": 12080.14,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-07",
       "equity": 12109.05,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-08",
       "equity": 12414.9,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-09",
       "equity": 12540.34,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-10",
       "equity": 12521.57,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-11",
       "equity": 12458.37,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-12",
       "equity": 12243.34,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-13",
       "equity": 12074.3,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-14",
       "equity": 12026.1,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-15",
       "equity": 12254.68,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-16",
       "equity": 12321.81,
-      "regime": "stocks:up/lowvol|crypto:down/highvol"
+      "regime": "stocks:up/lowvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-17",
       "equity": 12229.89,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-18",
       "equity": 12307.01,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-19",
       "equity": 12294.6,
-      "regime": "stocks:up/lowvol|crypto:down/highvol"
+      "regime": "stocks:up/lowvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-20",
       "equity": 12004.65,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-21",
       "equity": 12004.27,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-22",
       "equity": 12332.88,
-      "regime": "stocks:up/lowvol|crypto:down/midvol"
+      "regime": "stocks:up/lowvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-23",
       "equity": 12354.92,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-24",
       "equity": 12365.96,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-25",
       "equity": 11990.55,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-26",
       "equity": 12328.22,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-27",
       "equity": 12226.38,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-28",
       "equity": 12226.67,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-29",
       "equity": 12331.49,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-30",
       "equity": 12345.85,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2025-12-31",
       "equity": 12276.26,
-      "regime": "stocks:up/lowvol|crypto:down/lowvol"
+      "regime": "stocks:up/lowvol|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-01",
       "equity": 12267.99,
-      "regime": "stocks:unknown|crypto:down/lowvol"
+      "regime": "stocks:unknown|crypto:down/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-02",
       "equity": 12360.62,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-03",
       "equity": 12314.96,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-04",
       "equity": 12336.28,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-05",
       "equity": 12488.21,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-06",
       "equity": 12510.85,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-07",
       "equity": 12418.12,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-08",
       "equity": 12382.54,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-09",
       "equity": 12415.06,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-10",
       "equity": 12225.81,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-11",
       "equity": 12225.81,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-12",
       "equity": 12426.31,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-13",
       "equity": 12413.23,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-14",
       "equity": 12398.86,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-15",
       "equity": 12384.97,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-16",
       "equity": 12387.47,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-17",
       "equity": 12249.22,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-18",
       "equity": 12211.71,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-19",
       "equity": 12178.37,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-20",
       "equity": 12261.4,
-      "regime": "stocks:chop/lowvol|crypto:chop/midvol"
+      "regime": "stocks:chop/lowvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-21",
       "equity": 12386.08,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-22",
       "equity": 12412.71,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-23",
       "equity": 12451.99,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-24",
       "equity": 12194.83,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-25",
       "equity": 12194.83,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-26",
       "equity": 12285.79,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-27",
       "equity": 12312.83,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-28",
       "equity": 12318.52,
-      "regime": "stocks:up/midvol|crypto:chop/midvol"
+      "regime": "stocks:up/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-29",
       "equity": 12296.51,
-      "regime": "stocks:up/midvol|crypto:chop/highvol"
+      "regime": "stocks:up/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-30",
       "equity": 12143.8,
-      "regime": "stocks:up/lowvol|crypto:chop/highvol"
+      "regime": "stocks:up/lowvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-01-31",
       "equity": 12105.09,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-01",
       "equity": 12105.09,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-02",
       "equity": 12204.41,
-      "regime": "stocks:up/lowvol|crypto:down/highvol"
+      "regime": "stocks:up/lowvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-03",
       "equity": 12070.41,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-04",
       "equity": 11865.53,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-05",
       "equity": 11864.11,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-06",
       "equity": 11866.28,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-07",
       "equity": 11803.96,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-08",
       "equity": 11803.96,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-09",
       "equity": 11848.23,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-10",
       "equity": 11842.2,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-11",
       "equity": 11862.87,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-12",
       "equity": 11743.63,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-13",
       "equity": 11748.58,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-14",
       "equity": 11808.74,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-15",
       "equity": 11752.0,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-16",
       "equity": 11764.65,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-17",
       "equity": 11708.76,
-      "regime": "stocks:chop/highvol|crypto:down/highvol"
+      "regime": "stocks:chop/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-18",
       "equity": 11695.91,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-19",
       "equity": 11699.22,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-20",
       "equity": 11722.31,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-21",
       "equity": 11746.68,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-22",
       "equity": 11736.87,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-23",
       "equity": 11577.52,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-24",
       "equity": 11598.79,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-25",
       "equity": 11761.65,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-26",
       "equity": 11585.21,
-      "regime": "stocks:up/midvol|crypto:down/highvol"
+      "regime": "stocks:up/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-27",
       "equity": 11467.76,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-02-28",
       "equity": 11580.94,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-01",
       "equity": 11560.03,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-02",
       "equity": 11534.52,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-03",
       "equity": 11465.03,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-04",
       "equity": 11754.77,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-05",
       "equity": 11677.45,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-06",
       "equity": 11422.36,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-07",
       "equity": 11395.81,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-08",
       "equity": 11368.13,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-09",
       "equity": 11465.58,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-10",
       "equity": 11503.92,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-11",
       "equity": 11507.19,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-12",
       "equity": 11434.23,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-13",
       "equity": 11392.87,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-14",
       "equity": 11449.78,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-15",
       "equity": 11498.55,
-      "regime": "stocks:unknown|crypto:chop/highvol"
+      "regime": "stocks:unknown|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-16",
       "equity": 11652.95,
-      "regime": "stocks:chop/midvol|crypto:chop/highvol"
+      "regime": "stocks:chop/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-17",
       "equity": 11625.66,
-      "regime": "stocks:chop/midvol|crypto:chop/highvol"
+      "regime": "stocks:chop/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-18",
       "equity": 11438.21,
-      "regime": "stocks:chop/midvol|crypto:chop/highvol"
+      "regime": "stocks:chop/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-19",
       "equity": 11350.79,
-      "regime": "stocks:chop/midvol|crypto:down/highvol"
+      "regime": "stocks:chop/midvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-20",
       "equity": 11297.21,
-      "regime": "stocks:chop/midvol|crypto:chop/highvol"
+      "regime": "stocks:chop/midvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-21",
       "equity": 11275.02,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-22",
       "equity": 11275.02,
-      "regime": "stocks:unknown|crypto:down/highvol"
+      "regime": "stocks:unknown|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-23",
       "equity": 11257.58,
-      "regime": "stocks:down/highvol|crypto:chop/highvol"
+      "regime": "stocks:down/highvol|crypto:chop/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-24",
       "equity": 11248.22,
-      "regime": "stocks:down/midvol|crypto:chop/midvol"
+      "regime": "stocks:down/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-25",
       "equity": 11288.84,
-      "regime": "stocks:down/midvol|crypto:chop/midvol"
+      "regime": "stocks:down/midvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-26",
       "equity": 11220.13,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-27",
       "equity": 11196.57,
-      "regime": "stocks:down/highvol|crypto:down/highvol"
+      "regime": "stocks:down/highvol|crypto:down/highvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-28",
       "equity": 11214.59,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-29",
       "equity": 11214.59,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-30",
       "equity": 11151.1,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-03-31",
       "equity": 11192.4,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-01",
       "equity": 11215.92,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-02",
       "equity": 11178.3,
-      "regime": "stocks:down/highvol|crypto:down/midvol"
+      "regime": "stocks:down/highvol|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-03",
       "equity": 11119.04,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-04",
       "equity": 11119.04,
-      "regime": "stocks:unknown|crypto:down/midvol"
+      "regime": "stocks:unknown|crypto:down/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-05",
       "equity": 11118.69,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-06",
       "equity": 11227.89,
-      "regime": "stocks:down/highvol|crypto:chop/midvol"
+      "regime": "stocks:down/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-07",
       "equity": 11253.18,
-      "regime": "stocks:down/highvol|crypto:chop/midvol"
+      "regime": "stocks:down/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-08",
       "equity": 11525.35,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-09",
       "equity": 11681.18,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-10",
       "equity": 11805.72,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-11",
       "equity": 11188.46,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-12",
       "equity": 11134.42,
-      "regime": "stocks:unknown|crypto:chop/midvol"
+      "regime": "stocks:unknown|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-13",
       "equity": 11923.64,
-      "regime": "stocks:chop/highvol|crypto:chop/midvol"
+      "regime": "stocks:chop/highvol|crypto:chop/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-14",
       "equity": 12177.67,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-15",
       "equity": 12375.96,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-16",
       "equity": 12527.87,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-17",
       "equity": 12682.08,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-18",
       "equity": 11194.1,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-19",
       "equity": 11166.86,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-20",
       "equity": 12578.94,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-21",
       "equity": 12577.81,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-22",
       "equity": 12888.1,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-23",
       "equity": 12778.73,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-24",
       "equity": 13217.39,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-25",
       "equity": 11273.52,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-26",
       "equity": 11283.97,
-      "regime": "stocks:unknown|crypto:up/midvol"
+      "regime": "stocks:unknown|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-27",
       "equity": 13203.17,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-28",
       "equity": 13095.66,
-      "regime": "stocks:chop/highvol|crypto:up/midvol"
+      "regime": "stocks:chop/highvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-29",
       "equity": 13173.59,
-      "regime": "stocks:chop/midvol|crypto:up/midvol"
+      "regime": "stocks:chop/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-04-30",
       "equity": 13373.54,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-01",
       "equity": 13467.72,
-      "regime": "stocks:up/midvol|crypto:up/midvol"
+      "regime": "stocks:up/midvol|crypto:up/midvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-02",
       "equity": 11710.45,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-03",
       "equity": 11710.45,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-04",
       "equity": 12811.21,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-05",
       "equity": 12942.87,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-06",
       "equity": 13332.66,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-07",
       "equity": 13267.59,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-08",
       "equity": 13583.68,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-09",
       "equity": 11742.23,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-10",
       "equity": 11760.84,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-11",
       "equity": 13668.96,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-12",
       "equity": 13574.77,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-13",
       "equity": 13645.46,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-14",
       "equity": 13711.61,
-      "regime": "stocks:up/lowvol|crypto:up/lowvol"
+      "regime": "stocks:up/lowvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-15",
       "equity": 13468.77,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-16",
       "equity": 13132.58,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-17",
       "equity": 13132.58,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-18",
       "equity": 13428.23,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-19",
       "equity": 13392.78,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-20",
       "equity": 13426.63,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-21",
       "equity": 13430.96,
-      "regime": "stocks:up/midvol|crypto:up/lowvol"
+      "regime": "stocks:up/midvol|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-22",
       "equity": 13423.05,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-23",
       "equity": 13206.89,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-24",
       "equity": 13206.63,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-25",
       "equity": 13209.97,
-      "regime": "stocks:unknown|crypto:up/lowvol"
+      "regime": "stocks:unknown|crypto:up/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-26",
       "equity": 13347.39,
-      "regime": "stocks:up/midvol|crypto:chop/lowvol"
+      "regime": "stocks:up/midvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-27",
       "equity": 13362.59,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-28",
       "equity": 13431.73,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-29",
       "equity": 13470.82,
-      "regime": "stocks:up/lowvol|crypto:chop/lowvol"
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "backtest"
     },
     {
       "date": "2026-05-30",
       "equity": 13166.22,
-      "regime": "stocks:unknown|crypto:chop/lowvol"
+      "regime": "stocks:unknown|crypto:chop/lowvol",
+      "phase": "live"
     }
   ],
   "strategy_curves": {
