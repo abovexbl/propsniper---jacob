@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T04:25:02Z",
+  "generated_at": "2026-05-30T04:33:02Z",
   "portfolio": {
     "profit": 17239.44,
     "wagered": 269357.83,
@@ -15,10 +15,10 @@
     "today_profit": 23.07,
     "today_roi": 0.769,
     "today_wagered": 30.0,
-    "open_bets": 30,
-    "live_bets": 26,
-    "wins": 2954,
-    "losses": 3574
+    "open_bets": 26,
+    "live_bets": 22,
+    "wins": 2955,
+    "losses": 3577
   },
   "accounts": [
     {
@@ -1259,7 +1259,7 @@
       "n_14d": 511,
       "profit_14d": -14.55,
       "roi_14d": -0.0329,
-      "balance": 78.99,
+      "balance": 79.99,
       "health": "healthy",
       "working": 2,
       "bleeding": 3,
@@ -7717,7 +7717,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7730,7 +7730,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8457,8 +8457,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8470,8 +8470,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8789,7 +8789,7 @@
       "profit": 183.8,
       "roi": 0.2328,
       "avg_ev": 6.33,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
       "book_has_config": true
     },
@@ -8815,60 +8815,8 @@
       "profit": 15.64,
       "roi": 0.0913,
       "avg_ev": 5.1,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
-      "book_has_config": true
-    },
-    {
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
       "book_has_config": true
     },
     {
@@ -8880,7 +8828,7 @@
       "profit": -6.36,
       "roi": -0.0855,
       "avg_ev": 4.7,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
       "book_has_config": true
     },
@@ -8932,7 +8880,7 @@
       "profit": -55.87,
       "roi": -0.1124,
       "avg_ev": 6.91,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
       "book_has_config": true
     },
@@ -8958,7 +8906,7 @@
       "profit": -71.6,
       "roi": -0.2121,
       "avg_ev": 5.71,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
       "book_has_config": true
     },
@@ -8971,7 +8919,7 @@
       "profit": -122.14,
       "roi": -0.6669,
       "avg_ev": 7.83,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
       "book_has_config": true
     },
@@ -8984,7 +8932,7 @@
       "profit": -316.87,
       "roi": -0.1497,
       "avg_ev": 10.25,
-      "in_config": true,
+      "in_config": false,
       "bet": true,
       "book_has_config": true
     },
