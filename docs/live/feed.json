@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T16:05:09Z",
+  "generated_at": "2026-05-30T16:09:17Z",
   "portfolio": {
     "profit": 17042.59,
     "wagered": 269611.68,
@@ -7736,19 +7736,6 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -7764,6 +7751,19 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8464,19 +8464,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8492,6 +8479,19 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8989,5 +8989,28 @@
     "FanDuel",
     "Fliff",
     "Kalshi"
-  ]
+  ],
+  "intraday": {
+    "date": "2026-05-30",
+    "points": [
+      {
+        "t": "00:00",
+        "profit": 0.0,
+        "wagered": 0.0,
+        "open_bets": 0
+      },
+      {
+        "t": "12:08",
+        "profit": -57.98,
+        "wagered": 119.17,
+        "open_bets": 19
+      },
+      {
+        "t": "12:09",
+        "profit": -57.98,
+        "wagered": 119.17,
+        "open_bets": 19
+      }
+    ]
+  }
 }

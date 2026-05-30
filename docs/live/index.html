@@ -162,16 +162,26 @@
     }
     function pnlChart(){
       pnlSeg();
-      const all=FEED.pnl_timeseries||[];const el=$("pnl");
-      if(!all.length){el.innerHTML='<div class="empty">No daily P&L data.</div>';return;}
-      // Trailing window by actual date; rebase so the chart shows NET P&L within the window.
-      const days=PNL_DAYS[pnlRange], last=new Date(all[all.length-1].date+"T00:00:00");
-      const cutoff=new Date(last.getTime()-(days-1)*86400000);
-      let i0=all.findIndex(d=>new Date(d.date+"T00:00:00")>=cutoff); if(i0<0)i0=all.length-1;
-      const baseline=i0>0?all[i0-1].cumulative:0;
-      const pts=all.slice(i0).map(d=>({date:d.date,v:d.cumulative-baseline}));
+      const el=$("pnl");
+      let pts, tag;
+      const intr=FEED.intraday&&Array.isArray(FEED.intraday.points)?FEED.intraday.points:null;
+      if(pnlRange==="1D"&&intr&&intr.length>=2){
+        // Intraday curve: today's running realized P&L, point every ~10 min from midnight ET.
+        pts=intr.map(p=>({date:p.t,v:p.profit}));
+        tag=`Today ${FEED.intraday.date} ET · ${pts[0].date}–${pts[pts.length-1].date} · ${pts.length} pts`;
+      }else{
+        const all=FEED.pnl_timeseries||[];
+        if(!all.length){el.innerHTML='<div class="empty">No daily P&L data.</div>';return;}
+        // Trailing window by actual date; rebase so the chart shows NET P&L within the window.
+        const days=PNL_DAYS[pnlRange], last=new Date(all[all.length-1].date+"T00:00:00");
+        const cutoff=new Date(last.getTime()-(days-1)*86400000);
+        let i0=all.findIndex(d=>new Date(d.date+"T00:00:00")>=cutoff); if(i0<0)i0=all.length-1;
+        const baseline=i0>0?all[i0-1].cumulative:0;
+        pts=all.slice(i0).map(d=>({date:d.date,v:d.cumulative-baseline}));
+        tag=`${pnlRange} · ${pts[0]?.date||""}${pts.length>1?" → "+pts[pts.length-1].date:""}`;
+      }
       const net=pts.length?pts[pts.length-1].v:0, col=net>=0?"var(--green)":"var(--red)";
-      $("pnltag").textContent=`${pnlRange} · ${pts[0]?.date||""}${pts.length>1?" → "+pts[pts.length-1].date:""} · net ${money(net)}`;
+      $("pnltag").textContent=`${tag} · net ${money(net)}`;
       if(pts.length<2){
         el.innerHTML=`<div style="display:flex;align-items:baseline;justify-content:center;gap:12px;height:160px">
           <span class="${cls(net)}" style="font-family:Syne;font-weight:800;font-size:54px">${money(net)}</span>

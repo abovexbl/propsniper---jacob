@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-30",
+  "points": [
+    {
+      "t": "00:00",
+      "profit": 0.0,
+      "wagered": 0.0,
+      "open_bets": 0
+    },
+    {
+      "t": "12:08",
+      "profit": -57.98,
+      "wagered": 119.17,
+      "open_bets": 19
+    },
+    {
+      "t": "12:09",
+      "profit": -57.98,
+      "wagered": 119.17,
+      "open_bets": 19
+    }
+  ]
+}
