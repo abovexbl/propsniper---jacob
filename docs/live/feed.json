@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T16:35:02Z",
+  "generated_at": "2026-05-30T16:44:42Z",
   "portfolio": {
     "profit": 17008.59,
     "wagered": 269645.68,
@@ -9025,6 +9025,18 @@
       },
       {
         "t": "12:35",
+        "profit": -91.98,
+        "wagered": 153.17,
+        "open_bets": 19
+      },
+      {
+        "t": "12:43",
+        "profit": -91.98,
+        "wagered": 153.17,
+        "open_bets": 19
+      },
+      {
+        "t": "12:44",
         "profit": -91.98,
         "wagered": 153.17,
         "open_bets": 19
