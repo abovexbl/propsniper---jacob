@@ -31,16 +31,24 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent
 sys.path.insert(0, str(REPO / "integrations"))
 import propsniper_reports as pr   # CSV-report fallback  # noqa: E402
-import propsniper_db as pdb        # live engine.db source  # noqa: E402
+import propsniper_db as pdb        # engine.db (export history)  # noqa: E402
+import propsniper_remote as premote  # LIVE local API  # noqa: E402
 
 DASHBOARD_SRC = REPO / "assets" / "real_dashboard.html"
 AUTH_USER = "propsniper"
 
 
 def build_feed(base, exclude):
-    """Prefer the live engine.db; fall back to the report CSVs if absent."""
+    """Source priority: LIVE local API > engine.db (export) > report CSVs."""
     dbp = Path(base) / "engine" / "engine.db"
-    return pdb.load_db_feed(dbp, exclude) if dbp.exists() else pr.load_real_feed(base, exclude)
+    try:
+        if premote.available():
+            return premote.load_remote_feed(exclude=exclude, db_path=str(dbp) if dbp.exists() else None)
+    except Exception as e:
+        sys.stderr.write(f"live API unavailable, falling back: {e}\n")
+    if dbp.exists():
+        return pdb.load_db_feed(dbp, exclude)
+    return pr.load_real_feed(base, exclude)
 
 
 def make_handler(directory, password, base, exclude):
