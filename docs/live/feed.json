@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T21:43:02Z",
+  "generated_at": "2026-05-30T21:45:09Z",
   "portfolio": {
-    "profit": 17096.5,
-    "wagered": 269726.48,
-    "n": 5081,
-    "roi": 0.0634,
-    "profit_14d": 506.48,
+    "profit": 17025.58,
+    "wagered": 269797.4,
+    "n": 5085,
+    "roi": 0.0631,
+    "profit_14d": 435.56,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 40,
-    "open_wagered": 221.51,
+    "open_bets": 36,
+    "open_wagered": 150.59,
     "data_through": "live",
     "today_profit": -75.42,
     "today_roi": -0.2512,
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1076,
-      "profit_all": 9040.54,
-      "stake_all": 76884.77,
-      "roi_all": 0.1176,
-      "avg_ev": 10.76,
-      "n_14d": 382,
-      "profit_14d": 1187.51,
-      "roi_14d": 0.1149,
+      "n_all": 1078,
+      "profit_all": 9004.62,
+      "stake_all": 76920.69,
+      "roi_all": 0.1171,
+      "avg_ev": 10.77,
+      "n_14d": 384,
+      "profit_14d": 1151.59,
+      "roi_14d": 0.111,
       "balance": 2967.5,
       "health": "healthy",
       "working": 11,
@@ -54,11 +54,11 @@
         {
           "league": "MLB",
           "market": "Total Runs - 1st 5 Innings",
-          "n": 71,
-          "profit": 1321.18,
-          "stake": 4492.51,
-          "roi": 0.2941,
-          "avg_ev": 9.4,
+          "n": 72,
+          "profit": 1299.45,
+          "stake": 4514.24,
+          "roi": 0.2879,
+          "avg_ev": 9.37,
           "verdict": "WORKING"
         },
         {
@@ -222,16 +222,6 @@
           "verdict": "NOISE_N<20"
         },
         {
-          "league": "MLB",
-          "market": "Run Line - 1st 5 Innings",
-          "n": 51,
-          "profit": 11.81,
-          "stake": 2305.59,
-          "roi": 0.0051,
-          "avg_ev": 11.71,
-          "verdict": "FLAT"
-        },
-        {
           "league": "WNBA",
           "market": "Point Spread",
           "n": 30,
@@ -239,6 +229,16 @@
           "stake": 668.63,
           "roi": -0.0027,
           "avg_ev": 8.3,
+          "verdict": "FLAT"
+        },
+        {
+          "league": "MLB",
+          "market": "Run Line - 1st 5 Innings",
+          "n": 52,
+          "profit": -2.38,
+          "stake": 2319.78,
+          "roi": -0.001,
+          "avg_ev": 11.99,
           "verdict": "FLAT"
         },
         {
@@ -1414,14 +1414,14 @@
       "person": "Dad",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 264,
-      "profit_all": -712.49,
-      "stake_all": 11750.0,
-      "roi_all": -0.0606,
-      "avg_ev": 8.9,
-      "n_14d": 264,
-      "profit_14d": -712.49,
-      "roi_14d": -0.0606,
+      "n_all": 265,
+      "profit_all": -722.49,
+      "stake_all": 11760.0,
+      "roi_all": -0.0614,
+      "avg_ev": 8.88,
+      "n_14d": 265,
+      "profit_14d": -722.49,
+      "roi_14d": -0.0614,
       "balance": null,
       "health": null,
       "working": 0,
@@ -1486,6 +1486,16 @@
           "roi": 0.0195,
           "avg_ev": 8.91,
           "verdict": "FLAT"
+        },
+        {
+          "league": "MLB",
+          "market": "Player Hits",
+          "n": 1,
+          "profit": -10.0,
+          "stake": 10.0,
+          "roi": -1.0,
+          "avg_ev": 5.05,
+          "verdict": "NOISE_N<20"
         },
         {
           "league": "NBA",
@@ -1728,14 +1738,14 @@
       "person": "Jacob",
       "venue": "Fliff",
       "sportsbook": "Fliff",
-      "n_all": 122,
-      "profit_all": -866.54,
-      "stake_all": 5505.0,
-      "roi_all": -0.1574,
-      "avg_ev": 10.65,
-      "n_14d": 106,
-      "profit_14d": -668.64,
-      "roi_14d": -0.138,
+      "n_all": 123,
+      "profit_all": -891.54,
+      "stake_all": 5530.0,
+      "roi_all": -0.1612,
+      "avg_ev": 10.63,
+      "n_14d": 107,
+      "profit_14d": -693.64,
+      "roi_14d": -0.1424,
       "balance": 208.45,
       "health": "healthy",
       "working": 0,
@@ -1809,6 +1819,16 @@
           "stake": 20.0,
           "roi": -1.0,
           "avg_ev": 6.3,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "MLB",
+          "market": "Run Line - 1st 5 Innings",
+          "n": 1,
+          "profit": -25.0,
+          "stake": 25.0,
+          "roi": -1.0,
+          "avg_ev": 7.87,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2097,10 +2117,10 @@
     {
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "profit": 2285.54,
-      "stake": 16203.51,
-      "n": 238,
-      "roi": 0.1411
+      "profit": 2263.81,
+      "stake": 16225.24,
+      "n": 239,
+      "roi": 0.1395
     },
     {
       "league": "Tennis",
@@ -2327,14 +2347,6 @@
       "roi": -1.0
     },
     {
-      "league": "MLB",
-      "market": "Player Hits",
-      "profit": -25.1,
-      "stake": 152.07,
-      "n": 27,
-      "roi": -0.1651
-    },
-    {
       "league": "WNBA",
       "market": "Team Total Points",
       "profit": -27.7,
@@ -2357,6 +2369,14 @@
       "stake": 330.0,
       "n": 33,
       "roi": -0.0939
+    },
+    {
+      "league": "MLB",
+      "market": "Player Hits",
+      "profit": -35.1,
+      "stake": 162.07,
+      "n": 28,
+      "roi": -0.2166
     },
     {
       "league": "WNBA",
@@ -2449,10 +2469,10 @@
     {
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "profit": -445.46,
-      "stake": 7685.59,
-      "n": 131,
-      "roi": -0.058
+      "profit": -484.65,
+      "stake": 7724.78,
+      "n": 133,
+      "roi": -0.0627
     },
     {
       "league": "MLB",
@@ -2831,8 +2851,8 @@
     },
     {
       "date": "2026-05-30",
-      "profit": -38.24,
-      "cumulative": 17096.49
+      "profit": -109.16,
+      "cumulative": 17025.57
     }
   ],
   "recent": [
@@ -2892,9 +2912,9 @@
       "odds": -115,
       "ev": 7.87,
       "stake": 25.0,
-      "payout": 46.74,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -25.0
     },
     {
       "date": "2026-05-30",
@@ -2922,9 +2942,9 @@
       "odds": 115,
       "ev": 7.41,
       "stake": 21.73,
-      "payout": 46.72,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -21.73
     },
     {
       "date": "2026-05-30",
@@ -2937,9 +2957,9 @@
       "odds": 176,
       "ev": 26.26,
       "stake": 14.19,
-      "payout": 39.16,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -14.19
     },
     {
       "date": "2026-05-30",
@@ -2967,9 +2987,9 @@
       "odds": 100,
       "ev": 5.05,
       "stake": 10.0,
-      "payout": 20.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -10.0
     },
     {
       "date": "2026-05-30",
@@ -7999,11 +8019,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "n": 87,
-      "stake": 5332.51,
-      "profit": 1190.39,
-      "roi": 0.2232,
-      "avg_ev": 9.62,
+      "n": 88,
+      "stake": 5354.24,
+      "profit": 1168.66,
+      "roi": 0.2183,
+      "avg_ev": 9.59,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8220,11 +8240,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Player Hits",
-      "n": 27,
-      "stake": 152.07,
-      "profit": -25.1,
-      "roi": -0.1651,
-      "avg_ev": 9.3,
+      "n": 28,
+      "stake": 162.07,
+      "profit": -35.1,
+      "roi": -0.2166,
+      "avg_ev": 9.15,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -8272,11 +8292,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "n": 64,
-      "stake": 2910.59,
-      "profit": -167.44,
-      "roi": -0.0575,
-      "avg_ev": 11.38,
+      "n": 65,
+      "stake": 2924.78,
+      "profit": -181.63,
+      "roi": -0.0621,
+      "avg_ev": 11.61,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8719,6 +8739,19 @@
       "profit": -20.0,
       "roi": -1.0,
       "avg_ev": 6.3,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 1,
+      "stake": 25.0,
+      "profit": -25.0,
+      "roi": -1.0,
+      "avg_ev": 7.87,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -9260,8 +9293,8 @@
         "t": "17:40",
         "profit": -75.42,
         "wagered": 450.8,
-        "open_bets": 40,
-        "open_wagered": 221.51
+        "open_bets": 36,
+        "open_wagered": 150.59
       }
     ]
   }
