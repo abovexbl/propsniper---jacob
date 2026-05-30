@@ -3,7 +3,7 @@
   "kind": "trading_bot",
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
-  "generated_at": "2026-05-30T20:55:04Z",
+  "generated_at": "2026-05-30T20:57:04Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 13166.22,
