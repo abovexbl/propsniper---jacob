@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T22:47:02Z",
+  "generated_at": "2026-05-30T22:49:02Z",
   "portfolio": {
     "profit": 17014.05,
     "wagered": 269808.93,
@@ -11,15 +11,15 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 42,
-    "open_wagered": 289.78,
+    "open_bets": 43,
+    "open_wagered": 322.62,
     "data_through": "live",
-    "today_profit": -86.95,
-    "today_roi": -0.2789,
+    "today_profit": -87.72,
+    "today_roi": -0.2807,
     "today_wagered": 601.52,
-    "live_bets": 51,
+    "live_bets": 50,
     "wins": 2967,
-    "losses": 3602
+    "losses": 3603
   },
   "accounts": [
     {
@@ -2856,6 +2856,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-30",
+      "time": "22:49:01",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Cleveland Guardians +3.5",
+      "odds": 137,
+      "ev": 7.86,
+      "stake": 32.84,
+      "payout": 77.83,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-30",
       "time": "22:21:13",
@@ -7340,21 +7355,6 @@
       "payout": 169.5,
       "status": "win",
       "profit": 94.5
-    },
-    {
-      "date": "2026-05-28",
-      "time": "23:10:25",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 6.5",
-      "odds": 140,
-      "ev": 29.1,
-      "stake": 105.0,
-      "payout": 252.0,
-      "status": "win",
-      "profit": 147.0
     }
   ],
   "book_brier": [],
@@ -7770,8 +7770,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7783,8 +7783,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9333,10 +9333,10 @@
       },
       {
         "t": "18:40",
-        "profit": -86.95,
+        "profit": -87.72,
         "wagered": 601.52,
-        "open_bets": 42,
-        "open_wagered": 289.78
+        "open_bets": 43,
+        "open_wagered": 322.62
       }
     ]
   }
