@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T23:39:01Z",
+  "generated_at": "2026-05-30T23:41:08Z",
   "portfolio": {
-    "profit": 17020.93,
-    "wagered": 270038.2,
-    "n": 5116,
-    "roi": 0.063,
-    "profit_14d": 430.9,
+    "profit": 17047.3,
+    "wagered": 270068.83,
+    "n": 5117,
+    "roi": 0.0631,
+    "profit_14d": 457.26,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 22,
-    "open_wagered": 184.43,
+    "open_bets": 21,
+    "open_wagered": 153.79,
     "data_through": "live",
     "today_profit": -53.71,
     "today_roi": -0.094,
@@ -1414,14 +1414,14 @@
       "person": "Jacob",
       "venue": "Kalshi",
       "sportsbook": "Kalshi",
-      "n_all": 374,
-      "profit_all": -714.32,
-      "stake_all": 11702.68,
-      "roi_all": -0.061,
-      "avg_ev": 9.82,
-      "n_14d": 100,
-      "profit_14d": 187.7,
-      "roi_14d": 0.0694,
+      "n_all": 375,
+      "profit_all": -687.95,
+      "stake_all": 11733.31,
+      "roi_all": -0.0586,
+      "avg_ev": 9.81,
+      "n_14d": 101,
+      "profit_14d": 214.06,
+      "roi_14d": 0.0783,
       "balance": 688.55,
       "health": "healthy",
       "working": 2,
@@ -1450,11 +1450,11 @@
         {
           "league": "MLB",
           "market": "Total Runs",
-          "n": 35,
-          "profit": 48.05,
-          "stake": 782.03,
-          "roi": 0.0614,
-          "avg_ev": 6.15,
+          "n": 36,
+          "profit": 74.42,
+          "stake": 812.67,
+          "roi": 0.0916,
+          "avg_ev": 6.12,
           "verdict": "WORKING"
         },
         {
@@ -2141,10 +2141,10 @@
     {
       "league": "MLB",
       "market": "Total Runs",
-      "profit": 1364.08,
-      "stake": 32805.4,
-      "n": 657,
-      "roi": 0.0416
+      "profit": 1390.45,
+      "stake": 32836.04,
+      "n": 658,
+      "roi": 0.0423
     },
     {
       "league": "NBA",
@@ -2851,8 +2851,8 @@
     },
     {
       "date": "2026-05-30",
-      "profit": -113.81,
-      "cumulative": 17020.92
+      "profit": -87.45,
+      "cumulative": 17047.28
     }
   ],
   "recent": [
@@ -3152,9 +3152,9 @@
       "odds": -116,
       "ev": 4.76,
       "stake": 30.636,
-      "payout": 57.05,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 57.0,
+      "status": "win",
+      "profit": 26.364
     },
     {
       "date": "2026-05-30",
@@ -7758,7 +7758,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7784,7 +7784,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8485,6 +8485,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -8500,19 +8513,6 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8877,11 +8877,11 @@
       "book": "Kalshi",
       "league": "MLB",
       "market": "Total Runs",
-      "n": 284,
-      "stake": 992.77,
-      "profit": 48.28,
-      "roi": 0.0486,
-      "avg_ev": 5.54,
+      "n": 285,
+      "stake": 1023.41,
+      "profit": 74.65,
+      "roi": 0.0729,
+      "avg_ev": 5.53,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -9372,6 +9372,13 @@
         "wagered": 725.43,
         "open_bets": 22,
         "open_wagered": 184.43
+      },
+      {
+        "t": "19:40",
+        "profit": -53.71,
+        "wagered": 725.43,
+        "open_bets": 21,
+        "open_wagered": 153.79
       }
     ]
   }
