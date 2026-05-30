@@ -71,12 +71,13 @@ def load_remote_feed(token_file=None, exclude=None, db_path=None) -> dict:
 
     # per-market breakdown from engine.db (export history), keyed by account name
     markets_by_acct = {}
+    dbfeed = {}
     try:
         dbfeed = pdb.load_db_feed(db_path, exclude=exclude)
         for a in dbfeed.get("accounts", []):
             markets_by_acct[a.get("account_raw", a["account"])] = a.get("markets", [])
     except Exception:
-        pass
+        dbfeed = {}
 
     # accounts — LIVE profit/balance from /v1/accounts, markets enriched from db
     accounts = []
@@ -100,8 +101,15 @@ def load_remote_feed(token_file=None, exclude=None, db_path=None) -> dict:
             "health": a.get("health_status"),
             "working": sum(1 for m in mkts if m.get("verdict") == "WORKING"),
             "bleeding": sum(1 for m in mkts if m.get("verdict") == "BLEEDING"),
-            "markets": mkts,
+            "markets": mkts, "live": True,
         })
+    # Merge in export-only accounts (family accounts not managed on this PC's live API,
+    # e.g. Mom Caesars / Dad FanDuel) so the Accounts page is complete.
+    live_raw = {a["account_raw"] for a in accounts}
+    for da in dbfeed.get("accounts", []):
+        if da.get("account_raw") not in live_raw and not excluded(da.get("account_raw")):
+            d2 = dict(da); d2["live"] = False
+            accounts.append(d2)
     accounts.sort(key=lambda x: x["profit_all"], reverse=True)
 
     total_profit = round(_num(stats.get("total_profit")), 2)
