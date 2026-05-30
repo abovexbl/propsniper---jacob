@@ -148,6 +148,7 @@
       const tiles=[
         ["Net Profit",money(p.profit||0),`${p.n||0} bets`,cls(p.profit||0)],
         ["Today's Net",money(p.today_profit||0),`${pct(p.today_roi)} · ${money(p.today_wagered||0)} today`,cls(p.today_profit||0)],
+        ["Currently Wagered",money(p.open_wagered||0),`${p.open_bets||0} open bets at risk`,"dim"],
         ["ROI",pct(p.roi),"realized",cls(p.roi||0)],
         ["Total Wagered",money(p.wagered||0),"all-time","dim"],
         ["14d P&L",money(p.profit_14d||0),"last 14 days",cls(p.profit_14d||0)],
