@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-05-30T23:13:05Z",
+  "generated_at": "2026-05-30T23:15:12Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 13293.48,
@@ -37,13 +37,13 @@
   },
   "live": {
     "source": "alpaca",
-    "start_date": "2026-05-29",
+    "start_date": "2026-05-30",
     "start_equity": 100000.0,
-    "current_equity": 100000.0,
-    "return_pct": 0.0,
-    "pnl": 0.0,
-    "cycles": 0,
-    "days": 0,
+    "current_equity": 99999.92,
+    "return_pct": -0.0,
+    "pnl": -0.08,
+    "cycles": 1,
+    "days": 1,
     "curve": [
       {
         "date": "2026-05-29",
@@ -58,16 +58,26 @@
         "ret_pct": 0.0
       }
     ],
-    "trades": [],
-    "n_trades": 0,
-    "realized_pnl": 0.0,
-    "unrealized_pnl": 0.0,
-    "total_pnl": 0.0,
-    "open_positions": 0,
+    "trades": [
+      {
+        "date": "2026-05-30",
+        "strategy": "Alpaca",
+        "ticker": "BTC-USD",
+        "side": "BUY",
+        "shares": 0.001328692,
+        "price": 73784.8,
+        "realized_pnl": 0
+      }
+    ],
+    "n_trades": 1,
+    "realized_pnl": -0.24,
+    "unrealized_pnl": 0.16,
+    "total_pnl": -0.08,
+    "open_positions": 1,
     "n_closed": 0,
     "win_rate": null,
-    "cash": 100000.0,
-    "buying_power": 200000.0
+    "cash": 99901.96,
+    "buying_power": 199803.92
   },
   "strategies": [
     {
@@ -20318,8 +20328,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-05-30T23:12:02Z",
-    "checked_at_local": "2026-05-30 23:12",
+    "generated_at": "2026-05-30T23:14:02Z",
+    "checked_at_local": "2026-05-30 23:14",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
@@ -20330,13 +20340,30 @@
       "trailing_stop_pct": 0
     },
     "summary": {
-      "open_positions": 0,
-      "live_quoted": 0,
+      "open_positions": 1,
+      "live_quoted": 1,
       "market_closed": 0,
-      "total_unrealized_pnl": 0.0,
+      "total_unrealized_pnl": 0.16,
       "fetch_error": null
     },
-    "positions": [],
+    "positions": [
+      {
+        "strategy": "Alpaca",
+        "ticker": "BTC-USD",
+        "is_crypto": true,
+        "shares": 0.00132537,
+        "avg_price": 73784.8,
+        "price": 73907.74,
+        "live": true,
+        "ret_pct": 0.17,
+        "unrealized_pnl": 0.16,
+        "cost_basis": 97.79,
+        "market_value": 97.96,
+        "peak": 73907.74,
+        "stop_price": 67882.016,
+        "stop_headroom_pct": 8.17
+      }
+    ],
     "recent_actions": []
   },
   "counts": {
