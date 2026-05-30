@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T22:07:02Z",
+  "generated_at": "2026-05-30T22:09:02Z",
   "portfolio": {
     "profit": 17025.58,
     "wagered": 269797.4,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 40,
-    "open_wagered": 187.84,
+    "open_bets": 42,
+    "open_wagered": 244.31,
     "data_through": "live",
     "today_profit": -86.95,
     "today_roi": -0.2789,
-    "today_wagered": 488.05,
-    "live_bets": 48,
+    "today_wagered": 544.52,
+    "live_bets": 50,
     "wins": 2967,
     "losses": 3602
   },
@@ -36,7 +36,7 @@
       "n_14d": 384,
       "profit_14d": 1151.59,
       "roi_14d": 0.111,
-      "balance": 2967.5,
+      "balance": 2900.87,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -1270,7 +1270,7 @@
       "n_14d": 536,
       "profit_14d": -16.84,
       "roi_14d": -0.0365,
-      "balance": 63.26,
+      "balance": 62.69,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2856,6 +2856,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-30",
+      "time": "22:07:20",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Over 171.5",
+      "odds": 120,
+      "ev": 5.7,
+      "stake": 24.98,
+      "payout": 54.96,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-30",
+      "time": "22:07:06",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points - 1st Half",
+      "selection": "Over 83.5",
+      "odds": -105,
+      "ev": 3.4,
+      "stake": 31.49,
+      "payout": 61.48,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-30",
       "time": "22:03:42",
@@ -7325,36 +7355,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4625
-    },
-    {
-      "date": "2026-05-28",
-      "time": "22:52:36",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Baltimore Orioles",
-      "odds": -148,
-      "ev": 3.09,
-      "stake": 0.5971,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.5971
-    },
-    {
-      "date": "2026-05-28",
-      "time": "22:52:36",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Baltimore Orioles -2.5",
-      "odds": 208,
-      "ev": 3.26,
-      "stake": 0.975,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.975
     }
   ],
   "book_brier": [],
@@ -7770,8 +7770,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7783,8 +7783,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9306,9 +9306,9 @@
       {
         "t": "18:00",
         "profit": -86.95,
-        "wagered": 488.05,
-        "open_bets": 40,
-        "open_wagered": 187.84
+        "wagered": 544.52,
+        "open_bets": 42,
+        "open_wagered": 244.31
       }
     ]
   }
