@@ -3,7 +3,7 @@
   "kind": "trading_bot",
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
-  "generated_at": "2026-05-30T21:31:05Z",
+  "generated_at": "2026-05-30T21:33:05Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 13166.22,
@@ -20269,8 +20269,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-05-30T21:28:02Z",
-    "checked_at_local": "2026-05-30 17:28",
+    "generated_at": "2026-05-30T21:33:03Z",
+    "checked_at_local": "2026-05-30 17:33",
     "source": "swing-bot intra-day monitor (paper)",
     "quote_note": "near-real-time (~15-min delayed yfinance)",
     "risk": {
@@ -20282,7 +20282,7 @@
       "open_positions": 14,
       "live_quoted": 14,
       "market_closed": 0,
-      "total_unrealized_pnl": 1141.77,
+      "total_unrealized_pnl": 1141.19,
       "fetch_error": null
     },
     "positions": [
@@ -20340,15 +20340,15 @@
         "is_crypto": true,
         "shares": 0.020325,
         "avg_price": 73573.323,
-        "price": 73885.0625,
+        "price": 73869.0391,
         "live": true,
-        "ret_pct": 0.42,
-        "unrealized_pnl": 6.34,
+        "ret_pct": 0.4,
+        "unrealized_pnl": 6.01,
         "cost_basis": 1495.35,
-        "market_value": 1501.68,
+        "market_value": 1501.36,
         "peak": 73573.323,
         "stop_price": 67687.4571,
-        "stop_headroom_pct": 8.42
+        "stop_headroom_pct": 8.4
       },
       {
         "strategy": "donchian_breakout",
@@ -20372,15 +20372,15 @@
         "is_crypto": true,
         "shares": 0.744488,
         "avg_price": 2008.5565,
-        "price": 2027.05,
+        "price": 2026.71,
         "live": true,
-        "ret_pct": 0.92,
-        "unrealized_pnl": 13.77,
+        "ret_pct": 0.9,
+        "unrealized_pnl": 13.52,
         "cost_basis": 1495.35,
-        "market_value": 1509.12,
+        "market_value": 1508.86,
         "peak": 2008.5565,
         "stop_price": 1847.872,
-        "stop_headroom_pct": 8.92
+        "stop_headroom_pct": 8.9
       },
       {
         "strategy": "donchian_breakout",
@@ -20512,7 +20512,7 @@
       }
     ],
     "recent_actions": [],
-    "age_minutes": 3.1,
+    "age_minutes": 0.0,
     "stale": false
   },
   "counts": {
