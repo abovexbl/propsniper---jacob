@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T15:25:09Z",
+  "generated_at": "2026-05-30T15:35:01Z",
   "portfolio": {
     "profit": 17091.59,
     "wagered": 269562.68,
@@ -14,9 +14,9 @@
     "data_through": "live",
     "today_profit": -8.98,
     "today_roi": -0.136,
-    "today_wagered": 118.11,
-    "open_bets": 20,
-    "live_bets": 16,
+    "today_wagered": 119.17,
+    "open_bets": 21,
+    "live_bets": 17,
     "wins": 2958,
     "losses": 3588
   },
@@ -1259,7 +1259,7 @@
       "n_14d": 523,
       "profit_14d": -17.91,
       "roi_14d": -0.0396,
-      "balance": 81.88,
+      "balance": 80.83,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2815,6 +2815,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-30",
+      "time": "15:30:05",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "selection": "Potapova",
+      "odds": 280,
+      "ev": -10.36,
+      "stake": 1.0525,
+      "payout": 4.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-30",
       "time": "15:13:13",
@@ -7299,21 +7314,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -100.0
-    },
-    {
-      "date": "2026-05-28",
-      "time": "15:55:17",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Darderi -6.5",
-      "odds": -105,
-      "ev": 7.11,
-      "stake": 75.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -75.0
     }
   ],
   "book_brier": [],
