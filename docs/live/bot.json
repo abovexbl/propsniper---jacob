@@ -3,7 +3,7 @@
   "kind": "trading_bot",
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
-  "generated_at": "2026-05-30T21:41:05Z",
+  "generated_at": "2026-05-30T21:43:04Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 13293.48,
@@ -20305,8 +20305,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-05-30T21:38:02Z",
-    "checked_at_local": "2026-05-30 17:38",
+    "generated_at": "2026-05-30T21:43:03Z",
+    "checked_at_local": "2026-05-30 17:43",
     "source": "swing-bot intra-day monitor (paper)",
     "quote_note": "near-real-time (~15-min delayed yfinance)",
     "risk": {
@@ -20366,7 +20366,7 @@
         "unrealized_pnl": -27.35,
         "cost_basis": 1789.34,
         "market_value": 1761.99,
-        "peak": 442.3211,
+        "peak": 435.56,
         "stop_price": 406.9354,
         "stop_headroom_pct": 6.47
       },
@@ -20382,7 +20382,7 @@
         "unrealized_pnl": -6.61,
         "cost_basis": 1346.18,
         "market_value": 1339.57,
-        "peak": 271.9859,
+        "peak": 275.1275,
         "stop_price": 250.2271,
         "stop_headroom_pct": 7.51
       },
@@ -20398,7 +20398,7 @@
         "unrealized_pnl": 4.61,
         "cost_basis": 1346.18,
         "market_value": 1350.79,
-        "peak": 311.0054,
+        "peak": 312.07,
         "stop_price": 286.125,
         "stop_headroom_pct": 8.34
       },
@@ -20414,7 +20414,7 @@
         "unrealized_pnl": 9.98,
         "cost_basis": 1346.18,
         "market_value": 1356.16,
-        "peak": 750.8353,
+        "peak": 756.4,
         "stop_price": 690.7684,
         "stop_headroom_pct": 8.74
       },
@@ -20430,7 +20430,7 @@
         "unrealized_pnl": 15.51,
         "cost_basis": 1346.18,
         "market_value": 1361.69,
-        "peak": 729.8147,
+        "peak": 738.225,
         "stop_price": 671.4296,
         "stop_headroom_pct": 9.15
       },
@@ -20446,7 +20446,7 @@
         "unrealized_pnl": 35.77,
         "cost_basis": 1581.46,
         "market_value": 1617.23,
-        "peak": 739.6696,
+        "peak": 756.4,
         "stop_price": 680.4961,
         "stop_headroom_pct": 10.26
       },
@@ -20462,7 +20462,7 @@
         "unrealized_pnl": 43.28,
         "cost_basis": 1780.04,
         "market_value": 1823.32,
-        "peak": 504.142,
+        "peak": 516.4,
         "stop_price": 463.8106,
         "stop_headroom_pct": 10.43
       },
@@ -20478,7 +20478,7 @@
         "unrealized_pnl": 55.97,
         "cost_basis": 1346.18,
         "market_value": 1402.15,
-        "peak": 495.7878,
+        "peak": 516.4,
         "stop_price": 456.1248,
         "stop_headroom_pct": 12.16
       },
@@ -20494,7 +20494,7 @@
         "unrealized_pnl": 45.61,
         "cost_basis": 1052.37,
         "market_value": 1097.98,
-        "peak": 417.4686,
+        "peak": 435.56,
         "stop_price": 384.0711,
         "stop_headroom_pct": 12.33
       },
@@ -20510,7 +20510,7 @@
         "unrealized_pnl": 66.68,
         "cost_basis": 1499.62,
         "market_value": 1566.3,
-        "peak": 202.161,
+        "peak": 211.15,
         "stop_price": 185.9881,
         "stop_headroom_pct": 12.45
       },
@@ -20526,7 +20526,7 @@
         "unrealized_pnl": 93.99,
         "cost_basis": 1553.79,
         "market_value": 1647.78,
-        "peak": 696.1179,
+        "peak": 738.225,
         "stop_price": 640.4285,
         "stop_headroom_pct": 14.05
       },
@@ -20542,7 +20542,7 @@
         "unrealized_pnl": 103.93,
         "cost_basis": 1581.46,
         "market_value": 1685.39,
-        "peak": 292.8263,
+        "peak": 312.07,
         "stop_price": 269.4002,
         "stop_headroom_pct": 14.57
       },
@@ -20558,7 +20558,7 @@
         "unrealized_pnl": 193.34,
         "cost_basis": 1689.37,
         "market_value": 1882.71,
-        "peak": 280.0221,
+        "peak": 312.07,
         "stop_price": 257.6203,
         "stop_headroom_pct": 19.44
       },
@@ -20574,13 +20574,13 @@
         "unrealized_pnl": 820.7,
         "cost_basis": 1513.01,
         "market_value": 2333.71,
-        "peak": 334.7973,
+        "peak": 516.4,
         "stop_price": 308.0135,
         "stop_headroom_pct": 62.24
       }
     ],
     "recent_actions": [],
-    "age_minutes": 3.1,
+    "age_minutes": 0.0,
     "stale": false
   },
   "counts": {
