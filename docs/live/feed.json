@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-30T03:25:09Z",
+  "generated_at": "2026-05-30T03:35:02Z",
   "portfolio": {
     "profit": 16693.36,
     "wagered": 268674.16,
@@ -12,13 +12,13 @@
     "winners": 7,
     "losers": 6,
     "data_through": "live",
-    "today_profit": 1155.77,
-    "today_roi": 0.2317,
+    "today_profit": 1298.31,
+    "today_roi": 0.248,
     "today_wagered": 5429.52,
-    "open_bets": 39,
-    "live_bets": 35,
-    "wins": 2944,
-    "losses": 3568
+    "open_bets": 33,
+    "live_bets": 29,
+    "wins": 2946,
+    "losses": 3572
   },
   "accounts": [
     {
