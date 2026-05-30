@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from propsniper_reports import person_of, venue_of, EXCLUDE_DEFAULT  # noqa: E402
+from propsniper_reports import person_of, venue_of, clean_name, EXCLUDE_DEFAULT  # noqa: E402
 import propsniper_db as pdb  # for per-market enrichment from engine.db  # noqa: E402
 
 TOKEN_FILE = Path.home() / "AppData" / "Roaming" / "com.propsniper" / ".backend_token"
@@ -88,7 +88,8 @@ def load_remote_feed(token_file=None, exclude=None, db_path=None) -> dict:
         profit = round(_num(a.get("profit")), 2)
         stake = sum(m["stake"] for m in mkts) if mkts else 0.0
         accounts.append({
-            "account": name, "person": person_of(name),
+            "account": clean_name(name, a.get("sportsbook")), "account_raw": name,
+            "person": person_of(name),
             "venue": a.get("sportsbook") or venue_of(name),
             "sportsbook": a.get("sportsbook") or venue_of(name),
             "n_all": int(_num(a.get("num_bets"))),
@@ -137,8 +138,10 @@ def load_remote_feed(token_file=None, exclude=None, db_path=None) -> dict:
         r["roi"] = round(r["profit"] / r["stake"], 4) if r["stake"] else None
         r["profit"] = round(r["profit"], 2); r["stake"] = round(r["stake"], 2)
 
+    clean_map = {a.get("name"): clean_name(a.get("name"), a.get("sportsbook")) for a in accts}
     recent = [{"date": _ts(b.get("created_at_ts"))[:10], "time": _ts(b.get("created_at_ts"))[11:19],
-               "account": b.get("account_name"), "book": b.get("sportsbook"), "league": b.get("league"),
+               "account": clean_map.get(b.get("account_name"), clean_name(b.get("account_name"), b.get("sportsbook"))),
+               "book": b.get("sportsbook"), "league": b.get("league"),
                "market": b.get("market"), "selection": b.get("selection") or b.get("participant"),
                "odds": b.get("odds"), "ev": _num(b.get("ev")), "stake": _num(b.get("amount")),
                "status": (b.get("result") or b.get("outcome") or "open").lower(), "profit": _num(b.get("payout"))}

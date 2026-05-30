@@ -17,9 +17,12 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from propsniper_reports import person_of, venue_of, EXCLUDE_DEFAULT  # reuse helpers  # noqa: E402
+from propsniper_reports import person_of, venue_of, clean_name, EXCLUDE_DEFAULT  # reuse helpers  # noqa: E402
 
 DEFAULT_DB = Path.home() / "Propsniper" / "engine" / "engine.db"
+# Per-account minimum stake (substring match). Kalshi has an R&D bot firing $1
+# bets we don't want polluting the numbers — only count $10+ there.
+MIN_STAKE_DEFAULT = {"kalshi": 10.0}
 
 
 def _verdict(n: int, roi: float) -> str:
@@ -32,12 +35,24 @@ def _verdict(n: int, roi: float) -> str:
     return "FLAT"
 
 
-def load_db_feed(db_path=None, exclude=None) -> dict:
+def load_db_feed(db_path=None, exclude=None, min_stake=None) -> dict:
     db = Path(db_path) if db_path else DEFAULT_DB
     excl = [e.lower() for e in (EXCLUDE_DEFAULT if exclude is None else exclude)]
+    mins = MIN_STAKE_DEFAULT if min_stake is None else min_stake
     def excluded(name):
         a = (name or "").lower()
         return any(e in a for e in excl)
+    def amt(v):
+        try:
+            return float(v or 0)
+        except (TypeError, ValueError):
+            return 0.0
+    def below_min(name, stake):
+        a = (name or "").lower()
+        for k, v in mins.items():
+            if k in a:
+                return stake < v
+        return False
 
     con = sqlite3.connect(f"file:{db}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
@@ -55,7 +70,8 @@ def load_db_feed(db_path=None, exclude=None) -> dict:
     con.close()
 
     settled = [r for r in rows if (r["status"] or "").lower() in ("win", "loss", "push")
-               and not excluded(r["account_name"])]
+               and not excluded(r["account_name"])
+               and not below_min(r["account_name"], amt(r["stake"]))]
     if not settled:
         return {"source": "engine.db", "base": str(db), "generated_at": _now(),
                 "portfolio": {}, "accounts": [], "markets": [], "pnl_timeseries": [],
@@ -102,7 +118,8 @@ def load_db_feed(db_path=None, exclude=None) -> dict:
         mkts = sorted(markets_by_acct.get(name, []), key=lambda x: x["profit"], reverse=True)
         roi = (a["profit"] / a["stake"]) if a["stake"] else 0.0
         accounts.append({
-            "account": name, "person": person_of(name),
+            "account": clean_name(name, venue_by_name.get(name)), "account_raw": name,
+            "person": person_of(name),
             "venue": venue_by_name.get(name) or venue_of(name),
             "sportsbook": venue_by_name.get(name) or venue_of(name),
             "n_all": a["n"], "profit_all": round(a["profit"], 2), "stake_all": round(a["stake"], 2),
@@ -142,10 +159,11 @@ def load_db_feed(db_path=None, exclude=None) -> dict:
         r["roi"] = round(r["profit"] / r["stake"], 4) if r["stake"] else None
         r["profit"] = round(r["profit"], 2); r["stake"] = round(r["stake"], 2)
 
-    recent = sorted([r for r in rows if not excluded(r["account_name"])],
+    recent = sorted([r for r in rows if not excluded(r["account_name"])
+                     and not below_min(r["account_name"], amt(r["stake"]))],
                     key=lambda r: r["placed_epoch"] or 0, reverse=True)[:300]
     recent_rows = [{"date": (r["placed_utc"] or "")[:10], "time": (r["placed_utc"] or "")[11:19],
-                    "account": r["account_name"], "book": r["sportsbook"], "league": r["league"],
+                    "account": clean_name(r["account_name"], r["sportsbook"]), "book": r["sportsbook"], "league": r["league"],
                     "market": r["market"], "selection": r["selection"], "odds": r["odds_american"],
                     "ev": f(r["ev"]), "stake": f(r["stake"]), "status": (r["status"] or "").lower(),
                     "profit": f(r["profit"])} for r in recent]

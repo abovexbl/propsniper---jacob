@@ -70,6 +70,13 @@ def person_of(account: str) -> str:
     return "Jacob"  # default / unlabeled accounts are Jacob's
 
 
+def clean_name(raw: str, sportsbook: str | None = None) -> str:
+    """Uniform account display name: '<Person> <Sportsbook>'.
+    'DraftKings'->'Jacob DraftKings', 'MOM CESARS'->'Mom Caesars',
+    'DAD FD'->'Dad FanDuel', 'Moms account'(Kalshi)->'Mom Kalshi'."""
+    return f"{person_of(raw)} {sportsbook or venue_of(raw)}".strip()
+
+
 # Accounts to hide by default (substring match, case-insensitive). Edit to re-include.
 EXCLUDE_DEFAULT = ["rebet", "mgm"]
 
