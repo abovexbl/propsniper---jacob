@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T18:31:02Z",
+  "generated_at": "2026-05-31T18:33:02Z",
   "portfolio": {
     "profit": 17175.08,
     "wagered": 271096.38,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 36,
-    "open_wagered": 154.31,
+    "open_bets": 38,
+    "open_wagered": 178.77,
     "data_through": "live",
     "today_profit": 26.26,
     "today_roi": 0.1271,
-    "today_wagered": 363.35,
-    "live_bets": 46,
+    "today_wagered": 387.8,
+    "live_bets": 48,
     "wins": 3023,
     "losses": 3648
   },
@@ -2929,6 +2929,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "18:32:28",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "selection": "Atlanta Braves Over 3.5",
+      "odds": 105,
+      "ev": 5.62,
+      "stake": 23.8,
+      "payout": 48.79,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "18:32:03",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "selection": "Ruud",
+      "odds": -191,
+      "ev": -5.03,
+      "stake": 0.6562,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "18:19:17",
@@ -7398,36 +7428,6 @@
       "payout": 28.04,
       "status": "win",
       "profit": 13.0435
-    },
-    {
-      "date": "2026-05-29",
-      "time": "14:17:56",
-      "account": "Dad DraftKings",
-      "book": "DraftKings",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "selection": "Fonseca +2.5",
-      "odds": -125,
-      "ev": 11.11,
-      "stake": 15.0,
-      "payout": 27.0,
-      "status": "win",
-      "profit": 12.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "14:03:34",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Fonseca",
-      "odds": 280,
-      "ev": 7.0,
-      "stake": 25.0,
-      "payout": 95.0,
-      "status": "win",
-      "profit": 70.0
     }
   ],
   "book_brier": [],
@@ -7830,6 +7830,19 @@
     },
     {
       "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
       "n": 0,
@@ -7845,19 +7858,6 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8597,8 +8597,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8610,8 +8610,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9790,9 +9790,9 @@
       {
         "t": "14:30",
         "profit": 26.26,
-        "wagered": 363.35,
-        "open_bets": 36,
-        "open_wagered": 154.31
+        "wagered": 387.8,
+        "open_bets": 38,
+        "open_wagered": 178.77
       }
     ]
   }
