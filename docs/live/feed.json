@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T19:41:02Z",
+  "generated_at": "2026-05-31T19:43:10Z",
   "portfolio": {
-    "profit": 17217.39,
-    "wagered": 271304.6,
-    "n": 5201,
-    "roi": 0.0635,
-    "profit_14d": 653.37,
+    "profit": 17197.39,
+    "wagered": 271324.6,
+    "n": 5202,
+    "roi": 0.0634,
+    "profit_14d": 633.37,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 49,
-    "open_wagered": 602.15,
+    "open_bets": 48,
+    "open_wagered": 582.15,
     "data_through": "live",
     "today_profit": 68.57,
     "today_roi": 0.1653,
@@ -1768,14 +1768,14 @@
       "person": "Jacob",
       "venue": "Fliff",
       "sportsbook": "Fliff",
-      "n_all": 130,
-      "profit_all": -803.13,
-      "stake_all": 5675.0,
-      "roi_all": -0.1415,
-      "avg_ev": 10.45,
-      "n_14d": 88,
-      "profit_14d": -808.18,
-      "roi_14d": -0.2175,
+      "n_all": 131,
+      "profit_all": -823.13,
+      "stake_all": 5695.0,
+      "roi_all": -0.1445,
+      "avg_ev": 10.42,
+      "n_14d": 89,
+      "profit_14d": -828.18,
+      "roi_14d": -0.2217,
       "balance": 276.86,
       "health": "healthy",
       "working": 0,
@@ -1852,16 +1852,6 @@
           "verdict": "NOISE_N<20"
         },
         {
-          "league": "MLB",
-          "market": "Run Line - 1st 5 Innings",
-          "n": 4,
-          "profit": 9.0,
-          "stake": 85.0,
-          "roi": 0.1059,
-          "avg_ev": 7.44,
-          "verdict": "NOISE_N<20"
-        },
-        {
           "league": "WNBA",
           "market": "Moneyline",
           "n": 2,
@@ -1869,6 +1859,16 @@
           "stake": 40.0,
           "roi": 0.1,
           "avg_ev": 5.64,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "MLB",
+          "market": "Run Line - 1st 5 Innings",
+          "n": 5,
+          "profit": -11.0,
+          "stake": 105.0,
+          "roi": -0.1048,
+          "avg_ev": 7.2,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2537,10 +2537,10 @@
     {
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "profit": -450.65,
-      "stake": 7784.78,
-      "n": 136,
-      "roi": -0.0579
+      "profit": -470.65,
+      "stake": 7804.78,
+      "n": 137,
+      "roi": -0.0603
     },
     {
       "league": "MLB",
@@ -2924,8 +2924,8 @@
     },
     {
       "date": "2026-05-31",
-      "profit": 81.95,
-      "cumulative": 17217.37
+      "profit": 61.95,
+      "cumulative": 17197.37
     }
   ],
   "recent": [
@@ -3150,9 +3150,9 @@
       "odds": 175,
       "ev": 6.23,
       "stake": 20.0,
-      "payout": 55.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -20.0
     },
     {
       "date": "2026-05-31",
@@ -7831,7 +7831,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7844,7 +7844,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8597,8 +8597,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8610,8 +8610,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8857,19 +8857,6 @@
     },
     {
       "book": "Fliff",
-      "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "n": 4,
-      "stake": 85.0,
-      "profit": 9.0,
-      "roi": 0.1059,
-      "avg_ev": 7.44,
-      "in_config": false,
-      "bet": true,
-      "book_has_config": true
-    },
-    {
-      "book": "Fliff",
       "league": "WNBA",
       "market": "Moneyline",
       "n": 2,
@@ -8892,6 +8879,19 @@
       "avg_ev": 0,
       "in_config": true,
       "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 5,
+      "stake": 105.0,
+      "profit": -11.0,
+      "roi": -0.1048,
+      "avg_ev": 7.2,
+      "in_config": false,
+      "bet": true,
       "book_has_config": true
     },
     {
@@ -9840,8 +9840,8 @@
         "t": "15:40",
         "profit": 68.57,
         "wagered": 1019.72,
-        "open_bets": 49,
-        "open_wagered": 602.15
+        "open_bets": 48,
+        "open_wagered": 582.15
       }
     ]
   }
