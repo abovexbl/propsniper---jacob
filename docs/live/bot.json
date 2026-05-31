@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-05-31T07:07:05Z",
+  "generated_at": "2026-05-31T07:09:13Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 11846.83,
@@ -26631,8 +26631,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-05-31T07:06:02Z",
-    "checked_at_local": "2026-05-31 07:06",
+    "generated_at": "2026-05-31T07:08:02Z",
+    "checked_at_local": "2026-05-31 07:08",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
