@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T18:49:02Z",
+  "generated_at": "2026-05-31T18:51:02Z",
   "portfolio": {
     "profit": 17175.08,
     "wagered": 271096.38,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 44,
-    "open_wagered": 240.51,
+    "open_bets": 46,
+    "open_wagered": 288.31,
     "data_through": "live",
     "today_profit": 26.26,
     "today_roi": 0.1271,
-    "today_wagered": 449.55,
-    "live_bets": 54,
+    "today_wagered": 497.35,
+    "live_bets": 56,
     "wins": 3023,
     "losses": 3648
   },
@@ -36,7 +36,7 @@
       "n_14d": 364,
       "profit_14d": 937.07,
       "roi_14d": 0.0937,
-      "balance": 2747.46,
+      "balance": 2717.47,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -1452,7 +1452,7 @@
       "n_14d": 85,
       "profit_14d": 396.32,
       "roi_14d": 0.1632,
-      "balance": 695.48,
+      "balance": 668.06,
       "health": "healthy",
       "working": 2,
       "bleeding": 2,
@@ -2929,6 +2929,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "18:49:44",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 7.5",
+      "odds": -218,
+      "ev": 6.71,
+      "stake": 27.4191,
+      "payout": 40.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "18:49:32",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs - 1st Inning",
+      "selection": "Under 0.5",
+      "odds": -204,
+      "ev": 8.86,
+      "stake": 20.38,
+      "payout": 30.37,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "18:47:42",
@@ -7398,36 +7428,6 @@
       "payout": 26.7,
       "status": "win",
       "profit": 17.33
-    },
-    {
-      "date": "2026-05-29",
-      "time": "15:27:07",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Games",
-      "selection": "Over 54.5",
-      "odds": 180,
-      "ev": 17.82,
-      "stake": 55.55,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -55.55
-    },
-    {
-      "date": "2026-05-29",
-      "time": "15:27:07",
-      "account": "Dad Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Games",
-      "selection": "Over 54.5",
-      "odds": 180,
-      "ev": 17.82,
-      "stake": 50.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -50.0
     }
   ],
   "book_brier": [],
@@ -7830,8 +7830,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7856,8 +7856,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8597,8 +8597,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8623,8 +8623,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9800,6 +9800,13 @@
         "wagered": 449.55,
         "open_bets": 44,
         "open_wagered": 240.51
+      },
+      {
+        "t": "14:50",
+        "profit": 26.26,
+        "wagered": 497.35,
+        "open_bets": 46,
+        "open_wagered": 288.31
       }
     ]
   }
