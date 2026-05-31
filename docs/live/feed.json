@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T02:17:02Z",
+  "generated_at": "2026-05-31T02:19:09Z",
   "portfolio": {
-    "profit": 17086.58,
-    "wagered": 270302.56,
-    "n": 5139,
-    "roi": 0.0632,
-    "profit_14d": 522.55,
+    "profit": 17153.51,
+    "wagered": 270379.27,
+    "n": 5141,
+    "roi": 0.0634,
+    "profit_14d": 589.48,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 35,
-    "open_wagered": 480.75,
+    "open_bets": 33,
+    "open_wagered": 404.04,
     "data_through": "live",
     "today_profit": 52.49,
     "today_roi": 0.0595,
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1087,
-      "profit_all": 8866.52,
-      "stake_all": 77143.02,
-      "roi_all": 0.1149,
+      "n_all": 1088,
+      "profit_all": 8852.81,
+      "stake_all": 77156.73,
+      "roi_all": 0.1147,
       "avg_ev": 10.75,
-      "n_14d": 350,
-      "profit_14d": 967.78,
-      "roi_14d": 0.1012,
+      "n_14d": 351,
+      "profit_14d": 954.07,
+      "roi_14d": 0.0996,
       "balance": 2658.16,
       "health": "healthy",
       "working": 11,
@@ -284,11 +284,11 @@
         {
           "league": "WNBA",
           "market": "Total Points",
-          "n": 28,
-          "profit": -43.84,
-          "stake": 539.82,
-          "roi": -0.0812,
-          "avg_ev": 8.58,
+          "n": 29,
+          "profit": -57.55,
+          "stake": 553.53,
+          "roi": -0.104,
+          "avg_ev": 8.53,
           "verdict": "BLEEDING"
         },
         {
@@ -1920,14 +1920,14 @@
       "person": "Mom",
       "venue": "FanDuel",
       "sportsbook": "FanDuel",
-      "n_all": 271,
-      "profit_all": -1147.9,
-      "stake_all": 22893.0,
-      "roi_all": -0.0501,
-      "avg_ev": 9.61,
-      "n_14d": 271,
-      "profit_14d": -1147.9,
-      "roi_14d": -0.0501,
+      "n_all": 272,
+      "profit_all": -1067.26,
+      "stake_all": 22956.0,
+      "roi_all": -0.0465,
+      "avg_ev": 9.63,
+      "n_14d": 272,
+      "profit_14d": -1067.26,
+      "roi_14d": -0.0465,
       "balance": null,
       "health": null,
       "working": 2,
@@ -2076,11 +2076,11 @@
         {
           "league": "WNBA",
           "market": "Total Points",
-          "n": 12,
-          "profit": -412.13,
-          "stake": 1503.0,
-          "roi": -0.2742,
-          "avg_ev": 8.21,
+          "n": 13,
+          "profit": -331.49,
+          "stake": 1566.0,
+          "roi": -0.2117,
+          "avg_ev": 8.8,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2495,10 +2495,10 @@
     {
       "league": "WNBA",
       "market": "Total Points",
-      "profit": -596.16,
-      "stake": 4256.33,
-      "n": 97,
-      "roi": -0.1401
+      "profit": -529.23,
+      "stake": 4333.04,
+      "n": 99,
+      "roi": -0.1221
     },
     {
       "league": "NBA",
@@ -2866,8 +2866,8 @@
     },
     {
       "date": "2026-05-31",
-      "profit": -49.99,
-      "cumulative": 17086.55
+      "profit": 16.94,
+      "cumulative": 17153.48
     }
   ],
   "recent": [
@@ -3137,9 +3137,9 @@
       "odds": 175,
       "ev": 7.1,
       "stake": 13.71,
-      "payout": 37.7,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -13.71
     },
     {
       "date": "2026-05-31",
@@ -3153,8 +3153,8 @@
       "ev": 15.82,
       "stake": 63.0,
       "payout": 143.64,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 80.64
     },
     {
       "date": "2026-05-31",
@@ -7785,8 +7785,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7798,8 +7798,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8333,11 +8333,11 @@
       "book": "DraftKings",
       "league": "WNBA",
       "market": "Total Points",
-      "n": 43,
-      "stake": 1089.82,
-      "profit": -322.39,
-      "roi": -0.2958,
-      "avg_ev": 8.42,
+      "n": 44,
+      "stake": 1103.53,
+      "profit": -336.1,
+      "roi": -0.3046,
+      "avg_ev": 8.39,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8513,8 +8513,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8526,8 +8526,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8605,12 +8605,12 @@
     {
       "book": "FanDuel",
       "league": "WNBA",
-      "market": "Point Spread",
-      "n": 18,
-      "stake": 1920.0,
-      "profit": -331.83,
-      "roi": -0.1728,
-      "avg_ev": 6.26,
+      "market": "Total Points",
+      "n": 13,
+      "stake": 1566.0,
+      "profit": -331.49,
+      "roi": -0.2117,
+      "avg_ev": 8.8,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -8618,12 +8618,12 @@
     {
       "book": "FanDuel",
       "league": "WNBA",
-      "market": "Total Points",
-      "n": 12,
-      "stake": 1503.0,
-      "profit": -412.13,
-      "roi": -0.2742,
-      "avg_ev": 8.21,
+      "market": "Point Spread",
+      "n": 18,
+      "stake": 1920.0,
+      "profit": -331.83,
+      "roi": -0.1728,
+      "avg_ev": 6.26,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -9510,8 +9510,8 @@
         "t": "22:10",
         "profit": 52.49,
         "wagered": 1286.12,
-        "open_bets": 35,
-        "open_wagered": 480.75
+        "open_bets": 33,
+        "open_wagered": 404.04
       }
     ]
   }
