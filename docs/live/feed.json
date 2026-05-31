@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T05:11:02Z",
+  "generated_at": "2026-05-31T05:13:09Z",
   "portfolio": {
-    "profit": 17147.0,
-    "wagered": 270893.59,
-    "n": 5173,
-    "roi": 0.0633,
-    "profit_14d": 582.98,
+    "profit": 17193.8,
+    "wagered": 270918.8,
+    "n": 5180,
+    "roi": 0.0635,
+    "profit_14d": 629.78,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 7,
-    "open_wagered": 25.2,
+    "open_bets": 0,
+    "open_wagered": 0,
     "data_through": "live",
     "today_profit": 44.98,
     "today_roi": 1.55,
@@ -1282,14 +1282,14 @@
       "person": "Mom",
       "venue": "Kalshi",
       "sportsbook": "Kalshi",
-      "n_all": 826,
-      "profit_all": -11.86,
-      "stake_all": 698.03,
-      "roi_all": -0.017,
-      "avg_ev": 6.37,
-      "n_14d": 559,
-      "profit_14d": -16.11,
-      "roi_14d": -0.0341,
+      "n_all": 832,
+      "profit_all": -8.27,
+      "stake_all": 702.44,
+      "roi_all": -0.0118,
+      "avg_ev": 6.3,
+      "n_14d": 565,
+      "profit_14d": -12.52,
+      "roi_14d": -0.0262,
       "balance": 91.56,
       "health": "healthy",
       "working": 3,
@@ -1358,11 +1358,11 @@
         {
           "league": "MLB",
           "market": "Total Runs",
-          "n": 255,
-          "profit": -1.0,
-          "stake": 214.98,
-          "roi": -0.0047,
-          "avg_ev": 5.28,
+          "n": 257,
+          "profit": -0.3,
+          "stake": 216.27,
+          "roi": -0.0014,
+          "avg_ev": 5.21,
           "verdict": "FLAT"
         },
         {
@@ -1408,21 +1408,21 @@
         {
           "league": "MLB",
           "market": "Run Line",
-          "n": 109,
-          "profit": -9.95,
-          "stake": 86.95,
-          "roi": -0.1144,
-          "avg_ev": 3.37,
+          "n": 111,
+          "profit": -9.23,
+          "stake": 88.23,
+          "roi": -0.1046,
+          "avg_ev": 3.26,
           "verdict": "BLEEDING"
         },
         {
           "league": "MLB",
           "market": "Moneyline",
-          "n": 44,
-          "profit": -11.64,
-          "stake": 35.64,
-          "roi": -0.3267,
-          "avg_ev": 2.45,
+          "n": 46,
+          "profit": -9.47,
+          "stake": 37.47,
+          "roi": -0.2528,
+          "avg_ev": 2.14,
           "verdict": "BLEEDING"
         }
       ],
@@ -1434,14 +1434,14 @@
       "person": "Jacob",
       "venue": "Kalshi",
       "sportsbook": "Kalshi",
-      "n_all": 378,
-      "profit_all": -637.25,
-      "stake_all": 11795.6,
-      "roi_all": -0.054,
-      "avg_ev": 9.76,
-      "n_14d": 84,
-      "profit_14d": 353.11,
-      "roi_14d": 0.1467,
+      "n_all": 379,
+      "profit_all": -594.04,
+      "stake_all": 11816.4,
+      "roi_all": -0.0503,
+      "avg_ev": 9.75,
+      "n_14d": 85,
+      "profit_14d": 396.32,
+      "roi_14d": 0.1632,
       "balance": 756.01,
       "health": "healthy",
       "working": 2,
@@ -1460,11 +1460,11 @@
         {
           "league": "MLB",
           "market": "Total Runs",
-          "n": 39,
-          "profit": 125.13,
-          "stake": 874.96,
-          "roi": 0.143,
-          "avg_ev": 5.97,
+          "n": 40,
+          "profit": 168.33,
+          "stake": 895.76,
+          "roi": 0.1879,
+          "avg_ev": 5.94,
           "verdict": "WORKING"
         },
         {
@@ -2183,10 +2183,10 @@
     {
       "league": "MLB",
       "market": "Total Runs",
-      "profit": 1439.93,
-      "stake": 32902.57,
-      "n": 667,
-      "roi": 0.0438
+      "profit": 1483.83,
+      "stake": 32924.66,
+      "n": 670,
+      "roi": 0.0451
     },
     {
       "league": "NBA",
@@ -2551,10 +2551,10 @@
     {
       "league": "MLB",
       "market": "Moneyline",
-      "profit": -694.84,
-      "stake": 14029.63,
-      "n": 267,
-      "roi": -0.0495
+      "profit": -692.67,
+      "stake": 14031.46,
+      "n": 269,
+      "roi": -0.0494
     },
     {
       "league": "NBA",
@@ -2567,10 +2567,10 @@
     {
       "league": "MLB",
       "market": "Run Line",
-      "profit": -1144.69,
-      "stake": 18837.39,
-      "n": 347,
-      "roi": -0.0608
+      "profit": -1143.97,
+      "stake": 18838.67,
+      "n": 349,
+      "roi": -0.0607
     }
   ],
   "pnl_timeseries": [
@@ -2906,8 +2906,8 @@
     },
     {
       "date": "2026-05-31",
-      "profit": 11.57,
-      "cumulative": 17146.98
+      "profit": 58.36,
+      "cumulative": 17193.78
     }
   ],
   "recent": [
@@ -2937,9 +2937,9 @@
       "odds": 208,
       "ev": 4.78,
       "stake": 20.7983,
-      "payout": 64.06,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 64.0,
+      "status": "win",
+      "profit": 43.2017
     },
     {
       "date": "2026-05-31",
@@ -3058,8 +3058,8 @@
       "ev": -4.42,
       "stake": 0.6168,
       "payout": 1.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 0.3832
     },
     {
       "date": "2026-05-31",
@@ -3073,8 +3073,8 @@
       "ev": -5.05,
       "stake": 0.9749,
       "payout": 2.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 1.0251
     },
     {
       "date": "2026-05-31",
@@ -3088,8 +3088,8 @@
       "ev": -3.49,
       "stake": 0.6562,
       "payout": 1.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 0.3438
     },
     {
       "date": "2026-05-31",
@@ -3118,8 +3118,8 @@
       "ev": -4.56,
       "stake": 0.8539,
       "payout": 2.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 1.1461
     },
     {
       "date": "2026-05-31",
@@ -3133,8 +3133,8 @@
       "ev": -2.14,
       "stake": 0.6267,
       "payout": 1.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 0.3733
     },
     {
       "date": "2026-05-31",
@@ -3148,8 +3148,8 @@
       "ev": -3.78,
       "stake": 0.6758,
       "payout": 1.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 0.3242
     },
     {
       "date": "2026-05-31",
@@ -7825,8 +7825,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7838,8 +7838,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8579,8 +8579,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8592,8 +8592,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8984,11 +8984,11 @@
       "book": "Kalshi",
       "league": "MLB",
       "market": "Total Runs",
-      "n": 294,
-      "stake": 1089.94,
-      "profit": 124.13,
-      "roi": 0.1139,
-      "avg_ev": 5.37,
+      "n": 297,
+      "stake": 1112.03,
+      "profit": 168.03,
+      "roi": 0.1511,
+      "avg_ev": 5.31,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -9021,6 +9021,19 @@
     },
     {
       "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "n": 111,
+      "stake": 88.23,
+      "profit": -9.23,
+      "roi": -0.1046,
+      "avg_ev": 3.26,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Kalshi",
       "league": "NHL",
       "market": "Total Goals",
       "n": 19,
@@ -9028,19 +9041,6 @@
       "profit": -9.31,
       "roi": -0.2101,
       "avg_ev": 5.38,
-      "in_config": false,
-      "bet": true,
-      "book_has_config": true
-    },
-    {
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "n": 109,
-      "stake": 86.95,
-      "profit": -9.95,
-      "roi": -0.1144,
-      "avg_ev": 3.37,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -9114,11 +9114,11 @@
       "book": "Kalshi",
       "league": "MLB",
       "market": "Moneyline",
-      "n": 110,
-      "stake": 2129.09,
-      "profit": -317.14,
-      "roi": -0.149,
-      "avg_ev": 8.06,
+      "n": 112,
+      "stake": 2130.92,
+      "profit": -314.97,
+      "roi": -0.1478,
+      "avg_ev": 7.83,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -9200,8 +9200,8 @@
         "t": "01:10",
         "profit": 44.98,
         "wagered": 29.02,
-        "open_bets": 7,
-        "open_wagered": 25.2
+        "open_bets": 0,
+        "open_wagered": 0.0
       }
     ]
   }
