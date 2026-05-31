@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T01:23:02Z",
+  "generated_at": "2026-05-31T01:25:02Z",
   "portfolio": {
     "profit": 17128.73,
     "wagered": 270259.4,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 27,
-    "open_wagered": 406.48,
+    "open_bets": 28,
+    "open_wagered": 473.67,
     "data_through": "live",
     "today_profit": 7.72,
     "today_roi": 0.0099,
-    "today_wagered": 1168.7,
-    "live_bets": 35,
+    "today_wagered": 1235.89,
+    "live_bets": 36,
     "wins": 2992,
     "losses": 3626
   },
@@ -2871,6 +2871,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "01:23:50",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "San Francisco Giants +3.5",
+      "odds": -168,
+      "ev": 8.0,
+      "stake": 67.19,
+      "payout": 107.18,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "01:19:58",
@@ -7355,21 +7370,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.9441
-    },
-    {
-      "date": "2026-05-29",
-      "time": "01:36:20",
-      "account": "Dad DraftKings",
-      "book": "DraftKings",
-      "league": "NBA",
-      "market": "Total Points",
-      "selection": "Over 228.5",
-      "odds": 155,
-      "ev": 10.75,
-      "stake": 10.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -10.0
     }
   ],
   "book_brier": [],
@@ -7773,6 +7773,19 @@
     {
       "book": "Caesars",
       "league": "Tennis",
+      "market": "Total Sets",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
@@ -7787,19 +7800,6 @@
       "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9474,9 +9474,9 @@
       {
         "t": "21:20",
         "profit": 7.72,
-        "wagered": 1168.7,
-        "open_bets": 27,
-        "open_wagered": 406.48
+        "wagered": 1235.89,
+        "open_bets": 28,
+        "open_wagered": 473.67
       }
     ]
   }
