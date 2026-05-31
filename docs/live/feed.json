@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T18:55:02Z",
+  "generated_at": "2026-05-31T18:57:02Z",
   "portfolio": {
     "profit": 17175.08,
     "wagered": 271096.38,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 47,
-    "open_wagered": 313.1,
+    "open_bets": 49,
+    "open_wagered": 358.1,
     "data_through": "live",
     "today_profit": 26.26,
     "today_roi": 0.1271,
-    "today_wagered": 522.14,
-    "live_bets": 57,
+    "today_wagered": 567.14,
+    "live_bets": 59,
     "wins": 3023,
     "losses": 3648
   },
@@ -1776,7 +1776,7 @@
       "n_14d": 86,
       "profit_14d": -867.93,
       "roi_14d": -0.2365,
-      "balance": 217.11,
+      "balance": 172.11,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -2929,6 +2929,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "18:56:30",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "selection": "Pittsburgh Pirates Over 8.5",
+      "odds": 135,
+      "ev": 12.91,
+      "stake": 25.0,
+      "payout": 58.75,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "18:55:48",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Houston Astros -0.5",
+      "odds": 175,
+      "ev": 6.23,
+      "stake": 20.0,
+      "payout": 55.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "18:51:17",
@@ -7398,36 +7428,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.9145
-    },
-    {
-      "date": "2026-05-29",
-      "time": "17:01:22",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Hsu",
-      "odds": 280,
-      "ev": 3.75,
-      "stake": 1.0525,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -1.0525
-    },
-    {
-      "date": "2026-05-29",
-      "time": "17:00:04",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Fonseca",
-      "odds": 166,
-      "ev": 3.62,
-      "stake": 0.7523,
-      "payout": 2.0,
-      "status": "win",
-      "profit": 1.2477
     }
   ],
   "book_brier": [],
@@ -7831,6 +7831,19 @@
     {
       "book": "Caesars",
       "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
       "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
@@ -7845,19 +7858,6 @@
       "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8597,8 +8597,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8623,8 +8623,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9804,9 +9804,9 @@
       {
         "t": "14:50",
         "profit": 26.26,
-        "wagered": 522.14,
-        "open_bets": 47,
-        "open_wagered": 313.1
+        "wagered": 567.14,
+        "open_bets": 49,
+        "open_wagered": 358.1
       }
     ]
   }
