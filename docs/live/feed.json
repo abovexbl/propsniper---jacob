@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T00:29:02Z",
+  "generated_at": "2026-05-31T00:31:02Z",
   "portfolio": {
     "profit": 17073.9,
     "wagered": 270094.22,
@@ -14,11 +14,11 @@
     "open_bets": 20,
     "open_wagered": 164.95,
     "data_through": "live",
-    "today_profit": -27.1,
-    "today_roi": -0.0454,
-    "today_wagered": 761.98,
+    "today_profit": -3.1,
+    "today_roi": -0.005,
+    "today_wagered": 807.98,
     "live_bets": 29,
-    "wins": 2987,
+    "wins": 2988,
     "losses": 3621
   },
   "accounts": [
@@ -1746,7 +1746,7 @@
       "n_14d": 107,
       "profit_14d": -693.64,
       "roi_14d": -0.1424,
-      "balance": 168.45,
+      "balance": 212.45,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -7757,8 +7757,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7770,8 +7770,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8485,6 +8485,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8500,19 +8513,6 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9405,6 +9405,13 @@
         "t": "20:20",
         "profit": -27.1,
         "wagered": 761.98,
+        "open_bets": 20,
+        "open_wagered": 164.95
+      },
+      {
+        "t": "20:30",
+        "profit": -3.1,
+        "wagered": 807.98,
         "open_bets": 20,
         "open_wagered": 164.95
       }
