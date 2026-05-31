@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T02:05:02Z",
+  "generated_at": "2026-05-31T02:07:02Z",
   "portfolio": {
     "profit": 17108.73,
     "wagered": 270279.4,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 29,
-    "open_wagered": 477.29,
+    "open_bets": 31,
+    "open_wagered": 478.6,
     "data_through": "live",
     "today_profit": -14.44,
     "today_roi": -0.0179,
-    "today_wagered": 1259.51,
-    "live_bets": 34,
+    "today_wagered": 1260.19,
+    "live_bets": 35,
     "wins": 2993,
     "losses": 3629
   },
@@ -1270,7 +1270,7 @@
       "n_14d": 542,
       "profit_14d": -18.38,
       "roi_14d": -0.0399,
-      "balance": 76.17,
+      "balance": 74.87,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2871,6 +2871,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "02:06:55",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Athletics +2.5",
+      "odds": -168,
+      "ev": -2.14,
+      "stake": 0.6267,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "02:06:11",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Under 11.5",
+      "odds": -208,
+      "ev": -3.78,
+      "stake": 0.6758000000000001,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "01:52:22",
@@ -7340,36 +7370,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -20.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "02:13:06",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Moneyline",
-      "selection": "Golden State Valkyries",
-      "odds": -137,
-      "ev": 4.0,
-      "stake": 0.5773,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.4227
-    },
-    {
-      "date": "2026-05-29",
-      "time": "02:11:56",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Moneyline",
-      "selection": "Golden State Valkyries",
-      "odds": -131,
-      "ev": 3.36,
-      "stake": 19.8564,
-      "payout": 35.0,
-      "status": "win",
-      "profit": 15.1436
     }
   ],
   "book_brier": [],
@@ -7772,8 +7772,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7785,8 +7785,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9502,9 +9502,9 @@
       {
         "t": "22:00",
         "profit": -14.44,
-        "wagered": 1259.51,
-        "open_bets": 29,
-        "open_wagered": 477.29
+        "wagered": 1260.19,
+        "open_bets": 31,
+        "open_wagered": 478.6
       }
     ]
   }
