@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T03:59:01Z",
+  "generated_at": "2026-05-31T04:01:01Z",
   "portfolio": {
     "profit": 17164.17,
     "wagered": 270782.54,
@@ -14,12 +14,12 @@
     "open_bets": 15,
     "open_wagered": 107.23,
     "data_through": "live",
-    "today_profit": 63.41,
-    "today_roi": 0.0493,
-    "today_wagered": 1371.79,
+    "today_profit": 0.0,
+    "today_roi": 0.0,
+    "today_wagered": 0.0,
     "live_bets": 20,
     "wins": 3008,
-    "losses": 3642
+    "losses": 3643
   },
   "accounts": [
     {
@@ -7812,6 +7812,19 @@
     },
     {
       "book": "Caesars",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -7827,19 +7840,6 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8566,6 +8566,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8581,19 +8594,6 @@
       "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9145,533 +9145,12 @@
     "Kalshi"
   ],
   "intraday": {
-    "date": "2026-05-30",
+    "date": "2026-05-31",
     "points": [
       {
         "t": "00:00",
         "profit": 0.0,
         "wagered": 0.0,
-        "open_bets": 0
-      },
-      {
-        "t": "12:08",
-        "profit": -57.98,
-        "wagered": 119.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:09",
-        "profit": -57.98,
-        "wagered": 119.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:15",
-        "profit": -57.98,
-        "wagered": 153.17,
-        "open_bets": 20
-      },
-      {
-        "t": "12:25",
-        "profit": -91.98,
-        "wagered": 153.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:35",
-        "profit": -91.98,
-        "wagered": 153.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:43",
-        "profit": -91.98,
-        "wagered": 153.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:44",
-        "profit": -91.98,
-        "wagered": 153.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:45",
-        "profit": -91.98,
-        "wagered": 153.17,
-        "open_bets": 19
-      },
-      {
-        "t": "12:55",
-        "profit": -91.98,
-        "wagered": 153.17,
-        "open_bets": 18
-      },
-      {
-        "t": "13:05",
-        "profit": -91.98,
-        "wagered": 154.4,
-        "open_bets": 20
-      },
-      {
-        "t": "13:15",
-        "profit": -91.98,
-        "wagered": 201.03,
-        "open_bets": 22
-      },
-      {
-        "t": "13:25",
-        "profit": -92.72,
-        "wagered": 201.55,
-        "open_bets": 22
-      },
-      {
-        "t": "13:35",
-        "profit": -92.72,
-        "wagered": 201.55,
-        "open_bets": 22
-      },
-      {
-        "t": "13:45",
-        "profit": -92.72,
-        "wagered": 201.55,
-        "open_bets": 22
-      },
-      {
-        "t": "13:55",
-        "profit": -92.72,
-        "wagered": 201.55,
-        "open_bets": 22
-      },
-      {
-        "t": "14:05",
-        "profit": -92.33,
-        "wagered": 201.55,
-        "open_bets": 21
-      },
-      {
-        "t": "14:15",
-        "profit": -92.33,
-        "wagered": 203.42,
-        "open_bets": 24
-      },
-      {
-        "t": "14:21",
-        "profit": -89.39,
-        "wagered": 203.42,
-        "open_bets": 11,
-        "open_wagered": 52.74
-      },
-      {
-        "t": "14:25",
-        "profit": -89.39,
-        "wagered": 230.06,
-        "open_bets": 12,
-        "open_wagered": 78.61
-      },
-      {
-        "t": "14:35",
-        "profit": -90.38,
-        "wagered": 230.06,
-        "open_bets": 11,
-        "open_wagered": 77.61
-      },
-      {
-        "t": "14:45",
-        "profit": -90.38,
-        "wagered": 230.06,
-        "open_bets": 11,
-        "open_wagered": 77.61
-      },
-      {
-        "t": "14:55",
-        "profit": -90.38,
-        "wagered": 230.88,
-        "open_bets": 12,
-        "open_wagered": 78.43
-      },
-      {
-        "t": "15:05",
-        "profit": -29.66,
-        "wagered": 230.88,
-        "open_bets": 12,
-        "open_wagered": 78.43
-      },
-      {
-        "t": "15:15",
-        "profit": -29.66,
-        "wagered": 230.88,
-        "open_bets": 11,
-        "open_wagered": 32.43
-      },
-      {
-        "t": "15:19",
-        "profit": -29.82,
-        "wagered": 230.88,
-        "open_bets": 11,
-        "open_wagered": 32.43
-      },
-      {
-        "t": "15:25",
-        "profit": -29.82,
-        "wagered": 230.88,
-        "open_bets": 11,
-        "open_wagered": 32.43
-      },
-      {
-        "t": "15:35",
-        "profit": -29.52,
-        "wagered": 230.88,
-        "open_bets": 8,
-        "open_wagered": 30.57
-      },
-      {
-        "t": "15:45",
-        "profit": -29.52,
-        "wagered": 230.88,
-        "open_bets": 8,
-        "open_wagered": 30.57
-      },
-      {
-        "t": "15:55",
-        "profit": -29.52,
-        "wagered": 230.88,
-        "open_bets": 8,
-        "open_wagered": 30.57
-      },
-      {
-        "t": "16:00",
-        "profit": -30.05,
-        "wagered": 234.79,
-        "open_bets": 16,
-        "open_wagered": 36.58
-      },
-      {
-        "t": "16:10",
-        "profit": -30.76,
-        "wagered": 249.24,
-        "open_bets": 32,
-        "open_wagered": 48.41
-      },
-      {
-        "t": "16:20",
-        "profit": -30.76,
-        "wagered": 249.24,
-        "open_bets": 31,
-        "open_wagered": 47.69
-      },
-      {
-        "t": "16:30",
-        "profit": -30.76,
-        "wagered": 271.6,
-        "open_bets": 35,
-        "open_wagered": 70.04
-      },
-      {
-        "t": "16:40",
-        "profit": -30.76,
-        "wagered": 281.6,
-        "open_bets": 36,
-        "open_wagered": 80.04
-      },
-      {
-        "t": "16:50",
-        "profit": -4.63,
-        "wagered": 307.31,
-        "open_bets": 38,
-        "open_wagered": 105.76
-      },
-      {
-        "t": "17:00",
-        "profit": -4.5,
-        "wagered": 347.21,
-        "open_bets": 37,
-        "open_wagered": 142.92
-      },
-      {
-        "t": "17:10",
-        "profit": -4.5,
-        "wagered": 372.21,
-        "open_bets": 37,
-        "open_wagered": 142.92
-      },
-      {
-        "t": "17:20",
-        "profit": -4.5,
-        "wagered": 450.8,
-        "open_bets": 40,
-        "open_wagered": 221.51
-      },
-      {
-        "t": "17:30",
-        "profit": -75.42,
-        "wagered": 450.8,
-        "open_bets": 40,
-        "open_wagered": 221.51
-      },
-      {
-        "t": "17:40",
-        "profit": -75.42,
-        "wagered": 450.8,
-        "open_bets": 36,
-        "open_wagered": 150.59
-      },
-      {
-        "t": "17:50",
-        "profit": -75.42,
-        "wagered": 450.8,
-        "open_bets": 36,
-        "open_wagered": 150.59
-      },
-      {
-        "t": "18:00",
-        "profit": -86.95,
-        "wagered": 544.52,
-        "open_bets": 42,
-        "open_wagered": 244.31
-      },
-      {
-        "t": "18:10",
-        "profit": -86.95,
-        "wagered": 544.52,
-        "open_bets": 41,
-        "open_wagered": 232.78
-      },
-      {
-        "t": "18:20",
-        "profit": -86.95,
-        "wagered": 601.52,
-        "open_bets": 42,
-        "open_wagered": 289.78
-      },
-      {
-        "t": "18:30",
-        "profit": -86.95,
-        "wagered": 601.52,
-        "open_bets": 42,
-        "open_wagered": 289.78
-      },
-      {
-        "t": "18:40",
-        "profit": -87.72,
-        "wagered": 601.52,
-        "open_bets": 43,
-        "open_wagered": 322.62
-      },
-      {
-        "t": "18:50",
-        "profit": -87.72,
-        "wagered": 681.13,
-        "open_bets": 43,
-        "open_wagered": 368.61
-      },
-      {
-        "t": "19:00",
-        "profit": -179.67,
-        "wagered": 701.13,
-        "open_bets": 44,
-        "open_wagered": 388.61
-      },
-      {
-        "t": "19:10",
-        "profit": -180.28,
-        "wagered": 705.43,
-        "open_bets": 41,
-        "open_wagered": 241.98
-      },
-      {
-        "t": "19:20",
-        "profit": -80.08,
-        "wagered": 705.43,
-        "open_bets": 21,
-        "open_wagered": 164.43
-      },
-      {
-        "t": "19:30",
-        "profit": -53.71,
-        "wagered": 725.43,
-        "open_bets": 22,
-        "open_wagered": 184.43
-      },
-      {
-        "t": "19:40",
-        "profit": -53.56,
-        "wagered": 725.43,
-        "open_bets": 21,
-        "open_wagered": 153.79
-      },
-      {
-        "t": "19:50",
-        "profit": -27.1,
-        "wagered": 757.51,
-        "open_bets": 15,
-        "open_wagered": 160.48
-      },
-      {
-        "t": "20:00",
-        "profit": -27.1,
-        "wagered": 759.24,
-        "open_bets": 17,
-        "open_wagered": 162.21
-      },
-      {
-        "t": "20:10",
-        "profit": -27.1,
-        "wagered": 761.98,
-        "open_bets": 20,
-        "open_wagered": 164.95
-      },
-      {
-        "t": "20:20",
-        "profit": -27.1,
-        "wagered": 761.98,
-        "open_bets": 20,
-        "open_wagered": 164.95
-      },
-      {
-        "t": "20:30",
-        "profit": 60.84,
-        "wagered": 847.98,
-        "open_bets": 20,
-        "open_wagered": 153.95
-      },
-      {
-        "t": "20:40",
-        "profit": 62.72,
-        "wagered": 985.97,
-        "open_bets": 20,
-        "open_wagered": 216.84
-      },
-      {
-        "t": "20:50",
-        "profit": 57.71,
-        "wagered": 1087.98,
-        "open_bets": 22,
-        "open_wagered": 355.75
-      },
-      {
-        "t": "21:00",
-        "profit": 57.71,
-        "wagered": 1164.69,
-        "open_bets": 23,
-        "open_wagered": 369.46
-      },
-      {
-        "t": "21:10",
-        "profit": 27.72,
-        "wagered": 1166.44,
-        "open_bets": 26,
-        "open_wagered": 404.22
-      },
-      {
-        "t": "21:20",
-        "profit": 7.72,
-        "wagered": 1235.89,
-        "open_bets": 28,
-        "open_wagered": 473.67
-      },
-      {
-        "t": "21:30",
-        "profit": 7.72,
-        "wagered": 1256.66,
-        "open_bets": 28,
-        "open_wagered": 474.44
-      },
-      {
-        "t": "21:40",
-        "profit": 7.72,
-        "wagered": 1256.66,
-        "open_bets": 28,
-        "open_wagered": 474.44
-      },
-      {
-        "t": "21:50",
-        "profit": -14.44,
-        "wagered": 1259.51,
-        "open_bets": 29,
-        "open_wagered": 477.29
-      },
-      {
-        "t": "22:00",
-        "profit": -14.44,
-        "wagered": 1261.67,
-        "open_bets": 28,
-        "open_wagered": 456.29
-      },
-      {
-        "t": "22:10",
-        "profit": 52.49,
-        "wagered": 1286.12,
-        "open_bets": 33,
-        "open_wagered": 404.04
-      },
-      {
-        "t": "22:20",
-        "profit": 74.33,
-        "wagered": 1332.12,
-        "open_bets": 33,
-        "open_wagered": 404.04
-      },
-      {
-        "t": "22:30",
-        "profit": 46.33,
-        "wagered": 1337.11,
-        "open_bets": 28,
-        "open_wagered": 381.87
-      },
-      {
-        "t": "22:40",
-        "profit": 41.34,
-        "wagered": 1360.91,
-        "open_bets": 29,
-        "open_wagered": 405.67
-      },
-      {
-        "t": "22:50",
-        "profit": -13.76,
-        "wagered": 1360.91,
-        "open_bets": 27,
-        "open_wagered": 380.68
-      },
-      {
-        "t": "23:00",
-        "profit": 34.08,
-        "wagered": 1360.91,
-        "open_bets": 16,
-        "open_wagered": 103.24
-      },
-      {
-        "t": "23:10",
-        "profit": 35.05,
-        "wagered": 1360.91,
-        "open_bets": 15,
-        "open_wagered": 102.2
-      },
-      {
-        "t": "23:20",
-        "profit": 38.18,
-        "wagered": 1360.91,
-        "open_bets": 15,
-        "open_wagered": 102.2
-      },
-      {
-        "t": "23:30",
-        "profit": 38.18,
-        "wagered": 1360.91,
-        "open_bets": 14,
-        "open_wagered": 99.35
-      },
-      {
-        "t": "23:40",
-        "profit": 63.17,
-        "wagered": 1371.79,
-        "open_bets": 14,
-        "open_wagered": 86.43
-      },
-      {
-        "t": "23:50",
-        "profit": 63.41,
-        "wagered": 1371.79,
         "open_bets": 15,
         "open_wagered": 107.23
       }
