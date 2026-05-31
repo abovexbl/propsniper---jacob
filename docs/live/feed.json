@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T16:17:02Z",
+  "generated_at": "2026-05-31T16:19:02Z",
   "portfolio": {
     "profit": 17202.11,
     "wagered": 271053.13,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 1,
-    "open_wagered": 1.01,
+    "open_bets": 4,
+    "open_wagered": 2.95,
     "data_through": "live",
     "today_profit": 53.29,
     "today_roi": 0.3262,
-    "today_wagered": 164.36,
-    "live_bets": 10,
+    "today_wagered": 166.3,
+    "live_bets": 13,
     "wins": 3022,
     "losses": 3646
   },
@@ -1290,7 +1290,7 @@
       "n_14d": 568,
       "profit_14d": -10.91,
       "roi_14d": -0.0227,
-      "balance": 92.16,
+      "balance": 90.22,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2911,6 +2911,51 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "16:17:29",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Baltimore Orioles +1.5",
+      "odds": -218,
+      "ev": -3.55,
+      "stake": 0.6855,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "16:17:29",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 6.5",
+      "odds": -208,
+      "ev": -3.34,
+      "stake": 0.6758000000000001,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "16:17:23",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Baltimore Orioles",
+      "odds": -137,
+      "ev": -4.14,
+      "stake": 0.5773,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "15:45:16",
@@ -7365,51 +7410,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.8205
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:09:47",
-      "account": "Dad FanDuel",
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Linette +7.5",
-      "odds": 120,
-      "ev": 16.8,
-      "stake": 70.0,
-      "payout": 154.0,
-      "status": "win",
-      "profit": 84.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:09:20",
-      "account": "Dad Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Games",
-      "selection": "Over 16.5",
-      "odds": 100,
-      "ev": 9.97,
-      "stake": 50.0,
-      "payout": 100.0,
-      "status": "win",
-      "profit": 50.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:09:19",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Games",
-      "selection": "Over 16.5",
-      "odds": 100,
-      "ev": 9.97,
-      "stake": 100.0,
-      "payout": 200.0,
-      "status": "win",
-      "profit": 100.0
     }
   ],
   "book_brier": [],
@@ -7813,7 +7813,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7826,7 +7826,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8566,8 +8566,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8579,8 +8579,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9661,9 +9661,9 @@
       {
         "t": "12:10",
         "profit": 53.29,
-        "wagered": 164.36,
-        "open_bets": 1,
-        "open_wagered": 1.01
+        "wagered": 166.3,
+        "open_bets": 4,
+        "open_wagered": 2.95
       }
     ]
   }
