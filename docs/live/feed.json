@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T11:27:02Z",
+  "generated_at": "2026-05-31T11:29:02Z",
   "portfolio": {
     "profit": 17195.92,
     "wagered": 270919.68,
@@ -11,8 +11,8 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 1,
-    "open_wagered": 0.66,
+    "open_bets": 3,
+    "open_wagered": 91.51,
     "data_through": "live",
     "today_profit": 47.1,
     "today_roi": 1.575,
@@ -1290,7 +1290,7 @@
       "n_14d": 566,
       "profit_14d": -10.4,
       "roi_14d": -0.0217,
-      "balance": 93.02,
+      "balance": 92.17,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2911,6 +2911,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "11:29:00",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "selection": "Busta",
+      "odds": 240,
+      "ev": -20.34,
+      "stake": 0.8514,
+      "payout": 2.89,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "11:28:50",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "selection": "Svitolina",
+      "odds": -186,
+      "ev": 3.28,
+      "stake": 90.0,
+      "payout": 138.39,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "11:10:08",
@@ -7380,36 +7410,6 @@
       "payout": 178.5,
       "status": "win",
       "profit": 93.5
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:09:15",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Linette +7.5",
-      "odds": 110,
-      "ev": 18.81,
-      "stake": 170.0,
-      "payout": 357.0,
-      "status": "win",
-      "profit": 187.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:09:14",
-      "account": "Mom Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Linette +7.5",
-      "odds": 110,
-      "ev": 18.81,
-      "stake": 170.0,
-      "payout": 357.0,
-      "status": "win",
-      "profit": 187.0
     }
   ],
   "book_brier": [],
@@ -7826,7 +7826,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7839,7 +7839,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8566,19 +8566,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8594,6 +8581,19 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9459,8 +9459,8 @@
         "t": "07:20",
         "profit": 47.1,
         "wagered": 30.56,
-        "open_bets": 1,
-        "open_wagered": 0.66
+        "open_bets": 3,
+        "open_wagered": 91.51
       }
     ]
   }
