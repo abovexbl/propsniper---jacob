@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T17:27:01Z",
+  "generated_at": "2026-05-31T17:29:01Z",
   "portfolio": {
     "profit": 17201.1,
     "wagered": 271054.14,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 4,
-    "open_wagered": 39.54,
+    "open_bets": 5,
+    "open_wagered": 40.55,
     "data_through": "live",
     "today_profit": 52.28,
     "today_roi": 0.3181,
-    "today_wagered": 239.9,
-    "live_bets": 14,
+    "today_wagered": 240.91,
+    "live_bets": 15,
     "wins": 3022,
     "losses": 3647
   },
@@ -1290,7 +1290,7 @@
       "n_14d": 569,
       "profit_14d": -11.92,
       "roi_14d": -0.0248,
-      "balance": 90.22,
+      "balance": 89.2,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2911,6 +2911,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "17:28:16",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "selection": "Mensik",
+      "odds": -103,
+      "ev": -5.0,
+      "stake": 1.015,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "17:07:57",
@@ -7395,21 +7410,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -60.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:45:26",
-      "account": "Dad FanDuel",
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Golubic +4.5",
-      "odds": 240,
-      "ev": 9.07,
-      "stake": 20.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -20.0
     }
   ],
   "book_brier": [],
@@ -7812,8 +7812,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7825,8 +7825,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8566,8 +8566,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8579,8 +8579,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9710,9 +9710,9 @@
       {
         "t": "13:20",
         "profit": 52.28,
-        "wagered": 239.9,
-        "open_bets": 4,
-        "open_wagered": 39.54
+        "wagered": 240.91,
+        "open_bets": 5,
+        "open_wagered": 40.55
       }
     ]
   }
