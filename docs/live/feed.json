@@ -1,24 +1,24 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T13:27:02Z",
+  "generated_at": "2026-05-31T13:29:09Z",
   "portfolio": {
-    "profit": 17195.92,
-    "wagered": 270919.68,
-    "n": 5181,
-    "roi": 0.0635,
-    "profit_14d": 631.9,
+    "profit": 17244.56,
+    "wagered": 271009.68,
+    "n": 5182,
+    "roi": 0.0636,
+    "profit_14d": 680.54,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 4,
-    "open_wagered": 133.45,
+    "open_bets": 3,
+    "open_wagered": 43.45,
     "data_through": "live",
-    "today_profit": 47.1,
-    "today_roi": 1.575,
+    "today_profit": 95.74,
+    "today_roi": 0.7985,
     "today_wagered": 163.35,
-    "live_bets": 13,
-    "wins": 3020,
+    "live_bets": 12,
+    "wins": 3021,
     "losses": 3644
   },
   "accounts": [
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1098,
-      "profit_all": 8819.13,
-      "stake_all": 77439.73,
-      "roi_all": 0.1139,
-      "avg_ev": 10.73,
-      "n_14d": 361,
-      "profit_14d": 920.39,
-      "roi_14d": 0.0933,
+      "n_all": 1099,
+      "profit_all": 8867.77,
+      "stake_all": 77529.73,
+      "roi_all": 0.1144,
+      "avg_ev": 10.72,
+      "n_14d": 362,
+      "profit_14d": 969.03,
+      "roi_14d": 0.0974,
       "balance": 2845.49,
       "health": "healthy",
       "working": 11,
@@ -44,11 +44,11 @@
         {
           "league": "Tennis",
           "market": "Moneyline",
-          "n": 143,
-          "profit": 3157.13,
-          "stake": 8638.97,
-          "roi": 0.3655,
-          "avg_ev": 9.2,
+          "n": 144,
+          "profit": 3205.77,
+          "stake": 8728.97,
+          "roi": 0.3673,
+          "avg_ev": 9.16,
           "verdict": "WORKING"
         },
         {
@@ -2151,10 +2151,10 @@
     {
       "league": "Tennis",
       "market": "Moneyline",
-      "profit": 5037.03,
-      "stake": 34608.92,
-      "n": 793,
-      "roi": 0.1455
+      "profit": 5085.67,
+      "stake": 34698.92,
+      "n": 794,
+      "roi": 0.1466
     },
     {
       "league": "Tennis",
@@ -2906,8 +2906,8 @@
     },
     {
       "date": "2026-05-31",
-      "profit": 60.48,
-      "cumulative": 17195.9
+      "profit": 109.12,
+      "cumulative": 17244.54
     }
   ],
   "recent": [
@@ -2952,9 +2952,9 @@
       "odds": -186,
       "ev": 3.28,
       "stake": 90.0,
-      "payout": 138.39,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 138.64,
+      "status": "win",
+      "profit": 48.64
     },
     {
       "date": "2026-05-31",
@@ -7813,7 +7813,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7826,7 +7826,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8035,11 +8035,11 @@
       "book": "DraftKings",
       "league": "Tennis",
       "market": "Moneyline",
-      "n": 189,
-      "stake": 10633.97,
-      "profit": 3007.93,
-      "roi": 0.2829,
-      "avg_ev": 8.61,
+      "n": 190,
+      "stake": 10723.97,
+      "profit": 3056.57,
+      "roi": 0.285,
+      "avg_ev": 8.58,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -9541,10 +9541,10 @@
       },
       {
         "t": "09:20",
-        "profit": 47.1,
+        "profit": 95.74,
         "wagered": 163.35,
-        "open_bets": 4,
-        "open_wagered": 133.45
+        "open_bets": 3,
+        "open_wagered": 43.45
       }
     ]
   }
