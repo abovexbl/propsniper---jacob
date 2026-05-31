@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T21:17:02Z",
+  "generated_at": "2026-05-31T21:19:02Z",
   "portfolio": {
     "profit": 17055.74,
     "wagered": 271745.8,
@@ -14,11 +14,11 @@
     "open_bets": 34,
     "open_wagered": 471.01,
     "data_through": "live",
-    "today_profit": -70.85,
-    "today_roi": -0.0803,
+    "today_profit": 30.76,
+    "today_roi": 0.0302,
     "today_wagered": 1329.79,
-    "live_bets": 42,
-    "wins": 3053,
+    "live_bets": 41,
+    "wins": 3054,
     "losses": 3674
   },
   "accounts": [
@@ -36,7 +36,7 @@
       "n_14d": 378,
       "profit_14d": 884.47,
       "roi_14d": 0.0858,
-      "balance": 2493.61,
+      "balance": 2530.51,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -7841,6 +7841,19 @@
     {
       "book": "Caesars",
       "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
       "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
@@ -7855,19 +7868,6 @@
       "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8620,19 +8620,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8648,6 +8635,19 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9924,7 +9924,7 @@
       },
       {
         "t": "17:10",
-        "profit": -70.85,
+        "profit": 30.76,
         "wagered": 1329.79,
         "open_bets": 34,
         "open_wagered": 471.01
