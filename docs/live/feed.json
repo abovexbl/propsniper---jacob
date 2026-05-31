@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T03:45:01Z",
+  "generated_at": "2026-05-31T03:47:01Z",
   "portfolio": {
     "profit": 17139.18,
     "wagered": 270758.74,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 14,
-    "open_wagered": 99.35,
+    "open_bets": 15,
+    "open_wagered": 110.23,
     "data_through": "live",
     "today_profit": 63.17,
     "today_roi": 0.0491,
-    "today_wagered": 1360.91,
-    "live_bets": 22,
+    "today_wagered": 1371.79,
+    "live_bets": 23,
     "wins": 3006,
     "losses": 3641
   },
@@ -2911,6 +2911,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "03:46:30",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Player Hits",
+      "selection": "Bryson Stott Under 0.5",
+      "odds": -218,
+      "ev": 3.48,
+      "stake": 10.88,
+      "payout": 15.87,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "02:42:08",
@@ -7395,21 +7410,6 @@
       "payout": 132.0,
       "status": "win",
       "profit": 72.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "09:29:56",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Busta",
-      "odds": 240,
-      "ev": 3.84,
-      "stake": 0.8824,
-      "payout": 3.0,
-      "status": "win",
-      "profit": 2.1176
     }
   ],
   "book_brier": [],
@@ -9664,9 +9664,9 @@
       {
         "t": "23:40",
         "profit": 63.17,
-        "wagered": 1360.91,
-        "open_bets": 14,
-        "open_wagered": 99.35
+        "wagered": 1371.79,
+        "open_bets": 15,
+        "open_wagered": 110.23
       }
     ]
   }
