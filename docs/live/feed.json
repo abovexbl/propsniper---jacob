@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T01:05:02Z",
+  "generated_at": "2026-05-31T01:07:02Z",
   "portfolio": {
     "profit": 17158.72,
     "wagered": 270229.41,
@@ -16,8 +16,8 @@
     "data_through": "live",
     "today_profit": 57.71,
     "today_roi": 0.0788,
-    "today_wagered": 1087.98,
-    "live_bets": 31,
+    "today_wagered": 1150.98,
+    "live_bets": 32,
     "wins": 2992,
     "losses": 3624
   },
@@ -7780,8 +7780,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7793,8 +7793,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8495,19 +8495,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -8523,6 +8510,19 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9455,7 +9455,7 @@
       {
         "t": "21:00",
         "profit": 57.71,
-        "wagered": 1087.98,
+        "wagered": 1150.98,
         "open_bets": 22,
         "open_wagered": 355.75
       }
