@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T01:17:02Z",
+  "generated_at": "2026-05-31T01:19:02Z",
   "portfolio": {
     "profit": 17128.73,
     "wagered": 270259.4,
@@ -1270,7 +1270,7 @@
       "n_14d": 542,
       "profit_14d": -18.38,
       "roi_14d": -0.0399,
-      "balance": 75.83,
+      "balance": 75.17,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
