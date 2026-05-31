@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T17:07:01Z",
+  "generated_at": "2026-05-31T17:09:01Z",
   "portfolio": {
     "profit": 17202.11,
     "wagered": 271053.13,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 4,
-    "open_wagered": 2.95,
+    "open_bets": 5,
+    "open_wagered": 40.55,
     "data_through": "live",
     "today_profit": 53.29,
     "today_roi": 0.3262,
-    "today_wagered": 166.3,
-    "live_bets": 13,
+    "today_wagered": 203.9,
+    "live_bets": 14,
     "wins": 3022,
     "losses": 3646
   },
@@ -1442,7 +1442,7 @@
       "n_14d": 85,
       "profit_14d": 396.32,
       "roi_14d": 0.1632,
-      "balance": 756.01,
+      "balance": 718.41,
       "health": "healthy",
       "working": 2,
       "bleeding": 2,
@@ -2911,6 +2911,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "17:07:57",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 9.5",
+      "odds": -168,
+      "ev": 4.46,
+      "stake": 37.5992,
+      "payout": 59.98,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "16:17:29",
@@ -7395,21 +7410,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -20.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "10:25:52",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Nagal",
-      "odds": 266,
-      "ev": 4.53,
-      "stake": 0.8205,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.8205
     }
   ],
   "book_brier": [],
@@ -7813,7 +7813,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7826,7 +7826,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9696,9 +9696,9 @@
       {
         "t": "13:00",
         "profit": 53.29,
-        "wagered": 166.3,
-        "open_bets": 4,
-        "open_wagered": 2.95
+        "wagered": 203.9,
+        "open_bets": 5,
+        "open_wagered": 40.55
       }
     ]
   }
