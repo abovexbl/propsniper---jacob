@@ -1,25 +1,25 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T21:37:01Z",
+  "generated_at": "2026-05-31T21:39:09Z",
   "portfolio": {
-    "profit": 17155.49,
-    "wagered": 271939.61,
-    "n": 5248,
-    "roi": 0.0631,
-    "profit_14d": 591.48,
+    "profit": 17144.78,
+    "wagered": 271950.32,
+    "n": 5249,
+    "roi": 0.063,
+    "profit_14d": 580.77,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 31,
-    "open_wagered": 448.23,
+    "open_bets": 30,
+    "open_wagered": 437.52,
     "data_through": "live",
-    "today_profit": 3.93,
-    "today_roi": 0.0037,
+    "today_profit": -6.78,
+    "today_roi": -0.0064,
     "today_wagered": 1500.81,
-    "live_bets": 40,
+    "live_bets": 39,
     "wins": 3058,
-    "losses": 3675
+    "losses": 3676
   },
   "accounts": [
     {
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1117,
-      "profit_all": 8909.8,
-      "stake_all": 78045.81,
-      "roi_all": 0.1142,
+      "n_all": 1118,
+      "profit_all": 8899.09,
+      "stake_all": 78056.52,
+      "roi_all": 0.114,
       "avg_ev": 10.67,
-      "n_14d": 380,
-      "profit_14d": 1011.07,
-      "roi_14d": 0.0966,
+      "n_14d": 381,
+      "profit_14d": 1000.36,
+      "roi_14d": 0.0955,
       "balance": 2770.04,
       "health": "healthy",
       "working": 11,
@@ -54,11 +54,11 @@
         {
           "league": "MLB",
           "market": "Total Runs - 1st 5 Innings",
-          "n": 81,
-          "profit": 1376.27,
-          "stake": 4659.67,
-          "roi": 0.2954,
-          "avg_ev": 9.25,
+          "n": 82,
+          "profit": 1365.56,
+          "stake": 4670.38,
+          "roi": 0.2924,
+          "avg_ev": 9.21,
           "verdict": "WORKING"
         },
         {
@@ -2187,10 +2187,10 @@
     {
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "profit": 2227.63,
-      "stake": 16483.67,
-      "n": 251,
-      "roi": 0.1351
+      "profit": 2216.92,
+      "stake": 16494.38,
+      "n": 252,
+      "roi": 0.1344
     },
     {
       "league": "Tennis",
@@ -2934,8 +2934,8 @@
     },
     {
       "date": "2026-05-31",
-      "profit": 20.06,
-      "cumulative": 17155.48
+      "profit": 9.35,
+      "cumulative": 17144.77
     }
   ],
   "recent": [
@@ -3115,9 +3115,9 @@
       "odds": 140,
       "ev": 5.87,
       "stake": 10.71,
-      "payout": 25.7,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -10.71
     },
     {
       "date": "2026-05-31",
@@ -8089,11 +8089,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "n": 97,
-      "stake": 5499.67,
-      "profit": 1245.48,
-      "roi": 0.2265,
-      "avg_ev": 9.47,
+      "n": 98,
+      "stake": 5510.38,
+      "profit": 1234.77,
+      "roi": 0.2241,
+      "avg_ev": 9.43,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8633,8 +8633,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8646,8 +8646,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9938,10 +9938,10 @@
       },
       {
         "t": "17:30",
-        "profit": 3.93,
+        "profit": -6.78,
         "wagered": 1500.81,
-        "open_bets": 31,
-        "open_wagered": 448.23
+        "open_bets": 30,
+        "open_wagered": 437.52
       }
     ]
   }
