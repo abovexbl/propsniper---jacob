@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T00:07:01Z",
+  "generated_at": "2026-05-31T00:09:01Z",
   "portfolio": {
     "profit": 17073.9,
     "wagered": 270094.22,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 15,
-    "open_wagered": 160.48,
+    "open_bets": 17,
+    "open_wagered": 162.21,
     "data_through": "live",
     "today_profit": -27.1,
     "today_roi": -0.0454,
-    "today_wagered": 757.51,
-    "live_bets": 24,
+    "today_wagered": 759.24,
+    "live_bets": 26,
     "wins": 2987,
     "losses": 3621
   },
@@ -1270,7 +1270,7 @@
       "n_14d": 566,
       "profit_14d": -19.61,
       "roi_14d": -0.0406,
-      "balance": 77.39,
+      "balance": 75.66,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2856,6 +2856,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "00:07:31",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Over 173.5",
+      "odds": -107,
+      "ev": -2.4,
+      "stake": 1.015,
+      "payout": 1.96,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "00:07:27",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Portland Fire +16.5",
+      "odds": -263,
+      "ev": -9.44,
+      "stake": 0.7147,
+      "payout": 0.99,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-30",
       "time": "23:57:19",
@@ -7325,36 +7355,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -35.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "00:12:15",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Moneyline",
-      "selection": "Las Vegas Aces",
-      "odds": -168,
-      "ev": 3.67,
-      "stake": 0.6267,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.6267
-    },
-    {
-      "date": "2026-05-29",
-      "time": "00:11:21",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Texas Rangers",
-      "odds": 101,
-      "ev": 11.71,
-      "stake": 0.995,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.995
     }
   ],
   "book_brier": [],
@@ -7770,8 +7770,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7783,8 +7783,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8485,6 +8485,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -8500,19 +8513,6 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9390,9 +9390,9 @@
       {
         "t": "20:00",
         "profit": -27.1,
-        "wagered": 757.51,
-        "open_bets": 15,
-        "open_wagered": 160.48
+        "wagered": 759.24,
+        "open_bets": 17,
+        "open_wagered": 162.21
       }
     ]
   }
