@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T18:19:09Z",
+  "generated_at": "2026-05-31T18:21:01Z",
   "portfolio": {
     "profit": 17175.08,
     "wagered": 271096.38,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 35,
-    "open_wagered": 134.48,
+    "open_bets": 36,
+    "open_wagered": 154.31,
     "data_through": "live",
     "today_profit": 26.26,
     "today_roi": 0.1271,
-    "today_wagered": 343.52,
-    "live_bets": 45,
+    "today_wagered": 363.35,
+    "live_bets": 46,
     "wins": 3023,
     "losses": 3648
   },
@@ -2929,6 +2929,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "18:19:17",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "selection": "Miami Marlins Over 2.5",
+      "odds": 126,
+      "ev": 8.0,
+      "stake": 19.83,
+      "payout": 44.82,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "18:16:17",
@@ -7413,21 +7428,6 @@
       "payout": 95.0,
       "status": "win",
       "profit": 70.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "14:03:29",
-      "account": "Mom Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Fonseca +6.5",
-      "odds": -145,
-      "ev": 12.39,
-      "stake": 145.0,
-      "payout": 245.0,
-      "status": "win",
-      "profit": 100.0
     }
   ],
   "book_brier": [],
@@ -7843,8 +7843,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7856,8 +7856,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9779,6 +9779,13 @@
         "wagered": 343.52,
         "open_bets": 35,
         "open_wagered": 134.48
+      },
+      {
+        "t": "14:20",
+        "profit": 26.26,
+        "wagered": 363.35,
+        "open_bets": 36,
+        "open_wagered": 154.31
       }
     ]
   }
