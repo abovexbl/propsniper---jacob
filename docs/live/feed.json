@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T03:15:02Z",
+  "generated_at": "2026-05-31T03:17:09Z",
   "portfolio": {
-    "profit": 17135.09,
-    "wagered": 270754.86,
-    "n": 5161,
+    "profit": 17136.05,
+    "wagered": 270755.89,
+    "n": 5162,
     "roi": 0.0633,
-    "profit_14d": 571.07,
+    "profit_14d": 572.03,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 16,
-    "open_wagered": 103.24,
+    "open_bets": 15,
+    "open_wagered": 102.2,
     "data_through": "live",
     "today_profit": 35.05,
     "today_roi": 0.0278,
@@ -1272,14 +1272,14 @@
       "person": "Mom",
       "venue": "Kalshi",
       "sportsbook": "Kalshi",
-      "n_all": 819,
-      "profit_all": -12.87,
-      "stake_all": 693.04,
-      "roi_all": -0.0186,
-      "avg_ev": 6.45,
-      "n_14d": 552,
-      "profit_14d": -17.12,
-      "roi_14d": -0.0366,
+      "n_all": 820,
+      "profit_all": -11.91,
+      "stake_all": 694.07,
+      "roi_all": -0.0172,
+      "avg_ev": 6.44,
+      "n_14d": 553,
+      "profit_14d": -16.16,
+      "roi_14d": -0.0344,
       "balance": 79.56,
       "health": "healthy",
       "working": 3,
@@ -1368,11 +1368,11 @@
         {
           "league": "NBA",
           "market": "Point Spread",
-          "n": 18,
-          "profit": -3.42,
-          "stake": 15.42,
-          "roi": -0.222,
-          "avg_ev": 4.65,
+          "n": 19,
+          "profit": -2.46,
+          "stake": 16.46,
+          "roi": -0.1494,
+          "avg_ev": 4.2,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2213,10 +2213,10 @@
     {
       "league": "NBA",
       "market": "Point Spread",
-      "profit": 456.98,
-      "stake": 8456.9,
-      "n": 122,
-      "roi": 0.054
+      "profit": 457.94,
+      "stake": 8457.94,
+      "n": 123,
+      "roi": 0.0541
     },
     {
       "league": "NBA",
@@ -2896,8 +2896,8 @@
     },
     {
       "date": "2026-05-31",
-      "profit": -0.34,
-      "cumulative": 17135.07
+      "profit": 0.62,
+      "cumulative": 17136.04
     }
   ],
   "recent": [
@@ -3423,8 +3423,8 @@
       "ev": -3.85,
       "stake": 1.035,
       "payout": 2.0,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 0.965
     },
     {
       "date": "2026-05-31",
@@ -7802,8 +7802,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7828,8 +7828,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8543,8 +8543,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8556,8 +8556,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8948,11 +8948,11 @@
       "book": "Kalshi",
       "league": "NBA",
       "market": "Point Spread",
-      "n": 44,
-      "stake": 789.43,
-      "profit": 183.8,
-      "roi": 0.2328,
-      "avg_ev": 6.33,
+      "n": 45,
+      "stake": 790.47,
+      "profit": 184.76,
+      "roi": 0.2337,
+      "avg_ev": 6.11,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -9621,8 +9621,8 @@
         "t": "23:10",
         "profit": 35.05,
         "wagered": 1360.91,
-        "open_bets": 16,
-        "open_wagered": 103.24
+        "open_bets": 15,
+        "open_wagered": 102.2
       }
     ]
   }
