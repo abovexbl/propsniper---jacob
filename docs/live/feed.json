@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T21:01:02Z",
+  "generated_at": "2026-05-31T21:03:02Z",
   "portfolio": {
     "profit": 17049.21,
     "wagered": 271631.82,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 47,
-    "open_wagered": 455.7,
+    "open_bets": 49,
+    "open_wagered": 499.5,
     "data_through": "live",
     "today_profit": -95.84,
     "today_roi": -0.1116,
-    "today_wagered": 1200.49,
-    "live_bets": 38,
+    "today_wagered": 1288.29,
+    "live_bets": 41,
     "wins": 3052,
     "losses": 3674
   },
@@ -36,7 +36,7 @@
       "n_14d": 377,
       "profit_14d": 869.49,
       "roi_14d": 0.0845,
-      "balance": 2520.51,
+      "balance": 2547.02,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -1786,7 +1786,7 @@
       "n_14d": 89,
       "profit_14d": -828.18,
       "roi_14d": -0.2217,
-      "balance": 276.86,
+      "balance": 256.86,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -2939,6 +2939,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "21:01:29",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "selection": "New York Yankees Over 9.5",
+      "odds": 105,
+      "ev": 11.25,
+      "stake": 23.8,
+      "payout": 48.79,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "21:01:27",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Athletics +3.5",
+      "odds": -135,
+      "ev": 5.04,
+      "stake": 20.0,
+      "payout": 34.81,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "21:00:29",
@@ -7408,36 +7438,6 @@
       "payout": 2.0,
       "status": "win",
       "profit": 1.005
-    },
-    {
-      "date": "2026-05-29",
-      "time": "23:41:15",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Point Spread",
-      "selection": "Washington Mystics -6.5",
-      "odds": 173,
-      "ev": 8.7,
-      "stake": 25.9807,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -25.9807
-    },
-    {
-      "date": "2026-05-29",
-      "time": "23:39:31",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 10.5",
-      "odds": -107,
-      "ev": 3.88,
-      "stake": 1.035,
-      "payout": 2.0,
-      "status": "win",
-      "profit": 0.965
     }
   ],
   "book_brier": [],
@@ -7840,8 +7840,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7866,8 +7866,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8620,8 +8620,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8646,8 +8646,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9918,9 +9918,9 @@
       {
         "t": "17:00",
         "profit": -95.84,
-        "wagered": 1200.49,
-        "open_bets": 47,
-        "open_wagered": 455.7
+        "wagered": 1288.29,
+        "open_bets": 49,
+        "open_wagered": 499.5
       }
     ]
   }
