@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T18:57:02Z",
+  "generated_at": "2026-05-31T18:59:02Z",
   "portfolio": {
     "profit": 17175.08,
     "wagered": 271096.38,
@@ -11,15 +11,15 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 49,
-    "open_wagered": 358.1,
+    "open_bets": 51,
+    "open_wagered": 550.61,
     "data_through": "live",
-    "today_profit": 26.26,
-    "today_roi": 0.1271,
-    "today_wagered": 567.14,
+    "today_profit": -6.01,
+    "today_roi": -0.0252,
+    "today_wagered": 759.65,
     "live_bets": 59,
     "wins": 3023,
-    "losses": 3648
+    "losses": 3650
   },
   "accounts": [
     {
@@ -2929,6 +2929,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "18:57:24",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Moneyline",
+      "selection": "Mensik",
+      "odds": -135,
+      "ev": 16.72,
+      "stake": 137.17,
+      "payout": 238.78,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "18:57:05",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Atlanta Braves +1.5",
+      "odds": -123,
+      "ev": 9.83,
+      "stake": 55.34,
+      "payout": 100.33,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "18:56:30",
@@ -7398,36 +7428,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -30.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "17:18:39",
-      "account": "Dad FanDuel",
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Djokovic -2.5",
-      "odds": 120,
-      "ev": 10.53,
-      "stake": 44.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -44.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "17:07:32",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Paul",
-      "odds": 119,
-      "ev": 3.0,
-      "stake": 0.9145,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.9145
     }
   ],
   "book_brier": [],
@@ -7830,8 +7830,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7856,8 +7856,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8597,8 +8597,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8623,8 +8623,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9803,10 +9803,10 @@
       },
       {
         "t": "14:50",
-        "profit": 26.26,
-        "wagered": 567.14,
-        "open_bets": 49,
-        "open_wagered": 358.1
+        "profit": -6.01,
+        "wagered": 759.65,
+        "open_bets": 51,
+        "open_wagered": 550.61
       }
     ]
   }
