@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T18:09:01Z",
+  "generated_at": "2026-05-31T18:11:01Z",
   "portfolio": {
     "profit": 17175.08,
     "wagered": 271096.38,
@@ -11,8 +11,8 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 27,
-    "open_wagered": 99.41,
+    "open_bets": 28,
+    "open_wagered": 100.19,
     "data_through": "live",
     "today_profit": 26.26,
     "today_roi": 0.1271,
@@ -1300,7 +1300,7 @@
       "n_14d": 569,
       "profit_14d": -11.92,
       "roi_14d": -0.0248,
-      "balance": 74.72,
+      "balance": 73.95,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -2929,6 +2929,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "18:10:55",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Houston Astros",
+      "odds": 159,
+      "ev": -5.31,
+      "stake": 0.7726999999999999,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "18:02:57",
@@ -7413,21 +7428,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -90.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "13:49:25",
-      "account": "Jacob Caesars",
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Game Handicap",
-      "selection": "Sierra +11.5",
-      "odds": 100,
-      "ev": 7.67,
-      "stake": 75.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -75.0
     }
   ],
   "book_brier": [],
@@ -9772,6 +9772,13 @@
         "wagered": 308.45,
         "open_bets": 27,
         "open_wagered": 99.41
+      },
+      {
+        "t": "14:10",
+        "profit": 26.26,
+        "wagered": 308.45,
+        "open_bets": 28,
+        "open_wagered": 100.19
       }
     ]
   }
