@@ -1,25 +1,25 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T01:13:02Z",
+  "generated_at": "2026-05-31T01:15:09Z",
   "portfolio": {
-    "profit": 17158.72,
-    "wagered": 270229.41,
-    "n": 5133,
-    "roi": 0.0635,
-    "profit_14d": 568.69,
+    "profit": 17128.73,
+    "wagered": 270259.4,
+    "n": 5134,
+    "roi": 0.0634,
+    "profit_14d": 564.71,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 24,
-    "open_wagered": 370.03,
+    "open_bets": 26,
+    "open_wagered": 404.22,
     "data_through": "live",
-    "today_profit": 57.71,
-    "today_roi": 0.0788,
-    "today_wagered": 1165.26,
-    "live_bets": 34,
+    "today_profit": 27.72,
+    "today_roi": 0.0364,
+    "today_wagered": 1166.44,
+    "live_bets": 35,
     "wins": 2992,
-    "losses": 3624
+    "losses": 3625
   },
   "accounts": [
     {
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1086,
-      "profit_all": 8896.51,
-      "stake_all": 77113.03,
-      "roi_all": 0.1154,
-      "avg_ev": 10.76,
-      "n_14d": 392,
-      "profit_14d": 1043.48,
-      "roi_14d": 0.0988,
+      "n_all": 1087,
+      "profit_all": 8866.52,
+      "stake_all": 77143.02,
+      "roi_all": 0.1149,
+      "avg_ev": 10.75,
+      "n_14d": 350,
+      "profit_14d": 967.78,
+      "roi_14d": 0.1012,
       "balance": 2730.46,
       "health": "healthy",
       "working": 11,
@@ -172,16 +172,6 @@
           "verdict": "WORKING"
         },
         {
-          "league": "WNBA",
-          "market": "Total Points - 1st Half",
-          "n": 11,
-          "profit": 101.77,
-          "stake": 281.41,
-          "roi": 0.3616,
-          "avg_ev": 9.25,
-          "verdict": "NOISE_N<20"
-        },
-        {
           "league": "NBA",
           "market": "Point Spread - 3rd Quarter",
           "n": 1,
@@ -189,6 +179,16 @@
           "stake": 100.0,
           "roi": 0.909,
           "avg_ev": 6.12,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "WNBA",
+          "market": "Total Points - 1st Half",
+          "n": 12,
+          "profit": 71.78,
+          "stake": 311.4,
+          "roi": 0.2305,
+          "avg_ev": 8.85,
           "verdict": "NOISE_N<20"
         },
         {
@@ -355,9 +355,9 @@
       "stake_all": 99363.55,
       "roi_all": 0.05,
       "avg_ev": 9.65,
-      "n_14d": 280,
-      "profit_14d": -461.94,
-      "roi_14d": -0.028,
+      "n_14d": 250,
+      "profit_14d": -274.95,
+      "roi_14d": -0.0175,
       "balance": 3330.89,
       "health": null,
       "working": 5,
@@ -1267,10 +1267,10 @@
       "stake_all": 685.3,
       "roi_all": -0.0206,
       "avg_ev": 6.59,
-      "n_14d": 569,
-      "profit_14d": -17.72,
-      "roi_14d": -0.0366,
-      "balance": 76.35,
+      "n_14d": 542,
+      "profit_14d": -18.38,
+      "roi_14d": -0.0399,
+      "balance": 75.83,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -1419,9 +1419,9 @@
       "stake_all": 11753.85,
       "roi_all": -0.0563,
       "avg_ev": 9.79,
-      "n_14d": 102,
-      "profit_14d": 240.52,
-      "roi_14d": 0.0873,
+      "n_14d": 82,
+      "profit_14d": 328.86,
+      "roi_14d": 0.139,
       "balance": 667.57,
       "health": "healthy",
       "working": 2,
@@ -1743,9 +1743,9 @@
       "stake_all": 5570.0,
       "roi_all": -0.1593,
       "avg_ev": 10.56,
-      "n_14d": 109,
-      "profit_14d": -689.64,
-      "roi_14d": -0.1405,
+      "n_14d": 83,
+      "profit_14d": -892.59,
+      "roi_14d": -0.2473,
       "balance": 172.45,
       "health": "healthy",
       "working": 0,
@@ -2205,20 +2205,20 @@
       "roi": 0.468
     },
     {
-      "league": "WNBA",
-      "market": "Total Points - 1st Half",
-      "profit": 306.57,
-      "stake": 561.41,
-      "n": 19,
-      "roi": 0.5461
-    },
-    {
       "league": "NBA",
       "market": "Point Spread - 2nd Quarter",
       "profit": 294.43,
       "stake": 342.49,
       "n": 2,
       "roi": 0.8597
+    },
+    {
+      "league": "WNBA",
+      "market": "Total Points - 1st Half",
+      "profit": 276.58,
+      "stake": 591.4,
+      "n": 20,
+      "roi": 0.4677
     },
     {
       "league": "Tennis",
@@ -2863,9 +2863,44 @@
       "date": "2026-05-30",
       "profit": 23.97,
       "cumulative": 17158.7
+    },
+    {
+      "date": "2026-05-31",
+      "profit": -29.99,
+      "cumulative": 17128.71
     }
   ],
   "recent": [
+    {
+      "date": "2026-05-31",
+      "time": "01:14:22",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "San Francisco Giants +1.5",
+      "odds": -191,
+      "ev": -3.24,
+      "stake": 0.6562,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "01:13:33",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Colorado Rockies",
+      "odds": -112,
+      "ev": -1.91,
+      "stake": 0.5275,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-05-31",
       "time": "01:12:14",
@@ -2893,6 +2928,21 @@
       "ev": 7.1,
       "stake": 13.71,
       "payout": 37.7,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "01:05:32",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Over 173.5",
+      "odds": 128,
+      "ev": 15.82,
+      "stake": 63.0,
+      "payout": 143.64,
       "status": "pending",
       "profit": 0.0
     },
@@ -2982,9 +3032,9 @@
       "odds": 100,
       "ev": 4.4,
       "stake": 29.99,
-      "payout": 59.98,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -29.99
     },
     {
       "date": "2026-05-31",
@@ -7320,51 +7370,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -75.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "01:35:06",
-      "account": "Dad FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 9.5",
-      "odds": 225,
-      "ev": 34.61,
-      "stake": 75.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -75.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "01:10:29",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "NBA",
-      "market": "Point Spread",
-      "selection": "San Antonio Spurs -15.5",
-      "odds": 290,
-      "ev": 10.1,
-      "stake": 27.57,
-      "payout": 107.52,
-      "status": "win",
-      "profit": 79.953
-    },
-    {
-      "date": "2026-05-29",
-      "time": "01:10:26",
-      "account": "Dad DraftKings",
-      "book": "DraftKings",
-      "league": "NBA",
-      "market": "Point Spread",
-      "selection": "San Antonio Spurs -15.5",
-      "odds": 290,
-      "ev": 10.1,
-      "stake": 10.0,
-      "payout": 39.0,
-      "status": "win",
-      "profit": 29.0
     }
   ],
   "book_brier": [],
@@ -7372,7 +7377,7 @@
     "accounts": 12,
     "markets": 53,
     "recent": 300,
-    "data_through": "2026-05-30"
+    "data_through": "2026-05-31"
   },
   "book_markets": [
     {
@@ -7768,7 +7773,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7794,7 +7799,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8107,11 +8112,11 @@
       "book": "DraftKings",
       "league": "WNBA",
       "market": "Total Points - 1st Half",
-      "n": 19,
-      "stake": 561.41,
-      "profit": 306.57,
-      "roi": 0.5461,
-      "avg_ev": 8.97,
+      "n": 20,
+      "stake": 591.4,
+      "profit": 276.58,
+      "roi": 0.4677,
+      "avg_ev": 8.74,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8495,19 +8500,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8523,6 +8515,19 @@
       "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9461,10 +9466,10 @@
       },
       {
         "t": "21:10",
-        "profit": 57.71,
-        "wagered": 1165.26,
-        "open_bets": 24,
-        "open_wagered": 370.03
+        "profit": 27.72,
+        "wagered": 1166.44,
+        "open_bets": 26,
+        "open_wagered": 404.22
       }
     ]
   }
