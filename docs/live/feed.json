@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-05-31T19:57:02Z",
+  "generated_at": "2026-05-31T19:59:09Z",
   "portfolio": {
     "profit": 17197.39,
     "wagered": 271324.6,
@@ -11,8 +11,8 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 53,
-    "open_wagered": 647.34,
+    "open_bets": 54,
+    "open_wagered": 667.34,
     "data_through": "live",
     "today_profit": 48.57,
     "today_roi": 0.1117,
@@ -36,7 +36,7 @@
       "n_14d": 370,
       "profit_14d": 927.17,
       "roi_14d": 0.0919,
-      "balance": 2455.65,
+      "balance": 2423.16,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -2954,8 +2954,23 @@
       "selection": "Over 9.5",
       "odds": 105,
       "ev": 6.06,
-      "stake": 29.733700000000002,
+      "stake": 29.7337,
       "payout": 60.95,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-05-31",
+      "time": "19:47:30",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "selection": "Over 8.5",
+      "odds": 220,
+      "ev": 7.43,
+      "stake": 20.0,
+      "payout": 64.0,
       "status": "pending",
       "profit": 0.0
     },
@@ -2984,7 +2999,7 @@
       "selection": "Under 166.5",
       "odds": 109,
       "ev": -1.22,
-      "stake": 0.9548000000000001,
+      "stake": 0.9548,
       "payout": 2.0,
       "status": "pending",
       "profit": 0.0
@@ -7413,21 +7428,6 @@
       "payout": 64.0,
       "status": "win",
       "profit": 32.0
-    },
-    {
-      "date": "2026-05-29",
-      "time": "22:59:56",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Over 7.5",
-      "odds": 180,
-      "ev": 5.19,
-      "stake": 20.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -20.0
     }
   ],
   "book_brier": [],
@@ -7844,7 +7844,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7857,7 +7857,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8610,8 +8610,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8623,8 +8623,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9847,8 +9847,8 @@
         "t": "15:50",
         "profit": 48.57,
         "wagered": 1104.91,
-        "open_bets": 53,
-        "open_wagered": 647.34
+        "open_bets": 54,
+        "open_wagered": 667.34
       }
     ]
   }
