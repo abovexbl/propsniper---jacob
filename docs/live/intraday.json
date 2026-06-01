@@ -693,6 +693,13 @@
       "wagered": 288.43,
       "open_bets": 3,
       "open_wagered": 66.05
+    },
+    {
+      "t": "16:30",
+      "profit": 16.42,
+      "wagered": 288.43,
+      "open_bets": 3,
+      "open_wagered": 66.05
     }
   ]
 }
