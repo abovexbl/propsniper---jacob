@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-01T23:43:02Z",
+  "generated_at": "2026-06-01T23:45:09Z",
   "portfolio": {
     "profit": 17356.1,
     "wagered": 272766.86,
@@ -11,8 +11,8 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 15,
-    "open_wagered": 142.15,
+    "open_bets": 18,
+    "open_wagered": 143.89,
     "data_through": "live",
     "today_profit": 42.6,
     "today_roi": 0.1317,
@@ -36,7 +36,7 @@
       "n_14d": 374,
       "profit_14d": 1017.19,
       "roi_14d": 0.1014,
-      "balance": 2963.43,
+      "balance": 2928.66,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -1320,8 +1320,8 @@
       "n_14d": 593,
       "profit_14d": -18.38,
       "roi_14d": -0.0371,
-      "balance": 81.17,
-      "health": "healthy",
+      "balance": 79.43,
+      "health": null,
       "working": 3,
       "bleeding": 2,
       "markets": [
@@ -1473,7 +1473,7 @@
       "profit_14d": 487.44,
       "roi_14d": 0.1831,
       "balance": 795.36,
-      "health": "healthy",
+      "health": null,
       "working": 2,
       "bleeding": 2,
       "markets": [
@@ -1797,7 +1797,7 @@
       "profit_14d": -700.18,
       "roi_14d": -0.2035,
       "balance": 174.86,
-      "health": "healthy",
+      "health": null,
       "working": 0,
       "bleeding": 2,
       "markets": [
@@ -2954,6 +2954,51 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-01",
+      "time": "23:44:14",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Minnesota Twins",
+      "odds": -142,
+      "ev": -4.36,
+      "stake": 0.5872,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-01",
+      "time": "23:44:04",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 7.5",
+      "odds": -112,
+      "ev": -2.58,
+      "stake": 0.5275,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-01",
+      "time": "23:44:03",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Chicago White Sox +1.5",
+      "odds": -168,
+      "ev": -1.36,
+      "stake": 0.6267,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-01",
       "time": "23:41:16",
@@ -7408,51 +7453,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.7147
-    },
-    {
-      "date": "2026-05-30",
-      "time": "01:28:56",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 8.5",
-      "odds": 114,
-      "ev": -0.65,
-      "stake": 0.9347,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.9347
-    },
-    {
-      "date": "2026-05-30",
-      "time": "01:28:55",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "NHL",
-      "market": "Total Goals",
-      "selection": "Over 7.5",
-      "odds": 198,
-      "ev": 4.04,
-      "stake": 1.0057,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -1.0057
-    },
-    {
-      "date": "2026-05-30",
-      "time": "01:23:30",
-      "account": "Jacob Fliff",
-      "book": "Fliff",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "selection": "San Diego Padres Over 7.5",
-      "odds": 105,
-      "ev": 7.07,
-      "stake": 20.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -20.0
     }
   ],
   "book_brier": [],
@@ -7855,8 +7855,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7868,8 +7868,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8648,8 +8648,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8674,8 +8674,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10059,8 +10059,8 @@
         "t": "19:40",
         "profit": 42.6,
         "wagered": 465.54,
-        "open_bets": 15,
-        "open_wagered": 142.15
+        "open_bets": 18,
+        "open_wagered": 143.89
       }
     ]
   }
