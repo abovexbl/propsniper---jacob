@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-01T21:11:02Z",
+  "generated_at": "2026-06-01T21:13:02Z",
   "portfolio": {
     "profit": 17329.92,
     "wagered": 272666.91,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 2,
-    "open_wagered": 65.0,
+    "open_bets": 3,
+    "open_wagered": 70.98,
     "data_through": "live",
     "today_profit": 16.42,
     "today_roi": 0.0735,
-    "today_wagered": 288.43,
-    "live_bets": 11,
+    "today_wagered": 294.42,
+    "live_bets": 12,
     "wins": 3081,
     "losses": 3705
   },
@@ -2954,6 +2954,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-01",
+      "time": "21:11:59",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Total Games",
+      "selection": "Under 43.5",
+      "odds": 125,
+      "ev": 10.25,
+      "stake": 5.99,
+      "payout": 13.48,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-01",
       "time": "19:36:35",
@@ -7438,21 +7453,6 @@
       "payout": 38.18,
       "status": "win",
       "profit": 18.18
-    },
-    {
-      "date": "2026-05-30",
-      "time": "00:41:35",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Total Points",
-      "selection": "Over 169.5",
-      "odds": 166,
-      "ev": 6.69,
-      "stake": 20.6871,
-      "payout": 55.0,
-      "status": "win",
-      "profit": 34.3129
     }
   ],
   "book_brier": [],
@@ -7868,8 +7868,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7881,8 +7881,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8648,6 +8648,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8663,19 +8676,6 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9953,9 +9953,9 @@
       {
         "t": "17:10",
         "profit": 16.42,
-        "wagered": 288.43,
-        "open_bets": 2,
-        "open_wagered": 65.0
+        "wagered": 294.42,
+        "open_bets": 3,
+        "open_wagered": 70.98
       }
     ]
   }
