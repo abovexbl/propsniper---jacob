@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-06-01T06:47:14Z",
+  "generated_at": "2026-06-01T06:49:14Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 12337.08,
@@ -37,13 +37,13 @@
   },
   "live": {
     "source": "alpaca",
-    "start_date": "2026-05-30",
+    "start_date": "2026-05-29",
     "start_equity": 100000.0,
     "current_equity": 99999.39,
     "return_pct": -0.001,
     "pnl": -0.61,
-    "cycles": 1,
-    "days": 1,
+    "cycles": 0,
+    "days": 0,
     "curve": [
       {
         "date": "2026-05-29",
@@ -58,27 +58,8 @@
         "ret_pct": 0.0
       }
     ],
-    "trades": [
-      {
-        "date": "2026-05-30",
-        "strategy": "Alpaca",
-        "ticker": "BTC-USD",
-        "side": "SELL",
-        "shares": 0.00132537,
-        "price": 73702.3,
-        "realized_pnl": 0
-      },
-      {
-        "date": "2026-05-30",
-        "strategy": "Alpaca",
-        "ticker": "BTC-USD",
-        "side": "BUY",
-        "shares": 0.001328692,
-        "price": 73784.8,
-        "realized_pnl": 0
-      }
-    ],
-    "n_trades": 2,
+    "trades": [],
+    "n_trades": 0,
     "realized_pnl": -0.61,
     "unrealized_pnl": 0.0,
     "total_pnl": -0.61,
@@ -69655,8 +69636,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-06-01T06:46:02Z",
-    "checked_at_local": "2026-06-01 06:46",
+    "generated_at": "2026-06-01T06:48:22Z",
+    "checked_at_local": "2026-06-01 06:48",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
