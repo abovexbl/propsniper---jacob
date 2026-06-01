@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-01T23:53:02Z",
+  "generated_at": "2026-06-01T23:55:09Z",
   "portfolio": {
     "profit": 17356.1,
     "wagered": 272766.86,
@@ -36,7 +36,7 @@
       "n_14d": 374,
       "profit_14d": 1017.19,
       "roi_14d": 0.1014,
-      "balance": 2928.66,
+      "balance": 2880.97,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -1321,7 +1321,7 @@
       "profit_14d": -18.38,
       "roi_14d": -0.0371,
       "balance": 77.45,
-      "health": "healthy",
+      "health": null,
       "working": 3,
       "bleeding": 2,
       "markets": [
@@ -1473,7 +1473,7 @@
       "profit_14d": 487.44,
       "roi_14d": 0.1831,
       "balance": 795.36,
-      "health": "healthy",
+      "health": null,
       "working": 2,
       "bleeding": 2,
       "markets": [
@@ -1797,7 +1797,7 @@
       "profit_14d": -700.18,
       "roi_14d": -0.2035,
       "balance": 174.86,
-      "health": "healthy",
+      "health": null,
       "working": 0,
       "bleeding": 2,
       "markets": [
@@ -2994,7 +2994,7 @@
       "selection": "Texas Rangers +1.5",
       "odds": -263,
       "ev": -3.08,
-      "stake": 0.7244999999999999,
+      "stake": 0.7245,
       "payout": 1.0,
       "status": "pending",
       "profit": 0.0
@@ -7855,8 +7855,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7868,8 +7868,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8648,8 +8648,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8661,8 +8661,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
