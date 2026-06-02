@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T23:11:02Z",
+  "generated_at": "2026-06-02T23:13:01Z",
   "portfolio": {
     "profit": 17236.32,
     "wagered": 274508.65,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 18,
-    "open_wagered": 90.83,
+    "open_bets": 22,
+    "open_wagered": 115.31,
     "data_through": "live",
     "today_profit": -31.17,
     "today_roi": -0.1205,
-    "today_wagered": 349.46,
-    "live_bets": 27,
+    "today_wagered": 351.23,
+    "live_bets": 30,
     "wins": 3132,
     "losses": 3756
   },
@@ -1352,7 +1352,7 @@
       "n_14d": 598,
       "profit_14d": -19.79,
       "roi_14d": -0.0401,
-      "balance": 80.55,
+      "balance": 78.78,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -3011,6 +3011,66 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "23:12:44",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "selection": "Under 4.5",
+      "odds": 110,
+      "ev": 5.22,
+      "stake": 22.71,
+      "payout": 47.69,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:11:44",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Cincinnati Reds",
+      "odds": -126,
+      "ev": -3.04,
+      "stake": 0.5574,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:11:33",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Kansas City Royals +1.5",
+      "odds": -191,
+      "ev": -4.42,
+      "stake": 0.6562,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:11:33",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 8.5",
+      "odds": -126,
+      "ev": -4.09,
+      "stake": 0.5574,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "23:09:39",
@@ -7450,66 +7510,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.5674
-    },
-    {
-      "date": "2026-05-30",
-      "time": "22:03:42",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Point Spread",
-      "selection": "Connecticut Sun -1.5",
-      "odds": 166,
-      "ev": 2.34,
-      "stake": 0.7523,
-      "payout": 2.0,
-      "status": "win",
-      "profit": 1.2477
-    },
-    {
-      "date": "2026-05-30",
-      "time": "22:03:42",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Moneyline",
-      "selection": "Connecticut Sun",
-      "odds": 152,
-      "ev": 7.42,
-      "stake": 0.793,
-      "payout": 2.0,
-      "status": "win",
-      "profit": 1.207
-    },
-    {
-      "date": "2026-05-30",
-      "time": "22:02:53",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Milwaukee Brewers +3.5",
-      "odds": 128,
-      "ev": 10.97,
-      "stake": 35.14,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -35.14
-    },
-    {
-      "date": "2026-05-30",
-      "time": "21:25:23",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 7.5",
-      "odds": 173,
-      "ev": 3.35,
-      "stake": 20.8578,
-      "payout": 57.0,
-      "status": "win",
-      "profit": 36.1422
     }
   ],
   "book_brier": [],
@@ -7926,7 +7926,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7939,7 +7939,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8731,8 +8731,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10120,9 +10120,9 @@
       {
         "t": "19:10",
         "profit": -31.17,
-        "wagered": 349.46,
-        "open_bets": 18,
-        "open_wagered": 90.83
+        "wagered": 351.23,
+        "open_bets": 22,
+        "open_wagered": 115.31
       }
     ]
   }
