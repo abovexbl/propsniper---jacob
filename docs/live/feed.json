@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T03:29:09Z",
+  "generated_at": "2026-06-02T03:31:02Z",
   "portfolio": {
     "profit": 17297.85,
     "wagered": 273604.18,
@@ -8676,8 +8676,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8689,8 +8689,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10239,6 +10239,13 @@
       },
       {
         "t": "23:20",
+        "profit": -15.64,
+        "wagered": 1790.76,
+        "open_bets": 31,
+        "open_wagered": 630.06
+      },
+      {
+        "t": "23:30",
         "profit": -15.64,
         "wagered": 1790.76,
         "open_bets": 31,
