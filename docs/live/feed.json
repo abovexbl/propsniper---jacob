@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T22:53:01Z",
+  "generated_at": "2026-06-02T22:55:01Z",
   "portfolio": {
     "profit": 17236.32,
     "wagered": 274508.65,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 12,
-    "open_wagered": 8.65,
+    "open_bets": 13,
+    "open_wagered": 38.44,
     "data_through": "live",
     "today_profit": -31.17,
     "today_roi": -0.1205,
@@ -1353,7 +1353,7 @@
       "profit_14d": -19.79,
       "roi_14d": -0.0401,
       "balance": 82.45,
-      "health": null,
+      "health": "healthy",
       "working": 3,
       "bleeding": 2,
       "markets": [
@@ -1505,7 +1505,7 @@
       "profit_14d": 631.34,
       "roi_14d": 0.228,
       "balance": 880.27,
-      "health": null,
+      "health": "healthy",
       "working": 2,
       "bleeding": 2,
       "markets": [
@@ -1829,7 +1829,7 @@
       "profit_14d": -941.24,
       "roi_14d": -0.3002,
       "balance": 143.2,
-      "health": null,
+      "health": "healthy",
       "working": 0,
       "bleeding": 2,
       "markets": [
@@ -3011,6 +3011,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "22:54:58",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Baltimore Orioles -1.5",
+      "odds": 151,
+      "ev": 3.13,
+      "stake": 29.79,
+      "payout": 74.77,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "22:49:19",
@@ -7495,21 +7510,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -21.73
-    },
-    {
-      "date": "2026-05-30",
-      "time": "20:56:32",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "selection": "Baltimore Orioles -1.5",
-      "odds": 176,
-      "ev": 26.26,
-      "stake": 14.19,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -14.19
     }
   ],
   "book_brier": [],
@@ -7912,19 +7912,6 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -7940,6 +7927,19 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8705,8 +8705,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10107,8 +10107,8 @@
         "t": "18:50",
         "profit": -31.17,
         "wagered": 267.28,
-        "open_bets": 12,
-        "open_wagered": 8.65
+        "open_bets": 13,
+        "open_wagered": 38.44
       }
     ]
   }
