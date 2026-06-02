@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T13:07:01Z",
+  "generated_at": "2026-06-02T13:09:09Z",
   "portfolio": {
     "profit": 17274.73,
     "wagered": 274397.0,
@@ -3034,7 +3034,7 @@
       "selection": "Jodar",
       "odds": 296,
       "ev": -8.31,
-      "stake": 1.0110999999999999,
+      "stake": 1.0111,
       "payout": 4.0,
       "status": "pending",
       "profit": 0.0
