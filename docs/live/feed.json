@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T03:37:02Z",
+  "generated_at": "2026-06-02T03:39:09Z",
   "portfolio": {
-    "profit": 17297.85,
-    "wagered": 273604.18,
-    "n": 5352,
-    "roi": 0.0632,
-    "profit_14d": 1339.05,
+    "profit": 17331.45,
+    "wagered": 273632.18,
+    "n": 5353,
+    "roi": 0.0633,
+    "profit_14d": 1372.65,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 31,
-    "open_wagered": 630.06,
+    "open_bets": 30,
+    "open_wagered": 602.06,
     "data_through": "live",
     "today_profit": 17.96,
     "today_roi": 0.0151,
@@ -1990,14 +1990,14 @@
       "person": "Mom",
       "venue": "FanDuel",
       "sportsbook": "FanDuel",
-      "n_all": 286,
-      "profit_all": -1346.98,
-      "stake_all": 23529.0,
-      "roi_all": -0.0572,
-      "avg_ev": 9.63,
-      "n_14d": 286,
-      "profit_14d": -1346.98,
-      "roi_14d": -0.0572,
+      "n_all": 287,
+      "profit_all": -1313.38,
+      "stake_all": 23557.0,
+      "roi_all": -0.0558,
+      "avg_ev": 9.62,
+      "n_14d": 287,
+      "profit_14d": -1313.38,
+      "roi_14d": -0.0558,
       "balance": null,
       "health": null,
       "working": 1,
@@ -2036,11 +2036,11 @@
         {
           "league": "MLB",
           "market": "Run Line - 1st 5 Innings",
-          "n": 4,
-          "profit": 107.3,
-          "stake": 169.0,
-          "roi": 0.6349,
-          "avg_ev": 10.84,
+          "n": 5,
+          "profit": 140.9,
+          "stake": 197.0,
+          "roi": 0.7152,
+          "avg_ev": 10.02,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2566,19 +2566,19 @@
     },
     {
       "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "profit": -506.42,
+      "stake": 8031.78,
+      "n": 146,
+      "roi": -0.0631
+    },
+    {
+      "league": "MLB",
       "market": "Pitcher Strikeouts",
       "profit": -517.92,
       "stake": 1713.7,
       "n": 64,
       "roi": -0.3022
-    },
-    {
-      "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "profit": -540.02,
-      "stake": 8003.78,
-      "n": 145,
-      "roi": -0.0675
     },
     {
       "league": "WNBA",
@@ -2964,8 +2964,8 @@
     },
     {
       "date": "2026-06-02",
-      "profit": -94.36,
-      "cumulative": 17297.84
+      "profit": -60.76,
+      "cumulative": 17331.44
     }
   ],
   "recent": [
@@ -3266,8 +3266,8 @@
       "ev": 6.71,
       "stake": 28.0,
       "payout": 61.6,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 33.6
     },
     {
       "date": "2026-06-02",
@@ -7870,6 +7870,19 @@
     },
     {
       "book": "Caesars",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -7885,19 +7898,6 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8587,11 +8587,11 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "n": 6,
-      "stake": 309.0,
-      "profit": 288.9,
-      "roi": 0.935,
-      "avg_ev": 13.22,
+      "n": 7,
+      "stake": 337.0,
+      "profit": 322.5,
+      "roi": 0.957,
+      "avg_ev": 12.3,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -10248,8 +10248,8 @@
         "t": "23:30",
         "profit": 17.96,
         "wagered": 1790.76,
-        "open_bets": 31,
-        "open_wagered": 630.06
+        "open_bets": 30,
+        "open_wagered": 602.06
       }
     ]
   }
