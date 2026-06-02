@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T20:51:02Z",
+  "generated_at": "2026-06-02T20:53:09Z",
   "portfolio": {
     "profit": 17241.01,
     "wagered": 274445.44,
@@ -16,8 +16,8 @@
     "data_through": "live",
     "today_profit": -26.48,
     "today_roi": -0.1355,
-    "today_wagered": 233.08,
-    "live_bets": 14,
+    "today_wagered": 258.63,
+    "live_bets": 15,
     "wins": 3129,
     "losses": 3753
   },
@@ -2989,7 +2989,7 @@
       "selection": "Fonseca",
       "odds": 218,
       "ev": 9.39,
-      "stake": 25.541800000000002,
+      "stake": 25.5418,
       "payout": 81.22,
       "status": "pending",
       "profit": 0.0
@@ -7894,7 +7894,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7907,7 +7907,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9990,7 +9990,7 @@
       {
         "t": "16:50",
         "profit": -26.48,
-        "wagered": 233.08,
+        "wagered": 258.63,
         "open_bets": 6,
         "open_wagered": 63.21
       }
