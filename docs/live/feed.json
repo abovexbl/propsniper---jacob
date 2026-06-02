@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T00:55:01Z",
+  "generated_at": "2026-06-02T00:57:01Z",
   "portfolio": {
     "profit": 17311.1,
     "wagered": 272811.86,
@@ -11,15 +11,15 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 38,
-    "open_wagered": 525.27,
+    "open_bets": 39,
+    "open_wagered": 550.1,
     "data_through": "live",
-    "today_profit": 22.59,
-    "today_roi": 0.0576,
-    "today_wagered": 962.66,
+    "today_profit": 13.21,
+    "today_roi": 0.0329,
+    "today_wagered": 987.49,
     "live_bets": 48,
     "wins": 3083,
-    "losses": 3709
+    "losses": 3710
   },
   "accounts": [
     {
@@ -1472,7 +1472,7 @@
       "n_14d": 91,
       "profit_14d": 487.44,
       "roi_14d": 0.1831,
-      "balance": 756.31,
+      "balance": 731.49,
       "health": "healthy",
       "working": 2,
       "bleeding": 2,
@@ -2981,6 +2981,21 @@
       "ev": 10.47,
       "stake": 10.0,
       "payout": 20.8,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "00:55:21",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 9.5",
+      "odds": 166,
+      "ev": 6.46,
+      "stake": 24.8246,
+      "payout": 66.03,
       "status": "pending",
       "profit": 0.0
     },
@@ -7438,21 +7453,6 @@
       "payout": 2.0,
       "status": "win",
       "profit": 1.1258
-    },
-    {
-      "date": "2026-05-30",
-      "time": "02:58:56",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 6.5",
-      "odds": 129,
-      "ev": -7.48,
-      "stake": 0.8742,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.8742
     }
   ],
   "book_brier": [],
@@ -10106,10 +10106,10 @@
       },
       {
         "t": "20:50",
-        "profit": 22.59,
-        "wagered": 962.66,
-        "open_bets": 38,
-        "open_wagered": 525.27
+        "profit": 13.21,
+        "wagered": 987.49,
+        "open_bets": 39,
+        "open_wagered": 550.1
       }
     ]
   }
