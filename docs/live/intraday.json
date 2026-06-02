@@ -782,8 +782,8 @@
       "t": "18:30",
       "profit": -31.17,
       "wagered": 258.63,
-      "open_bets": 4,
-      "open_wagered": 36.99
+      "open_bets": 0,
+      "open_wagered": 0.0
     }
   ]
 }
