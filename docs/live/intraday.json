@@ -21,6 +21,13 @@
       "wagered": 30.0,
       "open_bets": 11,
       "open_wagered": 272.16
+    },
+    {
+      "t": "00:30",
+      "profit": 0.0,
+      "wagered": 30.0,
+      "open_bets": 11,
+      "open_wagered": 272.16
     }
   ]
 }
