@@ -1,25 +1,25 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T00:25:01Z",
+  "generated_at": "2026-06-02T00:27:09Z",
   "portfolio": {
-    "profit": 17356.1,
-    "wagered": 272766.86,
-    "n": 5304,
-    "roi": 0.0636,
-    "profit_14d": 1238.31,
+    "profit": 17311.1,
+    "wagered": 272811.86,
+    "n": 5305,
+    "roi": 0.0635,
+    "profit_14d": 1193.31,
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 30,
-    "open_wagered": 337.09,
+    "open_bets": 33,
+    "open_wagered": 430.09,
     "data_through": "live",
-    "today_profit": 42.6,
-    "today_roi": 0.1317,
-    "today_wagered": 660.48,
-    "live_bets": 39,
+    "today_profit": -2.4,
+    "today_roi": -0.0065,
+    "today_wagered": 798.48,
+    "live_bets": 42,
     "wins": 3082,
-    "losses": 3708
+    "losses": 3709
   },
   "accounts": [
     {
@@ -1788,14 +1788,14 @@
       "person": "Jacob",
       "venue": "Fliff",
       "sportsbook": "Fliff",
-      "n_all": 135,
-      "profit_all": -880.13,
-      "stake_all": 5800.0,
-      "roi_all": -0.1517,
-      "avg_ev": 10.44,
-      "n_14d": 85,
-      "profit_14d": -700.18,
-      "roi_14d": -0.2035,
+      "n_all": 136,
+      "profit_all": -925.13,
+      "stake_all": 5845.0,
+      "roi_all": -0.1583,
+      "avg_ev": 10.69,
+      "n_14d": 86,
+      "profit_14d": -745.18,
+      "roi_14d": -0.2138,
       "balance": 174.86,
       "health": "healthy",
       "working": 0,
@@ -1873,16 +1873,6 @@
         },
         {
           "league": "MLB",
-          "market": "Run Line - 1st 5 Innings",
-          "n": 7,
-          "profit": -3.0,
-          "stake": 145.0,
-          "roi": -0.0207,
-          "avg_ev": 7.43,
-          "verdict": "NOISE_N<20"
-        },
-        {
-          "league": "MLB",
           "market": "Team Total Runs",
           "n": 3,
           "profit": -16.25,
@@ -1909,6 +1899,16 @@
           "stake": 370.0,
           "roi": -0.1149,
           "avg_ev": 6.15,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "MLB",
+          "market": "Run Line - 1st 5 Innings",
+          "n": 8,
+          "profit": -48.0,
+          "stake": 190.0,
+          "roi": -0.2526,
+          "avg_ev": 11.96,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2557,10 +2557,10 @@
     {
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "profit": -462.65,
-      "stake": 7844.78,
-      "n": 139,
-      "roi": -0.059
+      "profit": -507.65,
+      "stake": 7889.78,
+      "n": 140,
+      "roi": -0.0643
     },
     {
       "league": "MLB",
@@ -2949,11 +2949,71 @@
     },
     {
       "date": "2026-06-01",
-      "profit": 42.6,
-      "cumulative": 17356.08
+      "profit": -2.4,
+      "cumulative": 17311.08
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "15:22:52",
+      "account": "Jacob Caesars",
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Minnesota Twins -0.5",
+      "odds": 108,
+      "ev": 10.47,
+      "stake": 10.0,
+      "payout": 20.8,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "00:25:41",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Chicago White Sox +0.5",
+      "odds": -102,
+      "ev": 6.36,
+      "stake": 33.0,
+      "payout": 65.35,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "00:25:29",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Milwaukee Brewers -5.5",
+      "odds": 130,
+      "ev": 5.43,
+      "stake": 21.0,
+      "payout": 48.3,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "00:24:35",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Washington Nationals",
+      "odds": -128,
+      "ev": 11.36,
+      "stake": 74.0,
+      "payout": 131.81,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "00:15:47",
@@ -3250,9 +3310,9 @@
       "odds": 240,
       "ev": 43.65,
       "stake": 45.0,
-      "payout": 153.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -45.0
     },
     {
       "date": "2026-06-01",
@@ -7393,66 +7453,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -51.0
-    },
-    {
-      "date": "2026-05-30",
-      "time": "02:38:08",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 9.5",
-      "odds": 154,
-      "ev": 14.47,
-      "stake": 48.0,
-      "payout": 121.92,
-      "status": "win",
-      "profit": 73.92
-    },
-    {
-      "date": "2026-05-30",
-      "time": "02:28:31",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Under 3.5",
-      "odds": 112,
-      "ev": 5.51,
-      "stake": 25.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -25.0
-    },
-    {
-      "date": "2026-05-30",
-      "time": "01:42:26",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 8.5",
-      "odds": 124,
-      "ev": -6.15,
-      "stake": 0.8944,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.8944
-    },
-    {
-      "date": "2026-05-30",
-      "time": "01:42:25",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Athletics +2.5",
-      "odds": -208,
-      "ev": -0.02,
-      "stake": 0.6758,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.6758
     }
   ],
   "book_brier": [],
@@ -7856,19 +7856,6 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
@@ -7883,6 +7870,19 @@
       "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8922,19 +8922,6 @@
     {
       "book": "Fliff",
       "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "n": 7,
-      "stake": 145.0,
-      "profit": -3.0,
-      "roi": -0.0207,
-      "avg_ev": 7.43,
-      "in_config": false,
-      "bet": true,
-      "book_has_config": true
-    },
-    {
-      "book": "Fliff",
-      "league": "MLB",
       "market": "Team Total Runs",
       "n": 3,
       "stake": 75.0,
@@ -8967,6 +8954,19 @@
       "profit": -42.5,
       "roi": -0.1149,
       "avg_ev": 6.15,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "n": 8,
+      "stake": 190.0,
+      "profit": -48.0,
+      "roi": -0.2526,
+      "avg_ev": 11.96,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -10085,10 +10085,10 @@
       },
       {
         "t": "20:20",
-        "profit": 42.6,
-        "wagered": 660.48,
-        "open_bets": 30,
-        "open_wagered": 337.09
+        "profit": -2.4,
+        "wagered": 798.48,
+        "open_bets": 33,
+        "open_wagered": 430.09
       }
     ]
   }
