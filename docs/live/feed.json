@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T00:13:01Z",
+  "generated_at": "2026-06-02T00:15:01Z",
   "portfolio": {
     "profit": 17356.1,
     "wagered": 272766.86,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 28,
-    "open_wagered": 260.53,
+    "open_bets": 29,
+    "open_wagered": 323.96,
     "data_through": "live",
     "today_profit": 42.6,
     "today_roi": 0.1317,
-    "today_wagered": 574.54,
-    "live_bets": 36,
+    "today_wagered": 583.92,
+    "live_bets": 37,
     "wins": 3082,
     "losses": 3708
   },
@@ -2954,6 +2954,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "00:14:56",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "San Francisco Giants +4.5",
+      "odds": -141,
+      "ev": 4.03,
+      "stake": 63.43,
+      "payout": 108.42,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "00:12:44",
@@ -7438,21 +7453,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.9548
-    },
-    {
-      "date": "2026-05-30",
-      "time": "01:39:25",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Miami Marlins",
-      "odds": -103,
-      "ev": -11.78,
-      "stake": 1.015,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -1.015
     }
   ],
   "book_brier": [],
@@ -10079,9 +10079,9 @@
       {
         "t": "20:10",
         "profit": 42.6,
-        "wagered": 574.54,
-        "open_bets": 28,
-        "open_wagered": 260.53
+        "wagered": 583.92,
+        "open_bets": 29,
+        "open_wagered": 323.96
       }
     ]
   }
