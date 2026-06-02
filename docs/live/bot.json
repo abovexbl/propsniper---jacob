@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-06-02T13:29:10Z",
+  "generated_at": "2026-06-02T13:31:11Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 12345.42,
@@ -39,11 +39,11 @@
     "source": "alpaca",
     "start_date": "2026-05-30",
     "start_equity": 100000.0,
-    "current_equity": 99999.39,
-    "return_pct": -0.001,
-    "pnl": -0.61,
-    "cycles": 1,
-    "days": 1,
+    "current_equity": 99999.96,
+    "return_pct": -0.0,
+    "pnl": -0.04,
+    "cycles": 2,
+    "days": 2,
     "curve": [
       {
         "date": "2026-05-29",
@@ -66,6 +66,33 @@
     ],
     "trades": [
       {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "GLD",
+        "side": "BUY",
+        "shares": 1.72887802,
+        "price": 413.858,
+        "realized_pnl": 0
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "DE",
+        "side": "BUY",
+        "shares": 0.772778841,
+        "price": 564.12,
+        "realized_pnl": 0
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "AMAT",
+        "side": "BUY",
+        "shares": 0.767529179,
+        "price": 466.08,
+        "realized_pnl": 0
+      },
+      {
         "date": "2026-05-30",
         "strategy": "Alpaca",
         "ticker": "BTC-USD",
@@ -84,15 +111,15 @@
         "realized_pnl": 0
       }
     ],
-    "n_trades": 2,
+    "n_trades": 5,
     "realized_pnl": -0.61,
-    "unrealized_pnl": 0.0,
-    "total_pnl": -0.61,
-    "open_positions": 0,
+    "unrealized_pnl": 0.57,
+    "total_pnl": -0.04,
+    "open_positions": 3,
     "n_closed": 0,
     "win_rate": null,
-    "cash": 99999.39,
-    "buying_power": 199998.78
+    "cash": 98490.21,
+    "buying_power": 176991.46
   },
   "strategies": [
     {
@@ -69707,8 +69734,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-06-02T13:28:01Z",
-    "checked_at_local": "2026-06-02 13:28",
+    "generated_at": null,
+    "checked_at_local": "",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
@@ -69719,13 +69746,62 @@
       "trailing_stop_pct": 0
     },
     "summary": {
-      "open_positions": 0,
-      "live_quoted": 0,
+      "open_positions": 3,
+      "live_quoted": 3,
       "market_closed": 0,
-      "total_unrealized_pnl": 0.0,
+      "total_unrealized_pnl": 0.57,
       "fetch_error": null
     },
-    "positions": [],
+    "positions": [
+      {
+        "strategy": "Alpaca",
+        "ticker": "AMAT",
+        "is_crypto": false,
+        "shares": 0.767529179,
+        "avg_price": 466.08,
+        "price": 466.12,
+        "live": true,
+        "ret_pct": 0.01,
+        "unrealized_pnl": 0.03,
+        "cost_basis": 357.73,
+        "market_value": 357.76,
+        "peak": 466.12,
+        "stop_price": 428.7936,
+        "stop_headroom_pct": 8.01
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "GLD",
+        "is_crypto": false,
+        "shares": 1.72887802,
+        "avg_price": 413.858,
+        "price": 413.91,
+        "live": true,
+        "ret_pct": 0.01,
+        "unrealized_pnl": 0.09,
+        "cost_basis": 715.51,
+        "market_value": 715.6,
+        "peak": 413.91,
+        "stop_price": 380.7494,
+        "stop_headroom_pct": 8.01
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "DE",
+        "is_crypto": false,
+        "shares": 0.772778841,
+        "avg_price": 564.12,
+        "price": 564.7,
+        "live": true,
+        "ret_pct": 0.1,
+        "unrealized_pnl": 0.45,
+        "cost_basis": 435.94,
+        "market_value": 436.39,
+        "peak": 564.7,
+        "stop_price": 518.9904,
+        "stop_headroom_pct": 8.1
+      }
+    ],
     "recent_actions": []
   },
   "counts": {
