@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T22:41:01Z",
+  "generated_at": "2026-06-02T22:43:01Z",
   "portfolio": {
     "profit": 17236.32,
     "wagered": 274508.65,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 3,
-    "open_wagered": 2.41,
+    "open_bets": 6,
+    "open_wagered": 4.32,
     "data_through": "live",
     "today_profit": -31.17,
     "today_roi": -0.1205,
-    "today_wagered": 258.63,
-    "live_bets": 9,
+    "today_wagered": 261.03,
+    "live_bets": 12,
     "wins": 3132,
     "losses": 3756
   },
@@ -1352,7 +1352,7 @@
       "n_14d": 598,
       "profit_14d": -19.79,
       "roi_14d": -0.0401,
-      "balance": 88.69,
+      "balance": 86.77,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -3011,6 +3011,51 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "22:42:49",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Under 10.5",
+      "odds": -239,
+      "ev": -1.92,
+      "stake": 0.705,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "22:42:49",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "San Diego Padres +1.5",
+      "odds": -154,
+      "ev": -1.84,
+      "stake": 0.607,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "22:42:21",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Philadelphia Phillies",
+      "odds": -154,
+      "ev": -4.49,
+      "stake": 0.607,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "22:40:32",
@@ -7465,51 +7510,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4426
-    },
-    {
-      "date": "2026-05-30",
-      "time": "20:11:38",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Cleveland Guardians",
-      "odds": -126,
-      "ev": 0.05,
-      "stake": 0.5574,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.5574
-    },
-    {
-      "date": "2026-05-30",
-      "time": "20:10:44",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Cleveland Guardians +1.5",
-      "odds": -228,
-      "ev": -3.36,
-      "stake": 0.6953,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.6953
-    },
-    {
-      "date": "2026-05-30",
-      "time": "20:10:44",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Los Angeles Angels",
-      "odds": 140,
-      "ev": -5.56,
-      "stake": 0.8336,
-      "payout": 2.0,
-      "status": "win",
-      "profit": 1.1664
     }
   ],
   "book_brier": [],
@@ -7913,7 +7913,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7939,7 +7939,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10099,9 +10099,9 @@
       {
         "t": "18:40",
         "profit": -31.17,
-        "wagered": 258.63,
-        "open_bets": 3,
-        "open_wagered": 2.41
+        "wagered": 261.03,
+        "open_bets": 6,
+        "open_wagered": 4.32
       }
     ]
   }
