@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T22:59:01Z",
+  "generated_at": "2026-06-02T23:01:09Z",
   "portfolio": {
     "profit": 17236.32,
     "wagered": 274508.65,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 13,
-    "open_wagered": 38.44,
+    "open_bets": 15,
+    "open_wagered": 88.93,
     "data_through": "live",
     "today_profit": -31.17,
     "today_roi": -0.1205,
@@ -3011,6 +3011,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "23:00:43",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "selection": "Under 7.5",
+      "odds": 120,
+      "ev": 29.65,
+      "stake": 12.49,
+      "payout": 27.48,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:00:33",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Tampa Bay Rays +3.5",
+      "odds": 110,
+      "ev": 8.36,
+      "stake": 38.0,
+      "payout": 79.8,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "22:54:58",
@@ -7480,36 +7510,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -25.0
-    },
-    {
-      "date": "2026-05-30",
-      "time": "21:07:44",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Minnesota Twins +4.5",
-      "odds": 220,
-      "ev": 7.46,
-      "stake": 18.17,
-      "payout": 58.14,
-      "status": "win",
-      "profit": 39.97
-    },
-    {
-      "date": "2026-05-30",
-      "time": "21:03:38",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Under 6.5",
-      "odds": 115,
-      "ev": 7.41,
-      "stake": 21.73,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -21.73
     }
   ],
   "book_brier": [],
@@ -7913,7 +7913,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7926,7 +7926,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8731,8 +8731,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10109,6 +10109,13 @@
         "wagered": 297.07,
         "open_bets": 13,
         "open_wagered": 38.44
+      },
+      {
+        "t": "19:00",
+        "profit": -31.17,
+        "wagered": 297.07,
+        "open_bets": 15,
+        "open_wagered": 88.93
       }
     ]
   }
