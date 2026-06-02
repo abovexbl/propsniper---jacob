@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-06-02T15:21:11Z",
+  "generated_at": "2026-06-02T15:23:10Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 12345.42,
@@ -37,51 +37,1053 @@
   },
   "live": {
     "source": "alpaca",
-    "start_date": "2026-05-29",
+    "start_date": "2026-05-30",
     "start_equity": 100000.0,
-    "current_equity": 100135.24,
-    "return_pct": 0.135,
-    "pnl": 135.24,
+    "current_equity": 100137.12,
+    "return_pct": 0.137,
+    "pnl": 137.12,
     "cycles": 2,
     "days": 2,
     "curve": [
       {
-        "date": "2026-05-29",
-        "equity": 100000.0,
+        "t": "2026-06-02T09:00Z",
+        "date": "2026-06-02",
+        "equity": 99999.17,
         "pnl": 0.0,
         "ret_pct": 0.0
       },
       {
-        "date": "2026-05-30",
-        "equity": 100000.0,
+        "t": "2026-06-02T10:00Z",
+        "date": "2026-06-02",
+        "equity": 99999.17,
         "pnl": 0.0,
         "ret_pct": 0.0
+      },
+      {
+        "t": "2026-06-02T11:00Z",
+        "date": "2026-06-02",
+        "equity": 99999.17,
+        "pnl": 0.0,
+        "ret_pct": 0.0
+      },
+      {
+        "t": "2026-06-02T12:00Z",
+        "date": "2026-06-02",
+        "equity": 99999.17,
+        "pnl": 0.0,
+        "ret_pct": 0.0
+      },
+      {
+        "t": "2026-06-02T13:00Z",
+        "date": "2026-06-02",
+        "equity": 99999.17,
+        "pnl": 0.0,
+        "ret_pct": 0.0
+      },
+      {
+        "t": "2026-06-02T14:00Z",
+        "date": "2026-06-02",
+        "equity": 100085.89,
+        "pnl": 86.72,
+        "ret_pct": 0.087
+      },
+      {
+        "t": "2026-06-02T15:00Z",
+        "date": "2026-06-02",
+        "equity": 100138.02,
+        "pnl": 138.85,
+        "ret_pct": 0.139
+      }
+    ],
+    "curves": {
+      "1D": [
+        {
+          "t": "2026-06-02T08:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T08:05Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T08:10Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T08:15Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T08:20Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T08:25Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T08:30Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T08:35Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T08:40Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T08:45Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T08:50Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T08:55Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:05Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:10Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:15Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:20Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:25Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:30Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:35Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:40Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:45Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:50Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T09:55Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:05Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:10Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:15Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:20Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:25Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:30Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:35Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:40Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:45Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:50Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T10:55Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:05Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:10Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:15Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:20Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:25Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:30Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:35Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:40Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:45Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:50Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T11:55Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:05Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:10Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:15Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:20Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:25Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:30Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:35Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:40Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:45Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:50Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T12:55Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:05Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:10Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:15Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:20Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:25Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:30Z",
+          "date": "2026-06-02",
+          "equity": 99999.16,
+          "pnl": -0.23,
+          "ret_pct": -0.0
+        },
+        {
+          "t": "2026-06-02T13:35Z",
+          "date": "2026-06-02",
+          "equity": 99998.22,
+          "pnl": -1.17,
+          "ret_pct": -0.001
+        },
+        {
+          "t": "2026-06-02T13:40Z",
+          "date": "2026-06-02",
+          "equity": 99972.66,
+          "pnl": -26.73,
+          "ret_pct": -0.027
+        },
+        {
+          "t": "2026-06-02T13:45Z",
+          "date": "2026-06-02",
+          "equity": 99993.8,
+          "pnl": -5.59,
+          "ret_pct": -0.006
+        },
+        {
+          "t": "2026-06-02T13:50Z",
+          "date": "2026-06-02",
+          "equity": 100025.39,
+          "pnl": 26.0,
+          "ret_pct": 0.026
+        },
+        {
+          "t": "2026-06-02T13:55Z",
+          "date": "2026-06-02",
+          "equity": 100047.79,
+          "pnl": 48.4,
+          "ret_pct": 0.048
+        },
+        {
+          "t": "2026-06-02T14:00Z",
+          "date": "2026-06-02",
+          "equity": 100085.88,
+          "pnl": 86.49,
+          "ret_pct": 0.086
+        },
+        {
+          "t": "2026-06-02T14:05Z",
+          "date": "2026-06-02",
+          "equity": 100086.35,
+          "pnl": 86.96,
+          "ret_pct": 0.087
+        },
+        {
+          "t": "2026-06-02T14:10Z",
+          "date": "2026-06-02",
+          "equity": 100094.58,
+          "pnl": 95.19,
+          "ret_pct": 0.095
+        },
+        {
+          "t": "2026-06-02T14:15Z",
+          "date": "2026-06-02",
+          "equity": 100112.84,
+          "pnl": 113.45,
+          "ret_pct": 0.113
+        },
+        {
+          "t": "2026-06-02T14:20Z",
+          "date": "2026-06-02",
+          "equity": 100106.18,
+          "pnl": 106.79,
+          "ret_pct": 0.107
+        },
+        {
+          "t": "2026-06-02T14:25Z",
+          "date": "2026-06-02",
+          "equity": 100071.94,
+          "pnl": 72.55,
+          "ret_pct": 0.073
+        },
+        {
+          "t": "2026-06-02T14:30Z",
+          "date": "2026-06-02",
+          "equity": 100053.51,
+          "pnl": 54.12,
+          "ret_pct": 0.054
+        },
+        {
+          "t": "2026-06-02T14:35Z",
+          "date": "2026-06-02",
+          "equity": 100094.3,
+          "pnl": 94.91,
+          "ret_pct": 0.095
+        },
+        {
+          "t": "2026-06-02T14:40Z",
+          "date": "2026-06-02",
+          "equity": 100099.34,
+          "pnl": 99.95,
+          "ret_pct": 0.1
+        },
+        {
+          "t": "2026-06-02T14:45Z",
+          "date": "2026-06-02",
+          "equity": 100113.8,
+          "pnl": 114.41,
+          "ret_pct": 0.114
+        },
+        {
+          "t": "2026-06-02T14:50Z",
+          "date": "2026-06-02",
+          "equity": 100106.1,
+          "pnl": 106.71,
+          "ret_pct": 0.107
+        },
+        {
+          "t": "2026-06-02T14:55Z",
+          "date": "2026-06-02",
+          "equity": 100118.92,
+          "pnl": 119.53,
+          "ret_pct": 0.12
+        },
+        {
+          "t": "2026-06-02T15:00Z",
+          "date": "2026-06-02",
+          "equity": 100127.76,
+          "pnl": 128.37,
+          "ret_pct": 0.128
+        },
+        {
+          "t": "2026-06-02T15:05Z",
+          "date": "2026-06-02",
+          "equity": 100107.84,
+          "pnl": 108.45,
+          "ret_pct": 0.108
+        },
+        {
+          "t": "2026-06-02T15:10Z",
+          "date": "2026-06-02",
+          "equity": 100123.45,
+          "pnl": 124.06,
+          "ret_pct": 0.124
+        },
+        {
+          "t": "2026-06-02T15:15Z",
+          "date": "2026-06-02",
+          "equity": 100131.52,
+          "pnl": 132.13,
+          "ret_pct": 0.132
+        },
+        {
+          "t": "2026-06-02T15:20Z",
+          "date": "2026-06-02",
+          "equity": 100138.52,
+          "pnl": 139.13,
+          "ret_pct": 0.139
+        }
+      ],
+      "1W": [
+        {
+          "t": "2026-06-02T09:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.17,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T10:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.17,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T11:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.17,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T12:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.17,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T13:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.17,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T14:00Z",
+          "date": "2026-06-02",
+          "equity": 100085.89,
+          "pnl": 86.72,
+          "ret_pct": 0.087
+        },
+        {
+          "t": "2026-06-02T15:00Z",
+          "date": "2026-06-02",
+          "equity": 100138.02,
+          "pnl": 138.85,
+          "ret_pct": 0.139
+        }
+      ],
+      "1M": [
+        {
+          "t": "2026-05-29T00:00Z",
+          "date": "2026-05-29",
+          "equity": 100000.0,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-05-30T00:00Z",
+          "date": "2026-05-30",
+          "equity": 100000.0,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T00:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": -0.61,
+          "ret_pct": -0.001
+        }
+      ],
+      "3M": [
+        {
+          "t": "2026-05-29T00:00Z",
+          "date": "2026-05-29",
+          "equity": 100000.0,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-05-30T00:00Z",
+          "date": "2026-05-30",
+          "equity": 100000.0,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T00:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": -0.61,
+          "ret_pct": -0.001
+        }
+      ],
+      "ALL": [
+        {
+          "t": "2026-05-29T00:00Z",
+          "date": "2026-05-29",
+          "equity": 100000.0,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-05-30T00:00Z",
+          "date": "2026-05-30",
+          "equity": 100000.0,
+          "pnl": 0.0,
+          "ret_pct": 0.0
+        },
+        {
+          "t": "2026-06-02T00:00Z",
+          "date": "2026-06-02",
+          "equity": 99999.39,
+          "pnl": -0.61,
+          "ret_pct": -0.001
+        }
+      ]
+    },
+    "curve_periods": [
+      "1D",
+      "1W",
+      "1M",
+      "3M",
+      "ALL"
+    ],
+    "trades": [
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "AMZN",
+        "side": "SELL",
+        "shares": 0.10086,
+        "price": 260.758,
+        "n_fills": 1,
+        "realized_pnl": null
       },
       {
         "date": "2026-06-02",
-        "equity": 99999.39,
-        "pnl": -0.61,
-        "ret_pct": -0.001
+        "strategy": "Alpaca",
+        "ticker": "TSLA",
+        "side": "SELL",
+        "shares": 0.071187,
+        "price": 422.688,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "GOOGL",
+        "side": "SELL",
+        "shares": 0.096154,
+        "price": 369.72,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "NVDA",
+        "side": "SELL",
+        "shares": 0.111258,
+        "price": 230.276,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "QQQ",
+        "side": "BUY",
+        "shares": 6.450057,
+        "price": 740.3687,
+        "n_fills": 5,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "SBUX",
+        "side": "BUY",
+        "shares": 4.692643,
+        "price": 96.4254,
+        "n_fills": 4,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "CSCO",
+        "side": "BUY",
+        "shares": 5.735306,
+        "price": 125.3534,
+        "n_fills": 4,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "ORCL",
+        "side": "BUY",
+        "shares": 4.164189,
+        "price": 242.4025,
+        "n_fills": 3,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "AMD",
+        "side": "BUY",
+        "shares": 3.024947,
+        "price": 510.4586,
+        "n_fills": 3,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "TSLA",
+        "side": "BUY",
+        "shares": 3.754357,
+        "price": 414.3133,
+        "n_fills": 3,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "GOOGL",
+        "side": "BUY",
+        "shares": 4.379461,
+        "price": 361.17,
+        "n_fills": 2,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "SPY",
+        "side": "BUY",
+        "shares": 6.227233,
+        "price": 757.55,
+        "n_fills": 2,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "AMZN",
+        "side": "BUY",
+        "shares": 5.271464,
+        "price": 255.43,
+        "n_fills": 2,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "MSFT",
+        "side": "BUY",
+        "shares": 3.345612,
+        "price": 450.39,
+        "n_fills": 2,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "AVGO",
+        "side": "BUY",
+        "shares": 2.247993,
+        "price": 485.74,
+        "n_fills": 2,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "NVDA",
+        "side": "BUY",
+        "shares": 5.319263,
+        "price": 225.3,
+        "n_fills": 2,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "GLD",
+        "side": "BUY",
+        "shares": 1.728878,
+        "price": 413.858,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "DE",
+        "side": "BUY",
+        "shares": 0.772779,
+        "price": 564.12,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-06-02",
+        "strategy": "Alpaca",
+        "ticker": "AMAT",
+        "side": "BUY",
+        "shares": 0.767529,
+        "price": 466.08,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-05-30",
+        "strategy": "Alpaca",
+        "ticker": "BTC-USD",
+        "side": "SELL",
+        "shares": 0.001325,
+        "price": 73702.3,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
+      {
+        "date": "2026-05-30",
+        "strategy": "Alpaca",
+        "ticker": "BTC-USD",
+        "side": "BUY",
+        "shares": 0.001329,
+        "price": 73784.8,
+        "n_fills": 1,
+        "realized_pnl": null
       }
     ],
-    "curves": {},
-    "curve_periods": [],
-    "trades": [],
-    "n_trades": 0,
-    "n_fills": 21,
-    "realized_pnl": 1.69,
-    "unrealized_pnl": 133.55,
-    "total_pnl": 135.24,
+    "n_trades": 21,
+    "n_fills": 43,
+    "realized_pnl": 1.52,
+    "unrealized_pnl": 135.6,
+    "total_pnl": 137.12,
     "open_positions": 15,
     "n_closed": 0,
     "win_rate": null,
     "cash": 77109.06,
-    "buying_power": 177244.3,
-    "invested": null,
-    "pct_invested": null,
-    "best": null,
-    "worst": null,
-    "today_pl": 135.85
+    "buying_power": 177246.18,
+    "invested": 23028.44,
+    "pct_invested": 23.0,
+    "best": {
+      "symbol": "GOOGL",
+      "unrealized_pl": 36.82,
+      "ret_pct": 2.38
+    },
+    "worst": {
+      "symbol": "MSFT",
+      "unrealized_pl": -24.47,
+      "ret_pct": -1.62
+    },
+    "today_pl": 137.73
   },
   "strategies": [
     {
@@ -69696,8 +70698,8 @@
     }
   ],
   "monitor": {
-    "generated_at": null,
-    "checked_at_local": "",
+    "generated_at": "2026-06-02T15:22:03Z",
+    "checked_at_local": "2026-06-02 15:22",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
@@ -69711,324 +70713,324 @@
       "open_positions": 15,
       "live_quoted": 15,
       "market_closed": 0,
-      "total_unrealized_pnl": 133.55,
+      "total_unrealized_pnl": 135.6,
       "fetch_error": null
     },
     "positions": [
       {
         "strategy": "Alpaca",
-        "ticker": "MSFT",
+        "ticker": "QQQ",
         "is_crypto": false,
-        "asset_class": null,
-        "shares": 3.345611581,
-        "avg_price": 450.39,
-        "price": 443.4,
+        "asset_class": "us_equity",
+        "shares": 6.450056738,
+        "avg_price": 740.3687,
+        "price": 745.24,
         "live": true,
-        "ret_pct": -1.55,
-        "unrealized_pnl": -23.39,
-        "cost_basis": 1506.83,
-        "market_value": 1483.44,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": -3.72,
-        "peak": 443.4,
-        "stop_price": 414.3588,
-        "stop_headroom_pct": 6.45
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "AVGO",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 2.247992753,
-        "avg_price": 485.74,
-        "price": 480.65,
-        "live": true,
-        "ret_pct": -1.05,
-        "unrealized_pnl": -11.44,
-        "cost_basis": 1091.94,
-        "market_value": 1080.5,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 4.5,
-        "peak": 480.65,
-        "stop_price": 446.8808,
-        "stop_headroom_pct": 6.95
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "ORCL",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 4.164188938,
-        "avg_price": 242.4025,
-        "price": 240.8,
-        "live": true,
-        "ret_pct": -0.66,
-        "unrealized_pnl": -6.67,
-        "cost_basis": 1009.41,
-        "market_value": 1002.74,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": -2.96,
-        "peak": 240.8,
-        "stop_price": 223.0103,
-        "stop_headroom_pct": 7.34
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "AMD",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 3.02494664,
-        "avg_price": 510.4586,
-        "price": 509.94,
-        "live": true,
-        "ret_pct": -0.1,
-        "unrealized_pnl": -1.57,
-        "cost_basis": 1544.11,
-        "market_value": 1542.54,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": -0.04,
-        "peak": 509.94,
-        "stop_price": 469.6219,
-        "stop_headroom_pct": 7.9
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "GLD",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 1.72887802,
-        "avg_price": 413.858,
-        "price": 413.44,
-        "live": true,
-        "ret_pct": -0.1,
-        "unrealized_pnl": -0.72,
-        "cost_basis": 715.51,
-        "market_value": 714.79,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 0.53,
-        "peak": 413.44,
-        "stop_price": 380.7494,
-        "stop_headroom_pct": 7.9
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "SBUX",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 4.692642938,
-        "avg_price": 96.4254,
-        "price": 96.52,
-        "live": true,
-        "ret_pct": 0.1,
-        "unrealized_pnl": 0.44,
-        "cost_basis": 452.49,
-        "market_value": 452.93,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 0.01,
-        "peak": 96.52,
-        "stop_price": 88.7114,
-        "stop_headroom_pct": 8.1
+        "ret_pct": 0.66,
+        "unrealized_pnl": 31.42,
+        "cost_basis": 4775.42,
+        "market_value": 4806.84,
+        "weight_pct": 4.8,
+        "intraday_pl": 31.42,
+        "intraday_pct": 0.66,
+        "change_today_pct": 0.34,
+        "peak": 745.24,
+        "stop_price": 681.1392,
+        "stop_headroom_pct": 8.66
       },
       {
         "strategy": "Alpaca",
         "ticker": "SPY",
         "is_crypto": false,
-        "asset_class": null,
+        "asset_class": "us_equity",
         "shares": 6.227232525,
         "avg_price": 757.55,
-        "price": 760.13,
+        "price": 760.28,
         "live": true,
-        "ret_pct": 0.34,
-        "unrealized_pnl": 16.07,
+        "ret_pct": 0.36,
+        "unrealized_pnl": 17.0,
         "cost_basis": 4717.44,
-        "market_value": 4733.51,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 0.21,
-        "peak": 760.13,
+        "market_value": 4734.44,
+        "weight_pct": 4.73,
+        "intraday_pl": 17.0,
+        "intraday_pct": 0.36,
+        "change_today_pct": 0.23,
+        "peak": 760.28,
         "stop_price": 696.946,
-        "stop_headroom_pct": 8.34
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "NVDA",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 5.20800541,
-        "avg_price": 225.3,
-        "price": 226.61,
-        "live": true,
-        "ret_pct": 0.58,
-        "unrealized_pnl": 6.82,
-        "cost_basis": 1173.36,
-        "market_value": 1180.19,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 1.0,
-        "peak": 226.61,
-        "stop_price": 207.276,
-        "stop_headroom_pct": 8.58
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "QQQ",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 6.450056738,
-        "avg_price": 740.3687,
-        "price": 745.12,
-        "live": true,
-        "ret_pct": 0.64,
-        "unrealized_pnl": 30.65,
-        "cost_basis": 4775.42,
-        "market_value": 4806.07,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 0.32,
-        "peak": 745.12,
-        "stop_price": 681.1392,
-        "stop_headroom_pct": 8.64
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "DE",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 0.772778841,
-        "avg_price": 564.12,
-        "price": 569.91,
-        "live": true,
-        "ret_pct": 1.03,
-        "unrealized_pnl": 4.47,
-        "cost_basis": 435.94,
-        "market_value": 440.41,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 5.07,
-        "peak": 569.91,
-        "stop_price": 518.9904,
-        "stop_headroom_pct": 9.03
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "TSLA",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 3.683169488,
-        "avg_price": 414.3133,
-        "price": 421.44,
-        "live": true,
-        "ret_pct": 1.72,
-        "unrealized_pnl": 26.25,
-        "cost_basis": 1525.99,
-        "market_value": 1552.23,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 1.34,
-        "peak": 421.44,
-        "stop_price": 381.1683,
-        "stop_headroom_pct": 9.72
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "CSCO",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 5.735305845,
-        "avg_price": 125.3534,
-        "price": 127.68,
-        "live": true,
-        "ret_pct": 1.86,
-        "unrealized_pnl": 13.34,
-        "cost_basis": 718.94,
-        "market_value": 732.28,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 5.23,
-        "peak": 127.68,
-        "stop_price": 115.3251,
-        "stop_headroom_pct": 9.86
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "AMZN",
-        "is_crypto": false,
-        "asset_class": null,
-        "shares": 5.170604005,
-        "avg_price": 255.43,
-        "price": 260.762,
-        "live": true,
-        "ret_pct": 2.09,
-        "unrealized_pnl": 27.57,
-        "cost_basis": 1320.73,
-        "market_value": 1348.3,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": -0.19,
-        "peak": 260.762,
-        "stop_price": 234.9956,
-        "stop_headroom_pct": 10.09
+        "stop_headroom_pct": 8.36
       },
       {
         "strategy": "Alpaca",
         "ticker": "GOOGL",
         "is_crypto": false,
-        "asset_class": null,
+        "asset_class": "us_equity",
         "shares": 4.283307349,
         "avg_price": 361.17,
-        "price": 369.785,
+        "price": 369.765,
         "live": true,
         "ret_pct": 2.38,
-        "unrealized_pnl": 36.9,
+        "unrealized_pnl": 36.82,
         "cost_basis": 1547.0,
-        "market_value": 1583.9,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
+        "market_value": 1583.82,
+        "weight_pct": 1.58,
+        "intraday_pl": 36.82,
+        "intraday_pct": 2.38,
         "change_today_pct": -1.75,
-        "peak": 369.785,
+        "peak": 369.765,
         "stop_price": 332.2764,
         "stop_headroom_pct": 10.38
       },
       {
         "strategy": "Alpaca",
+        "ticker": "TSLA",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 3.683169488,
+        "avg_price": 414.3133,
+        "price": 421.657,
+        "live": true,
+        "ret_pct": 1.77,
+        "unrealized_pnl": 27.05,
+        "cost_basis": 1525.99,
+        "market_value": 1553.03,
+        "weight_pct": 1.55,
+        "intraday_pl": 27.05,
+        "intraday_pct": 1.77,
+        "change_today_pct": 1.39,
+        "peak": 421.657,
+        "stop_price": 381.1683,
+        "stop_headroom_pct": 9.77
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "AMD",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 3.02494664,
+        "avg_price": 510.4586,
+        "price": 509.935,
+        "live": true,
+        "ret_pct": -0.1,
+        "unrealized_pnl": -1.58,
+        "cost_basis": 1544.11,
+        "market_value": 1542.53,
+        "weight_pct": 1.54,
+        "intraday_pl": -1.58,
+        "intraday_pct": -0.1,
+        "change_today_pct": -0.04,
+        "peak": 509.935,
+        "stop_price": 469.6219,
+        "stop_headroom_pct": 7.9
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "MSFT",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 3.345611581,
+        "avg_price": 450.39,
+        "price": 443.075,
+        "live": true,
+        "ret_pct": -1.62,
+        "unrealized_pnl": -24.47,
+        "cost_basis": 1506.83,
+        "market_value": 1482.36,
+        "weight_pct": 1.48,
+        "intraday_pl": -24.47,
+        "intraday_pct": -1.62,
+        "change_today_pct": -3.79,
+        "peak": 443.075,
+        "stop_price": 414.3588,
+        "stop_headroom_pct": 6.38
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "AMZN",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 5.170604005,
+        "avg_price": 255.43,
+        "price": 260.86,
+        "live": true,
+        "ret_pct": 2.13,
+        "unrealized_pnl": 28.08,
+        "cost_basis": 1320.73,
+        "market_value": 1348.8,
+        "weight_pct": 1.35,
+        "intraday_pl": 28.08,
+        "intraday_pct": 2.13,
+        "change_today_pct": -0.15,
+        "peak": 260.86,
+        "stop_price": 234.9956,
+        "stop_headroom_pct": 10.13
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "NVDA",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 5.20800541,
+        "avg_price": 225.3,
+        "price": 226.715,
+        "live": true,
+        "ret_pct": 0.63,
+        "unrealized_pnl": 7.37,
+        "cost_basis": 1173.36,
+        "market_value": 1180.73,
+        "weight_pct": 1.18,
+        "intraday_pl": 7.37,
+        "intraday_pct": 0.63,
+        "change_today_pct": 1.05,
+        "peak": 226.715,
+        "stop_price": 207.276,
+        "stop_headroom_pct": 8.63
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "AVGO",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 2.247992753,
+        "avg_price": 485.74,
+        "price": 481.35,
+        "live": true,
+        "ret_pct": -0.9,
+        "unrealized_pnl": -9.87,
+        "cost_basis": 1091.94,
+        "market_value": 1082.07,
+        "weight_pct": 1.08,
+        "intraday_pl": -9.87,
+        "intraday_pct": -0.9,
+        "change_today_pct": 4.65,
+        "peak": 481.35,
+        "stop_price": 446.8808,
+        "stop_headroom_pct": 7.1
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "ORCL",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 4.164188938,
+        "avg_price": 242.4025,
+        "price": 240.635,
+        "live": true,
+        "ret_pct": -0.73,
+        "unrealized_pnl": -7.36,
+        "cost_basis": 1009.41,
+        "market_value": 1002.05,
+        "weight_pct": 1.0,
+        "intraday_pl": -7.36,
+        "intraday_pct": -0.73,
+        "change_today_pct": -3.03,
+        "peak": 240.635,
+        "stop_price": 223.0103,
+        "stop_headroom_pct": 7.27
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "CSCO",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 5.735305845,
+        "avg_price": 125.3534,
+        "price": 127.4,
+        "live": true,
+        "ret_pct": 1.63,
+        "unrealized_pnl": 11.74,
+        "cost_basis": 718.94,
+        "market_value": 730.68,
+        "weight_pct": 0.73,
+        "intraday_pl": 11.74,
+        "intraday_pct": 1.63,
+        "change_today_pct": 5.0,
+        "peak": 127.4,
+        "stop_price": 115.3251,
+        "stop_headroom_pct": 9.63
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "GLD",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 1.72887802,
+        "avg_price": 413.858,
+        "price": 413.51,
+        "live": true,
+        "ret_pct": -0.08,
+        "unrealized_pnl": -0.6,
+        "cost_basis": 715.51,
+        "market_value": 714.91,
+        "weight_pct": 0.71,
+        "intraday_pl": -0.6,
+        "intraday_pct": -0.08,
+        "change_today_pct": 0.55,
+        "peak": 413.51,
+        "stop_price": 380.7494,
+        "stop_headroom_pct": 7.92
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "SBUX",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 4.692642938,
+        "avg_price": 96.4254,
+        "price": 96.5799,
+        "live": true,
+        "ret_pct": 0.16,
+        "unrealized_pnl": 0.72,
+        "cost_basis": 452.49,
+        "market_value": 453.21,
+        "weight_pct": 0.45,
+        "intraday_pl": 0.72,
+        "intraday_pct": 0.16,
+        "change_today_pct": 0.07,
+        "peak": 96.5799,
+        "stop_price": 88.7114,
+        "stop_headroom_pct": 8.16
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "DE",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 0.772778841,
+        "avg_price": 564.12,
+        "price": 569.77,
+        "live": true,
+        "ret_pct": 1.0,
+        "unrealized_pnl": 4.37,
+        "cost_basis": 435.94,
+        "market_value": 440.31,
+        "weight_pct": 0.44,
+        "intraday_pl": 4.37,
+        "intraday_pct": 1.0,
+        "change_today_pct": 5.04,
+        "peak": 569.77,
+        "stop_price": 518.9904,
+        "stop_headroom_pct": 9.0
+      },
+      {
+        "strategy": "Alpaca",
         "ticker": "AMAT",
         "is_crypto": false,
-        "asset_class": null,
+        "asset_class": "us_equity",
         "shares": 0.767529179,
         "avg_price": 466.08,
-        "price": 485.4,
+        "price": 485.535,
         "live": true,
-        "ret_pct": 4.15,
-        "unrealized_pnl": 14.83,
+        "ret_pct": 4.17,
+        "unrealized_pnl": 14.93,
         "cost_basis": 357.73,
-        "market_value": 372.56,
-        "weight_pct": null,
-        "intraday_pl": null,
-        "intraday_pct": null,
-        "change_today_pct": 5.94,
-        "peak": 485.4,
+        "market_value": 372.66,
+        "weight_pct": 0.37,
+        "intraday_pl": 14.93,
+        "intraday_pct": 4.17,
+        "change_today_pct": 5.97,
+        "peak": 485.535,
         "stop_price": 428.7936,
-        "stop_headroom_pct": 12.14
+        "stop_headroom_pct": 12.17
       }
     ],
     "recent_actions": []
