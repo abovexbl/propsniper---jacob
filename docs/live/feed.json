@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T20:39:02Z",
+  "generated_at": "2026-06-02T20:41:02Z",
   "portfolio": {
     "profit": 17241.01,
     "wagered": 274445.44,
@@ -8686,8 +8686,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8699,8 +8699,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9975,6 +9975,13 @@
       },
       {
         "t": "16:30",
+        "profit": -26.48,
+        "wagered": 233.08,
+        "open_bets": 5,
+        "open_wagered": 37.67
+      },
+      {
+        "t": "16:40",
         "profit": -26.48,
         "wagered": 233.08,
         "open_bets": 5,
