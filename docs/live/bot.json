@@ -4,34 +4,34 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-06-02T00:29:10Z",
+  "generated_at": "2026-06-02T00:31:10Z",
   "summary": {
     "starting_capital": 10000.0,
-    "final_equity": 12337.08,
-    "total_return_pct": 23.37,
+    "final_equity": 12345.42,
+    "total_return_pct": 23.45,
     "sharpe": 0.25,
     "max_drawdown_pct": -13.19,
     "ci99_daily_pct": [
-      -0.081,
-      0.135
+      -0.083,
+      0.134
     ],
     "ci99_excludes_zero": false,
-    "cycles": 1718,
-    "last_date": "2026-06-01",
+    "cycles": 1719,
+    "last_date": "2026-06-02",
     "strategies_active": 6,
     "strategies_retired": 0,
     "current_regime": "stocks:up/lowvol|crypto:chop/lowvol",
     "halted": false,
-    "open_positions": 37,
+    "open_positions": 43,
     "backtest_cycles": 1717,
     "backtest_return_pct": 15.08,
     "backtest_span": [
       "2021-09-18",
       "2026-05-31"
     ],
-    "forward_cycles": 1,
-    "forward_return_pct": 7.208,
-    "forward_final_equity": 12337.08,
+    "forward_cycles": 2,
+    "forward_return_pct": 7.281,
+    "forward_final_equity": 12345.42,
     "forward_start_date": "2026-06-01",
     "is_mostly_backtest": true
   },
@@ -90,69 +90,69 @@
   },
   "strategies": [
     {
-      "name": "rsi_reversion",
-      "weight": 0.2149,
-      "total_return_pct": -3.37,
-      "sharpe": -0.12,
-      "max_drawdown_pct": -9.63,
-      "win_rate": 0.3875,
-      "n_trades": 162,
-      "final_equity": 9662.92,
-      "status": "active"
-    },
-    {
       "name": "macd_trend",
-      "weight": 0.1742,
-      "total_return_pct": 18.16,
-      "sharpe": 0.24,
+      "weight": 0.1827,
+      "total_return_pct": 18.67,
+      "sharpe": 0.25,
       "max_drawdown_pct": -11.61,
       "win_rate": 0.385,
-      "n_trades": 381,
-      "final_equity": 11815.62,
+      "n_trades": 382,
+      "final_equity": 11866.59,
       "status": "active"
     },
     {
       "name": "ts_momentum",
-      "weight": 0.1705,
-      "total_return_pct": 100.93,
+      "weight": 0.1791,
+      "total_return_pct": 100.37,
       "sharpe": 0.46,
       "max_drawdown_pct": -14.27,
       "win_rate": 0.5635,
-      "n_trades": 511,
-      "final_equity": 20092.62,
+      "n_trades": 512,
+      "final_equity": 20037.19,
       "status": "active"
     },
     {
       "name": "dual_momentum",
-      "weight": 0.1532,
-      "total_return_pct": 16.12,
+      "weight": 0.1645,
+      "total_return_pct": 16.34,
       "sharpe": 0.24,
       "max_drawdown_pct": -15.75,
       "win_rate": 0.3576,
-      "n_trades": 337,
-      "final_equity": 11612.26,
+      "n_trades": 338,
+      "final_equity": 11633.51,
+      "status": "active"
+    },
+    {
+      "name": "rsi_reversion",
+      "weight": 0.164,
+      "total_return_pct": -3.57,
+      "sharpe": -0.13,
+      "max_drawdown_pct": -9.63,
+      "win_rate": 0.3875,
+      "n_trades": 163,
+      "final_equity": 9642.95,
       "status": "active"
     },
     {
       "name": "donchian_breakout",
-      "weight": 0.1469,
-      "total_return_pct": 79.94,
-      "sharpe": 0.48,
+      "weight": 0.1589,
+      "total_return_pct": 80.81,
+      "sharpe": 0.49,
       "max_drawdown_pct": -13.39,
       "win_rate": 0.4894,
-      "n_trades": 665,
-      "final_equity": 17994.05,
+      "n_trades": 666,
+      "final_equity": 18081.22,
       "status": "active"
     },
     {
       "name": "sma_crossover",
-      "weight": 0.1403,
-      "total_return_pct": 32.58,
+      "weight": 0.1508,
+      "total_return_pct": 32.27,
       "sharpe": 0.29,
       "max_drawdown_pct": -16.43,
       "win_rate": 0.4675,
-      "n_trades": 315,
-      "final_equity": 13258.13,
+      "n_trades": 316,
+      "final_equity": 13227.38,
       "status": "active"
     }
   ],
@@ -10464,6 +10464,12 @@
       "equity": 12337.08,
       "regime": "stocks:up/lowvol|crypto:chop/lowvol",
       "phase": "live"
+    },
+    {
+      "date": "2026-06-02",
+      "equity": 12345.42,
+      "regime": "stocks:up/lowvol|crypto:chop/lowvol",
+      "phase": "live"
     }
   ],
   "strategy_curves": {
@@ -17339,6 +17345,10 @@
       {
         "date": "2026-06-01",
         "equity": 13258.13
+      },
+      {
+        "date": "2026-06-02",
+        "equity": 13227.38
       }
     ],
     "rsi_reversion": [
@@ -24213,6 +24223,10 @@
       {
         "date": "2026-06-01",
         "equity": 9662.92
+      },
+      {
+        "date": "2026-06-02",
+        "equity": 9642.95
       }
     ],
     "donchian_breakout": [
@@ -31087,6 +31101,10 @@
       {
         "date": "2026-06-01",
         "equity": 17994.05
+      },
+      {
+        "date": "2026-06-02",
+        "equity": 18081.22
       }
     ],
     "macd_trend": [
@@ -37961,6 +37979,10 @@
       {
         "date": "2026-06-01",
         "equity": 11815.62
+      },
+      {
+        "date": "2026-06-02",
+        "equity": 11866.59
       }
     ],
     "ts_momentum": [
@@ -44835,6 +44857,10 @@
       {
         "date": "2026-06-01",
         "equity": 20092.62
+      },
+      {
+        "date": "2026-06-02",
+        "equity": 20037.19
       }
     ],
     "dual_momentum": [
@@ -51709,6 +51735,10 @@
       {
         "date": "2026-06-01",
         "equity": 11612.26
+      },
+      {
+        "date": "2026-06-02",
+        "equity": 11633.51
       }
     ]
   },
@@ -67174,9 +67204,72 @@
       "macd_trend": 0.1742,
       "ts_momentum": 0.1705,
       "dual_momentum": 0.1532
+    },
+    {
+      "date": "2026-06-02",
+      "sma_crossover": 0.1508,
+      "rsi_reversion": 0.164,
+      "donchian_breakout": 0.1589,
+      "macd_trend": 0.1827,
+      "ts_momentum": 0.1791,
+      "dual_momentum": 0.1645
     }
   ],
   "recent_trades": [
+    {
+      "date": "2026-06-02",
+      "strategy": "sma_crossover",
+      "ticker": "MSFT",
+      "side": "BUY",
+      "shares": 2.725528,
+      "price": 460.7502,
+      "realized_pnl": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": "rsi_reversion",
+      "ticker": "SBUX",
+      "side": "BUY",
+      "shares": 9.290458,
+      "price": 96.5583,
+      "realized_pnl": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": "donchian_breakout",
+      "ticker": "MSFT",
+      "side": "BUY",
+      "shares": 3.725672,
+      "price": 460.7502,
+      "realized_pnl": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": "macd_trend",
+      "ticker": "MSFT",
+      "side": "BUY",
+      "shares": 2.445134,
+      "price": 460.7502,
+      "realized_pnl": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": "ts_momentum",
+      "ticker": "AVGO",
+      "side": "BUY",
+      "shares": 2.900064,
+      "price": 460.2,
+      "realized_pnl": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "strategy": "dual_momentum",
+      "ticker": "ORCL",
+      "side": "BUY",
+      "shares": 2.928686,
+      "price": 248.2741,
+      "realized_pnl": 0.0
+    },
     {
       "date": "2026-06-01 08:35",
       "strategy": "sma_crossover",
@@ -68922,60 +69015,6 @@
       "shares": 1.312312,
       "price": 690.7627,
       "realized_pnl": -62.05
-    },
-    {
-      "date": "2026-02-02",
-      "strategy": "rsi_reversion",
-      "ticker": "AAPL",
-      "side": "SELL",
-      "shares": 4.552907,
-      "price": 269.3745,
-      "realized_pnl": 65.16
-    },
-    {
-      "date": "2026-02-02",
-      "strategy": "dual_momentum",
-      "ticker": "AAPL",
-      "side": "BUY",
-      "shares": 4.440588,
-      "price": 269.644,
-      "realized_pnl": 0.0
-    },
-    {
-      "date": "2026-01-30",
-      "strategy": "sma_crossover",
-      "ticker": "META",
-      "side": "BUY",
-      "shares": 1.356895,
-      "price": 716.245,
-      "realized_pnl": 0.0
-    },
-    {
-      "date": "2026-01-29",
-      "strategy": "dual_momentum",
-      "ticker": "NVDA",
-      "side": "BUY",
-      "shares": 5.684202,
-      "price": 192.5958,
-      "realized_pnl": 0.0
-    },
-    {
-      "date": "2026-01-29",
-      "strategy": "dual_momentum",
-      "ticker": "META",
-      "side": "BUY",
-      "shares": 1.312312,
-      "price": 738.0472,
-      "realized_pnl": 0.0
-    },
-    {
-      "date": "2026-01-28",
-      "strategy": "dual_momentum",
-      "ticker": "AMZN",
-      "side": "BUY",
-      "shares": 5.143818,
-      "price": 243.1315,
-      "realized_pnl": 0.0
     }
   ],
   "positions": [
@@ -69057,6 +69096,13 @@
       "cost_basis": 1837.87
     },
     {
+      "strategy": "donchian_breakout",
+      "ticker": "MSFT",
+      "shares": 3.725672,
+      "avg_price": 460.7502,
+      "cost_basis": 1716.6
+    },
+    {
       "strategy": "ts_momentum",
       "ticker": "AMZN",
       "shares": 6.231357,
@@ -69085,6 +69131,13 @@
       "cost_basis": 1418.53
     },
     {
+      "strategy": "ts_momentum",
+      "ticker": "AVGO",
+      "shares": 2.900064,
+      "avg_price": 460.2,
+      "cost_basis": 1334.61
+    },
+    {
       "strategy": "sma_crossover",
       "ticker": "GOOGL",
       "shares": 3.813807,
@@ -69106,6 +69159,13 @@
       "cost_basis": 1277.52
     },
     {
+      "strategy": "sma_crossover",
+      "ticker": "MSFT",
+      "shares": 2.725528,
+      "avg_price": 460.7502,
+      "cost_basis": 1255.79
+    },
+    {
       "strategy": "donchian_breakout",
       "ticker": "AVGO",
       "shares": 2.778686,
@@ -69125,6 +69185,13 @@
       "shares": 3.444138,
       "avg_price": 341.7108,
       "cost_basis": 1176.9
+    },
+    {
+      "strategy": "macd_trend",
+      "ticker": "MSFT",
+      "shares": 2.445134,
+      "avg_price": 460.7502,
+      "cost_basis": 1126.6
     },
     {
       "strategy": "donchian_breakout",
@@ -69167,6 +69234,13 @@
       "shares": 4.042831,
       "avg_price": 245.1625,
       "cost_basis": 991.15
+    },
+    {
+      "strategy": "rsi_reversion",
+      "ticker": "SBUX",
+      "shares": 9.290458,
+      "avg_price": 96.5583,
+      "cost_basis": 897.07
     },
     {
       "strategy": "rsi_reversion",
@@ -69225,6 +69299,13 @@
       "cost_basis": 738.55
     },
     {
+      "strategy": "dual_momentum",
+      "ticker": "ORCL",
+      "shares": 2.928686,
+      "avg_price": 248.2741,
+      "cost_basis": 727.12
+    },
+    {
       "strategy": "macd_trend",
       "ticker": "AMD",
       "shares": 2.021826,
@@ -69240,12 +69321,12 @@
     }
   ],
   "cash_by_strategy": {
-    "sma_crossover": 2155.38,
-    "rsi_reversion": 7381.26,
-    "donchian_breakout": 4286.97,
-    "macd_trend": 3191.8,
-    "ts_momentum": 4276.66,
-    "dual_momentum": 1940.3
+    "sma_crossover": 899.59,
+    "rsi_reversion": 6484.19,
+    "donchian_breakout": 2570.36,
+    "macd_trend": 2065.2,
+    "ts_momentum": 2942.05,
+    "dual_momentum": 1213.18
   },
   "regime_performance": [
     {
@@ -69285,8 +69366,8 @@
     },
     {
       "regime": "stocks:up/lowvol|crypto:chop/lowvol",
-      "mean_pct": 0.996,
-      "cycles": 81
+      "mean_pct": 0.985,
+      "cycles": 82
     },
     {
       "regime": "stocks:up/lowvol|crypto:up/highvol",
@@ -69620,8 +69701,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-06-02T00:28:02Z",
-    "checked_at_local": "2026-06-02 00:28",
+    "generated_at": null,
+    "checked_at_local": "",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
@@ -69643,8 +69724,8 @@
   },
   "counts": {
     "strategies": 6,
-    "trades": 2371,
-    "positions": 37,
-    "cycles": 1718
+    "trades": 2377,
+    "positions": 43,
+    "cycles": 1719
   }
 }
