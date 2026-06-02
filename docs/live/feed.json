@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T23:41:01Z",
+  "generated_at": "2026-06-02T23:43:02Z",
   "portfolio": {
     "profit": 17236.32,
     "wagered": 274508.65,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 34,
-    "open_wagered": 215.16,
+    "open_bets": 37,
+    "open_wagered": 217.4,
     "data_through": "live",
     "today_profit": -31.17,
     "today_roi": -0.1205,
-    "today_wagered": 538.56,
-    "live_bets": 44,
+    "today_wagered": 543.08,
+    "live_bets": 50,
     "wins": 3132,
     "losses": 3756
   },
@@ -1352,7 +1352,7 @@
       "n_14d": 598,
       "profit_14d": -19.79,
       "roi_14d": -0.0401,
-      "balance": 71.56,
+      "balance": 69.54,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -3011,6 +3011,51 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "23:41:52",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Minnesota Twins",
+      "odds": 109,
+      "ev": 2.44,
+      "stake": 0.9548000000000001,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:41:34",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Minnesota Twins +1.5",
+      "odds": -161,
+      "ev": -3.52,
+      "stake": 0.6168,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:41:33",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Under 9.5",
+      "odds": -208,
+      "ev": -3.34,
+      "stake": 0.6758000000000001,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "23:40:55",
@@ -7465,51 +7510,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -20.9798
-    },
-    {
-      "date": "2026-05-30",
-      "time": "23:53:54",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Under 5.5",
-      "odds": 135,
-      "ev": 7.11,
-      "stake": 11.1,
-      "payout": 26.09,
-      "status": "win",
-      "profit": 14.985
-    },
-    {
-      "date": "2026-05-30",
-      "time": "23:30:00",
-      "account": "Jacob Fliff",
-      "book": "Fliff",
-      "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "selection": "Cincinnati Reds +0.5",
-      "odds": 100,
-      "ev": 6.77,
-      "stake": 20.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -20.0
-    },
-    {
-      "date": "2026-05-30",
-      "time": "23:16:34",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Cincinnati Reds",
-      "odds": 114,
-      "ev": -3.73,
-      "stake": 0.9347,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.9347
     }
   ],
   "book_brier": [],
@@ -8705,8 +8705,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10141,9 +10141,9 @@
       {
         "t": "19:40",
         "profit": -31.17,
-        "wagered": 538.56,
-        "open_bets": 34,
-        "open_wagered": 215.16
+        "wagered": 543.08,
+        "open_bets": 37,
+        "open_wagered": 217.4
       }
     ]
   }
