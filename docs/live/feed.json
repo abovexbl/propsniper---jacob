@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T15:43:02Z",
+  "generated_at": "2026-06-02T15:45:02Z",
   "portfolio": {
     "profit": 17250.63,
     "wagered": 274435.82,
@@ -11,13 +11,13 @@
     "accounts": 12,
     "winners": 6,
     "losers": 6,
-    "open_bets": 4,
-    "open_wagered": 36.99,
+    "open_bets": 5,
+    "open_wagered": 46.61,
     "data_through": "live",
     "today_profit": -16.86,
     "today_roi": -0.0907,
-    "today_wagered": 222.79,
-    "live_bets": 13,
+    "today_wagered": 232.41,
+    "live_bets": 14,
     "wins": 3129,
     "losses": 3752
   },
@@ -2991,6 +2991,21 @@
       "ev": 45.75,
       "stake": 10.0,
       "payout": 29.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "15:44:08",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "Tennis",
+      "market": "Total Games",
+      "selection": "Under 20.5",
+      "odds": -110,
+      "ev": 12.56,
+      "stake": 9.62,
+      "payout": 18.37,
       "status": "pending",
       "profit": 0.0
     },
@@ -7463,21 +7478,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -0.705
-    },
-    {
-      "date": "2026-05-30",
-      "time": "20:10:42",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Tampa Bay Rays",
-      "odds": -168,
-      "ev": -4.22,
-      "stake": 0.6267,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.6267
     }
   ],
   "book_brier": [],
@@ -9773,9 +9773,9 @@
       {
         "t": "11:40",
         "profit": -16.86,
-        "wagered": 222.79,
-        "open_bets": 4,
-        "open_wagered": 36.99
+        "wagered": 232.41,
+        "open_bets": 5,
+        "open_wagered": 46.61
       }
     ]
   }
