@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T23:51:02Z",
+  "generated_at": "2026-06-02T23:53:02Z",
   "portfolio": {
     "profit": 17236.32,
     "wagered": 274508.65,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 46,
-    "open_wagered": 362.8,
+    "open_bets": 48,
+    "open_wagered": 387.14,
     "data_through": "live",
     "today_profit": -31.17,
     "today_roi": -0.1205,
-    "today_wagered": 621.43,
-    "live_bets": 55,
+    "today_wagered": 641.43,
+    "live_bets": 56,
     "wins": 3132,
     "losses": 3756
   },
@@ -1828,7 +1828,7 @@
       "n_14d": 85,
       "profit_14d": -941.24,
       "roi_14d": -0.3002,
-      "balance": 93.2,
+      "balance": 73.2,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -3011,6 +3011,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-02",
+      "time": "23:52:27",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Player Total Bases",
+      "selection": "Brooks Lee Under 1.5",
+      "odds": 115,
+      "ev": 6.4,
+      "stake": 4.34,
+      "payout": 9.33,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-02",
+      "time": "23:51:17",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Under 173.5",
+      "odds": -110,
+      "ev": 5.76,
+      "stake": 20.0,
+      "payout": 38.18,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-02",
       "time": "23:48:10",
@@ -7480,36 +7510,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -40.0
-    },
-    {
-      "date": "2026-05-31",
-      "time": "00:42:05",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "WNBA",
-      "market": "Total Points - 1st Half",
-      "selection": "Over 87.5",
-      "odds": 100,
-      "ev": 4.4,
-      "stake": 29.99,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -29.99
-    },
-    {
-      "date": "2026-05-31",
-      "time": "00:40:48",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "NBA",
-      "market": "Total Points",
-      "selection": "Over 217.5",
-      "odds": 152,
-      "ev": 5.41,
-      "stake": 20.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -20.0
     }
   ],
   "book_brier": [],
@@ -7925,8 +7925,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7938,8 +7938,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8705,8 +8705,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10148,9 +10148,9 @@
       {
         "t": "19:50",
         "profit": -31.17,
-        "wagered": 621.43,
-        "open_bets": 46,
-        "open_wagered": 362.8
+        "wagered": 641.43,
+        "open_bets": 48,
+        "open_wagered": 387.14
       }
     ]
   }
