@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-02T22:23:01Z",
+  "generated_at": "2026-06-02T22:25:01Z",
   "portfolio": {
     "profit": 17214.79,
     "wagered": 274471.66,
@@ -14,12 +14,12 @@
     "open_bets": 4,
     "open_wagered": 36.99,
     "data_through": "live",
-    "today_profit": -52.7,
-    "today_roi": -0.2378,
+    "today_profit": -31.17,
+    "today_roi": -0.1205,
     "today_wagered": 258.63,
-    "live_bets": 13,
-    "wins": 3129,
-    "losses": 3755
+    "live_bets": 9,
+    "wins": 3132,
+    "losses": 3756
   },
   "accounts": [
     {
@@ -36,8 +36,8 @@
       "n_14d": 374,
       "profit_14d": 1110.04,
       "roi_14d": 0.1125,
-      "balance": 3064.98,
-      "health": "error",
+      "balance": 3080.7,
+      "health": "healthy",
       "working": 11,
       "bleeding": 3,
       "markets": [
@@ -8673,8 +8673,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8699,8 +8699,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10052,7 +10052,7 @@
       },
       {
         "t": "18:20",
-        "profit": -52.7,
+        "profit": -31.17,
         "wagered": 258.63,
         "open_bets": 4,
         "open_wagered": 36.99
