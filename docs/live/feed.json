@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T03:29:01Z",
+  "generated_at": "2026-06-03T03:31:01Z",
   "portfolio": {
     "profit": 17037.11,
     "wagered": 275896.26,
@@ -1504,7 +1504,7 @@
       "n_14d": 96,
       "profit_14d": 584.86,
       "roi_14d": 0.1946,
-      "balance": 736.19,
+      "balance": 801.19,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -7927,19 +7927,6 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
       "n": 0,
@@ -7955,6 +7942,19 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8720,8 +8720,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8746,8 +8746,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10322,6 +10322,13 @@
       },
       {
         "t": "23:20",
+        "profit": -217.35,
+        "wagered": 2422.81,
+        "open_bets": 44,
+        "open_wagered": 761.44
+      },
+      {
+        "t": "23:30",
         "profit": -217.35,
         "wagered": 2422.81,
         "open_bets": 44,
