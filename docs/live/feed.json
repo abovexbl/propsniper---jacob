@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T20:33:09Z",
+  "generated_at": "2026-06-03T20:35:01Z",
   "portfolio": {
     "profit": 17156.85,
     "wagered": 277034.29,
@@ -14,12 +14,12 @@
     "open_bets": 15,
     "open_wagered": 197.36,
     "data_through": "live",
-    "today_profit": -63.12,
-    "today_roi": -0.1638,
+    "today_profit": -129.59,
+    "today_roi": -0.2849,
     "today_wagered": 582.7,
-    "live_bets": 24,
-    "wins": 3210,
-    "losses": 3826
+    "live_bets": 17,
+    "wins": 3213,
+    "losses": 3830
   },
   "accounts": [
     {
@@ -1352,7 +1352,7 @@
       "n_14d": 628,
       "profit_14d": -3.06,
       "roi_14d": -0.006,
-      "balance": 91.61,
+      "balance": 93.61,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -7941,7 +7941,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7954,7 +7954,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8720,19 +8720,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8748,6 +8735,19 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10035,7 +10035,7 @@
       },
       {
         "t": "16:30",
-        "profit": -63.12,
+        "profit": -129.59,
         "wagered": 582.7,
         "open_bets": 15,
         "open_wagered": 197.36
