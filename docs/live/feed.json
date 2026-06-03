@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T20:49:09Z",
+  "generated_at": "2026-06-03T20:51:01Z",
   "portfolio": {
     "profit": 17033.15,
     "wagered": 277162.99,
@@ -11,15 +11,15 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 6,
-    "open_wagered": 76.75,
+    "open_bets": 8,
+    "open_wagered": 167.37,
     "data_through": "live",
-    "today_profit": -129.59,
-    "today_roi": -0.2849,
-    "today_wagered": 582.7,
-    "live_bets": 17,
-    "wins": 3213,
-    "losses": 3830
+    "today_profit": -186.82,
+    "today_roi": -0.3634,
+    "today_wagered": 590.79,
+    "live_bets": 15,
+    "wins": 3214,
+    "losses": 3832
   },
   "accounts": [
     {
@@ -3026,6 +3026,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "20:50:58",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "selection": "Under 5.5",
+      "odds": -125,
+      "ev": 7.8,
+      "stake": 31.23,
+      "payout": 56.21,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "time": "20:50:51",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Seattle Mariners +2.5",
+      "odds": -132,
+      "ev": 3.7,
+      "stake": 59.39,
+      "payout": 104.38,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "20:49:00",
@@ -7495,36 +7525,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4029
-    },
-    {
-      "date": "2026-05-31",
-      "time": "20:12:01",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 7.5",
-      "odds": 101,
-      "ev": -3.99,
-      "stake": 0.995,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.995
-    },
-    {
-      "date": "2026-05-31",
-      "time": "20:12:00",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Arizona Diamondbacks +1.5",
-      "odds": -175,
-      "ev": -2.67,
-      "stake": 0.6365,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3635
     }
   ],
   "book_brier": [],
@@ -7927,8 +7927,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7953,8 +7953,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8720,8 +8720,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8746,8 +8746,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10046,6 +10046,13 @@
         "wagered": 582.7,
         "open_bets": 6,
         "open_wagered": 76.75
+      },
+      {
+        "t": "16:50",
+        "profit": -186.82,
+        "wagered": 590.79,
+        "open_bets": 8,
+        "open_wagered": 167.37
       }
     ]
   }
