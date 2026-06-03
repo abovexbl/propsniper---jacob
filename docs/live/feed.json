@@ -1,18 +1,18 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T18:51:02Z",
+  "generated_at": "2026-06-03T18:53:09Z",
   "portfolio": {
-    "profit": 17006.6,
-    "wagered": 276881.01,
-    "n": 5537,
-    "roi": 0.0614,
-    "profit_14d": 1530.13,
+    "profit": 17021.57,
+    "wagered": 276891.34,
+    "n": 5538,
+    "roi": 0.0615,
+    "profit_14d": 1545.1,
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 19,
-    "open_wagered": 240.5,
+    "open_bets": 18,
+    "open_wagered": 230.17,
     "data_through": "live",
     "today_profit": -198.39,
     "today_roi": -0.8185,
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1194,
-      "profit_all": 9037.69,
-      "stake_all": 80184.18,
-      "roi_all": 0.1127,
-      "avg_ev": 10.49,
-      "n_14d": 359,
-      "profit_14d": 880.7,
-      "roi_14d": 0.0931,
+      "n_all": 1195,
+      "profit_all": 9052.66,
+      "stake_all": 80194.51,
+      "roi_all": 0.1129,
+      "avg_ev": 10.48,
+      "n_14d": 360,
+      "profit_14d": 895.67,
+      "roi_14d": 0.0946,
       "balance": 3001.79,
       "health": "healthy",
       "working": 13,
@@ -54,11 +54,11 @@
         {
           "league": "MLB",
           "market": "Total Runs - 1st 5 Innings",
-          "n": 92,
-          "profit": 1391.68,
-          "stake": 4855.38,
-          "roi": 0.2866,
-          "avg_ev": 9.28,
+          "n": 93,
+          "profit": 1406.65,
+          "stake": 4865.71,
+          "roi": 0.2891,
+          "avg_ev": 9.25,
           "verdict": "WORKING"
         },
         {
@@ -2259,10 +2259,10 @@
     {
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "profit": 2330.18,
-      "stake": 16743.38,
-      "n": 264,
-      "roi": 0.1392
+      "profit": 2345.15,
+      "stake": 16753.71,
+      "n": 265,
+      "roi": 0.14
     },
     {
       "league": "Tennis",
@@ -3021,8 +3021,8 @@
     },
     {
       "date": "2026-06-03",
-      "profit": -138.8,
-      "cumulative": 17006.6
+      "profit": -123.83,
+      "cumulative": 17021.57
     }
   ],
   "recent": [
@@ -3187,9 +3187,9 @@
       "odds": 145,
       "ev": 6.08,
       "stake": 10.33,
-      "payout": 25.31,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 25.3,
+      "status": "win",
+      "profit": 14.97
     },
     {
       "date": "2026-06-03",
@@ -7927,6 +7927,19 @@
     },
     {
       "book": "Caesars",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -7942,19 +7955,6 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8176,11 +8176,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "n": 108,
-      "stake": 5695.38,
-      "profit": 1260.89,
-      "roi": 0.2214,
-      "avg_ev": 9.47,
+      "n": 109,
+      "stake": 5705.71,
+      "profit": 1275.86,
+      "roi": 0.2236,
+      "avg_ev": 9.44,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8720,8 +8720,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8746,8 +8746,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9967,8 +9967,8 @@
         "t": "14:50",
         "profit": -198.39,
         "wagered": 472.56,
-        "open_bets": 19,
-        "open_wagered": 240.5
+        "open_bets": 18,
+        "open_wagered": 230.17
       }
     ]
   }
