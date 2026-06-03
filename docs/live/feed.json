@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T01:37:02Z",
+  "generated_at": "2026-06-03T01:39:02Z",
   "portfolio": {
     "profit": 17079.27,
     "wagered": 274741.87,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 72,
-    "open_wagered": 978.18,
+    "open_bets": 74,
+    "open_wagered": 979.68,
     "data_through": "live",
     "today_profit": -120.03,
     "today_roi": -0.1876,
@@ -1352,7 +1352,7 @@
       "n_14d": 564,
       "profit_14d": -8.16,
       "roi_14d": -0.0176,
-      "balance": 69.81,
+      "balance": 68.31,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -3016,6 +3016,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "01:38:47",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Under 9.5",
+      "odds": -161,
+      "ev": -1.1,
+      "stake": 0.6168,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "time": "01:38:44",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Los Angeles Angels -1.5",
+      "odds": 129,
+      "ev": -5.1,
+      "stake": 0.8742,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "01:33:01",
@@ -7485,36 +7515,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.3145
-    },
-    {
-      "date": "2026-05-31",
-      "time": "16:17:29",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 6.5",
-      "odds": -208,
-      "ev": -3.34,
-      "stake": 0.6758,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3242
-    },
-    {
-      "date": "2026-05-31",
-      "time": "16:17:23",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Baltimore Orioles",
-      "odds": -137,
-      "ev": -4.14,
-      "stake": 0.5773,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.4227
     }
   ],
   "book_brier": [],
@@ -7917,6 +7917,19 @@
     },
     {
       "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -7932,19 +7945,6 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8723,8 +8723,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8736,8 +8736,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10224,8 +10224,8 @@
         "t": "21:30",
         "profit": -120.03,
         "wagered": 1476.01,
-        "open_bets": 72,
-        "open_wagered": 978.18
+        "open_bets": 74,
+        "open_wagered": 979.68
       }
     ]
   }
