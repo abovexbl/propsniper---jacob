@@ -1,23 +1,23 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T01:11:02Z",
+  "generated_at": "2026-06-03T01:13:09Z",
   "portfolio": {
-    "profit": 17205.61,
-    "wagered": 274614.53,
-    "n": 5407,
-    "roi": 0.0627,
-    "profit_14d": 1246.8,
+    "profit": 17185.61,
+    "wagered": 274634.53,
+    "n": 5408,
+    "roi": 0.0626,
+    "profit_14d": 1709.12,
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 75,
-    "open_wagered": 904.28,
+    "open_bets": 76,
+    "open_wagered": 951.26,
     "data_through": "live",
     "today_profit": -81.88,
     "today_roi": -0.2129,
-    "today_wagered": 1326.77,
-    "live_bets": 85,
+    "today_wagered": 1341.75,
+    "live_bets": 86,
     "wins": 3134,
     "losses": 3760
   },
@@ -33,10 +33,10 @@
       "stake_all": 79257.27,
       "roi_all": 0.1147,
       "avg_ev": 10.59,
-      "n_14d": 378,
-      "profit_14d": 1151.06,
-      "roi_14d": 0.116,
-      "balance": 2762.8,
+      "n_14d": 331,
+      "profit_14d": 934.99,
+      "roi_14d": 0.1096,
+      "balance": 2895.23,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -405,9 +405,9 @@
       "stake_all": 99363.55,
       "roi_all": 0.05,
       "avg_ev": 9.65,
-      "n_14d": 221,
-      "profit_14d": 252.9,
-      "roi_14d": 0.0184,
+      "n_14d": 178,
+      "profit_14d": 592.98,
+      "roi_14d": 0.0499,
       "balance": null,
       "health": null,
       "working": 5,
@@ -737,9 +737,9 @@
       "stake_all": 21500.68,
       "roi_all": 0.0803,
       "avg_ev": 8.23,
-      "n_14d": 226,
-      "profit_14d": 1726.41,
-      "roi_14d": 0.0803,
+      "n_14d": 225,
+      "profit_14d": 1643.08,
+      "roi_14d": 0.077,
       "balance": null,
       "health": null,
       "working": 2,
@@ -1349,9 +1349,9 @@
       "stake_all": 778.9,
       "roi_all": -0.0112,
       "avg_ev": 5.22,
-      "n_14d": 598,
-      "profit_14d": -19.79,
-      "roi_14d": -0.0401,
+      "n_14d": 562,
+      "profit_14d": -7.65,
+      "roi_14d": -0.0165,
       "balance": 59.81,
       "health": "healthy",
       "working": 3,
@@ -1820,14 +1820,14 @@
       "person": "Jacob",
       "venue": "Fliff",
       "sportsbook": "Fliff",
-      "n_all": 147,
-      "profit_all": -956.79,
-      "stake_all": 6095.0,
-      "roi_all": -0.157,
-      "avg_ev": 10.62,
-      "n_14d": 85,
-      "profit_14d": -941.24,
-      "roi_14d": -0.3002,
+      "n_all": 148,
+      "profit_all": -976.79,
+      "stake_all": 6115.0,
+      "roi_all": -0.1597,
+      "avg_ev": 10.58,
+      "n_14d": 76,
+      "profit_14d": -573.74,
+      "roi_14d": -0.2161,
       "balance": 13.2,
       "health": "healthy",
       "working": 0,
@@ -1954,16 +1954,6 @@
           "verdict": "NOISE_N<20"
         },
         {
-          "league": "MLB",
-          "market": "Player Total Bases",
-          "n": 2,
-          "profit": -55.0,
-          "stake": 55.0,
-          "roi": -1.0,
-          "avg_ev": 8.58,
-          "verdict": "NOISE_N<20"
-        },
-        {
           "league": "NBA",
           "market": "Player Assists",
           "n": 6,
@@ -1971,6 +1961,16 @@
           "stake": 280.0,
           "roi": -0.2232,
           "avg_ev": 7.74,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "MLB",
+          "market": "Player Total Bases",
+          "n": 3,
+          "profit": -75.0,
+          "stake": 75.0,
+          "roi": -1.0,
+          "avg_ev": 7.64,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2037,9 +2037,9 @@
       "stake_all": 23818.0,
       "roi_all": -0.0597,
       "avg_ev": 9.67,
-      "n_14d": 293,
-      "profit_14d": -1422.16,
-      "roi_14d": -0.0597,
+      "n_14d": 290,
+      "profit_14d": -1380.16,
+      "roi_14d": -0.0587,
       "balance": null,
       "health": null,
       "working": 1,
@@ -2513,10 +2513,10 @@
     {
       "league": "MLB",
       "market": "Player Total Bases",
-      "profit": -54.41,
-      "stake": 73.33,
-      "n": 5,
-      "roi": -0.742
+      "profit": -74.41,
+      "stake": 93.33,
+      "n": 6,
+      "roi": -0.7973
     },
     {
       "league": "MLB",
@@ -3008,9 +3008,29 @@
       "date": "2026-06-02",
       "profit": -186.61,
       "cumulative": 17205.6
+    },
+    {
+      "date": "2026-06-03",
+      "profit": -20.0,
+      "cumulative": 17185.6
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "01:11:49",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Under 174.5",
+      "odds": 100,
+      "ev": 15.05,
+      "stake": 14.98,
+      "payout": 29.96,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "01:09:17",
@@ -3023,6 +3043,21 @@
       "ev": 8.04,
       "stake": 23.1354,
       "payout": 73.57,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "time": "01:08:35",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Under 169.5",
+      "odds": 122,
+      "ev": 12.51,
+      "stake": 52.0,
+      "payout": 115.44,
       "status": "pending",
       "profit": 0.0
     },
@@ -3202,9 +3237,9 @@
       "odds": 120,
       "ev": 5.75,
       "stake": 20.0,
-      "payout": 44.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -20.0
     },
     {
       "date": "2026-06-03",
@@ -7480,36 +7515,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -41.94
-    },
-    {
-      "date": "2026-05-31",
-      "time": "11:29:00",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Busta",
-      "odds": 240,
-      "ev": -20.34,
-      "stake": 0.8514,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.8514
-    },
-    {
-      "date": "2026-05-31",
-      "time": "11:28:50",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "Tennis",
-      "market": "Moneyline",
-      "selection": "Svitolina",
-      "odds": -186,
-      "ev": 3.28,
-      "stake": 90.0,
-      "payout": 138.64,
-      "status": "win",
-      "profit": 48.64
     }
   ],
   "book_brier": [],
@@ -7517,7 +7522,7 @@
     "accounts": 13,
     "markets": 54,
     "recent": 300,
-    "data_through": "2026-06-02"
+    "data_through": "2026-06-03"
   },
   "book_markets": [
     {
@@ -8705,8 +8710,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8731,8 +8736,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9043,19 +9048,6 @@
     },
     {
       "book": "Fliff",
-      "league": "MLB",
-      "market": "Player Total Bases",
-      "n": 2,
-      "stake": 55.0,
-      "profit": -55.0,
-      "roi": -1.0,
-      "avg_ev": 8.58,
-      "in_config": false,
-      "bet": true,
-      "book_has_config": true
-    },
-    {
-      "book": "Fliff",
       "league": "NBA",
       "market": "Player Assists",
       "n": 6,
@@ -9063,6 +9055,19 @@
       "profit": -62.5,
       "roi": -0.2232,
       "avg_ev": 7.74,
+      "in_config": false,
+      "bet": true,
+      "book_has_config": true
+    },
+    {
+      "book": "Fliff",
+      "league": "MLB",
+      "market": "Player Total Bases",
+      "n": 3,
+      "stake": 75.0,
+      "profit": -75.0,
+      "roi": -1.0,
+      "avg_ev": 7.64,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -10204,9 +10209,9 @@
       {
         "t": "21:10",
         "profit": -81.88,
-        "wagered": 1326.77,
-        "open_bets": 75,
-        "open_wagered": 904.28
+        "wagered": 1341.75,
+        "open_bets": 76,
+        "open_wagered": 951.26
       }
     ]
   }
