@@ -45,10 +45,10 @@
     },
     {
       "t": "01:00",
-      "profit": 0.0,
+      "profit": -8.75,
       "wagered": 8.75,
-      "open_bets": 14,
-      "open_wagered": 382.7
+      "open_bets": 9,
+      "open_wagered": 347.09
     }
   ]
 }
