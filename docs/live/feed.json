@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T00:33:02Z",
+  "generated_at": "2026-06-03T00:35:02Z",
   "portfolio": {
     "profit": 17251.31,
     "wagered": 274521.14,
@@ -14,12 +14,12 @@
     "open_bets": 69,
     "open_wagered": 769.69,
     "data_through": "live",
-    "today_profit": -16.18,
-    "today_roi": -0.0597,
+    "today_profit": 1.12,
+    "today_roi": 0.0037,
     "today_wagered": 1040.8,
-    "live_bets": 78,
-    "wins": 3133,
-    "losses": 3756
+    "live_bets": 76,
+    "wins": 3134,
+    "losses": 3757
   },
   "accounts": [
     {
@@ -36,7 +36,7 @@
       "n_14d": 376,
       "profit_14d": 1133.76,
       "roi_14d": 0.1147,
-      "balance": 2782.91,
+      "balance": 2830.6,
       "health": "healthy",
       "working": 11,
       "bleeding": 3,
@@ -7912,8 +7912,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7925,8 +7925,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8731,8 +8731,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10175,7 +10175,7 @@
       },
       {
         "t": "20:30",
-        "profit": -16.18,
+        "profit": 1.12,
         "wagered": 1040.8,
         "open_bets": 69,
         "open_wagered": 769.69
