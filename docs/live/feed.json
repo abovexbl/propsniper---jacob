@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T01:59:02Z",
+  "generated_at": "2026-06-03T02:01:01Z",
   "portfolio": {
     "profit": 17127.77,
     "wagered": 275343.5,
@@ -7917,8 +7917,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7943,8 +7943,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8723,8 +8723,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8736,8 +8736,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10236,6 +10236,13 @@
       },
       {
         "t": "21:50",
+        "profit": -126.69,
+        "wagered": 1721.61,
+        "open_bets": 53,
+        "open_wagered": 566.15
+      },
+      {
+        "t": "22:00",
         "profit": -126.69,
         "wagered": 1721.61,
         "open_bets": 53,
