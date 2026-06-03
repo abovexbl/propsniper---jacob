@@ -1,23 +1,23 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T00:45:02Z",
+  "generated_at": "2026-06-03T00:47:09Z",
   "portfolio": {
-    "profit": 17251.31,
-    "wagered": 274521.14,
-    "n": 5403,
-    "roi": 0.0628,
-    "profit_14d": 1292.5,
+    "profit": 17205.61,
+    "wagered": 274614.53,
+    "n": 5407,
+    "roi": 0.0627,
+    "profit_14d": 1246.8,
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 71,
-    "open_wagered": 792.47,
+    "open_bets": 70,
+    "open_wagered": 795.08,
     "data_through": "live",
     "today_profit": -61.88,
     "today_roi": -0.1698,
-    "today_wagered": 1127.53,
-    "live_bets": 77,
+    "today_wagered": 1159.58,
+    "live_bets": 79,
     "wins": 3134,
     "losses": 3759
   },
@@ -28,14 +28,14 @@
       "person": "Jacob",
       "venue": "DraftKings",
       "sportsbook": "DraftKings",
-      "n_all": 1164,
-      "profit_all": 9074.68,
-      "stake_all": 79226.88,
-      "roi_all": 0.1145,
+      "n_all": 1166,
+      "profit_all": 9091.98,
+      "stake_all": 79257.27,
+      "roi_all": 0.1147,
       "avg_ev": 10.59,
-      "n_14d": 376,
-      "profit_14d": 1133.76,
-      "roi_14d": 0.1147,
+      "n_14d": 378,
+      "profit_14d": 1151.06,
+      "roi_14d": 0.116,
       "balance": 2830.6,
       "health": "healthy",
       "working": 11,
@@ -54,11 +54,11 @@
         {
           "league": "MLB",
           "market": "Total Runs - 1st 5 Innings",
-          "n": 88,
-          "profit": 1381.87,
-          "stake": 4780.32,
-          "roi": 0.2891,
-          "avg_ev": 9.39,
+          "n": 89,
+          "profit": 1406.85,
+          "stake": 4803.03,
+          "roi": 0.2929,
+          "avg_ev": 9.34,
           "verdict": "WORKING"
         },
         {
@@ -294,11 +294,11 @@
         {
           "league": "MLB",
           "market": "Total Runs - 1st Inning",
-          "n": 4,
-          "profit": -8.33,
-          "stake": 54.93,
-          "roi": -0.1516,
-          "avg_ev": 6.7,
+          "n": 5,
+          "profit": -16.01,
+          "stake": 62.61,
+          "roi": -0.2557,
+          "avg_ev": 8.28,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2032,14 +2032,14 @@
       "person": "Mom",
       "venue": "FanDuel",
       "sportsbook": "FanDuel",
-      "n_all": 291,
-      "profit_all": -1359.16,
-      "stake_all": 23755.0,
-      "roi_all": -0.0572,
-      "avg_ev": 9.69,
-      "n_14d": 291,
-      "profit_14d": -1359.16,
-      "roi_14d": -0.0572,
+      "n_all": 293,
+      "profit_all": -1422.16,
+      "stake_all": 23818.0,
+      "roi_all": -0.0597,
+      "avg_ev": 9.67,
+      "n_14d": 293,
+      "profit_14d": -1422.16,
+      "roi_14d": -0.0597,
       "balance": null,
       "health": null,
       "working": 1,
@@ -2076,16 +2076,6 @@
           "verdict": "WORKING"
         },
         {
-          "league": "MLB",
-          "market": "Run Line - 1st 5 Innings",
-          "n": 5,
-          "profit": 140.9,
-          "stake": 197.0,
-          "roi": 0.7152,
-          "avg_ev": 10.02,
-          "verdict": "NOISE_N<20"
-        },
-        {
           "league": "NBA",
           "market": "Player Assists",
           "n": 6,
@@ -2093,6 +2083,16 @@
           "stake": 285.9,
           "roi": 0.2769,
           "avg_ev": 13.1,
+          "verdict": "NOISE_N<20"
+        },
+        {
+          "league": "MLB",
+          "market": "Run Line - 1st 5 Innings",
+          "n": 7,
+          "profit": 77.9,
+          "stake": 260.0,
+          "roi": 0.2996,
+          "avg_ev": 9.29,
           "verdict": "NOISE_N<20"
         },
         {
@@ -2249,10 +2249,10 @@
     {
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "profit": 2320.37,
-      "stake": 16668.32,
-      "n": 260,
-      "roi": 0.1392
+      "profit": 2345.35,
+      "stake": 16691.03,
+      "n": 261,
+      "roi": 0.1405
     },
     {
       "league": "Tennis",
@@ -2439,14 +2439,6 @@
       "roi": 0.0604
     },
     {
-      "league": "MLB",
-      "market": "Total Runs - 1st Inning",
-      "profit": 10.71,
-      "stake": 74.93,
-      "n": 5,
-      "roi": 0.1429
-    },
-    {
       "league": "EuroLeague",
       "market": "Total Points",
       "profit": 9.52,
@@ -2461,6 +2453,14 @@
       "stake": 100.0,
       "n": 10,
       "roi": 0.095
+    },
+    {
+      "league": "MLB",
+      "market": "Total Runs - 1st Inning",
+      "profit": 3.03,
+      "stake": 82.61,
+      "n": 6,
+      "roi": 0.0367
     },
     {
       "league": "NBA",
@@ -2617,10 +2617,10 @@
     {
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "profit": -533.62,
-      "stake": 8101.78,
-      "n": 150,
-      "roi": -0.0659
+      "profit": -596.62,
+      "stake": 8164.78,
+      "n": 152,
+      "roi": -0.0731
     },
     {
       "league": "NBA",
@@ -3006,11 +3006,26 @@
     },
     {
       "date": "2026-06-02",
-      "profit": -140.91,
-      "cumulative": 17251.3
+      "profit": -186.61,
+      "cumulative": 17205.6
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "00:45:47",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "Houston Astros -0.5",
+      "odds": -108,
+      "ev": 5.61,
+      "stake": 31.0,
+      "payout": 59.7,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "00:44:26",
@@ -3028,6 +3043,21 @@
     },
     {
       "date": "2026-06-03",
+      "time": "00:41:36",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "San Diego Padres",
+      "odds": 265,
+      "ev": 17.23,
+      "stake": 33.0,
+      "payout": 120.45,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
       "time": "00:41:25",
       "account": "Jacob DraftKings",
       "book": "DraftKings",
@@ -3038,6 +3068,21 @@
       "ev": 8.12,
       "stake": 21.73,
       "payout": 46.72,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "time": "00:36:54",
+      "account": "Mom FanDuel",
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Run Line - 1st 5 Innings",
+      "selection": "St. Louis Cardinals -1.5",
+      "odds": 140,
+      "ev": 8.85,
+      "stake": 32.0,
+      "payout": 76.8,
       "status": "pending",
       "profit": 0.0
     },
@@ -3367,9 +3412,9 @@
       "odds": 130,
       "ev": 14.58,
       "stake": 7.68,
-      "payout": 17.66,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -7.68
     },
     {
       "date": "2026-06-02",
@@ -3637,9 +3682,9 @@
       "odds": 136,
       "ev": 6.61,
       "stake": 25.0,
-      "payout": 59.0,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -25.0
     },
     {
       "date": "2026-06-02",
@@ -3773,8 +3818,8 @@
       "ev": 5.22,
       "stake": 22.71,
       "payout": 47.69,
-      "status": "pending",
-      "profit": 0.0
+      "status": "win",
+      "profit": 24.98
     },
     {
       "date": "2026-06-02",
@@ -3892,9 +3937,9 @@
       "odds": 110,
       "ev": 8.36,
       "stake": 38.0,
-      "payout": 79.8,
-      "status": "pending",
-      "profit": 0.0
+      "payout": 0.0,
+      "status": "loss",
+      "profit": -38.0
     },
     {
       "date": "2026-06-02",
@@ -7465,51 +7510,6 @@
       "payout": 15.87,
       "status": "win",
       "profit": 4.99
-    },
-    {
-      "date": "2026-05-31",
-      "time": "02:42:08",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Under 4.5",
-      "odds": 105,
-      "ev": 8.21,
-      "stake": 23.8,
-      "payout": 48.79,
-      "status": "win",
-      "profit": 24.99
-    },
-    {
-      "date": "2026-05-31",
-      "time": "02:31:11",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Player Hits",
-      "selection": "Austin Wells Under 0.5",
-      "odds": 100,
-      "ev": 3.12,
-      "stake": 4.99,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -4.99
-    },
-    {
-      "date": "2026-05-31",
-      "time": "02:21:28",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Over 5.5",
-      "odds": 128,
-      "ev": 11.69,
-      "stake": 46.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -46.0
     }
   ],
   "book_brier": [],
@@ -7912,19 +7912,6 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -7940,6 +7927,19 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8161,11 +8161,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Total Runs - 1st 5 Innings",
-      "n": 104,
-      "stake": 5620.32,
-      "profit": 1251.08,
-      "roi": 0.2226,
-      "avg_ev": 9.57,
+      "n": 105,
+      "stake": 5643.03,
+      "profit": 1276.06,
+      "roi": 0.2261,
+      "avg_ev": 9.53,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -8447,11 +8447,11 @@
       "book": "DraftKings",
       "league": "MLB",
       "market": "Total Runs - 1st Inning",
-      "n": 4,
-      "stake": 54.93,
-      "profit": -8.33,
-      "roi": -0.1516,
-      "avg_ev": 6.7,
+      "n": 5,
+      "stake": 62.61,
+      "profit": -16.01,
+      "roi": -0.2557,
+      "avg_ev": 8.28,
       "in_config": false,
       "bet": true,
       "book_has_config": true
@@ -8629,11 +8629,11 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Run Line - 1st 5 Innings",
-      "n": 7,
-      "stake": 337.0,
-      "profit": 322.5,
-      "roi": 0.957,
-      "avg_ev": 12.3,
+      "n": 9,
+      "stake": 400.0,
+      "profit": 259.5,
+      "roi": 0.6488,
+      "avg_ev": 11.22,
       "in_config": true,
       "bet": true,
       "book_has_config": true
@@ -10183,9 +10183,9 @@
       {
         "t": "20:40",
         "profit": -61.88,
-        "wagered": 1127.53,
-        "open_bets": 71,
-        "open_wagered": 792.47
+        "wagered": 1159.58,
+        "open_bets": 70,
+        "open_wagered": 795.08
       }
     ]
   }
