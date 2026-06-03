@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T00:15:09Z",
+  "generated_at": "2026-06-03T00:17:02Z",
   "portfolio": {
     "profit": 17251.31,
     "wagered": 274521.14,
@@ -11,14 +11,14 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 59,
-    "open_wagered": 535.06,
+    "open_bets": 61,
+    "open_wagered": 645.05,
     "data_through": "live",
-    "today_profit": -31.17,
-    "today_roi": -0.1205,
-    "today_wagered": 806.17,
+    "today_profit": -16.18,
+    "today_roi": -0.0597,
+    "today_wagered": 896.16,
     "live_bets": 69,
-    "wins": 3132,
+    "wins": 3133,
     "losses": 3756
   },
   "accounts": [
@@ -1828,7 +1828,7 @@
       "n_14d": 85,
       "profit_14d": -941.24,
       "roi_14d": -0.3002,
-      "balance": 73.2,
+      "balance": 53.2,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -3011,6 +3011,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "00:16:24",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Atlanta Dream -11.5",
+      "odds": 100,
+      "ev": 3.8,
+      "stake": 20.0,
+      "payout": 40.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "time": "00:15:18",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Detroit Tigers -3.5",
+      "odds": -225,
+      "ev": 3.64,
+      "stake": 89.99,
+      "payout": 129.99,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "00:11:14",
@@ -7480,36 +7510,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.3242
-    },
-    {
-      "date": "2026-05-31",
-      "time": "01:52:22",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "NBA",
-      "market": "Player Threes Made",
-      "selection": "Jared Mccain Under 2.5",
-      "odds": 110,
-      "ev": 16.52,
-      "stake": 2.85,
-      "payout": 5.98,
-      "status": "win",
-      "profit": 3.13
-    },
-    {
-      "date": "2026-05-31",
-      "time": "01:31:43",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 6.5",
-      "odds": 218,
-      "ev": 4.18,
-      "stake": 20.7703,
-      "payout": 66.0,
-      "status": "win",
-      "profit": 45.2297
     }
   ],
   "book_brier": [],
@@ -7912,19 +7912,6 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -7940,6 +7927,19 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8705,8 +8705,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8731,8 +8731,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10161,10 +10161,10 @@
       },
       {
         "t": "20:10",
-        "profit": -31.17,
-        "wagered": 806.17,
-        "open_bets": 59,
-        "open_wagered": 535.06
+        "profit": -16.18,
+        "wagered": 896.16,
+        "open_bets": 61,
+        "open_wagered": 645.05
       }
     ]
   }
