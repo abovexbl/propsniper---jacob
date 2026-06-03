@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T20:03:02Z",
+  "generated_at": "2026-06-03T20:05:02Z",
   "portfolio": {
     "profit": 17156.85,
     "wagered": 277034.29,
@@ -16,8 +16,8 @@
     "data_through": "live",
     "today_profit": -63.12,
     "today_roi": -0.1638,
-    "today_wagered": 541.22,
-    "live_bets": 23,
+    "today_wagered": 582.7,
+    "live_bets": 24,
     "wins": 3210,
     "losses": 3826
   },
@@ -7927,8 +7927,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7953,8 +7953,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8720,19 +8720,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8748,6 +8735,19 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10015,7 +10015,7 @@
       {
         "t": "16:00",
         "profit": -63.12,
-        "wagered": 541.22,
+        "wagered": 582.7,
         "open_bets": 15,
         "open_wagered": 197.36
       }
