@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-06-03T05:09:11Z",
+  "generated_at": "2026-06-03T05:11:11Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 12379.51,
@@ -39,9 +39,9 @@
     "source": "alpaca",
     "start_date": "2026-05-30",
     "start_equity": 100000.0,
-    "current_equity": 100062.92,
-    "return_pct": 0.063,
-    "pnl": 62.92,
+    "current_equity": 100067.63,
+    "return_pct": 0.068,
+    "pnl": 67.63,
     "cycles": 2,
     "days": 2,
     "curve": [
@@ -2436,7 +2436,7 @@
         "qqq_pct": 0.595
       }
     },
-    "invested_return_pct": 0.275,
+    "invested_return_pct": 0.296,
     "deployed_capital": 22866.83,
     "trades": [
       {
@@ -2663,26 +2663,26 @@
     "n_trades": 22,
     "n_fills": 44,
     "realized_pnl": 2.08,
-    "unrealized_pnl": 60.84,
-    "total_pnl": 62.92,
+    "unrealized_pnl": 65.55,
+    "total_pnl": 67.63,
     "open_positions": 15,
     "n_closed": 0,
     "win_rate": null,
     "cash": 77135.25,
-    "buying_power": 177198.17,
-    "invested": 22927.67,
+    "buying_power": 177202.88,
+    "invested": 22932.38,
     "pct_invested": 22.9,
     "best": {
       "symbol": "QQQ",
-      "unrealized_pl": 36.0,
-      "ret_pct": 0.76
+      "unrealized_pl": 37.79,
+      "ret_pct": 0.8
     },
     "worst": {
       "symbol": "MSFT",
-      "unrealized_pl": -47.61,
-      "ret_pct": -3.16
+      "unrealized_pl": -46.81,
+      "ret_pct": -3.11
     },
-    "today_pl": 63.53
+    "today_pl": 68.24
   },
   "strategies": [
     {
@@ -72336,8 +72336,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-06-03T05:08:03Z",
-    "checked_at_local": "2026-06-03 05:08",
+    "generated_at": "2026-06-03T05:10:03Z",
+    "checked_at_local": "2026-06-03 05:10",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
@@ -72351,7 +72351,7 @@
       "open_positions": 15,
       "live_quoted": 15,
       "market_closed": 0,
-      "total_unrealized_pnl": 60.84,
+      "total_unrealized_pnl": 65.55,
       "fetch_error": null
     },
     "positions": [
@@ -72362,19 +72362,19 @@
         "asset_class": "us_equity",
         "shares": 6.414926708,
         "avg_price": 740.3687,
-        "price": 745.98,
+        "price": 746.26,
         "live": true,
-        "ret_pct": 0.76,
-        "unrealized_pnl": 36.0,
+        "ret_pct": 0.8,
+        "unrealized_pnl": 37.79,
         "cost_basis": 4749.41,
-        "market_value": 4785.41,
+        "market_value": 4787.2,
         "weight_pct": 4.78,
-        "intraday_pl": -1.15,
-        "intraday_pct": -0.02,
-        "change_today_pct": -0.02,
-        "peak": 745.98,
+        "intraday_pl": 0.64,
+        "intraday_pct": 0.01,
+        "change_today_pct": 0.01,
+        "peak": 746.26,
         "stop_price": 681.1392,
-        "stop_headroom_pct": 8.76
+        "stop_headroom_pct": 8.8
       },
       {
         "strategy": "Alpaca",
@@ -72425,19 +72425,19 @@
         "asset_class": "us_equity",
         "shares": 4.283307349,
         "avg_price": 361.17,
-        "price": 363.66,
+        "price": 363.71,
         "live": true,
-        "ret_pct": 0.69,
-        "unrealized_pnl": 10.67,
+        "ret_pct": 0.7,
+        "unrealized_pnl": 10.88,
         "cost_basis": 1547.0,
-        "market_value": 1557.67,
+        "market_value": 1557.88,
         "weight_pct": 1.56,
-        "intraday_pl": 7.75,
-        "intraday_pct": 0.5,
-        "change_today_pct": 0.5,
-        "peak": 363.66,
+        "intraday_pl": 7.97,
+        "intraday_pct": 0.51,
+        "change_today_pct": 0.51,
+        "peak": 363.71,
         "stop_price": 332.2764,
-        "stop_headroom_pct": 8.69
+        "stop_headroom_pct": 8.7
       },
       {
         "strategy": "Alpaca",
@@ -72467,19 +72467,19 @@
         "asset_class": "us_equity",
         "shares": 3.345611581,
         "avg_price": 450.39,
-        "price": 436.16,
+        "price": 436.4,
         "live": true,
-        "ret_pct": -3.16,
-        "unrealized_pnl": -47.61,
+        "ret_pct": -3.11,
+        "unrealized_pnl": -46.81,
         "cost_basis": 1506.83,
-        "market_value": 1459.22,
+        "market_value": 1460.02,
         "weight_pct": 1.46,
-        "intraday_pl": -17.23,
-        "intraday_pct": -1.17,
-        "change_today_pct": -1.17,
-        "peak": 436.16,
+        "intraday_pl": -16.43,
+        "intraday_pct": -1.11,
+        "change_today_pct": -1.11,
+        "peak": 436.4,
         "stop_price": 414.3588,
-        "stop_headroom_pct": 4.84
+        "stop_headroom_pct": 4.89
       },
       {
         "strategy": "Alpaca",
@@ -72509,19 +72509,19 @@
         "asset_class": "us_equity",
         "shares": 5.20800541,
         "avg_price": 225.3,
-        "price": 222.0,
+        "price": 222.2,
         "live": true,
-        "ret_pct": -1.47,
-        "unrealized_pnl": -17.19,
+        "ret_pct": -1.38,
+        "unrealized_pnl": -16.14,
         "cost_basis": 1173.36,
-        "market_value": 1156.18,
+        "market_value": 1157.22,
         "weight_pct": 1.16,
-        "intraday_pl": -4.27,
-        "intraday_pct": -0.37,
-        "change_today_pct": -0.37,
-        "peak": 222.0,
+        "intraday_pl": -3.23,
+        "intraday_pct": -0.28,
+        "change_today_pct": -0.28,
+        "peak": 222.2,
         "stop_price": 207.276,
-        "stop_headroom_pct": 6.54
+        "stop_headroom_pct": 6.62
       },
       {
         "strategy": "Alpaca",
@@ -72530,19 +72530,19 @@
         "asset_class": "us_equity",
         "shares": 2.247992753,
         "avg_price": 485.74,
-        "price": 497.0,
+        "price": 497.38,
         "live": true,
-        "ret_pct": 2.32,
-        "unrealized_pnl": 25.31,
+        "ret_pct": 2.4,
+        "unrealized_pnl": 26.17,
         "cost_basis": 1091.94,
-        "market_value": 1117.25,
+        "market_value": 1118.11,
         "weight_pct": 1.12,
-        "intraday_pl": 34.69,
-        "intraday_pct": 3.2,
-        "change_today_pct": 3.2,
-        "peak": 497.0,
+        "intraday_pl": 35.54,
+        "intraday_pct": 3.28,
+        "change_today_pct": 3.28,
+        "peak": 497.38,
         "stop_price": 446.8808,
-        "stop_headroom_pct": 10.32
+        "stop_headroom_pct": 10.4
       },
       {
         "strategy": "Alpaca",
