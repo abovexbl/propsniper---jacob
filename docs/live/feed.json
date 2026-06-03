@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T18:27:02Z",
+  "generated_at": "2026-06-03T18:29:02Z",
   "portfolio": {
     "profit": 17006.6,
     "wagered": 276881.01,
@@ -16,8 +16,8 @@
     "data_through": "live",
     "today_profit": -213.36,
     "today_roi": -0.9195,
-    "today_wagered": 471.89,
-    "live_bets": 27,
+    "today_wagered": 472.56,
+    "live_bets": 28,
     "wins": 3202,
     "losses": 3824
   },
@@ -7927,8 +7927,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7953,8 +7953,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9945,7 +9945,7 @@
       {
         "t": "14:20",
         "profit": -213.36,
-        "wagered": 471.89,
+        "wagered": 472.56,
         "open_bets": 19,
         "open_wagered": 240.5
       }
