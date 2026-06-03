@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T00:23:02Z",
+  "generated_at": "2026-06-03T00:25:02Z",
   "portfolio": {
     "profit": 17251.31,
     "wagered": 274521.14,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 65,
-    "open_wagered": 717.33,
+    "open_bets": 66,
+    "open_wagered": 718.16,
     "data_through": "live",
     "today_profit": -16.18,
     "today_roi": -0.0597,
-    "today_wagered": 1019.44,
-    "live_bets": 75,
+    "today_wagered": 1040.27,
+    "live_bets": 77,
     "wins": 3133,
     "losses": 3756
   },
@@ -3011,6 +3011,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "00:24:06",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "NHL",
+      "market": "Moneyline",
+      "selection": "Vegas Golden Knights",
+      "odds": 140,
+      "ev": -3.28,
+      "stake": 0.8336,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "00:22:39",
@@ -7495,21 +7510,6 @@
       "payout": 2.0,
       "status": "win",
       "profit": 1.0251
-    },
-    {
-      "date": "2026-05-31",
-      "time": "02:11:11",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Philadelphia Phillies +1.5",
-      "odds": -191,
-      "ev": -3.49,
-      "stake": 0.6562,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3438
     }
   ],
   "book_brier": [],
@@ -8718,8 +8718,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8731,8 +8731,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10169,9 +10169,9 @@
       {
         "t": "20:20",
         "profit": -16.18,
-        "wagered": 1019.44,
-        "open_bets": 65,
-        "open_wagered": 717.33
+        "wagered": 1040.27,
+        "open_bets": 66,
+        "open_wagered": 718.16
       }
     ]
   }
