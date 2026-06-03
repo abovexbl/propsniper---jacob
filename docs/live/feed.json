@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-03T02:19:01Z",
+  "generated_at": "2026-06-03T02:21:01Z",
   "portfolio": {
     "profit": 17010.68,
     "wagered": 275521.58,
@@ -11,15 +11,15 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 61,
-    "open_wagered": 779.03,
+    "open_bets": 63,
+    "open_wagered": 850.78,
     "data_through": "live",
-    "today_profit": -243.78,
-    "today_roi": -0.1908,
-    "today_wagered": 2134.72,
-    "live_bets": 73,
-    "wins": 3161,
-    "losses": 3783
+    "today_profit": -243.56,
+    "today_roi": -0.1904,
+    "today_wagered": 2186.47,
+    "live_bets": 71,
+    "wins": 3163,
+    "losses": 3784
   },
   "accounts": [
     {
@@ -1504,7 +1504,7 @@
       "n_14d": 94,
       "profit_14d": 590.53,
       "roi_14d": 0.206,
-      "balance": 703.52,
+      "balance": 651.77,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -1828,7 +1828,7 @@
       "n_14d": 80,
       "profit_14d": -566.52,
       "roi_14d": -0.2049,
-      "balance": 45.42,
+      "balance": 25.42,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -3016,6 +3016,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-03",
+      "time": "02:20:43",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "NHL",
+      "market": "Moneyline",
+      "selection": "Carolina Hurricanes",
+      "odds": 230,
+      "ev": 6.1,
+      "stake": 20.0,
+      "payout": 66.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-03",
+      "time": "02:19:04",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 3.5",
+      "odds": -107,
+      "ev": 7.4,
+      "stake": 51.75,
+      "payout": 100.11,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-03",
       "time": "02:12:56",
@@ -7485,36 +7515,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4426
-    },
-    {
-      "date": "2026-05-31",
-      "time": "18:11:47",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 9.5",
-      "odds": -228,
-      "ev": -2.09,
-      "stake": 0.6953,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3047
-    },
-    {
-      "date": "2026-05-31",
-      "time": "18:11:46",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Houston Astros +1.5",
-      "odds": 101,
-      "ev": -1.2,
-      "stake": 0.995,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.995
     }
   ],
   "book_brier": [],
@@ -7917,8 +7917,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7943,8 +7943,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8710,6 +8710,19 @@
     },
     {
       "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8725,19 +8738,6 @@
       "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10254,6 +10254,13 @@
         "wagered": 2134.72,
         "open_bets": 61,
         "open_wagered": 779.03
+      },
+      {
+        "t": "22:20",
+        "profit": -243.56,
+        "wagered": 2186.47,
+        "open_bets": 63,
+        "open_wagered": 850.78
       }
     ]
   }
