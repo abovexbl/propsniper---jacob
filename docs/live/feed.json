@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T18:11:01Z",
+  "generated_at": "2026-06-04T18:13:01Z",
   "portfolio": {
     "profit": 16418.21,
     "wagered": 279130.15,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 14,
-    "open_wagered": 197.1,
+    "open_bets": 17,
+    "open_wagered": 199.81,
     "data_through": "live",
     "today_profit": -80.36,
     "today_roi": -0.9757,
-    "today_wagered": 279.46,
-    "live_bets": 23,
+    "today_wagered": 282.17,
+    "live_bets": 26,
     "wins": 3265,
     "losses": 3889
   },
@@ -1310,7 +1310,7 @@
       "n_14d": 654,
       "profit_14d": 4.44,
       "roi_14d": 0.0084,
-      "balance": 91.23,
+      "balance": 88.52,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -3031,6 +3031,51 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "18:11:39",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 10.5",
+      "odds": -103,
+      "ev": -5.04,
+      "stake": 1.015,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "time": "18:11:39",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Milwaukee Brewers +2.5",
+      "odds": -290,
+      "ev": -2.94,
+      "stake": 0.7438,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "time": "18:11:24",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "San Francisco Giants",
+      "odds": 101,
+      "ev": -7.0,
+      "stake": 0.9548000000000001,
+      "payout": 1.92,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "18:00:19",
@@ -7485,51 +7530,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -25.7861
-    },
-    {
-      "date": "2026-06-02",
-      "time": "03:40:02",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Los Angeles Dodgers",
-      "odds": 285,
-      "ev": 7.34,
-      "stake": 20.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -20.0
-    },
-    {
-      "date": "2026-06-02",
-      "time": "03:19:57",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "WNBA",
-      "market": "Total Points",
-      "selection": "Under 183.5",
-      "odds": 132,
-      "ev": 16.73,
-      "stake": 64.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -64.0
-    },
-    {
-      "date": "2026-06-02",
-      "time": "03:15:57",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "New York Mets",
-      "odds": 142,
-      "ev": 15.4,
-      "stake": 55.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -55.0
     }
   ],
   "book_brier": [],
@@ -7932,6 +7932,19 @@
     },
     {
       "book": "Caesars",
+      "league": "Tennis",
+      "market": "Total Sets",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -7947,19 +7960,6 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9943,9 +9943,9 @@
       {
         "t": "14:10",
         "profit": -80.36,
-        "wagered": 279.46,
-        "open_bets": 14,
-        "open_wagered": 197.1
+        "wagered": 282.17,
+        "open_bets": 17,
+        "open_wagered": 199.81
       }
     ]
   }
