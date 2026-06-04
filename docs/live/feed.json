@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T01:19:01Z",
+  "generated_at": "2026-06-04T01:21:01Z",
   "portfolio": {
     "profit": 16917.93,
     "wagered": 277585.15,
@@ -11,15 +11,15 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 58,
-    "open_wagered": 850.74,
+    "open_bets": 59,
+    "open_wagered": 872.51,
     "data_through": "live",
-    "today_profit": -302.05,
-    "today_roi": -0.3226,
+    "today_profit": -303.68,
+    "today_roi": -0.3228,
     "today_wagered": 1789.45,
-    "live_bets": 68,
-    "wins": 3221,
-    "losses": 3841
+    "live_bets": 64,
+    "wins": 3224,
+    "losses": 3842
   },
   "accounts": [
     {
@@ -3031,6 +3031,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "01:20:47",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Cincinnati Reds",
+      "odds": 134,
+      "ev": 4.45,
+      "stake": 21.773600000000002,
+      "payout": 50.95,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "01:02:31",
@@ -7515,21 +7530,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -63.43
-    },
-    {
-      "date": "2026-06-02",
-      "time": "00:12:44",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Player Total Bases",
-      "selection": "Kerry Carpenter Under 4.5",
-      "odds": -188,
-      "ev": 5.65,
-      "stake": 9.38,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -9.38
     }
   ],
   "book_brier": [],
@@ -7945,8 +7945,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7958,8 +7958,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8725,8 +8725,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8738,8 +8738,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10240,6 +10240,13 @@
         "wagered": 1789.45,
         "open_bets": 58,
         "open_wagered": 850.74
+      },
+      {
+        "t": "21:20",
+        "profit": -303.68,
+        "wagered": 1789.45,
+        "open_bets": 59,
+        "open_wagered": 872.51
       }
     ]
   }
