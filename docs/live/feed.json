@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T21:49:02Z",
+  "generated_at": "2026-06-04T21:51:02Z",
   "portfolio": {
     "profit": 16433.88,
     "wagered": 279393.37,
@@ -14,12 +14,12 @@
     "open_bets": 4,
     "open_wagered": 23.34,
     "data_through": "live",
-    "today_profit": -64.68,
-    "today_roi": -0.1872,
+    "today_profit": -84.02,
+    "today_roi": -0.2278,
     "today_wagered": 368.91,
-    "live_bets": 13,
-    "wins": 3274,
-    "losses": 3897
+    "live_bets": 9,
+    "wins": 3276,
+    "losses": 3899
   },
   "accounts": [
     {
@@ -7945,8 +7945,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7958,8 +7958,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8725,19 +8725,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -8753,6 +8740,19 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10090,6 +10090,13 @@
       {
         "t": "17:40",
         "profit": -64.68,
+        "wagered": 368.91,
+        "open_bets": 4,
+        "open_wagered": 23.34
+      },
+      {
+        "t": "17:50",
+        "profit": -84.02,
         "wagered": 368.91,
         "open_bets": 4,
         "open_wagered": 23.34
