@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T01:29:01Z",
+  "generated_at": "2026-06-04T01:31:01Z",
   "portfolio": {
     "profit": 16918.81,
     "wagered": 277587.26,
@@ -36,7 +36,7 @@
       "n_14d": 347,
       "profit_14d": 652.27,
       "roi_14d": 0.0724,
-      "balance": 2416.06,
+      "balance": 2441.04,
       "health": "healthy",
       "working": 13,
       "bleeding": 2,
@@ -7933,7 +7933,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7959,7 +7959,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8725,19 +8725,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8753,6 +8740,19 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10243,6 +10243,13 @@
       },
       {
         "t": "21:20",
+        "profit": -303.68,
+        "wagered": 1833.94,
+        "open_bets": 57,
+        "open_wagered": 893.11
+      },
+      {
+        "t": "21:30",
         "profit": -303.68,
         "wagered": 1833.94,
         "open_bets": 57,
