@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T00:49:01Z",
+  "generated_at": "2026-06-04T00:51:01Z",
   "portfolio": {
     "profit": 16869.18,
     "wagered": 277417.04,
@@ -36,7 +36,7 @@
       "n_14d": 367,
       "profit_14d": 745.72,
       "roi_14d": 0.077,
-      "balance": 2417.78,
+      "balance": 2329.89,
       "health": "healthy",
       "working": 13,
       "bleeding": 2,
@@ -1310,7 +1310,7 @@
       "n_14d": 638,
       "profit_14d": -1.14,
       "roi_14d": -0.0022,
-      "balance": 75.4,
+      "balance": 74.36,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -1504,7 +1504,7 @@
       "n_14d": 107,
       "profit_14d": 580.81,
       "roi_14d": 0.1724,
-      "balance": 681.09,
+      "balance": 658.26,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -7941,7 +7941,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7954,7 +7954,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8720,19 +8720,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8748,6 +8735,19 @@
       "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10210,6 +10210,13 @@
       },
       {
         "t": "20:40",
+        "profit": -305.81,
+        "wagered": 1698.57,
+        "open_bets": 60,
+        "open_wagered": 927.97
+      },
+      {
+        "t": "20:50",
         "profit": -305.81,
         "wagered": 1698.57,
         "open_bets": 60,
