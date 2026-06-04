@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T17:41:02Z",
+  "generated_at": "2026-06-04T17:43:02Z",
   "portfolio": {
     "profit": 16417.0,
     "wagered": 279129.35,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 10,
-    "open_wagered": 7.49,
+    "open_bets": 11,
+    "open_wagered": 31.41,
     "data_through": "live",
     "today_profit": -80.36,
     "today_roi": -0.9757,
-    "today_wagered": 88.43,
-    "live_bets": 17,
+    "today_wagered": 89.06,
+    "live_bets": 18,
     "wins": 3265,
     "losses": 3889
   },
@@ -1504,7 +1504,7 @@
       "n_14d": 116,
       "profit_14d": 718.73,
       "roi_14d": 0.1995,
-      "balance": 973.14,
+      "balance": 949.22,
       "health": "healthy",
       "working": 4,
       "bleeding": 2,
@@ -3031,6 +3031,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "17:42:17",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "San Diego Padres",
+      "odds": 218,
+      "ev": 8.04,
+      "stake": 23.9172,
+      "payout": 76.06,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "17:40:32",
@@ -7515,21 +7530,6 @@
       "payout": 38.18,
       "status": "win",
       "profit": 18.18
-    },
-    {
-      "date": "2026-06-02",
-      "time": "02:15:33",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Point Spread",
-      "selection": "Minnesota Lynx -4.5",
-      "odds": 101,
-      "ev": 6.04,
-      "stake": 38.3054,
-      "payout": 77.0,
-      "status": "win",
-      "profit": 38.6946
     }
   ],
   "book_brier": [],
@@ -8725,8 +8725,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8738,8 +8738,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9922,9 +9922,9 @@
       {
         "t": "13:40",
         "profit": -80.36,
-        "wagered": 88.43,
-        "open_bets": 10,
-        "open_wagered": 7.49
+        "wagered": 89.06,
+        "open_bets": 11,
+        "open_wagered": 31.41
       }
     ]
   }
