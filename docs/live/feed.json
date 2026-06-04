@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T02:31:02Z",
+  "generated_at": "2026-06-04T02:33:02Z",
   "portfolio": {
     "profit": 16785.56,
     "wagered": 278262.25,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 37,
-    "open_wagered": 622.13,
+    "open_bets": 38,
+    "open_wagered": 634.42,
     "data_through": "live",
     "today_profit": -436.93,
     "today_roi": -0.2704,
-    "today_wagered": 2237.95,
-    "live_bets": 46,
+    "today_wagered": 2250.24,
+    "live_bets": 47,
     "wins": 3243,
     "losses": 3862
   },
@@ -3031,6 +3031,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "02:31:33",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Over 157.5",
+      "odds": 195,
+      "ev": 3.22,
+      "stake": 12.29,
+      "payout": 36.26,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "02:18:56",
@@ -7515,21 +7530,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -20.0
-    },
-    {
-      "date": "2026-06-02",
-      "time": "01:41:33",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 9.5",
-      "odds": -276,
-      "ev": -2.61,
-      "stake": 0.7342,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.2658
     }
   ],
   "book_brier": [],
@@ -7932,8 +7932,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7958,8 +7958,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8725,8 +8725,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8738,8 +8738,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10293,9 +10293,9 @@
       {
         "t": "22:30",
         "profit": -436.93,
-        "wagered": 2237.95,
-        "open_bets": 37,
-        "open_wagered": 622.13
+        "wagered": 2250.24,
+        "open_bets": 38,
+        "open_wagered": 634.42
       }
     ]
   }
