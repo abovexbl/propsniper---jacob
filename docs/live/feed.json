@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T02:17:02Z",
+  "generated_at": "2026-06-04T02:19:02Z",
   "portfolio": {
     "profit": 16827.72,
     "wagered": 278214.09,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 44,
-    "open_wagered": 643.38,
+    "open_bets": 45,
+    "open_wagered": 670.3,
     "data_through": "live",
     "today_profit": -394.76,
     "today_roi": -0.2518,
@@ -1504,7 +1504,7 @@
       "n_14d": 108,
       "profit_14d": 744.42,
       "roi_14d": 0.2173,
-      "balance": 890.93,
+      "balance": 864.01,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -3031,6 +3031,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "02:18:56",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Seattle Storm +11.5",
+      "odds": -142,
+      "ev": 4.22,
+      "stake": 26.9212,
+      "payout": 45.88,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "02:13:21",
@@ -7515,21 +7530,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.2658
-    },
-    {
-      "date": "2026-06-02",
-      "time": "01:41:33",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "New York Mets +1.5",
-      "odds": -191,
-      "ev": -1.31,
-      "stake": 0.6562,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3438
     }
   ],
   "book_brier": [],
@@ -8738,8 +8738,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8751,8 +8751,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10280,8 +10280,8 @@
         "t": "22:10",
         "profit": -394.76,
         "wagered": 2211.03,
-        "open_bets": 44,
-        "open_wagered": 643.38
+        "open_bets": 45,
+        "open_wagered": 670.3
       }
     ]
   }
