@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T17:59:01Z",
+  "generated_at": "2026-06-04T18:01:01Z",
   "portfolio": {
     "profit": 16418.21,
     "wagered": 279130.15,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 12,
-    "open_wagered": 139.54,
+    "open_bets": 14,
+    "open_wagered": 197.1,
     "data_through": "live",
     "today_profit": -80.36,
     "today_roi": -0.9757,
@@ -3031,6 +3031,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "18:00:19",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Team Total Runs",
+      "selection": "Boston Red Sox Over 4.5",
+      "odds": -120,
+      "ev": 5.75,
+      "stake": 29.99,
+      "payout": 54.98,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "time": "18:00:01",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Boston Red Sox +4.5",
+      "odds": 145,
+      "ev": 3.1,
+      "stake": 27.57,
+      "payout": 67.55,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "17:48:50",
@@ -7500,36 +7530,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -55.0
-    },
-    {
-      "date": "2026-06-02",
-      "time": "02:48:01",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 11.5",
-      "odds": -228,
-      "ev": 6.44,
-      "stake": 93.8564,
-      "payout": 135.0,
-      "status": "win",
-      "profit": 41.1436
-    },
-    {
-      "date": "2026-06-02",
-      "time": "02:27:46",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "WNBA",
-      "market": "Total Points",
-      "selection": "Over 184.5",
-      "odds": 140,
-      "ev": 3.44,
-      "stake": 21.42,
-      "payout": 51.4,
-      "status": "win",
-      "profit": 29.98
     }
   ],
   "book_brier": [],
@@ -7933,19 +7933,6 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
-      "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
@@ -7960,6 +7947,19 @@
       "book": "Caesars",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8725,19 +8725,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
       "n": 0,
@@ -8753,6 +8740,19 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9932,6 +9932,13 @@
         "wagered": 221.9,
         "open_bets": 12,
         "open_wagered": 139.54
+      },
+      {
+        "t": "14:00",
+        "profit": -80.36,
+        "wagered": 221.9,
+        "open_bets": 14,
+        "open_wagered": 197.1
       }
     ]
   }
