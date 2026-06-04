@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T01:09:01Z",
+  "generated_at": "2026-06-04T01:11:01Z",
   "portfolio": {
     "profit": 16917.93,
     "wagered": 277585.15,
@@ -1310,7 +1310,7 @@
       "n_14d": 611,
       "profit_14d": 4.12,
       "roi_14d": 0.0083,
-      "balance": 74.36,
+      "balance": 77.36,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -8725,8 +8725,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8738,8 +8738,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10229,6 +10229,13 @@
       },
       {
         "t": "21:00",
+        "profit": -302.05,
+        "wagered": 1789.45,
+        "open_bets": 58,
+        "open_wagered": 850.74
+      },
+      {
+        "t": "21:10",
         "profit": -302.05,
         "wagered": 1789.45,
         "open_bets": 58,
