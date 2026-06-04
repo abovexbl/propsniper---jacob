@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T03:23:02Z",
+  "generated_at": "2026-06-04T03:25:02Z",
   "portfolio": {
     "profit": 16538.25,
     "wagered": 278716.54,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 29,
-    "open_wagered": 290.4,
+    "open_bets": 30,
+    "open_wagered": 310.4,
     "data_through": "live",
     "today_profit": -684.25,
     "today_roi": -0.3305,
-    "today_wagered": 2360.51,
-    "live_bets": 38,
+    "today_wagered": 2380.51,
+    "live_bets": 39,
     "wins": 3248,
     "losses": 3871
   },
@@ -1310,7 +1310,7 @@
       "n_14d": 635,
       "profit_14d": 4.71,
       "roi_14d": 0.0092,
-      "balance": 89.29,
+      "balance": 90.29,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -1828,7 +1828,7 @@
       "n_14d": 90,
       "profit_14d": -578.1,
       "roi_14d": -0.2007,
-      "balance": 73.73,
+      "balance": 53.73,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -3031,6 +3031,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "03:23:21",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Moneyline",
+      "selection": "Phoenix Mercury",
+      "odds": 165,
+      "ev": 5.31,
+      "stake": 20.0,
+      "payout": 53.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "03:16:32",
@@ -7515,21 +7530,6 @@
       "payout": 68.75,
       "status": "win",
       "profit": 43.75
-    },
-    {
-      "date": "2026-06-02",
-      "time": "01:44:48",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Los Angeles Angels +1.5",
-      "odds": -212,
-      "ev": 3.38,
-      "stake": 84.79,
-      "payout": 124.78,
-      "status": "win",
-      "profit": 39.9953
     }
   ],
   "book_brier": [],
@@ -7945,8 +7945,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7958,8 +7958,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8738,8 +8738,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8751,8 +8751,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10328,9 +10328,9 @@
       {
         "t": "23:20",
         "profit": -684.25,
-        "wagered": 2360.51,
-        "open_bets": 29,
-        "open_wagered": 290.4
+        "wagered": 2380.51,
+        "open_bets": 30,
+        "open_wagered": 310.4
       }
     ]
   }
