@@ -382,9 +382,9 @@
     {
       "t": "09:00",
       "profit": 0.0,
-      "wagered": 0.0,
-      "open_bets": 0,
-      "open_wagered": 0.0
+      "wagered": 0.57,
+      "open_bets": 1,
+      "open_wagered": 0.57
     }
   ]
 }
