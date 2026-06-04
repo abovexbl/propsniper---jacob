@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-04T02:09:02Z",
+  "generated_at": "2026-06-04T02:11:02Z",
   "portfolio": {
     "profit": 16827.72,
     "wagered": 278214.09,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 40,
-    "open_wagered": 504.99,
+    "open_bets": 42,
+    "open_wagered": 600.32,
     "data_through": "live",
     "today_profit": -394.76,
     "today_roi": -0.2518,
-    "today_wagered": 2051.95,
-    "live_bets": 48,
+    "today_wagered": 2072.64,
+    "live_bets": 49,
     "wins": 3239,
     "losses": 3858
   },
@@ -36,7 +36,7 @@
       "n_14d": 360,
       "profit_14d": 367.74,
       "roi_14d": 0.0389,
-      "balance": 2353.51,
+      "balance": 2355.1,
       "health": "healthy",
       "working": 12,
       "bleeding": 2,
@@ -1310,7 +1310,7 @@
       "n_14d": 626,
       "profit_14d": 2.92,
       "roi_14d": 0.0058,
-      "balance": 79.29,
+      "balance": 83.29,
       "health": "healthy",
       "working": 3,
       "bleeding": 2,
@@ -3031,6 +3031,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-04",
+      "time": "02:10:57",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Total Runs - 1st 5 Innings",
+      "selection": "Under 7.5",
+      "odds": -135,
+      "ev": 15.92,
+      "stake": 33.74,
+      "payout": 58.73,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "time": "02:10:00",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Colorado Rockies +4.5",
+      "odds": -154,
+      "ev": 7.21,
+      "stake": 61.59,
+      "payout": 101.58,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-04",
       "time": "02:08:52",
@@ -7500,36 +7530,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4725
-    },
-    {
-      "date": "2026-06-02",
-      "time": "01:40:57",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Arizona Diamondbacks",
-      "odds": 134,
-      "ev": -2.37,
-      "stake": 0.8539,
-      "payout": 2.0,
-      "status": "win",
-      "profit": 1.1461
-    },
-    {
-      "date": "2026-06-02",
-      "time": "01:39:21",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Los Angeles Angels",
-      "odds": -199,
-      "ev": -4.17,
-      "stake": 0.666,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.666
     }
   ],
   "book_brier": [],
@@ -7932,19 +7932,6 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "Caesars",
       "league": "Tennis",
       "market": "Total Sets",
       "n": 0,
@@ -7960,6 +7947,19 @@
       "book": "Caesars",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "Caesars",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8725,8 +8725,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8751,8 +8751,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10275,6 +10275,13 @@
         "wagered": 2051.95,
         "open_bets": 40,
         "open_wagered": 504.99
+      },
+      {
+        "t": "22:10",
+        "profit": -394.76,
+        "wagered": 2072.64,
+        "open_bets": 42,
+        "open_wagered": 600.32
       }
     ]
   }
