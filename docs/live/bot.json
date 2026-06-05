@@ -4,7 +4,7 @@
   "name": "Adaptive Swing-Trading Bot",
   "paper": true,
   "live_source": "alpaca",
-  "generated_at": "2026-06-05T18:05:12Z",
+  "generated_at": "2026-06-05T18:07:11Z",
   "summary": {
     "starting_capital": 10000.0,
     "final_equity": 12281.63,
@@ -22,7 +22,7 @@
     "strategies_retired": 0,
     "current_regime": "stocks:up/lowvol|crypto:chop/midvol",
     "halted": false,
-    "open_positions": 35,
+    "open_positions": 34,
     "backtest_cycles": 1717,
     "backtest_return_pct": 15.08,
     "backtest_span": [
@@ -39,9 +39,9 @@
     "source": "alpaca",
     "start_date": "2026-05-30",
     "start_equity": 100000.0,
-    "current_equity": 99156.46,
-    "return_pct": -0.844,
-    "pnl": -843.54,
+    "current_equity": 99135.96,
+    "return_pct": -0.864,
+    "pnl": -864.04,
     "cycles": 5,
     "days": 5,
     "curve": [
@@ -424,7 +424,7 @@
           "equity": 99644.48,
           "pnl": 11.24,
           "ret_pct": 0.011,
-          "inv_ret_pct": 0.057,
+          "inv_ret_pct": 0.058,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -434,7 +434,7 @@
           "equity": 99655.21,
           "pnl": 21.97,
           "ret_pct": 0.022,
-          "inv_ret_pct": 0.112,
+          "inv_ret_pct": 0.114,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -444,7 +444,7 @@
           "equity": 99661.81,
           "pnl": 28.57,
           "ret_pct": 0.029,
-          "inv_ret_pct": 0.146,
+          "inv_ret_pct": 0.148,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -454,7 +454,7 @@
           "equity": 99680.18,
           "pnl": 46.94,
           "ret_pct": 0.047,
-          "inv_ret_pct": 0.24,
+          "inv_ret_pct": 0.244,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -464,7 +464,7 @@
           "equity": 99696.96,
           "pnl": 63.72,
           "ret_pct": 0.064,
-          "inv_ret_pct": 0.326,
+          "inv_ret_pct": 0.331,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -474,7 +474,7 @@
           "equity": 99694.52,
           "pnl": 61.28,
           "ret_pct": 0.062,
-          "inv_ret_pct": 0.313,
+          "inv_ret_pct": 0.318,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -484,7 +484,7 @@
           "equity": 99688.93,
           "pnl": 55.69,
           "ret_pct": 0.056,
-          "inv_ret_pct": 0.285,
+          "inv_ret_pct": 0.289,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -494,7 +494,7 @@
           "equity": 99686.21,
           "pnl": 52.97,
           "ret_pct": 0.053,
-          "inv_ret_pct": 0.271,
+          "inv_ret_pct": 0.275,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -504,7 +504,7 @@
           "equity": 99695.51,
           "pnl": 62.27,
           "ret_pct": 0.062,
-          "inv_ret_pct": 0.319,
+          "inv_ret_pct": 0.323,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -514,7 +514,7 @@
           "equity": 99682.47,
           "pnl": 49.23,
           "ret_pct": 0.049,
-          "inv_ret_pct": 0.252,
+          "inv_ret_pct": 0.256,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -524,7 +524,7 @@
           "equity": 99677.17,
           "pnl": 43.93,
           "ret_pct": 0.044,
-          "inv_ret_pct": 0.225,
+          "inv_ret_pct": 0.228,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -534,7 +534,7 @@
           "equity": 99679.21,
           "pnl": 45.97,
           "ret_pct": 0.046,
-          "inv_ret_pct": 0.235,
+          "inv_ret_pct": 0.239,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -544,7 +544,7 @@
           "equity": 99676.84,
           "pnl": 43.6,
           "ret_pct": 0.044,
-          "inv_ret_pct": 0.223,
+          "inv_ret_pct": 0.226,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -554,7 +554,7 @@
           "equity": 99719.43,
           "pnl": 86.19,
           "ret_pct": 0.087,
-          "inv_ret_pct": 0.441,
+          "inv_ret_pct": 0.448,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -564,7 +564,7 @@
           "equity": 99717.78,
           "pnl": 84.54,
           "ret_pct": 0.085,
-          "inv_ret_pct": 0.432,
+          "inv_ret_pct": 0.439,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -574,7 +574,7 @@
           "equity": 99704.89,
           "pnl": 71.65,
           "ret_pct": 0.072,
-          "inv_ret_pct": 0.366,
+          "inv_ret_pct": 0.372,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -584,7 +584,7 @@
           "equity": 99692.43,
           "pnl": 59.19,
           "ret_pct": 0.059,
-          "inv_ret_pct": 0.303,
+          "inv_ret_pct": 0.307,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -594,7 +594,7 @@
           "equity": 99691.45,
           "pnl": 58.21,
           "ret_pct": 0.058,
-          "inv_ret_pct": 0.298,
+          "inv_ret_pct": 0.302,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -604,7 +604,7 @@
           "equity": 99691.46,
           "pnl": 58.22,
           "ret_pct": 0.058,
-          "inv_ret_pct": 0.298,
+          "inv_ret_pct": 0.302,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -614,7 +614,7 @@
           "equity": 99695.73,
           "pnl": 62.49,
           "ret_pct": 0.063,
-          "inv_ret_pct": 0.32,
+          "inv_ret_pct": 0.324,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -624,7 +624,7 @@
           "equity": 99703.27,
           "pnl": 70.03,
           "ret_pct": 0.07,
-          "inv_ret_pct": 0.358,
+          "inv_ret_pct": 0.364,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -634,7 +634,7 @@
           "equity": 99706.96,
           "pnl": 73.72,
           "ret_pct": 0.074,
-          "inv_ret_pct": 0.377,
+          "inv_ret_pct": 0.383,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -644,7 +644,7 @@
           "equity": 99706.86,
           "pnl": 73.62,
           "ret_pct": 0.074,
-          "inv_ret_pct": 0.377,
+          "inv_ret_pct": 0.382,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -654,7 +654,7 @@
           "equity": 99705.94,
           "pnl": 72.7,
           "ret_pct": 0.073,
-          "inv_ret_pct": 0.372,
+          "inv_ret_pct": 0.377,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -664,7 +664,7 @@
           "equity": 99709.67,
           "pnl": 76.43,
           "ret_pct": 0.077,
-          "inv_ret_pct": 0.391,
+          "inv_ret_pct": 0.397,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -674,7 +674,7 @@
           "equity": 99710.77,
           "pnl": 77.53,
           "ret_pct": 0.078,
-          "inv_ret_pct": 0.397,
+          "inv_ret_pct": 0.403,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -684,7 +684,7 @@
           "equity": 99713.89,
           "pnl": 80.65,
           "ret_pct": 0.081,
-          "inv_ret_pct": 0.413,
+          "inv_ret_pct": 0.419,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -694,7 +694,7 @@
           "equity": 99725.17,
           "pnl": 91.93,
           "ret_pct": 0.092,
-          "inv_ret_pct": 0.47,
+          "inv_ret_pct": 0.477,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -704,7 +704,7 @@
           "equity": 99721.03,
           "pnl": 87.79,
           "ret_pct": 0.088,
-          "inv_ret_pct": 0.449,
+          "inv_ret_pct": 0.456,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -714,7 +714,7 @@
           "equity": 99724.78,
           "pnl": 91.54,
           "ret_pct": 0.092,
-          "inv_ret_pct": 0.468,
+          "inv_ret_pct": 0.475,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -724,7 +724,7 @@
           "equity": 99711.75,
           "pnl": 78.51,
           "ret_pct": 0.079,
-          "inv_ret_pct": 0.402,
+          "inv_ret_pct": 0.408,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -734,7 +734,7 @@
           "equity": 99714.89,
           "pnl": 81.65,
           "ret_pct": 0.082,
-          "inv_ret_pct": 0.418,
+          "inv_ret_pct": 0.424,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -744,7 +744,7 @@
           "equity": 99709.34,
           "pnl": 76.1,
           "ret_pct": 0.076,
-          "inv_ret_pct": 0.389,
+          "inv_ret_pct": 0.395,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -754,7 +754,7 @@
           "equity": 99703.74,
           "pnl": 70.5,
           "ret_pct": 0.071,
-          "inv_ret_pct": 0.361,
+          "inv_ret_pct": 0.366,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -764,7 +764,7 @@
           "equity": 99700.45,
           "pnl": 67.21,
           "ret_pct": 0.067,
-          "inv_ret_pct": 0.344,
+          "inv_ret_pct": 0.349,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -774,7 +774,7 @@
           "equity": 99693.2,
           "pnl": 59.96,
           "ret_pct": 0.06,
-          "inv_ret_pct": 0.307,
+          "inv_ret_pct": 0.311,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -784,7 +784,7 @@
           "equity": 99685.67,
           "pnl": 52.43,
           "ret_pct": 0.053,
-          "inv_ret_pct": 0.268,
+          "inv_ret_pct": 0.272,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -794,7 +794,7 @@
           "equity": 99689.11,
           "pnl": 55.87,
           "ret_pct": 0.056,
-          "inv_ret_pct": 0.286,
+          "inv_ret_pct": 0.29,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -804,7 +804,7 @@
           "equity": 99673.94,
           "pnl": 40.7,
           "ret_pct": 0.041,
-          "inv_ret_pct": 0.208,
+          "inv_ret_pct": 0.211,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -814,7 +814,7 @@
           "equity": 99662.83,
           "pnl": 29.59,
           "ret_pct": 0.03,
-          "inv_ret_pct": 0.151,
+          "inv_ret_pct": 0.154,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -824,7 +824,7 @@
           "equity": 99686.39,
           "pnl": 53.15,
           "ret_pct": 0.053,
-          "inv_ret_pct": 0.272,
+          "inv_ret_pct": 0.276,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -834,7 +834,7 @@
           "equity": 99696.02,
           "pnl": 62.78,
           "ret_pct": 0.063,
-          "inv_ret_pct": 0.321,
+          "inv_ret_pct": 0.326,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -844,7 +844,7 @@
           "equity": 99692.05,
           "pnl": 58.81,
           "ret_pct": 0.059,
-          "inv_ret_pct": 0.301,
+          "inv_ret_pct": 0.305,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -854,7 +854,7 @@
           "equity": 99692.1,
           "pnl": 58.86,
           "ret_pct": 0.059,
-          "inv_ret_pct": 0.301,
+          "inv_ret_pct": 0.306,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -864,7 +864,7 @@
           "equity": 99688.93,
           "pnl": 55.69,
           "ret_pct": 0.056,
-          "inv_ret_pct": 0.285,
+          "inv_ret_pct": 0.289,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -874,7 +874,7 @@
           "equity": 99686.56,
           "pnl": 53.32,
           "ret_pct": 0.054,
-          "inv_ret_pct": 0.273,
+          "inv_ret_pct": 0.277,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -884,7 +884,7 @@
           "equity": 99674.69,
           "pnl": 41.45,
           "ret_pct": 0.042,
-          "inv_ret_pct": 0.212,
+          "inv_ret_pct": 0.215,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -894,7 +894,7 @@
           "equity": 99652.75,
           "pnl": 19.51,
           "ret_pct": 0.02,
-          "inv_ret_pct": 0.1,
+          "inv_ret_pct": 0.101,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -904,7 +904,7 @@
           "equity": 99657.16,
           "pnl": 23.92,
           "ret_pct": 0.024,
-          "inv_ret_pct": 0.122,
+          "inv_ret_pct": 0.124,
           "spy_pct": 0.0,
           "qqq_pct": 0.0
         },
@@ -914,7 +914,7 @@
           "equity": 99649.12,
           "pnl": 15.88,
           "ret_pct": 0.016,
-          "inv_ret_pct": 0.081,
+          "inv_ret_pct": 0.082,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -924,7 +924,7 @@
           "equity": 99672.0,
           "pnl": 38.76,
           "ret_pct": 0.039,
-          "inv_ret_pct": 0.198,
+          "inv_ret_pct": 0.201,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -934,7 +934,7 @@
           "equity": 99672.06,
           "pnl": 38.82,
           "ret_pct": 0.039,
-          "inv_ret_pct": 0.199,
+          "inv_ret_pct": 0.202,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -944,7 +944,7 @@
           "equity": 99651.47,
           "pnl": 18.23,
           "ret_pct": 0.018,
-          "inv_ret_pct": 0.093,
+          "inv_ret_pct": 0.095,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -954,7 +954,7 @@
           "equity": 99618.01,
           "pnl": -15.23,
           "ret_pct": -0.015,
-          "inv_ret_pct": -0.078,
+          "inv_ret_pct": -0.079,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -974,7 +974,7 @@
           "equity": 99669.4,
           "pnl": 36.16,
           "ret_pct": 0.036,
-          "inv_ret_pct": 0.185,
+          "inv_ret_pct": 0.188,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -984,7 +984,7 @@
           "equity": 99662.02,
           "pnl": 28.78,
           "ret_pct": 0.029,
-          "inv_ret_pct": 0.147,
+          "inv_ret_pct": 0.149,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -1004,7 +1004,7 @@
           "equity": 99612.79,
           "pnl": -20.45,
           "ret_pct": -0.021,
-          "inv_ret_pct": -0.105,
+          "inv_ret_pct": -0.106,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -1014,7 +1014,7 @@
           "equity": 99614.42,
           "pnl": -18.82,
           "ret_pct": -0.019,
-          "inv_ret_pct": -0.096,
+          "inv_ret_pct": -0.098,
           "spy_pct": 0.007,
           "qqq_pct": 0.09
         },
@@ -1024,7 +1024,7 @@
           "equity": 99609.52,
           "pnl": -23.72,
           "ret_pct": -0.024,
-          "inv_ret_pct": -0.121,
+          "inv_ret_pct": -0.123,
           "spy_pct": -0.15,
           "qqq_pct": -0.287
         },
@@ -1034,7 +1034,7 @@
           "equity": 99601.28,
           "pnl": -31.96,
           "ret_pct": -0.032,
-          "inv_ret_pct": -0.163,
+          "inv_ret_pct": -0.166,
           "spy_pct": -0.162,
           "qqq_pct": -0.257
         },
@@ -1044,7 +1044,7 @@
           "equity": 99598.85,
           "pnl": -34.39,
           "ret_pct": -0.035,
-          "inv_ret_pct": -0.176,
+          "inv_ret_pct": -0.179,
           "spy_pct": -0.162,
           "qqq_pct": -0.299
         },
@@ -1054,7 +1054,7 @@
           "equity": 99588.08,
           "pnl": -45.16,
           "ret_pct": -0.045,
-          "inv_ret_pct": -0.231,
+          "inv_ret_pct": -0.234,
           "spy_pct": -0.162,
           "qqq_pct": -0.279
         },
@@ -1064,7 +1064,7 @@
           "equity": 99584.09,
           "pnl": -49.15,
           "ret_pct": -0.049,
-          "inv_ret_pct": -0.251,
+          "inv_ret_pct": -0.255,
           "spy_pct": -0.135,
           "qqq_pct": -0.238
         },
@@ -1074,7 +1074,7 @@
           "equity": 99584.83,
           "pnl": -48.41,
           "ret_pct": -0.049,
-          "inv_ret_pct": -0.248,
+          "inv_ret_pct": -0.251,
           "spy_pct": -0.271,
           "qqq_pct": -0.411
         },
@@ -1084,7 +1084,7 @@
           "equity": 99551.75,
           "pnl": -81.49,
           "ret_pct": -0.082,
-          "inv_ret_pct": -0.417,
+          "inv_ret_pct": -0.423,
           "spy_pct": -0.441,
           "qqq_pct": -0.642
         },
@@ -1094,7 +1094,7 @@
           "equity": 99509.04,
           "pnl": -124.2,
           "ret_pct": -0.125,
-          "inv_ret_pct": -0.635,
+          "inv_ret_pct": -0.645,
           "spy_pct": -0.553,
           "qqq_pct": -0.888
         },
@@ -1104,7 +1104,7 @@
           "equity": 99459.3,
           "pnl": -173.94,
           "ret_pct": -0.175,
-          "inv_ret_pct": -0.89,
+          "inv_ret_pct": -0.903,
           "spy_pct": -0.483,
           "qqq_pct": -0.763
         },
@@ -1114,7 +1114,7 @@
           "equity": 99485.68,
           "pnl": -147.56,
           "ret_pct": -0.148,
-          "inv_ret_pct": -0.755,
+          "inv_ret_pct": -0.766,
           "spy_pct": -0.654,
           "qqq_pct": -1.135
         },
@@ -1124,7 +1124,7 @@
           "equity": 99406.9,
           "pnl": -226.34,
           "ret_pct": -0.227,
-          "inv_ret_pct": -1.158,
+          "inv_ret_pct": -1.175,
           "spy_pct": -0.614,
           "qqq_pct": -1.074
         },
@@ -1134,7 +1134,7 @@
           "equity": 99415.34,
           "pnl": -217.9,
           "ret_pct": -0.219,
-          "inv_ret_pct": -1.115,
+          "inv_ret_pct": -1.131,
           "spy_pct": -0.507,
           "qqq_pct": -0.878
         },
@@ -1144,7 +1144,7 @@
           "equity": 99447.03,
           "pnl": -186.21,
           "ret_pct": -0.187,
-          "inv_ret_pct": -0.952,
+          "inv_ret_pct": -0.967,
           "spy_pct": -0.47,
           "qqq_pct": -0.832
         },
@@ -1154,7 +1154,7 @@
           "equity": 99447.53,
           "pnl": -185.71,
           "ret_pct": -0.186,
-          "inv_ret_pct": -0.95,
+          "inv_ret_pct": -0.964,
           "spy_pct": -0.36,
           "qqq_pct": -0.598
         },
@@ -1164,7 +1164,7 @@
           "equity": 99499.48,
           "pnl": -133.76,
           "ret_pct": -0.134,
-          "inv_ret_pct": -0.684,
+          "inv_ret_pct": -0.695,
           "spy_pct": -0.516,
           "qqq_pct": -0.828
         },
@@ -1174,7 +1174,7 @@
           "equity": 99437.59,
           "pnl": -195.65,
           "ret_pct": -0.196,
-          "inv_ret_pct": -1.001,
+          "inv_ret_pct": -1.016,
           "spy_pct": -0.601,
           "qqq_pct": -1.02
         },
@@ -1184,7 +1184,7 @@
           "equity": 99410.14,
           "pnl": -223.1,
           "ret_pct": -0.224,
-          "inv_ret_pct": -1.141,
+          "inv_ret_pct": -1.158,
           "spy_pct": -0.425,
           "qqq_pct": -0.742
         },
@@ -1194,7 +1194,7 @@
           "equity": 99458.81,
           "pnl": -174.43,
           "ret_pct": -0.175,
-          "inv_ret_pct": -0.892,
+          "inv_ret_pct": -0.906,
           "spy_pct": -0.463,
           "qqq_pct": -0.794
         },
@@ -1204,7 +1204,7 @@
           "equity": 99450.31,
           "pnl": -182.93,
           "ret_pct": -0.184,
-          "inv_ret_pct": -0.936,
+          "inv_ret_pct": -0.95,
           "spy_pct": -0.54,
           "qqq_pct": -0.926
         },
@@ -1214,7 +1214,7 @@
           "equity": 99415.62,
           "pnl": -217.62,
           "ret_pct": -0.218,
-          "inv_ret_pct": -1.113,
+          "inv_ret_pct": -1.13,
           "spy_pct": -0.563,
           "qqq_pct": -0.981
         },
@@ -1224,7 +1224,7 @@
           "equity": 99409.13,
           "pnl": -224.11,
           "ret_pct": -0.225,
-          "inv_ret_pct": -1.146,
+          "inv_ret_pct": -1.164,
           "spy_pct": -0.533,
           "qqq_pct": -0.948
         },
@@ -1234,7 +1234,7 @@
           "equity": 99416.27,
           "pnl": -216.97,
           "ret_pct": -0.218,
-          "inv_ret_pct": -1.11,
+          "inv_ret_pct": -1.127,
           "spy_pct": -0.482,
           "qqq_pct": -0.889
         },
@@ -1244,7 +1244,7 @@
           "equity": 99429.75,
           "pnl": -203.49,
           "ret_pct": -0.204,
-          "inv_ret_pct": -1.041,
+          "inv_ret_pct": -1.057,
           "spy_pct": -0.544,
           "qqq_pct": -1.005
         },
@@ -1254,7 +1254,7 @@
           "equity": 99404.1,
           "pnl": -229.14,
           "ret_pct": -0.23,
-          "inv_ret_pct": -1.172,
+          "inv_ret_pct": -1.19,
           "spy_pct": -0.602,
           "qqq_pct": -1.117
         },
@@ -1264,7 +1264,7 @@
           "equity": 99383.15,
           "pnl": -250.09,
           "ret_pct": -0.251,
-          "inv_ret_pct": -1.279,
+          "inv_ret_pct": -1.299,
           "spy_pct": -0.709,
           "qqq_pct": -1.306
         },
@@ -1274,7 +1274,7 @@
           "equity": 99345.27,
           "pnl": -287.97,
           "ret_pct": -0.289,
-          "inv_ret_pct": -1.473,
+          "inv_ret_pct": -1.495,
           "spy_pct": -0.663,
           "qqq_pct": -1.221
         },
@@ -1284,7 +1284,7 @@
           "equity": 99364.75,
           "pnl": -268.49,
           "ret_pct": -0.269,
-          "inv_ret_pct": -1.373,
+          "inv_ret_pct": -1.394,
           "spy_pct": -0.766,
           "qqq_pct": -1.392
         },
@@ -1294,7 +1294,7 @@
           "equity": 99338.53,
           "pnl": -294.71,
           "ret_pct": -0.296,
-          "inv_ret_pct": -1.507,
+          "inv_ret_pct": -1.53,
           "spy_pct": -0.727,
           "qqq_pct": -1.33
         },
@@ -1304,7 +1304,7 @@
           "equity": 99349.45,
           "pnl": -283.79,
           "ret_pct": -0.285,
-          "inv_ret_pct": -1.452,
+          "inv_ret_pct": -1.474,
           "spy_pct": -0.791,
           "qqq_pct": -1.428
         },
@@ -1314,7 +1314,7 @@
           "equity": 99325.36,
           "pnl": -307.88,
           "ret_pct": -0.309,
-          "inv_ret_pct": -1.575,
+          "inv_ret_pct": -1.599,
           "spy_pct": -0.908,
           "qqq_pct": -1.588
         },
@@ -1324,7 +1324,7 @@
           "equity": 99290.64,
           "pnl": -342.6,
           "ret_pct": -0.344,
-          "inv_ret_pct": -1.752,
+          "inv_ret_pct": -1.779,
           "spy_pct": -0.947,
           "qqq_pct": -1.584
         },
@@ -1334,7 +1334,7 @@
           "equity": 99293.32,
           "pnl": -339.92,
           "ret_pct": -0.341,
-          "inv_ret_pct": -1.739,
+          "inv_ret_pct": -1.765,
           "spy_pct": -0.966,
           "qqq_pct": -1.579
         },
@@ -1344,7 +1344,7 @@
           "equity": 99294.35,
           "pnl": -338.89,
           "ret_pct": -0.34,
-          "inv_ret_pct": -1.733,
+          "inv_ret_pct": -1.76,
           "spy_pct": -0.921,
           "qqq_pct": -1.515
         },
@@ -1354,7 +1354,7 @@
           "equity": 99313.6,
           "pnl": -319.64,
           "ret_pct": -0.321,
-          "inv_ret_pct": -1.635,
+          "inv_ret_pct": -1.66,
           "spy_pct": -0.931,
           "qqq_pct": -1.532
         },
@@ -1364,7 +1364,7 @@
           "equity": 99307.03,
           "pnl": -326.21,
           "ret_pct": -0.327,
-          "inv_ret_pct": -1.669,
+          "inv_ret_pct": -1.694,
           "spy_pct": -0.998,
           "qqq_pct": -1.669
         },
@@ -1374,7 +1374,7 @@
           "equity": 99275.78,
           "pnl": -357.46,
           "ret_pct": -0.359,
-          "inv_ret_pct": -1.828,
+          "inv_ret_pct": -1.856,
           "spy_pct": -1.115,
           "qqq_pct": -1.806
         },
@@ -1384,7 +1384,7 @@
           "equity": 99249.48,
           "pnl": -383.76,
           "ret_pct": -0.385,
-          "inv_ret_pct": -1.963,
+          "inv_ret_pct": -1.993,
           "spy_pct": -1.082,
           "qqq_pct": -1.728
         },
@@ -1394,7 +1394,7 @@
           "equity": 99256.93,
           "pnl": -376.31,
           "ret_pct": -0.378,
-          "inv_ret_pct": -1.925,
+          "inv_ret_pct": -1.954,
           "spy_pct": -1.17,
           "qqq_pct": -1.931
         },
@@ -1404,7 +1404,7 @@
           "equity": 99225.74,
           "pnl": -407.5,
           "ret_pct": -0.409,
-          "inv_ret_pct": -2.084,
+          "inv_ret_pct": -2.116,
           "spy_pct": -1.125,
           "qqq_pct": -1.836
         },
@@ -1414,7 +1414,7 @@
           "equity": 99244.02,
           "pnl": -389.22,
           "ret_pct": -0.391,
-          "inv_ret_pct": -1.991,
+          "inv_ret_pct": -2.021,
           "spy_pct": -1.176,
           "qqq_pct": -1.928
         },
@@ -1424,7 +1424,7 @@
           "equity": 99227.05,
           "pnl": -406.19,
           "ret_pct": -0.408,
-          "inv_ret_pct": -2.078,
+          "inv_ret_pct": -2.109,
           "spy_pct": -1.246,
           "qqq_pct": -2.046
         },
@@ -1434,7 +1434,7 @@
           "equity": 99213.25,
           "pnl": -419.99,
           "ret_pct": -0.422,
-          "inv_ret_pct": -2.148,
+          "inv_ret_pct": -2.181,
           "spy_pct": -1.253,
           "qqq_pct": -2.117
         },
@@ -1444,7 +1444,7 @@
           "equity": 99202.15,
           "pnl": -431.09,
           "ret_pct": -0.433,
-          "inv_ret_pct": -2.205,
+          "inv_ret_pct": -2.238,
           "spy_pct": -1.377,
           "qqq_pct": -2.297
         },
@@ -1454,7 +1454,7 @@
           "equity": 99160.53,
           "pnl": -472.71,
           "ret_pct": -0.474,
-          "inv_ret_pct": -2.418,
+          "inv_ret_pct": -2.454,
           "spy_pct": -1.34,
           "qqq_pct": -2.252
         },
@@ -1464,7 +1464,7 @@
           "equity": 99168.24,
           "pnl": -465.0,
           "ret_pct": -0.467,
-          "inv_ret_pct": -2.378,
+          "inv_ret_pct": -2.414,
           "spy_pct": -1.204,
           "qqq_pct": -2.047
         },
@@ -1474,7 +1474,7 @@
           "equity": 99214.7,
           "pnl": -418.54,
           "ret_pct": -0.42,
-          "inv_ret_pct": -2.141,
+          "inv_ret_pct": -2.173,
           "spy_pct": -1.206,
           "qqq_pct": -2.101
         },
@@ -1484,7 +1484,7 @@
           "equity": 99209.14,
           "pnl": -424.1,
           "ret_pct": -0.426,
-          "inv_ret_pct": -2.169,
+          "inv_ret_pct": -2.202,
           "spy_pct": -1.293,
           "qqq_pct": -2.234
         },
@@ -1494,7 +1494,7 @@
           "equity": 99188.56,
           "pnl": -444.68,
           "ret_pct": -0.446,
-          "inv_ret_pct": -2.275,
+          "inv_ret_pct": -2.309,
           "spy_pct": -1.343,
           "qqq_pct": -2.33
         },
@@ -1504,7 +1504,7 @@
           "equity": 99166.64,
           "pnl": -466.6,
           "ret_pct": -0.468,
-          "inv_ret_pct": -2.387,
+          "inv_ret_pct": -2.423,
           "spy_pct": -1.354,
           "qqq_pct": -2.368
         },
@@ -1514,7 +1514,7 @@
           "equity": 99164.21,
           "pnl": -469.03,
           "ret_pct": -0.471,
-          "inv_ret_pct": -2.399,
+          "inv_ret_pct": -2.435,
           "spy_pct": -1.373,
           "qqq_pct": -2.417
         },
@@ -1524,7 +1524,7 @@
           "equity": 99160.74,
           "pnl": -472.5,
           "ret_pct": -0.474,
-          "inv_ret_pct": -2.417,
+          "inv_ret_pct": -2.453,
           "spy_pct": -1.273,
           "qqq_pct": -2.259
         },
@@ -1534,7 +1534,7 @@
           "equity": 99193.76,
           "pnl": -439.48,
           "ret_pct": -0.441,
-          "inv_ret_pct": -2.248,
+          "inv_ret_pct": -2.282,
           "spy_pct": -1.274,
           "qqq_pct": -2.258
         },
@@ -1544,7 +1544,7 @@
           "equity": 99182.27,
           "pnl": -450.97,
           "ret_pct": -0.453,
-          "inv_ret_pct": -2.307,
+          "inv_ret_pct": -2.342,
           "spy_pct": -1.261,
           "qqq_pct": -2.207
         },
@@ -1554,7 +1554,7 @@
           "equity": 99191.79,
           "pnl": -441.45,
           "ret_pct": -0.443,
-          "inv_ret_pct": -2.258,
+          "inv_ret_pct": -2.292,
           "spy_pct": -1.156,
           "qqq_pct": -2.095
         },
@@ -1564,7 +1564,7 @@
           "equity": 99209.99,
           "pnl": -423.25,
           "ret_pct": -0.425,
-          "inv_ret_pct": -2.165,
+          "inv_ret_pct": -2.198,
           "spy_pct": -1.31,
           "qqq_pct": -2.338
         },
@@ -1574,7 +1574,7 @@
           "equity": 99169.83,
           "pnl": -463.41,
           "ret_pct": -0.465,
-          "inv_ret_pct": -2.37,
+          "inv_ret_pct": -2.406,
           "spy_pct": -1.281,
           "qqq_pct": -2.308
         },
@@ -1584,7 +1584,7 @@
           "equity": 99171.1,
           "pnl": -462.14,
           "ret_pct": -0.464,
-          "inv_ret_pct": -2.364,
+          "inv_ret_pct": -2.4,
           "spy_pct": -1.262,
           "qqq_pct": -2.236
         },
@@ -1594,19 +1594,29 @@
           "equity": 99187.1,
           "pnl": -446.14,
           "ret_pct": -0.448,
-          "inv_ret_pct": -2.282,
+          "inv_ret_pct": -2.316,
           "spy_pct": -1.196,
           "qqq_pct": -2.169
         },
         {
           "t": "2026-06-05T18:00Z",
           "date": "2026-06-05",
-          "equity": 99156.05,
-          "pnl": -477.19,
-          "ret_pct": -0.479,
-          "inv_ret_pct": -2.441,
-          "spy_pct": -1.3,
-          "qqq_pct": -2.344
+          "equity": 99199.74,
+          "pnl": -433.5,
+          "ret_pct": -0.435,
+          "inv_ret_pct": -2.251,
+          "spy_pct": -1.351,
+          "qqq_pct": -2.409
+        },
+        {
+          "t": "2026-06-05T18:05Z",
+          "date": "2026-06-05",
+          "equity": 99136.54,
+          "pnl": -496.7,
+          "ret_pct": -0.499,
+          "inv_ret_pct": -2.579,
+          "spy_pct": -1.393,
+          "qqq_pct": -2.447
         }
       ],
       "1W": [
@@ -1998,7 +2008,7 @@
           "equity": 100103.34,
           "pnl": 103.34,
           "ret_pct": 0.103,
-          "inv_ret_pct": 0.529,
+          "inv_ret_pct": 0.537,
           "spy_pct": 0.414,
           "qqq_pct": 1.069
         },
@@ -2008,7 +2018,7 @@
           "equity": 99937.81,
           "pnl": -62.19,
           "ret_pct": -0.062,
-          "inv_ret_pct": -0.318,
+          "inv_ret_pct": -0.323,
           "spy_pct": -0.286,
           "qqq_pct": 0.812
         },
@@ -2018,7 +2028,7 @@
           "equity": 99835.67,
           "pnl": -164.33,
           "ret_pct": -0.164,
-          "inv_ret_pct": -0.841,
+          "inv_ret_pct": -0.853,
           "spy_pct": 0.083,
           "qqq_pct": 0.31
         }
@@ -2060,7 +2070,7 @@
           "equity": 100103.34,
           "pnl": 103.34,
           "ret_pct": 0.103,
-          "inv_ret_pct": 0.529,
+          "inv_ret_pct": 0.537,
           "spy_pct": 0.414,
           "qqq_pct": 1.069
         },
@@ -2070,7 +2080,7 @@
           "equity": 99937.81,
           "pnl": -62.19,
           "ret_pct": -0.062,
-          "inv_ret_pct": -0.318,
+          "inv_ret_pct": -0.323,
           "spy_pct": -0.286,
           "qqq_pct": 0.812
         },
@@ -2080,7 +2090,7 @@
           "equity": 99835.67,
           "pnl": -164.33,
           "ret_pct": -0.164,
-          "inv_ret_pct": -0.841,
+          "inv_ret_pct": -0.853,
           "spy_pct": 0.083,
           "qqq_pct": 0.31
         }
@@ -2122,7 +2132,7 @@
           "equity": 100103.34,
           "pnl": 103.34,
           "ret_pct": 0.103,
-          "inv_ret_pct": 0.529,
+          "inv_ret_pct": 0.537,
           "spy_pct": 0.414,
           "qqq_pct": 1.069
         },
@@ -2132,7 +2142,7 @@
           "equity": 99937.81,
           "pnl": -62.19,
           "ret_pct": -0.062,
-          "inv_ret_pct": -0.318,
+          "inv_ret_pct": -0.323,
           "spy_pct": -0.286,
           "qqq_pct": 0.812
         },
@@ -2142,7 +2152,7 @@
           "equity": 99835.67,
           "pnl": -164.33,
           "ret_pct": -0.164,
-          "inv_ret_pct": -0.841,
+          "inv_ret_pct": -0.853,
           "spy_pct": 0.083,
           "qqq_pct": 0.31
         }
@@ -2161,9 +2171,9 @@
     ],
     "comparison": {
       "1D": {
-        "you_pct": -2.441,
-        "spy_pct": -1.3,
-        "qqq_pct": -2.344
+        "you_pct": -2.579,
+        "spy_pct": -1.393,
+        "qqq_pct": -2.447
       },
       "1W": {
         "you_pct": -0.002,
@@ -2171,24 +2181,34 @@
         "qqq_pct": 0.634
       },
       "1M": {
-        "you_pct": -0.841,
+        "you_pct": -0.853,
         "spy_pct": 0.083,
         "qqq_pct": 0.31
       },
       "3M": {
-        "you_pct": -0.841,
+        "you_pct": -0.853,
         "spy_pct": 0.083,
         "qqq_pct": 0.31
       },
       "ALL": {
-        "you_pct": -0.841,
+        "you_pct": -0.853,
         "spy_pct": 0.083,
         "qqq_pct": 0.31
       }
     },
-    "invested_return_pct": -4.315,
-    "deployed_capital": 19550.61,
+    "invested_return_pct": -4.486,
+    "deployed_capital": 19259.24,
     "trades": [
+      {
+        "date": "2026-06-05",
+        "strategy": "Alpaca",
+        "ticker": "TSLA",
+        "side": "SELL",
+        "shares": 0.703268,
+        "price": 394.16,
+        "n_fills": 1,
+        "realized_pnl": null
+      },
       {
         "date": "2026-06-05",
         "strategy": "Alpaca",
@@ -2890,29 +2910,29 @@
         "realized_pnl": null
       }
     ],
-    "n_trades": 70,
-    "n_fills": 104,
-    "realized_pnl": -334.8,
-    "unrealized_pnl": -508.74,
-    "total_pnl": -843.54,
+    "n_trades": 71,
+    "n_fills": 105,
+    "realized_pnl": -349.1,
+    "unrealized_pnl": -514.94,
+    "total_pnl": -864.04,
     "open_positions": 14,
     "n_closed": 0,
     "win_rate": null,
-    "cash": 80114.61,
-    "buying_power": 358542.13,
-    "invested": 19041.87,
-    "pct_invested": 19.2,
+    "cash": 80391.81,
+    "buying_power": 359055.53,
+    "invested": 18744.3,
+    "pct_invested": 18.9,
     "best": {
       "symbol": "GOOGL",
-      "unrealized_pl": 42.66,
-      "ret_pct": 2.1
+      "unrealized_pl": 42.27,
+      "ret_pct": 2.08
     },
     "worst": {
       "symbol": "QQQ",
-      "unrealized_pl": -155.15,
-      "ret_pct": -3.42
+      "unrealized_pl": -159.5,
+      "ret_pct": -3.51
     },
-    "today_pl": -679.21
+    "today_pl": -699.71
   },
   "strategies": [
     {
@@ -2976,8 +2996,8 @@
       "total_return_pct": 30.92,
       "sharpe": 0.28,
       "max_drawdown_pct": -16.43,
-      "win_rate": 0.4747,
-      "n_trades": 320,
+      "win_rate": 0.4717,
+      "n_trades": 321,
       "final_equity": 13092.38,
       "status": "active"
     }
@@ -70160,6 +70180,15 @@
   ],
   "recent_trades": [
     {
+      "date": "2026-06-05 14:05",
+      "strategy": "sma_crossover",
+      "ticker": "TSLA",
+      "side": "SELL",
+      "shares": 2.341584,
+      "price": 393.803,
+      "realized_pnl": -81.4
+    },
+    {
       "date": "2026-06-05 13:20",
       "strategy": "sma_crossover",
       "ticker": "NVDA",
@@ -71949,15 +71978,6 @@
       "shares": 3.661939,
       "price": 215.892,
       "realized_pnl": 57.13
-    },
-    {
-      "date": "2026-02-09",
-      "strategy": "ts_momentum",
-      "ticker": "NVDA",
-      "side": "BUY",
-      "shares": 6.995488,
-      "price": 190.1247,
-      "realized_pnl": 0.0
     }
   ],
   "positions": [
@@ -72116,13 +72136,6 @@
       "cost_basis": 1118.04
     },
     {
-      "strategy": "sma_crossover",
-      "ticker": "TSLA",
-      "shares": 2.341584,
-      "avg_price": 428.5642,
-      "cost_basis": 1003.52
-    },
-    {
       "strategy": "donchian_breakout",
       "ticker": "AMD",
       "shares": 4.042831,
@@ -72208,7 +72221,7 @@
     }
   ],
   "cash_by_strategy": {
-    "sma_crossover": 5581.57,
+    "sma_crossover": 6503.69,
     "rsi_reversion": 5674.61,
     "donchian_breakout": 5228.37,
     "macd_trend": 3213.2,
@@ -72588,8 +72601,8 @@
     }
   ],
   "monitor": {
-    "generated_at": "2026-06-05T18:04:05Z",
-    "checked_at_local": "2026-06-05 18:04",
+    "generated_at": "2026-06-05T18:06:05Z",
+    "checked_at_local": "2026-06-05 18:06",
     "source": "alpaca (paper) \u2014 live broker data",
     "quote_note": "real Alpaca paper account",
     "age_minutes": 0,
@@ -72603,7 +72616,7 @@
       "open_positions": 14,
       "live_quoted": 14,
       "market_closed": 0,
-      "total_unrealized_pnl": -508.74,
+      "total_unrealized_pnl": -514.94,
       "fetch_error": null
     },
     "positions": [
@@ -72614,19 +72627,19 @@
         "asset_class": "us_equity",
         "shares": 6.137934954,
         "avg_price": 740.2267,
-        "price": 714.95,
+        "price": 714.24,
         "live": true,
-        "ret_pct": -3.42,
-        "unrealized_pnl": -155.15,
+        "ret_pct": -3.51,
+        "unrealized_pnl": -159.5,
         "cost_basis": 4543.46,
-        "market_value": 4388.32,
-        "weight_pct": 4.43,
-        "intraday_pl": -157.5,
-        "intraday_pct": -3.46,
-        "change_today_pct": -3.46,
-        "peak": 714.95,
+        "market_value": 4383.96,
+        "weight_pct": 4.42,
+        "intraday_pl": -161.86,
+        "intraday_pct": -3.56,
+        "change_today_pct": -3.56,
+        "peak": 714.24,
         "stop_price": 681.0086,
-        "stop_headroom_pct": 4.58
+        "stop_headroom_pct": 4.49
       },
       {
         "strategy": "Alpaca",
@@ -72635,19 +72648,19 @@
         "asset_class": "us_equity",
         "shares": 5.845553744,
         "avg_price": 757.5518,
-        "price": 743.82,
+        "price": 743.11,
         "live": true,
-        "ret_pct": -1.81,
-        "unrealized_pnl": -80.27,
+        "ret_pct": -1.91,
+        "unrealized_pnl": -84.42,
         "cost_basis": 4428.31,
-        "market_value": 4348.04,
-        "weight_pct": 4.39,
-        "intraday_pl": -77.57,
-        "intraday_pct": -1.75,
-        "change_today_pct": -1.75,
-        "peak": 743.82,
+        "market_value": 4343.89,
+        "weight_pct": 4.38,
+        "intraday_pl": -81.72,
+        "intraday_pct": -1.85,
+        "change_today_pct": -1.85,
+        "peak": 743.11,
         "stop_price": 696.9477,
-        "stop_headroom_pct": 6.19
+        "stop_headroom_pct": 6.09
       },
       {
         "strategy": "Alpaca",
@@ -72656,19 +72669,19 @@
         "asset_class": "us_equity",
         "shares": 5.620427041,
         "avg_price": 361.6391,
-        "price": 369.23,
+        "price": 369.16,
         "live": true,
-        "ret_pct": 2.1,
-        "unrealized_pnl": 42.66,
+        "ret_pct": 2.08,
+        "unrealized_pnl": 42.27,
         "cost_basis": 2032.57,
-        "market_value": 2075.23,
+        "market_value": 2074.84,
         "weight_pct": 2.09,
-        "intraday_pl": -16.64,
-        "intraday_pct": -0.8,
-        "change_today_pct": -0.8,
-        "peak": 369.23,
+        "intraday_pl": -17.03,
+        "intraday_pct": -0.81,
+        "change_today_pct": -0.81,
+        "peak": 369.16,
         "stop_price": 332.708,
-        "stop_headroom_pct": 10.1
+        "stop_headroom_pct": 10.08
       },
       {
         "strategy": "Alpaca",
@@ -72677,19 +72690,19 @@
         "asset_class": "us_equity",
         "shares": 3.165230171,
         "avg_price": 401.44,
-        "price": 392.41,
+        "price": 391.73,
         "live": true,
-        "ret_pct": -2.25,
-        "unrealized_pnl": -28.58,
+        "ret_pct": -2.42,
+        "unrealized_pnl": -30.73,
         "cost_basis": 1270.65,
-        "market_value": 1242.07,
+        "market_value": 1239.92,
         "weight_pct": 1.25,
-        "intraday_pl": -28.58,
-        "intraday_pct": -2.25,
-        "change_today_pct": -6.33,
-        "peak": 392.41,
+        "intraday_pl": -30.73,
+        "intraday_pct": -2.42,
+        "change_today_pct": -6.49,
+        "peak": 391.73,
         "stop_price": 369.3248,
-        "stop_headroom_pct": 5.75
+        "stop_headroom_pct": 5.58
       },
       {
         "strategy": "Alpaca",
@@ -72698,40 +72711,19 @@
         "asset_class": "us_equity",
         "shares": 2.407684003,
         "avg_price": 509.7697,
-        "price": 474.43,
+        "price": 473.45,
         "live": true,
-        "ret_pct": -6.93,
-        "unrealized_pnl": -85.09,
+        "ret_pct": -7.12,
+        "unrealized_pnl": -87.45,
         "cost_basis": 1227.36,
-        "market_value": 1142.28,
+        "market_value": 1139.92,
         "weight_pct": 1.15,
-        "intraday_pl": -117.42,
-        "intraday_pct": -9.32,
-        "change_today_pct": -9.32,
-        "peak": 474.43,
+        "intraday_pl": -119.78,
+        "intraday_pct": -9.51,
+        "change_today_pct": -9.51,
+        "peak": 473.45,
         "stop_price": 468.9881,
-        "stop_headroom_pct": 1.07
-      },
-      {
-        "strategy": "Alpaca",
-        "ticker": "TSLA",
-        "is_crypto": false,
-        "asset_class": "us_equity",
-        "shares": 2.546510747,
-        "avg_price": 414.3133,
-        "price": 394.21,
-        "live": true,
-        "ret_pct": -4.85,
-        "unrealized_pnl": -51.19,
-        "cost_basis": 1055.05,
-        "market_value": 1003.86,
-        "weight_pct": 1.01,
-        "intraday_pl": -61.73,
-        "intraday_pct": -5.79,
-        "change_today_pct": -5.79,
-        "peak": 394.21,
-        "stop_price": 381.1683,
-        "stop_headroom_pct": 3.15
+        "stop_headroom_pct": 0.88
       },
       {
         "strategy": "Alpaca",
@@ -72740,19 +72732,19 @@
         "asset_class": "us_equity",
         "shares": 2.386332928,
         "avg_price": 413.3874,
-        "price": 397.98,
+        "price": 397.63,
         "live": true,
-        "ret_pct": -3.73,
-        "unrealized_pnl": -36.77,
+        "ret_pct": -3.81,
+        "unrealized_pnl": -37.6,
         "cost_basis": 986.48,
-        "market_value": 949.71,
+        "market_value": 948.88,
         "weight_pct": 0.96,
-        "intraday_pl": -31.71,
-        "intraday_pct": -3.23,
-        "change_today_pct": -3.23,
-        "peak": 397.98,
+        "intraday_pl": -32.55,
+        "intraday_pct": -3.32,
+        "change_today_pct": -3.32,
+        "peak": 397.63,
         "stop_price": 380.3164,
-        "stop_headroom_pct": 4.27
+        "stop_headroom_pct": 4.19
       },
       {
         "strategy": "Alpaca",
@@ -72761,19 +72753,40 @@
         "asset_class": "us_equity",
         "shares": 3.578578648,
         "avg_price": 224.7138,
-        "price": 207.305,
+        "price": 207.0,
         "live": true,
-        "ret_pct": -7.75,
-        "unrealized_pnl": -62.3,
+        "ret_pct": -7.88,
+        "unrealized_pnl": -63.39,
         "cost_basis": 804.16,
-        "market_value": 741.86,
+        "market_value": 740.77,
         "weight_pct": 0.75,
-        "intraday_pl": -40.63,
-        "intraday_pct": -5.19,
-        "change_today_pct": -5.19,
-        "peak": 207.305,
+        "intraday_pl": -41.73,
+        "intraday_pct": -5.33,
+        "change_today_pct": -5.33,
+        "peak": 207.0,
         "stop_price": 206.7367,
-        "stop_headroom_pct": 0.25
+        "stop_headroom_pct": 0.12
+      },
+      {
+        "strategy": "Alpaca",
+        "ticker": "TSLA",
+        "is_crypto": false,
+        "asset_class": "us_equity",
+        "shares": 1.843243039,
+        "avg_price": 414.3133,
+        "price": 393.885,
+        "live": true,
+        "ret_pct": -4.93,
+        "unrealized_pnl": -37.65,
+        "cost_basis": 763.68,
+        "market_value": 726.03,
+        "weight_pct": 0.73,
+        "intraday_pl": -45.28,
+        "intraday_pct": -5.87,
+        "change_today_pct": -5.87,
+        "peak": 393.885,
+        "stop_price": 381.1683,
+        "stop_headroom_pct": 3.07
       },
       {
         "strategy": "Alpaca",
@@ -72782,19 +72795,19 @@
         "asset_class": "us_equity",
         "shares": 2.13397728,
         "avg_price": 311.62,
-        "price": 312.215,
+        "price": 311.96,
         "live": true,
-        "ret_pct": 0.19,
-        "unrealized_pnl": 1.27,
+        "ret_pct": 0.11,
+        "unrealized_pnl": 0.73,
         "cost_basis": 664.99,
-        "market_value": 666.26,
+        "market_value": 665.72,
         "weight_pct": 0.67,
-        "intraday_pl": 2.1,
-        "intraday_pct": 0.32,
-        "change_today_pct": 0.32,
-        "peak": 312.215,
+        "intraday_pl": 1.56,
+        "intraday_pct": 0.24,
+        "change_today_pct": 0.24,
+        "peak": 311.96,
         "stop_price": 286.6904,
-        "stop_headroom_pct": 8.19
+        "stop_headroom_pct": 8.11
       },
       {
         "strategy": "Alpaca",
@@ -72803,19 +72816,19 @@
         "asset_class": "us_equity",
         "shares": 5.264569776,
         "avg_price": 125.3534,
-        "price": 122.78,
+        "price": 122.38,
         "live": true,
-        "ret_pct": -2.05,
-        "unrealized_pnl": -13.55,
+        "ret_pct": -2.37,
+        "unrealized_pnl": -15.65,
         "cost_basis": 659.93,
-        "market_value": 646.38,
+        "market_value": 644.28,
         "weight_pct": 0.65,
-        "intraday_pl": -38.01,
-        "intraday_pct": -5.55,
-        "change_today_pct": -5.55,
-        "peak": 122.78,
+        "intraday_pl": -40.12,
+        "intraday_pct": -5.86,
+        "change_today_pct": -5.86,
+        "peak": 122.38,
         "stop_price": 115.3251,
-        "stop_headroom_pct": 5.95
+        "stop_headroom_pct": 5.63
       },
       {
         "strategy": "Alpaca",
@@ -72845,19 +72858,19 @@
         "asset_class": "us_equity",
         "shares": 4.729674968,
         "avg_price": 118.45,
-        "price": 120.3,
+        "price": 120.36,
         "live": true,
-        "ret_pct": 1.56,
-        "unrealized_pnl": 8.75,
+        "ret_pct": 1.61,
+        "unrealized_pnl": 9.03,
         "cost_basis": 560.23,
-        "market_value": 568.98,
+        "market_value": 569.26,
         "weight_pct": 0.57,
-        "intraday_pl": 12.11,
-        "intraday_pct": 2.17,
-        "change_today_pct": 2.17,
-        "peak": 120.3,
+        "intraday_pl": 12.39,
+        "intraday_pct": 2.23,
+        "change_today_pct": 2.23,
+        "peak": 120.36,
         "stop_price": 108.974,
-        "stop_headroom_pct": 9.56
+        "stop_headroom_pct": 9.61
       },
       {
         "strategy": "Alpaca",
@@ -72866,19 +72879,19 @@
         "asset_class": "us_equity",
         "shares": 1.600770985,
         "avg_price": 241.7855,
-        "price": 215.13,
+        "price": 214.4001,
         "live": true,
-        "ret_pct": -11.02,
-        "unrealized_pnl": -42.67,
+        "ret_pct": -11.33,
+        "unrealized_pnl": -43.84,
         "cost_basis": 387.04,
-        "market_value": 344.37,
+        "market_value": 343.21,
         "weight_pct": 0.35,
-        "intraday_pl": -33.95,
-        "intraday_pct": -8.97,
-        "change_today_pct": -8.97,
-        "peak": 215.13,
+        "intraday_pl": -35.12,
+        "intraday_pct": -9.28,
+        "change_today_pct": -9.28,
+        "peak": 214.4001,
         "stop_price": 222.4426,
-        "stop_headroom_pct": -3.02
+        "stop_headroom_pct": -3.33
       },
       {
         "strategy": "Alpaca",
@@ -72887,27 +72900,27 @@
         "asset_class": "us_equity",
         "shares": 0.715637484,
         "avg_price": 466.08,
-        "price": 466.0635,
+        "price": 464.86,
         "live": true,
-        "ret_pct": -0.0,
-        "unrealized_pnl": -0.01,
+        "ret_pct": -0.26,
+        "unrealized_pnl": -0.87,
         "cost_basis": 333.54,
-        "market_value": 333.53,
+        "market_value": 332.67,
         "weight_pct": 0.34,
-        "intraday_pl": -25.5,
-        "intraday_pct": -7.1,
-        "change_today_pct": -7.1,
-        "peak": 466.0635,
+        "intraday_pl": -26.36,
+        "intraday_pct": -7.34,
+        "change_today_pct": -7.34,
+        "peak": 464.86,
         "stop_price": 428.7936,
-        "stop_headroom_pct": 8.0
+        "stop_headroom_pct": 7.74
       }
     ],
     "recent_actions": []
   },
   "counts": {
     "strategies": 6,
-    "trades": 2399,
-    "positions": 35,
+    "trades": 2400,
+    "positions": 34,
     "cycles": 1722
   }
 }
