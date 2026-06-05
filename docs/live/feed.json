@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T23:11:02Z",
+  "generated_at": "2026-06-05T23:13:02Z",
   "portfolio": {
     "profit": 16555.17,
     "wagered": 279799.48,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 8,
     "losers": 5,
-    "open_bets": 14,
-    "open_wagered": 35.55,
+    "open_bets": 16,
+    "open_wagered": 36.83,
     "data_through": "live",
     "today_profit": 32.21,
     "today_roi": 0.5672,
-    "today_wagered": 88.7,
-    "live_bets": 19,
+    "today_wagered": 92.34,
+    "live_bets": 23,
     "wins": 3305,
     "losses": 3914
   },
@@ -1310,7 +1310,7 @@
       "n_14d": 674,
       "profit_14d": 0.3,
       "roi_14d": 0.0006,
-      "balance": 91.94,
+      "balance": 90.66,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -3036,6 +3036,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "23:12:58",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 7.5",
+      "odds": -183,
+      "ev": -0.67,
+      "stake": 0.6464,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "time": "23:12:51",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Toronto Blue Jays +1.5",
+      "odds": -175,
+      "ev": -4.48,
+      "stake": 0.6365,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "23:11:01",
@@ -7505,36 +7535,6 @@
       "payout": 2.0,
       "status": "win",
       "profit": 1.1461
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:46:33",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Texas Rangers",
-      "odds": -126,
-      "ev": 0.42,
-      "stake": 0.5574,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.4426
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:43:43",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Point Spread",
-      "selection": "Chicago Sky -1.5",
-      "odds": -107,
-      "ev": 6.31,
-      "stake": 26.4081,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -26.4081
     }
   ],
   "book_brier": [],
@@ -8730,19 +8730,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8758,6 +8745,19 @@
       "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10158,9 +10158,9 @@
       {
         "t": "19:10",
         "profit": 32.21,
-        "wagered": 88.7,
-        "open_bets": 14,
-        "open_wagered": 35.55
+        "wagered": 92.34,
+        "open_bets": 16,
+        "open_wagered": 36.83
       }
     ]
   }
