@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T00:45:02Z",
+  "generated_at": "2026-06-05T00:47:02Z",
   "portfolio": {
     "profit": 16414.55,
     "wagered": 279416.7,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 24,
-    "open_wagered": 165.37,
+    "open_bets": 26,
+    "open_wagered": 194.74,
     "data_through": "live",
     "today_profit": -84.02,
     "today_roi": -0.2278,
-    "today_wagered": 534.28,
-    "live_bets": 33,
+    "today_wagered": 554.28,
+    "live_bets": 34,
     "wins": 3276,
     "losses": 3899
   },
@@ -1828,7 +1828,7 @@
       "n_14d": 94,
       "profit_14d": -534.53,
       "roi_14d": -0.1803,
-      "balance": 124.91,
+      "balance": 104.91,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -3031,6 +3031,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "00:46:06",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Total Points",
+      "selection": "Over 147.5",
+      "odds": 160,
+      "ev": 13.97,
+      "stake": 9.37,
+      "payout": 24.36,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "time": "00:45:31",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "NHL",
+      "market": "Moneyline",
+      "selection": "Carolina Hurricanes",
+      "odds": 135,
+      "ev": 6.99,
+      "stake": 20.0,
+      "payout": 47.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "00:21:55",
@@ -7500,36 +7530,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.393
-    },
-    {
-      "date": "2026-06-02",
-      "time": "22:45:24",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 10.5",
-      "odds": 173,
-      "ev": -1.89,
-      "stake": 0.7319,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.7319
-    },
-    {
-      "date": "2026-06-02",
-      "time": "22:45:16",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Washington Nationals",
-      "odds": -116,
-      "ev": -4.13,
-      "stake": 0.5375,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.5375
     }
   ],
   "book_brier": [],
@@ -8725,19 +8725,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
       "n": 0,
@@ -8753,6 +8740,19 @@
       "book": "FanDuel",
       "league": "NBA",
       "market": "Point Spread - 1st Quarter",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10216,9 +10216,9 @@
       {
         "t": "20:40",
         "profit": -84.02,
-        "wagered": 534.28,
-        "open_bets": 24,
-        "open_wagered": 165.37
+        "wagered": 554.28,
+        "open_bets": 26,
+        "open_wagered": 194.74
       }
     ]
   }
