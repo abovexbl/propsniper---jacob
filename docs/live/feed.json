@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T23:07:10Z",
+  "generated_at": "2026-06-05T23:09:02Z",
   "portfolio": {
     "profit": 16555.17,
     "wagered": 279799.48,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 8,
     "losers": 5,
-    "open_bets": 7,
-    "open_wagered": 29.63,
+    "open_bets": 8,
+    "open_wagered": 30.54,
     "data_through": "live",
     "today_profit": 32.21,
     "today_roi": 0.5672,
@@ -1310,7 +1310,7 @@
       "n_14d": 674,
       "profit_14d": 0.3,
       "roi_14d": 0.0006,
-      "balance": 97.87,
+      "balance": 96.95,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -3036,6 +3036,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "23:07:59",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Baltimore Orioles",
+      "odds": 119,
+      "ev": -4.16,
+      "stake": 0.9145,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "22:58:01",
@@ -7520,21 +7535,6 @@
       "payout": 2.0,
       "status": "win",
       "profit": 1.1866
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:37:01",
-      "account": "Jacob Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Moneyline",
-      "selection": "Chicago Sky",
-      "odds": -116,
-      "ev": 3.71,
-      "stake": 27.4111,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -27.4111
     }
   ],
   "book_brier": [],
@@ -7937,8 +7937,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7950,8 +7950,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10152,8 +10152,8 @@
         "t": "19:00",
         "profit": 32.21,
         "wagered": 86.42,
-        "open_bets": 7,
-        "open_wagered": 29.63
+        "open_bets": 8,
+        "open_wagered": 30.54
       }
     ]
   }
