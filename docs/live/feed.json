@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T19:19:02Z",
+  "generated_at": "2026-06-05T19:21:02Z",
   "portfolio": {
     "profit": 16497.97,
     "wagered": 279729.6,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 8,
     "losers": 5,
-    "open_bets": 1,
-    "open_wagered": 14.1,
+    "open_bets": 4,
+    "open_wagered": 15.99,
     "data_through": "live",
     "today_profit": -1.01,
     "today_roi": -1.0,
@@ -1310,7 +1310,7 @@
       "n_14d": 671,
       "profit_14d": -0.81,
       "roi_14d": -0.0015,
-      "balance": 100.74,
+      "balance": 98.85,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -3036,6 +3036,51 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "19:20:18",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Chicago Cubs",
+      "odds": -161,
+      "ev": -4.41,
+      "stake": 0.6168,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "time": "19:20:04",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 12.5",
+      "odds": 181,
+      "ev": -5.33,
+      "stake": 0.7115,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "time": "19:20:04",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "San Francisco Giants +1.5",
+      "odds": -126,
+      "ev": -1.95,
+      "stake": 0.5574,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "12:41:17",
@@ -7490,51 +7535,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4625
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:32:53",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "WNBA",
-      "market": "Moneyline",
-      "selection": "Chicago Sky",
-      "odds": -131,
-      "ev": -5.03,
-      "stake": 0.5674,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -0.5674
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:18:26",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Moneyline",
-      "selection": "Atlanta Braves",
-      "odds": -142,
-      "ev": -5.51,
-      "stake": 0.5872,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.4128
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:17:04",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Under 8.5",
-      "odds": -161,
-      "ev": -2.48,
-      "stake": 0.6168,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3832
     }
   ],
   "book_brier": [],
@@ -8743,8 +8743,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8756,8 +8756,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -9993,6 +9993,13 @@
         "wagered": 1.01,
         "open_bets": 1,
         "open_wagered": 14.1
+      },
+      {
+        "t": "15:20",
+        "profit": -1.01,
+        "wagered": 1.01,
+        "open_bets": 4,
+        "open_wagered": 15.99
       }
     ]
   }
