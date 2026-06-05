@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T23:41:02Z",
+  "generated_at": "2026-06-05T23:43:02Z",
   "portfolio": {
     "profit": 16555.17,
     "wagered": 279799.48,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 8,
     "losers": 5,
-    "open_bets": 34,
-    "open_wagered": 423.68,
+    "open_bets": 35,
+    "open_wagered": 437.3,
     "data_through": "live",
     "today_profit": 32.21,
     "today_roi": 0.5672,
-    "today_wagered": 480.46,
-    "live_bets": 43,
+    "today_wagered": 494.08,
+    "live_bets": 44,
     "wins": 3305,
     "losses": 3914
   },
@@ -1311,7 +1311,7 @@
       "profit_14d": 0.3,
       "roi_14d": 0.0006,
       "balance": 85.67,
-      "health": null,
+      "health": "healthy",
       "working": 3,
       "bleeding": 3,
       "markets": [
@@ -1505,7 +1505,7 @@
       "profit_14d": 776.61,
       "roi_14d": 0.2042,
       "balance": 991.4,
-      "health": null,
+      "health": "healthy",
       "working": 3,
       "bleeding": 3,
       "markets": [
@@ -1829,7 +1829,7 @@
       "profit_14d": -554.35,
       "roi_14d": -0.1983,
       "balance": 110.09,
-      "health": null,
+      "health": "healthy",
       "working": 0,
       "bleeding": 2,
       "markets": [
@@ -3036,6 +3036,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "23:41:35",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Chicago Sky -9.5",
+      "odds": 220,
+      "ev": 17.45,
+      "stake": 13.62,
+      "payout": 43.58,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "23:35:00",
@@ -7520,21 +7535,6 @@
       "payout": 39.04,
       "status": "win",
       "profit": 19.04
-    },
-    {
-      "date": "2026-06-03",
-      "time": "00:16:24",
-      "account": "Jacob Fliff",
-      "book": "Fliff",
-      "league": "WNBA",
-      "market": "Point Spread",
-      "selection": "Atlanta Dream -11.5",
-      "odds": 100,
-      "ev": 3.8,
-      "stake": 20.0,
-      "payout": 40.0,
-      "status": "win",
-      "profit": 20.0
     }
   ],
   "book_brier": [],
@@ -7937,8 +7937,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7950,8 +7950,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10179,9 +10179,9 @@
       {
         "t": "19:40",
         "profit": 32.21,
-        "wagered": 480.46,
-        "open_bets": 34,
-        "open_wagered": 423.68
+        "wagered": 494.08,
+        "open_bets": 35,
+        "open_wagered": 437.3
       }
     ]
   }
