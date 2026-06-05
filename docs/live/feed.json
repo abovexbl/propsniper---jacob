@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T01:41:02Z",
+  "generated_at": "2026-06-05T01:43:02Z",
   "portfolio": {
     "profit": 16448.85,
     "wagered": 279469.37,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 33,
-    "open_wagered": 238.29,
+    "open_bets": 34,
+    "open_wagered": 239.22,
     "data_through": "live",
     "today_profit": -81.99,
     "today_roi": -0.1707,
-    "today_wagered": 658.62,
-    "live_bets": 34,
+    "today_wagered": 660.8,
+    "live_bets": 37,
     "wins": 3281,
     "losses": 3903
   },
@@ -1310,7 +1310,7 @@
       "n_14d": 646,
       "profit_14d": -4.04,
       "roi_14d": -0.0078,
-      "balance": 83.69,
+      "balance": 82.75,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -3036,6 +3036,21 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "01:41:28",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Arizona Diamondbacks",
+      "odds": 114,
+      "ev": 1.15,
+      "stake": 0.9347,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "01:40:55",
@@ -7520,21 +7535,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4426
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:11:33",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Kansas City Royals +1.5",
-      "odds": -191,
-      "ev": -4.42,
-      "stake": 0.6562,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.3438
     }
   ],
   "book_brier": [],
@@ -7950,8 +7950,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7963,8 +7963,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10263,9 +10263,9 @@
       {
         "t": "21:40",
         "profit": -81.99,
-        "wagered": 658.62,
-        "open_bets": 33,
-        "open_wagered": 238.29
+        "wagered": 660.8,
+        "open_bets": 34,
+        "open_wagered": 239.22
       }
     ]
   }
