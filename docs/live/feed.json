@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T22:49:02Z",
+  "generated_at": "2026-06-05T22:51:10Z",
   "portfolio": {
     "profit": 16555.17,
     "wagered": 279799.48,
@@ -3046,7 +3046,7 @@
       "selection": "Chicago White Sox +2.5",
       "odds": -208,
       "ev": -4.06,
-      "stake": 0.6758000000000001,
+      "stake": 0.6758,
       "payout": 1.0,
       "status": "pending",
       "profit": 0.0
@@ -3061,7 +3061,7 @@
       "selection": "Over 9.5",
       "odds": 159,
       "ev": -1.95,
-      "stake": 0.7726999999999999,
+      "stake": 0.7727,
       "payout": 2.0,
       "status": "pending",
       "profit": 0.0
@@ -3106,7 +3106,7 @@
       "selection": "Detroit Tigers +2.5",
       "odds": -263,
       "ev": -2.96,
-      "stake": 0.7244999999999999,
+      "stake": 0.7245,
       "payout": 1.0,
       "status": "pending",
       "profit": 0.0
@@ -7938,7 +7938,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7964,7 +7964,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8730,19 +8730,6 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
-      "n": 0,
-      "stake": 0.0,
-      "profit": 0.0,
-      "roi": null,
-      "avg_ev": 0,
-      "in_config": true,
-      "bet": false,
-      "book_has_config": true
-    },
-    {
-      "book": "FanDuel",
       "league": "Tennis",
       "market": "Set Handicap",
       "n": 0,
@@ -8758,6 +8745,19 @@
       "book": "FanDuel",
       "league": "MLB",
       "market": "Team Total Runs",
+      "n": 0,
+      "stake": 0.0,
+      "profit": 0.0,
+      "roi": null,
+      "avg_ev": 0,
+      "in_config": true,
+      "bet": false,
+      "book_has_config": true
+    },
+    {
+      "book": "FanDuel",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10136,6 +10136,13 @@
       },
       {
         "t": "18:40",
+        "profit": 32.21,
+        "wagered": 85.71,
+        "open_bets": 6,
+        "open_wagered": 28.92
+      },
+      {
+        "t": "18:50",
         "profit": 32.21,
         "wagered": 85.71,
         "open_bets": 6,
