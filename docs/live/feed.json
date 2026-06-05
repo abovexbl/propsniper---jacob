@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T01:35:02Z",
+  "generated_at": "2026-06-05T01:37:02Z",
   "portfolio": {
     "profit": 16448.85,
     "wagered": 279469.37,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 7,
     "losers": 6,
-    "open_bets": 28,
-    "open_wagered": 184.73,
+    "open_bets": 30,
+    "open_wagered": 216.26,
     "data_through": "live",
     "today_profit": -81.99,
     "today_roi": -0.1707,
-    "today_wagered": 606.31,
-    "live_bets": 31,
+    "today_wagered": 637.84,
+    "live_bets": 33,
     "wins": 3281,
     "losses": 3903
   },
@@ -1310,7 +1310,7 @@
       "n_14d": 646,
       "profit_14d": -4.04,
       "roi_14d": -0.0078,
-      "balance": 83.93,
+      "balance": 84.93,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -1504,7 +1504,7 @@
       "n_14d": 116,
       "profit_14d": 692.6,
       "roi_14d": 0.1932,
-      "balance": 741.71,
+      "balance": 718.17,
       "health": "healthy",
       "working": 4,
       "bleeding": 2,
@@ -3036,6 +3036,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "01:35:26",
+      "account": "Jacob DraftKings",
+      "book": "DraftKings",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Golden State Valkyries -5.5",
+      "odds": 300,
+      "ev": 14.34,
+      "stake": 7.99,
+      "payout": 31.96,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "time": "01:35:21",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "WNBA",
+      "market": "Moneyline",
+      "selection": "Minnesota Lynx",
+      "odds": -121,
+      "ev": 3.03,
+      "stake": 23.5399,
+      "payout": 42.99,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "01:08:39",
@@ -7505,36 +7535,6 @@
       "payout": 1.0,
       "status": "win",
       "profit": 0.4725
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:09:30",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "MLB",
-      "market": "Total Runs",
-      "selection": "Over 5.5",
-      "odds": -239,
-      "ev": -4.28,
-      "stake": 0.705,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.295
-    },
-    {
-      "date": "2026-06-02",
-      "time": "23:00:43",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Total Runs - 1st 5 Innings",
-      "selection": "Under 7.5",
-      "odds": 120,
-      "ev": 29.65,
-      "stake": 12.49,
-      "payout": 27.48,
-      "status": "win",
-      "profit": 14.988
     }
   ],
   "book_brier": [],
@@ -7938,7 +7938,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7964,7 +7964,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8743,8 +8743,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8756,8 +8756,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "Tennis",
-      "market": "Set Handicap",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10256,9 +10256,9 @@
       {
         "t": "21:30",
         "profit": -81.99,
-        "wagered": 606.31,
-        "open_bets": 28,
-        "open_wagered": 184.73
+        "wagered": 637.84,
+        "open_bets": 30,
+        "open_wagered": 216.26
       }
     ]
   }
