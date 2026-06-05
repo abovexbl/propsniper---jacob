@@ -532,6 +532,13 @@
       "wagered": 1.01,
       "open_bets": 1,
       "open_wagered": 14.1
+    },
+    {
+      "t": "12:40",
+      "profit": -1.01,
+      "wagered": 1.01,
+      "open_bets": 1,
+      "open_wagered": 14.1
     }
   ]
 }
