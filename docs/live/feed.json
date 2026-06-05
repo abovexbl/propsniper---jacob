@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-05T23:45:02Z",
+  "generated_at": "2026-06-05T23:47:01Z",
   "portfolio": {
     "profit": 16555.17,
     "wagered": 279799.48,
@@ -11,13 +11,13 @@
     "accounts": 13,
     "winners": 8,
     "losers": 5,
-    "open_bets": 35,
-    "open_wagered": 437.3,
+    "open_bets": 37,
+    "open_wagered": 466.86,
     "data_through": "live",
     "today_profit": 32.21,
     "today_roi": 0.5672,
-    "today_wagered": 494.08,
-    "live_bets": 44,
+    "today_wagered": 504.08,
+    "live_bets": 45,
     "wins": 3305,
     "losses": 3914
   },
@@ -1504,7 +1504,7 @@
       "n_14d": 123,
       "profit_14d": 776.61,
       "roi_14d": 0.2042,
-      "balance": 991.4,
+      "balance": 971.84,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -1828,7 +1828,7 @@
       "n_14d": 93,
       "profit_14d": -554.35,
       "roi_14d": -0.1983,
-      "balance": 110.09,
+      "balance": 100.09,
       "health": "healthy",
       "working": 0,
       "bleeding": 2,
@@ -3036,6 +3036,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-05",
+      "time": "23:46:56",
+      "account": "Jacob Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Moneyline",
+      "selection": "Pittsburgh Pirates",
+      "odds": 166,
+      "ev": 4.15,
+      "stake": 19.564,
+      "payout": 52.04,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "time": "23:45:29",
+      "account": "Jacob Fliff",
+      "book": "Fliff",
+      "league": "WNBA",
+      "market": "Point Spread",
+      "selection": "Connecticut Sun +3.5",
+      "odds": -110,
+      "ev": 3.72,
+      "stake": 10.0,
+      "payout": 19.09,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "23:41:35",
@@ -7505,36 +7535,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -21.0
-    },
-    {
-      "date": "2026-06-03",
-      "time": "00:19:48",
-      "account": "Mom FanDuel",
-      "book": "FanDuel",
-      "league": "MLB",
-      "market": "Run Line - 1st 5 Innings",
-      "selection": "Chicago Cubs -1.5",
-      "odds": 116,
-      "ev": 6.92,
-      "stake": 30.0,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -30.0
-    },
-    {
-      "date": "2026-06-03",
-      "time": "00:19:34",
-      "account": "Jacob Fliff",
-      "book": "Fliff",
-      "league": "WNBA",
-      "market": "Total Points",
-      "selection": "Under 177.5",
-      "odds": -105,
-      "ev": 5.15,
-      "stake": 20.0,
-      "payout": 39.04,
-      "status": "win",
-      "profit": 19.04
     }
   ],
   "book_brier": [],
@@ -7950,8 +7950,8 @@
     },
     {
       "book": "Caesars",
-      "league": "Tennis",
-      "market": "Total Sets",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7963,8 +7963,8 @@
     },
     {
       "book": "Caesars",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "Tennis",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8743,8 +8743,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "NBA",
-      "market": "Point Spread - 1st Quarter",
+      "league": "MLB",
+      "market": "Team Total Runs",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -8756,8 +8756,8 @@
     },
     {
       "book": "FanDuel",
-      "league": "MLB",
-      "market": "Team Total Runs",
+      "league": "NBA",
+      "market": "Point Spread - 1st Quarter",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10179,9 +10179,9 @@
       {
         "t": "19:40",
         "profit": 32.21,
-        "wagered": 494.08,
-        "open_bets": 35,
-        "open_wagered": 437.3
+        "wagered": 504.08,
+        "open_bets": 37,
+        "open_wagered": 466.86
       }
     ]
   }
