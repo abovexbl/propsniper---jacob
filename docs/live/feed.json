@@ -1,7 +1,7 @@
 {
   "source": "engine local API \u2014 full bets (live)",
   "base": "http://127.0.0.1:8080",
-  "generated_at": "2026-06-06T00:11:01Z",
+  "generated_at": "2026-06-06T00:13:01Z",
   "portfolio": {
     "profit": 16535.17,
     "wagered": 279819.48,
@@ -11,8 +11,8 @@
     "accounts": 13,
     "winners": 8,
     "losers": 5,
-    "open_bets": 37,
-    "open_wagered": 465.03,
+    "open_bets": 39,
+    "open_wagered": 466.31,
     "data_through": "live",
     "today_profit": 12.21,
     "today_roi": 0.159,
@@ -1310,7 +1310,7 @@
       "n_14d": 674,
       "profit_14d": 0.3,
       "roi_14d": 0.0006,
-      "balance": 85.67,
+      "balance": 84.39,
       "health": "healthy",
       "working": 3,
       "bleeding": 3,
@@ -3036,6 +3036,36 @@
     }
   ],
   "recent": [
+    {
+      "date": "2026-06-06",
+      "time": "00:12:56",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Run Line",
+      "selection": "Houston Astros -1.5",
+      "odds": 181,
+      "ev": -4.56,
+      "stake": 0.7115,
+      "payout": 2.0,
+      "status": "pending",
+      "profit": 0.0
+    },
+    {
+      "date": "2026-06-06",
+      "time": "00:12:55",
+      "account": "Mom Kalshi",
+      "book": "Kalshi",
+      "league": "MLB",
+      "market": "Total Runs",
+      "selection": "Over 8.5",
+      "odds": -131,
+      "ev": -1.98,
+      "stake": 0.5674,
+      "payout": 1.0,
+      "status": "pending",
+      "profit": 0.0
+    },
     {
       "date": "2026-06-05",
       "time": "23:48:40",
@@ -7505,36 +7535,6 @@
       "payout": 0.0,
       "status": "loss",
       "profit": -20.0
-    },
-    {
-      "date": "2026-06-03",
-      "time": "00:21:25",
-      "account": "Jacob DraftKings",
-      "book": "DraftKings",
-      "league": "MLB",
-      "market": "Run Line",
-      "selection": "Washington Nationals +3.5",
-      "odds": 126,
-      "ev": 3.5,
-      "stake": 31.73,
-      "payout": 0.0,
-      "status": "loss",
-      "profit": -31.73
-    },
-    {
-      "date": "2026-06-03",
-      "time": "00:21:16",
-      "account": "Mom Kalshi",
-      "book": "Kalshi",
-      "league": "NHL",
-      "market": "Total Goals",
-      "selection": "Over 5.5",
-      "odds": -121,
-      "ev": -2.63,
-      "stake": 0.5475,
-      "payout": 1.0,
-      "status": "win",
-      "profit": 0.4525
     }
   ],
   "book_brier": [],
@@ -7951,7 +7951,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Set Handicap",
+      "market": "Total Sets",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -7964,7 +7964,7 @@
     {
       "book": "Caesars",
       "league": "Tennis",
-      "market": "Total Sets",
+      "market": "Set Handicap",
       "n": 0,
       "stake": 0.0,
       "profit": 0.0,
@@ -10201,8 +10201,8 @@
         "t": "20:10",
         "profit": 12.21,
         "wagered": 541.82,
-        "open_bets": 37,
-        "open_wagered": 465.03
+        "open_bets": 39,
+        "open_wagered": 466.31
       }
     ]
   }
